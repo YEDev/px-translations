@@ -1,8 +1,87 @@
 {
-    "app": {
-        "dashboard": {
-            "claim": "Participate in tons of studies and make some money.",
-            "createdby": "Created by"
+    "izPanel": {
+        "registration": {
+            "name": {
+                "title": "Hello!\nWhat's your name?",
+                "field": {
+                    "firstName": "Name",
+                    "lastName": "Last name"
+                }
+            },
+            "country": {
+                "title": "Welcome {{firstName}}!\nWhat country do you live in?",
+                "otherCountry": "Other country"
+            },
+            "email": {
+                "title": "What's your email?",
+                "description": "Here's where you will receive our invitations to studies in."
+            },
+            "password": {
+                "title": "Choose a password",
+                "description": "Make sure it's a strong one!\nInclude:",
+                "requirements": {
+                    "capitalLetter": "a capital letter",
+                    "numberOrSymbol": "a number or symbol",
+                    "sixChars": "at least six characters"
+                },
+                "passwordConfirmation": "Confirm password"
+            },
+            "terms": {
+                "title": "Before continuing...",
+                "description": "Please take a moment to read our {{termsLink}} and {{privacyLink}}.\nIf you have any doubts on how your data is managed, please, {{contactUsLowercase}}.",
+                "checkbox": {
+                    "gdpr": "I want to be invited via email to UX research studies that match my profile. $t(common.requiredField)",
+                    "terms": "I agree with the Terms of Service and the Privacy Policy. $t(common.requiredField)",
+                    "mkt": "I want to receive communications and newsletters from IntelliZoom."
+                },
+                "doubleOptIn": {
+                    "title": "We've sent you a confirmation email to activate your account",
+                    "description": "Please click on the link in the email to activate your account.\nFor security purposes, the link will expire in 24h.\nIf you can’t see it, check your spam folder. We could also {{resend}} you the email.",
+                    "resend": "resend"
+                }
+            }
+        },
+        "comingSoon": {
+            "title": "Coming soon!",
+            "description": "We currently do not have an active panel in {{selectedCountry}}, but leave us your email and we'll inform you when we open one.",
+            "checkbox": {
+                "gdpr": "I want to be informed when IntelliZoom Panel opens a panel in my country. $t(common.requiredField)"
+            },
+            "success": {
+                "title": "Thank you!",
+                "description": "We'll get in touch with you when we open our panel to {{selectedCountry}}.\nSee you soon!"
+            }
+        },
+        "common": {
+            "next": "Next",
+            "orPressEnter": "or press Enter",
+            "email": "Email",
+            "password": "Password",
+            "termsLink": "[Terms of Service](/terms-of-service)",
+            "privacyLink": "[Privacy Policy](/privacy-policy)",
+            "contactUsLowercaseImperative": "[contact us](/contact)",
+            "logInLowercase": "log in",
+            "requiredField": "(Required)",
+            "noRobot": "I'm not a robot",
+            "signUp": "Sign up",
+            "submit": "Submit"
+        },
+        "error": {
+            "required": {
+                "field": "This field is required.",
+                "gdpr": "This consent is required.",
+                "terms": "You must accept the Terms of Service and Privacy Policy."
+            },
+            "format": {
+                "email": "Please use a valid email format. Ex. name@email.com"
+            },
+            "registration": {
+                "existingEmail": "Seems like you are already registered! Please, {{logInLowercase}}."
+            },
+            "minTwoChars": {
+                "firstName": "Your name must contain at least two characters.",
+                "lastName": "Your last name must contain at least two characters."
+            }
         }
     }
 }
