@@ -1,0 +1,87 @@
+{
+    "izPanel": {
+        "registration": {
+            "name": {
+                "title": "¡Hola!\n¿Cómo te llamas?",
+                "field": {
+                    "firstName": "Nombre",
+                    "lastName": "Apellido"
+                }
+            },
+            "country": {
+                "title": "Qué tal {{firstname}},\n¿en qué país vives?",
+                "otherCountry": "Otro país"
+            },
+            "email": {
+                "title": "¿Cuál es tu email?",
+                "description": "Aquí te llegarán nuestras invitaciones a estudios."
+            },
+            "password": {
+                "title": "Crea una contraseña",
+                "description": "Para que sea segura, incluye:",
+                "requirements": {
+                    "capitalLetter": "una letra mayúscula",
+                    "numberOrSymbol": "un número o símbolo",
+                    "sixChars": "al menos seis caracteres"
+                },
+                "passwordConfirmation": "Confirmar contraseña"
+            },
+            "terms": {
+                "title": "Antes de continuar",
+                "description": "Lee con atención nuestras {{termsLink}} y {{privacyLink}}.\nSi tienes cualquier duda sobre cómo es utilizada tu información, por favor, {{contactUsLowercaseImperative}}.",
+                "checkbox": {
+                    "gdpr": "Quiero ser invitado via email a estudios de investigación de experiencias del usuario que se adecuen a mi perfil. $t(common.requiredField)",
+                    "terms": "Acepto las Condiciones del Servicio y la Política de Privacidad. $t(common.requiredField)",
+                    "mkt": "Quiero recibir comunicaciones y newsletters de IntelliZoom Panel."
+                },
+                "doubleOptIn": {
+                    "title": "Te hemos enviado un email de confirmación para activar tu cuenta",
+                    "description": "Solo tienes que hacer click en el link del email para activar tu cuenta.\n\nPor motivos de seguridad, el link expirará en 24h.\n\nEn caso de que no veas el email, revisa tu carpeta de spam. Si crees que no lo has recibido, te lo {{resend}}.",
+                    "resend": "reenviamos"
+                }
+            }
+        },
+        "comingSoon": {
+            "title": "¡Próxima apertura!",
+            "description": "De momento no tenemos un panel activo en {{selectedCountry}}, pero déjanos tu email y te avisaremos en cuanto lo abramos. ",
+            "checkbox": {
+                "gdpr": "Quiero ser avisado en cuanto IntelliZoom Panel abra un panel en mi país. $t(common.requiredField)"
+            },
+            "success": {
+                "title": "¡Gracias!",
+                "description": "Nos pondremos en contacto contigo en cuanto abramos nuestro panel para {{selectedCountry}}.\n¡Nos vemos pronto!"
+            }
+        },
+        "common": {
+            "next": "Siguiente",
+            "orPressEnter": "o presiona Enter",
+            "email": "Email",
+            "password": "Contraseña",
+            "termsLink": "[Condiciones del Servicio](./termsofservice)",
+            "privacyLink": "[Política de Privacidad](./privacypolicy)",
+            "contactUsLowercaseImperative": "[contáctanos](./contact)",
+            "logInLowercase": "iniciar sesión",
+            "requiredField": "(Obligatorio)",
+            "noRobot": "No soy un robot",
+            "signUp": "Crear cuenta",
+            "submit": "Enviar"
+        },
+        "error": {
+            "required": {
+                "field": "Este campo es obligatorio.",
+                "gdpr": "Esta opción es necesaria para continuar.",
+                "terms": "Tienes que aceptar las Condiciones del Servicio y la Política de Privacidad."
+            },
+            "format": {
+                "email": "Tienes que utilizar un formato de email válido. Eg. nombre@email.com"
+            },
+            "registration": {
+                "existingEmail": "Ya existe una cuenta con este email. ¿Prefieres {{logInLowercase}}?"
+            },
+            "minTwoChars": {
+                "firstName": "Tu nombre debe contener al menos dos caracteres.",
+                "lastName": "Tu apellido debe contener al menos dos caracteres."
+            }
+        }
+    }
+}
