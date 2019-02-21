@@ -2,14 +2,14 @@
     "izPanel": {
         "emails": {
             "footer": {
-                "support": "Help!",
+                "support": "[Help!](https://help.intellizoom.com/hc/en-us/requests/new)",
                 "copyright": "IntelliZoom Panel is operated by UserZoom Technologies, Inc. © 2019\n10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A.",
                 "unsubscribe": "Unsubscribe from our emails"
             },
             "common": {
                 "closing": "Enjoy!\nIntelliZoom Panel Team",
-                "contact": "[contact us](https://www.intellizoom.com/contact)",
-                "help": "[Help Center](https://help.intelli-zoom.com/hc/en-us)"
+                "contact": "[contact us](https://help.intellizoom.com/hc/en-us/requests/new)",
+                "help": "[Help Center](https://help.intellizoom.com/hc/en-us)"
             },
             "doubleOptIn": {
                 "subject": "Welcome to IntelliZoom Panel",
@@ -27,8 +27,8 @@
                 "subject": "Someone just tried to register to IntelliZoom Panel using your email",
                 "title": "Someone just tried to register to IntelliZoom Panel using your email",
                 "bodyCopy": "Was it you? Well in that case, just $t(izpanel.emails.registeredtwice.logIn). If you can't remember your password, you could $t(izpanel.emails.registeredtwice.updatePassword).\nIf it was not you, please ignore this email, we've got your back.",
-                "logIn": "log in",
-                "updatePassword": "request to change it"
+                "logIn": "[log in](https://www.intellizoom.com/login)",
+                "updatePassword": "[request to change it](https://www.intellizoom.com/forgot-password)"
             },
             "studyInvitation": {
                 "subject": "There's a new study available for you!",
@@ -85,6 +85,11 @@
                 "subject": "You did great in your practice study!",
                 "title": "Hey {{userName}}, awesome job on your practice study!",
                 "bodyCopy": "We see that you can clearly articulate your thoughts and experience. You're exactly the kind of panelist we hoped for!\nYou will now receive invitations to Think Out Loud and Card Sort studies as well. These type of studies are better paid generally ;)\nIf you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
+            },
+            "certificationRejected": {
+                "subject": "Your practice study was not approved",
+                "title": "Hi {{userName}}, the practice study that you sent us was not approved",
+                "bodyCopy": "We’re sorry to inform you that the practice study you submitted did not meet the quality requirements we demand for a Think Out Loud or Card Sort study.\nIf you think this is a mistake or you would like a second shot, $t(izpanel.emails.common.contact) and we'll be happy to reactivate the practice study for you.\nIf you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
             }
         }
     }
