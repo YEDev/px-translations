@@ -1,1 +1,91 @@
-{}
+{
+    "izPanel": {
+        "emails": {
+            "footer": {
+                "support": "Help!",
+                "copyright": "IntelliZoom Panel is operated by UserZoom Technologies, Inc. © 2019\n10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A.",
+                "unsubscribe": "Unsubscribe from our emails"
+            },
+            "common": {
+                "closing": "Enjoy!\nIntelliZoom Panel Team",
+                "contact": "[contact us](https://www.intellizoom.com/contact)",
+                "help": "[Help Center](https://help.intelli-zoom.com/hc/en-us)"
+            },
+            "doubleOptIn": {
+                "subject": "Welcome to IntelliZoom Panel",
+                "title": "Hi {{userName}}, welcome to IntelliZoom Panel!",
+                "bodyCopy": "Please click on the button below to activate your account.\nFor security reasons this link will expire in 24 hours or once it's used.",
+                "cta": "Activate account"
+            },
+            "reset": {
+                "subject": "Password reset request",
+                "title": "Forgot your password? ",
+                "bodyCopy": "It's ok, we all do. Just click on the button below to set a new password and that's it. If you didn't make this request, please ignore this email.\nFor security reasons this link will expire in 24 hours or once it's used.",
+                "cta": "Reset password"
+            },
+            "registeredTwice": {
+                "subject": "Someone just tried to register to IntelliZoom Panel using your email",
+                "title": "Someone just tried to register to IntelliZoom Panel using your email",
+                "bodyCopy": "Was it you? Well in that case, just $t(izpanel.emails.registeredtwice.logIn). If you can't remember your password, you could $t(izpanel.emails.registeredtwice.updatePassword).\nIf it was not you, please ignore this email, we've got your back.",
+                "logIn": "log in",
+                "updatePassword": "request to change it"
+            },
+            "studyInvitation": {
+                "subject": "There's a new study available for you!",
+                "title": "Hey {{userName}}, there's a new study available for you!",
+                "bodyCopy": "Are you ready to give your feedback?",
+                "cta": "Participate!",
+                "studyID": "Study ID for your reference: {{campaignID}}"
+            },
+            "studyRequirements": {
+                "title": "Requirements:",
+                "deviceBrowserAny": "An updated browser. You can access the study on your computer, tablet or mobile phone.",
+                "deviceMoreThanOne": "You can access the study with any of the following devices:",
+                "desktopBrowser": {
+                    "intro": "A desktop computer with an updated",
+                    "ending": "browser",
+                    "any": "A desktop computer with an updated browser."
+                },
+                "phoneOS": {
+                    "intro": "An",
+                    "ending": "with strong connection and enough battery.",
+                    "any": "A smartphone with good connection and enough battery."
+                },
+                "tabletOS": {
+                    "intro": "An",
+                    "ending": "with strong connection and enough battery.",
+                    "any": "A tablet with strong connection and enough battery."
+                },
+                "recording": {
+                    "audioVideo": "You will need a webcam and a microphone: Find a quiet, well-lit place and be sure to speak your thoughts out loud as you complete the tasks.",
+                    "audio": "You will need a microphone: Find a nice quiet place and be sure to speak your thoughts out loud as you complete the tasks.",
+                    "video": "You will need a webcam: Find a quiet, well-lit place where to complete the tasks.",
+                    "noneTaskBased": "You won't need a webcam or microphone, but your screen may be recorded. Be sure to read each task and do your best to complete them.",
+                    "noneQuestionnaire": "You won't need a webcam or microphone. Be sure to read each task and do your best to complete them."
+                },
+                "screener": "You may be asked a few questions to see if you qualify for this study, good luck! :)",
+                "incentiveExplanation": "The incentive for this study is {{studyFee}} if your participation is approved."
+            },
+            "studyComplete": {
+                "subject": "We have received your study participation",
+                "title": "Thanks for sharing your thoughts!",
+                "bodyCopy": "We will review your participation in the study {{campaignID}} asap and proceed to send you the payment within 21 business days.\nIf you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
+            },
+            "paymentSent": {
+                "subject": "Your payment has been sent",
+                "title": "Hey {{userName}}, your payment has been sent!",
+                "bodyCopy": "We've sent {{studyFee}} via PayPal to the following email address:\n{{userEmail}}\n\nThis payment refers to the study: {{campaignID}}\nIf you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
+            },
+            "paymentConfirmation": {
+                "subject": "Your payment has arrived!",
+                "title": "Hey {{userName}}, PayPal has just confirmed us that your payment has been received",
+                "bodyCopy": "You should now have {{studyFee}} more in your PayPal account for:\n{{userEmail}}\n\nThis payment refers to the study: {{campaignID}}\nIf you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
+            },
+            "certificationApproved": {
+                "subject": "You did great in your practice study!",
+                "title": "Hey {{userName}}, awesome job on your practice study!",
+                "bodyCopy": "We see that you can clearly articulate your thoughts and experience. You're exactly the kind of panelist we hoped for!\nYou will now receive invitations to Think Out Loud and Card Sort studies as well. These type of studies are better paid generally ;)\nIf you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
+            }
+        }
+    }
+}
