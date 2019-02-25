@@ -1,0 +1,96 @@
+{
+    "izPanel": {
+        "emails": {
+            "footer": {
+                "support": "[¡Ayuda!](https://help.intellizoom.com/hc/es/requests/new)",
+                "copyright": "IntelliZoom Panel es gestionado por UserZoom Technologies, Inc. © 2019 \n10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A",
+                "unsubscribe": "Darme de baja"
+            },
+            "common": {
+                "closing": "¡Saludos!\nIntelliZoom Panel Team",
+                "contact": "[contacta](https://help.intellizoom.com/hc/es/requests/new)",
+                "help": "[Ayuda](https://help.intellizoom.com/hc/es)"
+            },
+            "doubleOptIn": {
+                "subject": "Bienvenido a IntelliZoom Panel",
+                "title": "Hola {{userName}}, ¡bienvenido/a a IntelliZoom Panel!",
+                "bodyCopy": "Por favor haz click en el botón de abajo para activar tu cuenta.\nPor razones de seguridad, este link expirará en 24 horas o en cuanto sea utilizado. ",
+                "cta": "Activa tu cuenta"
+            },
+            "reset": {
+                "subject": "Solicitud de cambio de contraseña",
+                "title": "¿Has olvidado tu contraseña?",
+                "bodyCopy": "Tranqui, a todos nos pasa. Solo tienes que hacer click en el botón de abajo y podrás crear una contraseña nueva. Si tú no has solicitado este cambio de contraseña, por favor, ignora este email. \nPor razones de seguridad, este link expirará en 24 horas o en cuanto sea utilizado. ",
+                "cta": "Crear una nueva contraseña"
+            },
+            "registeredTwice": {
+                "subject": "Alguien ha intentado registrarse en IntelliZoom Panel usando tu email",
+                "title": "Alguien ha intentado registrarse en IntelliZoom Panel usando tu email",
+                "bodyCopy": "¿Has sido tú? En ese caso, solo tienes que $t(izpanel.emails.registeredtwice.logIn). Si no recuerdas tu contraseña, siempre puedes $t(izpanel.emails.registeredtwice.updatePassword).\nSi no has sido tú, por favor, ignora este email. Ya nos encargamos.",
+                "logIn": "[iniciar sesión](https://www.intellizoom.com/login)",
+                "updatePassword": "[crear una nueva](https://www.intellizoom.com/forgot-password)"
+            },
+            "studyInvitation": {
+                "subject": "¡Nuevo estudio disponible!",
+                "title": "Hola {{userName}}, ¡tienes un nuevo estudio disponible!",
+                "bodyCopy": "¿Estás listo para dar tu opinión?",
+                "cta": "¡Participa!",
+                "studyID": "ID del estudio para referencia: {{campaignID}}"
+            },
+            "studyRequirements": {
+                "title": "Requisitos:",
+                "deviceBrowserAny": "Un navegador actualizado. Podrás acceder al estudio desde tu ordenador, tablet o teléfono móvil.",
+                "deviceMoreThanOne": "Podrás acceder al estudio desde cualquiera de los siguientes dispositivos:",
+                "desktopBrowser": {
+                    "intro": "Un ordenador con una versión actualizada de",
+                    "ending": " ",
+                    "any": "Un ordenador con una versión actualizada de cualquier navegador."
+                },
+                "phoneOS": {
+                    "intro": "Un",
+                    "ending": "con buena conexión y batería suficiente.",
+                    "any": "Un teléfono móvil con buena conexión y batería suficiente."
+                },
+                "tabletOS": {
+                    "intro": "Un",
+                    "ending": "con buena conexión y batería suficiente.",
+                    "any": "Una tablet con buena conexión y batería suficiente."
+                },
+                "recording": {
+                    "audioVideo": "Necesitarás una videocámara y micrófono: Busca un lugar tranquilo y bien iluminado. Recuerda decir lo que piensas en voz alta mientras completas las tareas.",
+                    "audio": "Necesitarás un micrófono: Busca un lugar tranquilo y recuerda decir lo que piensas en voz alta mientras completas las tareas. ",
+                    "video": "Necesitarás una videocámara: Busca un lugar tranquilo y bien iluminado donde puedas completar las tareas.",
+                    "noneTaskBased": "No necesitarás cámara ni micrófono, pero tu pantalla puede que sea grabada. Asegúrate de leer y completar cada tarea lo mejor que puedas.",
+                    "noneQuestionnaire": "No necesitarás cámara ni micrófono. Asegúrate de leer y completar cada tarea lo mejor que puedas."
+                },
+                "screener": "Te harán un par de preguntas para confirmar que cumples con el perfil que están buscando. ¡Buena suerte! :)",
+                "incentiveExplanation": "La remuneración por este estudio es de {{studyFee}} si tu participación es aprobada."
+            },
+            "studyComplete": {
+                "subject": "Hemos recibido tu participación",
+                "title": "¡Gracias por darnos tu opinión!",
+                "bodyCopy": "Revisaremos tu participación en el estudio {{campaignID}} a la brevedad y procederemos a enviarte el pago dentro de los próximos 21 días hábiles. \n\nSi tienes cualquier duda, consulta nuestra sección de $t(izpanel.emails.common.help) o $t(izpanel.emails.common.contact) directamente con nosotros."
+            },
+            "paymentSent": {
+                "subject": "Tu pago ha sido enviado",
+                "title": "Hola {{userName}}, ¡acabamos de realizar tu pago!",
+                "bodyCopy": "Hemos enviado {{studyFee}} via PayPal a este email:\n{{userEmail}}\n\nEste pago es referente al estudio: {{campaignID}}\nSi tienes cualquier duda, consulta nuestra sección de $t(izpanel.emails.common.help) o $t(izpanel.emails.common.contact) directamente con nosotros."
+            },
+            "paymentConfirmation": {
+                "subject": "¡Tu pago ya está en tu cuenta!",
+                "title": "Hola {{userName}}, PayPal acaba de confirmarnos que tu pago ha sido recibido",
+                "bodyCopy": "Ahora deberías tener {{studyFee}} más en tu cuenta PayPal del email:\n{{userEmail}}\n\nEste pago es referente al estudio: {{campaignID}}\nSi tienes cualquier duda, consulta nuestra sección de $t(izpanel.emails.common.help) o $t(izpanel.emails.common.contact) directamente con nosotros."
+            },
+            "certificationApproved": {
+                "subject": "¡Has realizado un estudio de práctica de 10!",
+                "title": "Hola {{userName}}, ¡muy buen trabajo en tu estudio de práctica!",
+                "bodyCopy": "Nos alegra saber que puedes expresar tus ideas y experiencia con claridad. ¡Eres exactamente el tipo de panelista que estábamos buscando!\nA partir de ahora recibirás invitaciones para estudios donde tengas que explicar en voz alta tu experiencia. Este tipo de estudios también son mejor pagados normalmente :)\nSi tienes cualquier duda, consulta nuestra sección de $t(izpanel.emails.common.help) o $t(izpanel.emails.common.contact) directamente con nosotros."
+            },
+            "certificationRejected": {
+                "subject": "Tu estudio de práctica no ha sido aprobado",
+                "title": "Hola {{userName}}, el estudio de práctica que nos enviaste no ha sido aprobado",
+                "bodyCopy": "Sentimos informarte que el estudio de práctica no cumplía con los requisitos mínimos de calidad que solicitamos para estudios del tipo Think Out Loud o Card Sort. \nSi crees que es un error o te gustaría intentarlo de nuevo, $t(izpanel.emails.common.contact) con nosotros y estaremos encantados de reactivarte este estudio de práctica.\nSi tienes cualquier duda, consulta nuestra sección de $t(izpanel.emails.common.help) o $t(izpanel.emails.common.contact) directamente con nosotros."
+            }
+        }
+    }
+}

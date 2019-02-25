@@ -36,8 +36,7 @@
                 },
                 "doubleOptIn": {
                     "title": "We've sent you a confirmation email to activate your account",
-                    "description": "Please click on the link in the email to activate your account.\nFor security purposes, the link will expire in 24h.\nIf you can’t see it, check your spam folder. We could also {{resend}} you the email.",
-                    "resend": "resend"
+                    "description": "Please click on the link in the email to activate your account.\nFor security purposes, the link will expire in 24h.\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email."
                 }
             }
         },
@@ -59,12 +58,27 @@
             "password": "Password",
             "termsLink": "[Terms of Service](/terms-of-service)",
             "privacyLink": "[Privacy Policy](/privacy-policy)",
-            "contactUsLowercaseImperative": "[contact us](/contact)",
+            "contactUsLowercaseImperative": "[contact us](https://help.intellizoom.com/hc/en-us/requests/new)",
             "logInLowercase": "log in",
             "requiredField": "(Required)",
             "noRobot": "I'm not a robot",
             "signUp": "Sign up",
-            "submit": "Submit"
+            "submit": "Submit",
+            "claim": "Your opinion matters. Get paid to share your experiences and make an impact on products you love and care about.",
+            "chrome": "Chrome",
+            "firefox": "Firefox",
+            "ie": "Internet Explorer {{version}}",
+            "safari": "Safari",
+            "edge": "Edge",
+            "iPhone": "iPhone",
+            "iPad": "iPad",
+            "androidPhone": "Android phone",
+            "androidTablet": "Android tablet",
+            "or": "or",
+            "comma": ",",
+            "period": ".",
+            "copyright": "IntelliZoom Panel © 2019. All rights reserved.",
+            "logIn": "Log in"
         },
         "error": {
             "required": {
@@ -82,6 +96,30 @@
                 "firstName": "Your name must contain at least two characters.",
                 "lastName": "Your last name must contain at least two characters."
             }
+        },
+        "footer": {
+            "item": {
+                "faqPayments": "How long do payments take?",
+                "faqInvitations": "How do invitations work?",
+                "faqChangeEmail": "How can I change my email?",
+                "faqBrowseAll": "See more",
+                "sendEmail": "[Send us an email](https://help.intellizoom.com/hc/en-us/requests/new)",
+                "social": "Follow us!",
+                "whatIsIZP": "What is IntelliZoom Panel"
+            },
+            "title": {
+                "about": "About us",
+                "contact": "Contact",
+                "faq": "FAQ"
+            }
+        },
+        "header": {
+            "email": "{{userEmail}}",
+            "logOut": "Log out",
+            "mainDashboard": "Studies",
+            "name": "{{userFullName}}",
+            "profile": "My profile",
+            "settings": "Settings"
         }
     }
 }
