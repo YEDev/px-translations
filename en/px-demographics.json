@@ -1,1 +1,24 @@
-{}
+{
+    "demographics": {
+        "category": {
+            "aboutMe": {
+                "birthday": {
+                    "question": "What's your birth of date?"
+                },
+                "gender": {
+                    "question": "What is your gender?",
+                    "list": {
+                        "female": "Female",
+                        "male": "Male",
+                        "<<other>>": "Non binary"
+                    }
+                }
+            }
+        },
+        "generic": {
+            "householdIncome": {
+                "question": "How much total combined annual income do all members of your household earn before taxes?"
+            }
+        }
+    }
+}
