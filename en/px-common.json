@@ -60,7 +60,9 @@
             },
             "day": "DD",
             "month": "MM",
-            "year": "YYYY"
+            "year": "YYYY",
+            "facebook": "Facebook",
+            "google": "Google"
         }
     }
 }
