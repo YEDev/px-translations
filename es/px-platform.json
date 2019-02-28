@@ -73,6 +73,15 @@
             "birthday": {
                 "future": "",
                 "past": ""
+            },
+            "login": {
+                "accountBlocked": "",
+                "accountInactive": "",
+                "expiredLink": "",
+                "invalidCredentials": "",
+                "userNotFound": "",
+                "wrongActivation": "",
+                "wrongActivationWithLink": ""
             }
         },
         "footer": {
@@ -98,6 +107,32 @@
             "name": "",
             "profile": "",
             "settings": ""
+        },
+        "basicDemographics": {
+            "flowTitle": "",
+            "flowDescription": "",
+            "flowLastQuestion": "",
+            "progress": "",
+            "success": {
+                "title": "",
+                "description": "",
+                "cta": ""
+            },
+            "underage": {
+                "title": "",
+                "description": ""
+            }
+        },
+        "login": {
+            "title": "",
+            "forgotPassword": "",
+            "orSocialAccess": "",
+            "newHere": "",
+            "signUp": "",
+            "success": {
+                "accountActivated": "",
+                "emailResent": ""
+            }
         }
     }
 }
