@@ -60,7 +60,9 @@
             },
             "day": "",
             "month": "",
-            "year": ""
+            "year": "",
+            "facebook": "",
+            "google": ""
         }
     }
 }
