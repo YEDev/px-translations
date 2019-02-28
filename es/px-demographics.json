@@ -1,18 +1,5 @@
 {
     "demographics": {
-        "basicDemographics": {
-            "flowTitle": "",
-            "flowDescription": "",
-            "success": {
-                "title": "",
-                "description": "",
-                "cta": ""
-            },
-            "underage": {
-                "title": "",
-                "description": ""
-            }
-        },
         "category": {
             "aboutMe": {
                 "birthday": {
@@ -29,9 +16,7 @@
             }
         },
         "generic": {
-            "progress": "",
             "householdIncome": {
-                "intro": "",
                 "question": ""
             }
         }
