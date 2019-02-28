@@ -1,0 +1,68 @@
+{
+    "izPanel": {
+        "common": {
+            "androidPhone": "Android phone",
+            "androidTablet": "Android tablet",
+            "chrome": "Chrome",
+            "claim": "Your opinion matters. Get paid to share your experiences and make an impact on products you love and care about.",
+            "comma": ",",
+            "contactUsLowercaseImperative": "[contact us](https://help.intellizoom.com/hc/en-us/requests/new)",
+            "copyright": "IntelliZoom Panel © 2019. All rights reserved.",
+            "edge": "Edge",
+            "email": "Email",
+            "firefox": "Firefox",
+            "ie": "Internet Explorer {{version}}",
+            "iPad": "iPad",
+            "iPhone": "iPhone",
+            "logIn": "Log in",
+            "logInImperative": "Log in",
+            "logInLowercase": "log in",
+            "next": "Next",
+            "noRobot": "I'm not a robot",
+            "or": "or",
+            "orPressEnter": "or press Enter",
+            "password": "Password",
+            "period": ".",
+            "privacyLink": "Privacy Policy",
+            "requiredField": "(Required)",
+            "safari": "Safari",
+            "signUp": "Sign up",
+            "submit": "Submit",
+            "termsLink": "Terms of Service",
+            "studyRequirements": {
+                "desktopBrowser": {
+                    "intro": "A desktop computer with an updated",
+                    "ending": "browser",
+                    "any": "A desktop computer with an updated browser."
+                },
+                "deviceBrowserAny": "An updated browser. You can access the study on your computer, tablet or mobile phone.",
+                "deviceMoreThanOne": "You can access the study with any of the following devices:",
+                "incentiveExplanation": "The incentive for this study is {{studyFee}} if your participation is approved.",
+                "phoneOS": {
+                    "intro": "An",
+                    "ending": "with strong connection and enough battery.",
+                    "any": "A smartphone with good connection and enough battery."
+                },
+                "recording": {
+                    "audioVideo": "You will need a webcam and a microphone: Find a quiet, well-lit place and be sure to speak your thoughts out loud as you complete the tasks.\nTo ensure a good audio quality, use headphones or earbuds.",
+                    "audio": "You will need a microphone: Find a nice quiet place and be sure to speak your thoughts out loud as you complete the tasks.\nTo ensure a good audio quality, use headphones or earbuds.",
+                    "video": "You will need a webcam: Find a quiet, well-lit place where to complete the tasks.",
+                    "noneTaskBased": "You won't need a webcam or microphone, but your screen may be recorded. Be sure to read each task and do your best to complete them.",
+                    "noneQuestionnaire": "You won't need a webcam or microphone. Be sure to read each task and do your best to complete them."
+                },
+                "screener": "You may be asked a few questions to see if you qualify for this study, good luck! :)",
+                "tabletOS": {
+                    "intro": "An",
+                    "ending": "with strong connection and enough battery.",
+                    "any": "A tablet with strong connection and enough battery."
+                },
+                "title": "Requirements:"
+            },
+            "day": "DD",
+            "month": "MM",
+            "year": "YYYY",
+            "facebook": "Facebook",
+            "google": "Google"
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "izPanel": {
+        "common": {
+            "androidPhone": "",
+            "androidTablet": "",
+            "chrome": "",
+            "claim": "",
+            "comma": "",
+            "contactUsLowercaseImperative": "",
+            "copyright": "",
+            "edge": "",
+            "email": "",
+            "firefox": "",
+            "ie": "",
+            "iPad": "",
+            "iPhone": "",
+            "logIn": "",
+            "logInImperative": "",
+            "logInLowercase": "",
+            "next": "",
+            "noRobot": "",
+            "or": "",
+            "orPressEnter": "",
+            "password": "",
+            "period": "",
+            "privacyLink": "",
+            "requiredField": "",
+            "safari": "",
+            "signUp": "",
+            "submit": "",
+            "termsLink": "",
+            "studyRequirements": {
+                "desktopBrowser": {
+                    "intro": "",
+                    "ending": "",
+                    "any": ""
+                },
+                "deviceBrowserAny": "",
+                "deviceMoreThanOne": "",
+                "incentiveExplanation": "",
+                "phoneOS": {
+                    "intro": "",
+                    "ending": "",
+                    "any": ""
+                },
+                "recording": {
+                    "audioVideo": "",
+                    "audio": "",
+                    "video": "",
+                    "noneTaskBased": "",
+                    "noneQuestionnaire": ""
+                },
+                "screener": "",
+                "tabletOS": {
+                    "intro": "",
+                    "ending": "",
+                    "any": ""
+                },
+                "title": ""
+            },
+            "day": "",
+            "month": "",
+            "year": "",
+            "facebook": "",
+            "google": ""
+        }
+    }
+}

@@ -6,16 +6,12 @@
                 "copyright": "IntelliZoom Panel es gestionado por UserZoom Technologies, Inc. © 2019 \n10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A",
                 "unsubscribe": "Darme de baja"
             },
-            "common": {
-                "closing": "¡Saludos!\nIntelliZoom Panel Team",
-                "contact": "[contacta](https://help.intellizoom.com/hc/es/requests/new)",
-                "help": "[Ayuda](https://help.intellizoom.com/hc/es)"
-            },
             "doubleOptIn": {
                 "subject": "Bienvenido a IntelliZoom Panel",
                 "title": "Hola {{userName}}, ¡bienvenido/a a IntelliZoom Panel!",
                 "bodyCopy": "Por favor haz click en el botón de abajo para activar tu cuenta.\nPor razones de seguridad, este link expirará en 24 horas o en cuanto sea utilizado. ",
-                "cta": "Activa tu cuenta"
+                "cta": "Activa tu cuenta",
+                "closing": ""
             },
             "reset": {
                 "subject": "Solicitud de cambio de contraseña",
@@ -35,36 +31,8 @@
                 "title": "Hola {{userName}}, ¡tienes un nuevo estudio disponible!",
                 "bodyCopy": "¿Estás listo para dar tu opinión?",
                 "cta": "¡Participa!",
-                "studyID": "ID del estudio para referencia: {{campaignID}}"
-            },
-            "studyRequirements": {
-                "title": "Requisitos:",
-                "deviceBrowserAny": "Un navegador actualizado. Podrás acceder al estudio desde tu ordenador, tablet o teléfono móvil.",
-                "deviceMoreThanOne": "Podrás acceder al estudio desde cualquiera de los siguientes dispositivos:",
-                "desktopBrowser": {
-                    "intro": "Un ordenador con una versión actualizada de",
-                    "ending": " ",
-                    "any": "Un ordenador con una versión actualizada de cualquier navegador."
-                },
-                "phoneOS": {
-                    "intro": "Un",
-                    "ending": "con buena conexión y batería suficiente.",
-                    "any": "Un teléfono móvil con buena conexión y batería suficiente."
-                },
-                "tabletOS": {
-                    "intro": "Un",
-                    "ending": "con buena conexión y batería suficiente.",
-                    "any": "Una tablet con buena conexión y batería suficiente."
-                },
-                "recording": {
-                    "audioVideo": "Necesitarás una videocámara y micrófono: Busca un lugar tranquilo y bien iluminado. Recuerda decir lo que piensas en voz alta mientras completas las tareas.",
-                    "audio": "Necesitarás un micrófono: Busca un lugar tranquilo y recuerda decir lo que piensas en voz alta mientras completas las tareas. ",
-                    "video": "Necesitarás una videocámara: Busca un lugar tranquilo y bien iluminado donde puedas completar las tareas.",
-                    "noneTaskBased": "No necesitarás cámara ni micrófono, pero tu pantalla puede que sea grabada. Asegúrate de leer y completar cada tarea lo mejor que puedas.",
-                    "noneQuestionnaire": "No necesitarás cámara ni micrófono. Asegúrate de leer y completar cada tarea lo mejor que puedas."
-                },
-                "screener": "Te harán un par de preguntas para confirmar que cumples con el perfil que están buscando. ¡Buena suerte! :)",
-                "incentiveExplanation": "La remuneración por este estudio es de {{studyFee}} si tu participación es aprobada."
+                "studyID": "ID del estudio para referencia: {{campaignID}}",
+                "closing": ""
             },
             "studyComplete": {
                 "subject": "Hemos recibido tu participación",
@@ -90,6 +58,11 @@
                 "subject": "Tu estudio de práctica no ha sido aprobado",
                 "title": "Hola {{userName}}, el estudio de práctica que nos enviaste no ha sido aprobado",
                 "bodyCopy": "Sentimos informarte que el estudio de práctica no cumplía con los requisitos mínimos de calidad que solicitamos para estudios del tipo Think Out Loud o Card Sort. \nSi crees que es un error o te gustaría intentarlo de nuevo, $t(izpanel.emails.common.contact) con nosotros y estaremos encantados de reactivarte este estudio de práctica.\nSi tienes cualquier duda, consulta nuestra sección de $t(izpanel.emails.common.help) o $t(izpanel.emails.common.contact) directamente con nosotros."
+            },
+            "generic": {
+                "genericClosing": "",
+                "inlineContact": "",
+                "inlineHelp": ""
             }
         }
     }

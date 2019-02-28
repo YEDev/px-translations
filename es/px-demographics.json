@@ -1,1 +1,24 @@
-{}
+{
+    "demographics": {
+        "category": {
+            "aboutMe": {
+                "birthday": {
+                    "question": ""
+                },
+                "gender": {
+                    "question": "",
+                    "list": {
+                        "female": "",
+                        "male": "",
+                        "<<other>>": ""
+                    }
+                }
+            }
+        },
+        "generic": {
+            "householdIncome": {
+                "question": ""
+            }
+        }
+    }
+}

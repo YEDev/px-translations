@@ -6,16 +6,12 @@
                 "copyright": "IntelliZoom Panel is operated by UserZoom Technologies, Inc. © 2019\n10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A.",
                 "unsubscribe": "Unsubscribe from our emails"
             },
-            "common": {
-                "closing": "Enjoy!\nIntelliZoom Panel Team",
-                "contact": "[contact us](https://help.intellizoom.com/hc/en-us/requests/new)",
-                "help": "[Help Center](https://help.intellizoom.com/hc/en-us)"
-            },
             "doubleOptIn": {
                 "subject": "Welcome to IntelliZoom Panel",
                 "title": "Hi {{userName}}, welcome to IntelliZoom Panel!",
                 "bodyCopy": "Please click on the button below to activate your account.\nFor security reasons this link will expire in 24 hours or once it's used.",
-                "cta": "Activate account"
+                "cta": "Activate account",
+                "closing": "Enjoy!\nIntelliZoom Panel Team"
             },
             "reset": {
                 "subject": "Password reset request",
@@ -35,36 +31,8 @@
                 "title": "Hey {{userName}}, there's a new study available for you!",
                 "bodyCopy": "Are you ready to give your feedback?",
                 "cta": "Participate!",
-                "studyID": "Study ID for your reference: {{campaignID}}"
-            },
-            "studyRequirements": {
-                "title": "Requirements:",
-                "deviceBrowserAny": "An updated browser. You can access the study on your computer, tablet or mobile phone.",
-                "deviceMoreThanOne": "You can access the study with any of the following devices:",
-                "desktopBrowser": {
-                    "intro": "A desktop computer with an updated",
-                    "ending": "browser",
-                    "any": "A desktop computer with an updated browser."
-                },
-                "phoneOS": {
-                    "intro": "An",
-                    "ending": "with strong connection and enough battery.",
-                    "any": "A smartphone with good connection and enough battery."
-                },
-                "tabletOS": {
-                    "intro": "An",
-                    "ending": "with strong connection and enough battery.",
-                    "any": "A tablet with strong connection and enough battery."
-                },
-                "recording": {
-                    "audioVideo": "You will need a webcam and a microphone: Find a quiet, well-lit place and be sure to speak your thoughts out loud as you complete the tasks.",
-                    "audio": "You will need a microphone: Find a nice quiet place and be sure to speak your thoughts out loud as you complete the tasks.",
-                    "video": "You will need a webcam: Find a quiet, well-lit place where to complete the tasks.",
-                    "noneTaskBased": "You won't need a webcam or microphone, but your screen may be recorded. Be sure to read each task and do your best to complete them.",
-                    "noneQuestionnaire": "You won't need a webcam or microphone. Be sure to read each task and do your best to complete them."
-                },
-                "screener": "You may be asked a few questions to see if you qualify for this study, good luck! :)",
-                "incentiveExplanation": "The incentive for this study is {{studyFee}} if your participation is approved."
+                "studyID": "Study ID for your reference: {{campaignID}}",
+                "closing": "Enjoy!\nIntelliZoom Panel Team"
             },
             "studyComplete": {
                 "subject": "We have received your study participation",
@@ -90,6 +58,11 @@
                 "subject": "Your practice study was not approved",
                 "title": "Hi {{userName}}, the practice study that you sent us was not approved",
                 "bodyCopy": "We’re sorry to inform you that the practice study you submitted did not meet the quality requirements we demand for a Think Out Loud or Card Sort study.\nIf you think this is a mistake or you would like a second shot, $t(izpanel.emails.common.contact) and we'll be happy to reactivate the practice study for you.\nIf you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
+            },
+            "generic": {
+                "genericClosing": "Kind regards,\nIntelliZoom Panel Team",
+                "inlineContact": "[contact us](https://help.intellizoom.com/hc/en-us/requests/new)",
+                "inlineHelp": "[Help Center](https://help.intellizoom.com/hc/en-us)"
             }
         }
     }

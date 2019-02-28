@@ -6,11 +6,12 @@
                 "field": {
                     "firstName": "Name",
                     "lastName": "Last name"
-                }
+                },
+                "alreadyRegistered": "Already registered? $t(izpanel.common.logInImperative)"
             },
             "country": {
                 "title": "Welcome {{firstName}}!\nWhat country do you live in?",
-                "otherCountry": "Other country"
+                "otherCountry": "Show more countries"
             },
             "email": {
                 "title": "What's your email?",
@@ -21,64 +22,34 @@
                 "description": "Make sure it's a strong one!\nInclude:",
                 "requirements": {
                     "capitalLetter": "a capital letter",
-                    "numberOrSymbol": "a number or symbol",
-                    "sixChars": "at least six characters"
+                    "numberOrSymbol": "a number",
+                    "minChars": "at least eight characters"
                 },
                 "passwordConfirmation": "Confirm password"
             },
             "terms": {
                 "title": "Before continuing...",
-                "description": "Please take a moment to read our {{termsLink}} and {{privacyLink}}.\nIf you have any doubts on how your data is managed, please, {{contactUsLowercase}}.",
+                "description": "Please take a moment to read our $t(izpanel.common.termsLink) and $t(izpanel.common.privacyLink).\nIf you have any doubts on how your data is managed, please, $t(izpanel.common.contactUsLowercaseImperative).",
                 "checkbox": {
                     "gdpr": "I want to be invited via email to UX research studies that match my profile. $t(common.requiredField)",
                     "terms": "I agree with the Terms of Service and the Privacy Policy. $t(common.requiredField)",
                     "mkt": "I want to receive communications and newsletters from IntelliZoom."
-                },
-                "doubleOptIn": {
-                    "title": "We've sent you a confirmation email to activate your account",
-                    "description": "Please click on the link in the email to activate your account.\nFor security purposes, the link will expire in 24h.\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email."
                 }
+            },
+            "doubleOptIn": {
+                "title": "We've sent you a confirmation email to activate your account",
+                "description": "Please click on the link in the email to activate your account.\nFor security purposes, the link will expire in 24h.\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email.",
+                "resendSuccess": "Email sent!"
             }
         },
         "comingSoon": {
             "title": "Coming soon!",
             "description": "We currently do not have an active panel in {{selectedCountry}}, but leave us your email and we'll inform you when we open one.",
-            "checkbox": {
-                "gdpr": "I want to be informed when IntelliZoom Panel opens a panel in my country. $t(common.requiredField)"
-            },
             "success": {
                 "title": "Thank you!",
                 "description": "We'll get in touch with you when we open our panel to {{selectedCountry}}.\nSee you soon!"
-            }
-        },
-        "common": {
-            "next": "Next",
-            "orPressEnter": "or press Enter",
-            "email": "Email",
-            "password": "Password",
-            "termsLink": "[Terms of Service](/terms-of-service)",
-            "privacyLink": "[Privacy Policy](/privacy-policy)",
-            "contactUsLowercaseImperative": "[contact us](https://help.intellizoom.com/hc/en-us/requests/new)",
-            "logInLowercase": "log in",
-            "requiredField": "(Required)",
-            "noRobot": "I'm not a robot",
-            "signUp": "Sign up",
-            "submit": "Submit",
-            "claim": "Your opinion matters. Get paid to share your experiences and make an impact on products you love and care about.",
-            "chrome": "Chrome",
-            "firefox": "Firefox",
-            "ie": "Internet Explorer {{version}}",
-            "safari": "Safari",
-            "edge": "Edge",
-            "iPhone": "iPhone",
-            "iPad": "iPad",
-            "androidPhone": "Android phone",
-            "androidTablet": "Android tablet",
-            "or": "or",
-            "comma": ",",
-            "period": ".",
-            "copyright": "IntelliZoom Panel © 2019. All rights reserved.",
-            "logIn": "Log in"
+            },
+            "gdpr": "I want to be informed when IntelliZoom Panel opens in my country. $t(common.requiredField)"
         },
         "error": {
             "required": {
@@ -87,30 +58,46 @@
                 "terms": "You must accept the Terms of Service and Privacy Policy."
             },
             "format": {
-                "email": "Please use a valid email format. Ex. name@email.com"
+                "email": "Please use a valid email format. Ex. name@email.com",
+                "genericFormat": "The format is invalid."
             },
             "registration": {
-                "existingEmail": "Seems like you are already registered! Please, {{logInLowercase}}."
+                "existingEmail": "Seems like you are already registered! Please, $t(izpanel.common.logInLowercase).",
+                "sendEmailFail": "Oops, something went wrong and we couldn't send you the confirmation email. Please, try again later."
             },
             "minTwoChars": {
                 "firstName": "Your name must contain at least two characters.",
                 "lastName": "Your last name must contain at least two characters."
+            },
+            "generic": "Oops, something went wrong. Please, try again later.",
+            "birthday": {
+                "future": "Time travelling ha? Your date of birth cannot be in the future.",
+                "past": "No vampires allowed! Your date of birth has to be of this century."
+            },
+            "login": {
+                "accountBlocked": "Your account has been blocked after multiple consecutive login attempts.",
+                "accountInactive": "Your account has not yet been activated. Would you like us to <1>resend</1> you the confirmation email?",
+                "expiredLink": "The activation link that you followed has expired. Please, <1>resend it</1> and try again.",
+                "invalidCredentials": "We're sorry, this email/password combination could not be found.",
+                "userNotFound": "The activation link that you followed has expired and your data was deleted. Please, try signing up again.",
+                "wrongActivation": "Something went wrong during your account activation. Please, try again later via the same confirmation email we've sent you before.",
+                "wrongActivationWithLink": "Something went wrong during your account activation. Please, <1>resend</1> the confirmation email and try again."
             }
         },
         "footer": {
             "item": {
-                "faqPayments": "How long do payments take?",
-                "faqInvitations": "How do invitations work?",
-                "faqChangeEmail": "How can I change my email?",
-                "faqBrowseAll": "See more",
+                "faqPayments": "[How long do payments usually take?](https://help.intellizoom.com/hc/en-us)",
+                "faqInvitations": "[How do invitations work?](https://help.intellizoom.com/hc/en-us)",
+                "faqChangeEmail": "[How can I change my email?](https://help.intellizoom.com/hc/en-us)",
+                "faqBrowseAll": "[See more](https://help.intellizoom.com/hc/en-us)",
                 "sendEmail": "[Send us an email](https://help.intellizoom.com/hc/en-us/requests/new)",
-                "social": "Follow us!",
                 "whatIsIZP": "What is IntelliZoom Panel"
             },
             "title": {
                 "about": "About us",
                 "contact": "Contact",
-                "faq": "FAQ"
+                "faq": "FAQ",
+                "social": "Follow us!"
             }
         },
         "header": {
@@ -120,6 +107,32 @@
             "name": "{{userFullName}}",
             "profile": "My profile",
             "settings": "Settings"
+        },
+        "basicDemographics": {
+            "flowTitle": "Alright!\nLet's get started",
+            "flowDescription": "To invite you to studies, we need to ask you **just 3 basic** profiling questions.",
+            "flowLastQuestion": "And last but no least...",
+            "progress": "Question {{currentQuestion}} of {{totalQuestions}}",
+            "success": {
+                "title": "That's it!",
+                "description": "You're now ready to start participating in our studies.\nKeep on completing your profile so we can invite you to more specific (and better paid) studies.",
+                "cta": "Let's do this!"
+            },
+            "underage": {
+                "title": "You must be at least {{minimumLegalAge}} years old to participate in our studies",
+                "description": "We're sorry, but we cannot invite you to our studies or allow you to continue. We will now proceed to delete your IntelliZoom Panel account and all you personal info.\nThank you for your interest."
+            }
+        },
+        "login": {
+            "title": "Log in",
+            "forgotPassword": "Forgot password?",
+            "orSocialAccess": "or continue with",
+            "newHere": "Don't have an account?",
+            "signUp": "Sign up!",
+            "success": {
+                "accountActivated": "Your account has been successfully activated!",
+                "emailResent": "We have resent you the activation email."
+            }
         }
     }
 }
