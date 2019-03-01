@@ -82,6 +82,12 @@
                 "userNotFound": "",
                 "wrongActivation": "",
                 "wrongActivationWithLink": ""
+            },
+            "forgotPassword": {
+                "sendEmailFail": ""
+            },
+            "resetPassword": {
+                "incorrectPassword": ""
             }
         },
         "footer": {
@@ -132,6 +138,27 @@
             "success": {
                 "accountActivated": "",
                 "emailResent": ""
+            }
+        },
+        "forgotPassword": {
+            "title": "",
+            "description": "",
+            "success": {
+                "title": "",
+                "description": ""
+            }
+        },
+        "resetPassword": {
+            "title": "",
+            "currentPassword": {
+                "description": "",
+                "field": ""
+            },
+            "success": {
+                "title": "",
+                "description": "",
+                "cta": "",
+                "backToSettings": ""
             }
         }
     }
