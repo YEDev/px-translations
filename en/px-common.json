@@ -62,7 +62,9 @@
             "month": "MM",
             "year": "YYYY",
             "facebook": "Facebook",
-            "google": "Google"
+            "google": "Google",
+            "save": "Save",
+            "send": "Send"
         }
     }
 }

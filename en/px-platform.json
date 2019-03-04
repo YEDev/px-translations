@@ -10,7 +10,7 @@
                 "alreadyRegistered": "Already registered? $t(izpanel.common.logInImperative)"
             },
             "country": {
-                "title": "Welcome {{firstName}}!\nWhat country do you live in?",
+                "title": "Welcome {{firstName}}!",
                 "otherCountry": "Show more countries"
             },
             "email": {
@@ -82,6 +82,12 @@
                 "userNotFound": "The activation link that you followed has expired and your data was deleted. Please, try signing up again.",
                 "wrongActivation": "Something went wrong during your account activation. Please, try again later via the same confirmation email we've sent you before.",
                 "wrongActivationWithLink": "Something went wrong during your account activation. Please, <1>resend</1> the confirmation email and try again."
+            },
+            "forgotPassword": {
+                "sendEmailFail": "Oops, something went wrong and we couldn't send you the reset password email. Please, try again later."
+            },
+            "resetPassword": {
+                "incorrectPassword": "Incorrect password"
             }
         },
         "footer": {
@@ -132,6 +138,27 @@
             "success": {
                 "accountActivated": "Your account has been successfully activated!",
                 "emailResent": "We have resent you the activation email."
+            }
+        },
+        "forgotPassword": {
+            "title": "Forgot your password?",
+            "description": "Please enter your email and we'll send you a link to reset your password.",
+            "success": {
+                "title": "We've sent you an email to reset your password",
+                "description": "For security purposes, the link will expire in 24h.\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email."
+            }
+        },
+        "resetPassword": {
+            "title": "Set new password",
+            "currentPassword": {
+                "description": "And type in your current password please:",
+                "field": "Current password"
+            },
+            "success": {
+                "title": "Password updated!",
+                "description": "Your new password has been saved successfully.",
+                "cta": "Go to login",
+                "backToSettings": "Back to Settings"
             }
         }
     }
