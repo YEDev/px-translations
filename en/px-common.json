@@ -64,7 +64,32 @@
             "facebook": "Facebook",
             "google": "Google",
             "save": "Save",
-            "send": "Send"
+            "send": "Send",
+            "demographics": {
+                "female": "Female",
+                "lessThan": "Less than",
+                "male": "Male",
+                "na": "I prefer not to answer",
+                "no": "No",
+                "none": "None of the above",
+                "noneOrNoTell": "None of the above / I prefer not to say",
+                "orMore": "or more",
+                "other": "Other",
+                "otherFeminine": "Other",
+                "otherFemininePlural": "Other",
+                "otherPlural": "Other",
+                "unknown": "I don't know",
+                "yes": "Yes",
+                "<<other>>": "Non binary"
+            },
+            "tip": {
+                "paypal": {
+                    "title": "We use PayPal to pay our participants",
+                    "description": "Make sure your email has a PayPal account associated. Remember that you can always create one for free!"
+                }
+            },
+            "finish": "Finish",
+            "gotIt": "Got it"
         }
     }
 }

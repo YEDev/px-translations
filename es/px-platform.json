@@ -63,7 +63,8 @@
             },
             "registration": {
                 "existingEmail": "Ya existe una cuenta con este email. ¿Prefieres {{logInLowercase}}?",
-                "sendEmailFail": ""
+                "sendEmailFail": "",
+                "passwordRequirements": ""
             },
             "minTwoChars": {
                 "firstName": "Tu nombre debe contener al menos dos caracteres.",

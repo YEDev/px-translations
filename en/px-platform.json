@@ -7,7 +7,7 @@
                     "firstName": "Name",
                     "lastName": "Last name"
                 },
-                "alreadyRegistered": "Already registered? $t(izpanel.common.logInImperative)"
+                "alreadyRegistered": "Already registered? $t(izPanel.common.logInImperative)"
             },
             "country": {
                 "title": "Welcome {{firstName}}!",
@@ -29,7 +29,7 @@
             },
             "terms": {
                 "title": "Before continuing...",
-                "description": "Please take a moment to read our $t(izpanel.common.termsLink) and $t(izpanel.common.privacyLink).\nIf you have any doubts on how your data is managed, please, $t(izpanel.common.contactUsLowercaseImperative).",
+                "description": "Please take a moment to read our <1>{{termsLink}}</1> and <3>{{privacyLink}}</3>.\nIf you have any doubts on how your data is managed, please, <5>{{contactUsLowercaseImperative}}</5>.",
                 "checkbox": {
                     "gdpr": "I want to be invited via email to UX research studies that match my profile. $t(common.requiredField)",
                     "terms": "I agree with the Terms of Service and the Privacy Policy. $t(common.requiredField)",
@@ -62,8 +62,9 @@
                 "genericFormat": "The format is invalid."
             },
             "registration": {
-                "existingEmail": "Seems like you are already registered! Please, $t(izpanel.common.logInLowercase).",
-                "sendEmailFail": "Oops, something went wrong and we couldn't send you the confirmation email. Please, try again later."
+                "existingEmail": "Seems like you are already registered! Please, $t(izPanel.common.logInLowercase).",
+                "sendEmailFail": "Oops, something went wrong and we couldn't send you the confirmation email. Please, try again later.",
+                "passwordRequirements": "The password does not meet the requirements"
             },
             "minTwoChars": {
                 "firstName": "Your name must contain at least two characters.",
