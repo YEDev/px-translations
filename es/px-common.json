@@ -64,7 +64,32 @@
             "facebook": "",
             "google": "",
             "save": "",
-            "send": ""
+            "send": "",
+            "demographics": {
+                "female": "",
+                "lessThan": "",
+                "male": "",
+                "na": "",
+                "no": "",
+                "none": "",
+                "noneOrNoTell": "",
+                "orMore": "",
+                "other": "",
+                "otherFeminine": "",
+                "otherFemininePlural": "",
+                "otherPlural": "",
+                "unknown": "",
+                "yes": "",
+                "<<other>>": ""
+            },
+            "tip": {
+                "paypal": {
+                    "title": "",
+                    "description": ""
+                }
+            },
+            "finish": "",
+            "gotIt": ""
         }
     }
 }
