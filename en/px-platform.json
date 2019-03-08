@@ -161,6 +161,66 @@
                 "cta": "Go to login",
                 "backToSettings": "Back to Settings"
             }
+        },
+        "landing": {
+            "heroSection": {
+                "title": "Your opinion matters.",
+                "description": "Get paid to share your experiences and make an impact on products you love and care about.",
+                "cta": "Let's do this!"
+            },
+            "featureBoxes": {
+                "first": {
+                    "title": "Get paid quickly and easily",
+                    "description": "Saving up for something or looking for that bit of extra spending money? Join the people all over the world making additional income by sharing their experiences."
+                },
+                "second": {
+                    "title": "Influence product experiences",
+                    "description": "Make an immediate impact on the products that you love and use today by sharing your opinion with the people that make and improve those products."
+                },
+                "third": {
+                    "title": "Do it in your spare time",
+                    "description": "Got 15-20 minutes to spare? Giving feedback is easy. Participate in studies remotely, on your schedule, from your home or on the go, using your own device."
+                }
+            },
+            "reinforcingBanner": {
+                "phrase1": "Give feedback",
+                "phrase2": "Get paid"
+            },
+            "faqs": {
+                "title": "Got questions? We got answers",
+                "faq1": {
+                    "title": "How quickly can I start taking tests?",
+                    "description": "As soon as you finish the registration process and answer to three basic profiling questions."
+                },
+                "faq2": {
+                    "title": "How much money do I make?",
+                    "description": "Payment depends on the complexity of the study. For studies that record think out loud audio and video, you can expect to make $10 on average. For standard surveys, the payment is $2 on average."
+                },
+                "faq3": {
+                    "title": "How long are the studies going to be?",
+                    "description": "Most studies take an average of 10-20 minutes."
+                },
+                "faq4": {
+                    "title": "When do I get my money?",
+                    "description": "Payments are sent out via PayPal within 21 business days after the completion of the study, once your results have been reviewed and approved. Most results are approved within 3-5 days.\nYou will receive the payment in the same email used to register."
+                },
+                "faq5": {
+                    "title": "How many study invitations will I receive?",
+                    "description": "The number of opportunities you receive will depend on a number of factors, such as your demographics and your quality rating."
+                },
+                "faq6": {
+                    "title": "What do I need to participate in studies?",
+                    "description": "All that you need is a desktop, tablet or smartphone, a reliable connection to Wi-Fi, a quiet place, and the ability to download UserZoom’s eCertified testing software."
+                },
+                "faq7": {
+                    "title": "How old do I have to be?",
+                    "description": "All participants must be 18 years or older."
+                }
+            },
+            "uzBanner": {
+                "title": "Is this the owl you are looking for?",
+                "description": "If you want to learn more about IntelliZoom the sourcing engine used by UserZoom, [click here](https://www.userzoom.com/participant-sourcing/). We'll find the best participants for your UX research studies."
+            }
         }
     }
 }
