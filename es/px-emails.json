@@ -2,7 +2,7 @@
     "izPanel": {
         "emails": {
             "footer": {
-                "support": "[¡Ayuda!](https://help.intellizoom.com/hc/es/requests/new)",
+                "support": "¡Ayuda!",
                 "copyright": "IntelliZoom Panel es gestionado por UserZoom Technologies, Inc. © 2019 \n10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A",
                 "unsubscribe": "Darme de baja"
             },
@@ -23,8 +23,8 @@
                 "subject": "Alguien ha intentado registrarse en IntelliZoom Panel usando tu email",
                 "title": "Alguien ha intentado registrarse en IntelliZoom Panel usando tu email",
                 "bodyCopy": "¿Has sido tú? En ese caso, solo tienes que $t(izpanel.emails.registeredtwice.logIn). Si no recuerdas tu contraseña, siempre puedes $t(izpanel.emails.registeredtwice.updatePassword).\nSi no has sido tú, por favor, ignora este email. Ya nos encargamos.",
-                "logIn": "[iniciar sesión](https://www.intellizoom.com/login)",
-                "updatePassword": "[crear una nueva](https://www.intellizoom.com/forgot-password)"
+                "logIn": "iniciar sesión",
+                "updatePassword": "crear una nueva"
             },
             "studyInvitation": {
                 "subject": "¡Nuevo estudio disponible!",
