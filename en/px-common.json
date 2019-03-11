@@ -29,35 +29,6 @@
             "signUp": "Sign up",
             "submit": "Submit",
             "termsLink": "Terms of Service",
-            "studyRequirements": {
-                "desktopBrowser": {
-                    "intro": "A desktop computer with an updated",
-                    "ending": "browser",
-                    "any": "A desktop computer with an updated browser."
-                },
-                "deviceBrowserAny": "An updated browser. You can access the study on your computer, tablet or mobile phone.",
-                "deviceMoreThanOne": "You can access the study with any of the following devices:",
-                "incentiveExplanation": "The incentive for this study is {{studyFee}} if your participation is approved.",
-                "phoneOS": {
-                    "intro": "An",
-                    "ending": "with strong connection and enough battery.",
-                    "any": "A smartphone with good connection and enough battery."
-                },
-                "recording": {
-                    "audioVideo": "You will need a webcam and a microphone: Find a quiet, well-lit place and be sure to speak your thoughts out loud as you complete the tasks.\nTo ensure a good audio quality, use headphones or earbuds.",
-                    "audio": "You will need a microphone: Find a nice quiet place and be sure to speak your thoughts out loud as you complete the tasks.\nTo ensure a good audio quality, use headphones or earbuds.",
-                    "video": "You will need a webcam: Find a quiet, well-lit place where to complete the tasks.",
-                    "noneTaskBased": "You won't need a webcam or microphone, but your screen may be recorded. Be sure to read each task and do your best to complete them.",
-                    "noneQuestionnaire": "You won't need a webcam or microphone. Be sure to read each task and do your best to complete them."
-                },
-                "screener": "You may be asked a few questions to see if you qualify for this study, good luck! :)",
-                "tabletOS": {
-                    "intro": "An",
-                    "ending": "with strong connection and enough battery.",
-                    "any": "A tablet with strong connection and enough battery."
-                },
-                "title": "Requirements:"
-            },
             "day": "DD",
             "month": "MM",
             "year": "YYYY",
@@ -80,7 +51,7 @@
                 "otherPlural": "Other",
                 "unknown": "I don't know",
                 "yes": "Yes",
-                "<<other>>": "Non binary"
+                "nonBinary": "Non binary"
             },
             "tip": {
                 "paypal": {
@@ -114,7 +85,76 @@
                 "german": "Deutsch"
             },
             "cancel": "Cancel",
-            "edit": "Edit"
+            "edit": "Edit",
+            "studies": {
+                "cardSort": {
+                    "title": "Card Sort",
+                    "description": "In these kind of studies we're mostly interested in how you would group certain items. This helps the study creator understand the users train of thought when categorizing.\nRemember, there are no wrong answers. We're only interested in your honest opinion."
+                },
+                "practice": {
+                    "title": "Practice study",
+                    "description": "Take this practice study and master the art of giving feedback.\nIf you participate and pass our review, we'll be able to invite you to better paid studies."
+                },
+                "survey": {
+                    "title": "A standard question-answer survey. No special effects. Can be finished in a blink.\nRemember, there are no wrong answers. We're only interested in your honest opinion."
+                },
+                "taskBased": {
+                    "title": "Task Based",
+                    "description": "In a task based, pretty much as the name states, the study will guide you through a set of tasks for you to complete.\nSome tasks are simple, some are a bit more complex. We're interested in knowing how easy or difficult you find them.\nRemember, there are no wrong answers. We're only interested in your honest opinion."
+                },
+                "tol": {
+                    "title": "Think Out Loud",
+                    "description": "This kind of studies requires you to speak your thoughts while you perform tasks.\nRemember, there are no wrong answers. When we show you an idea, design or concept, if you hate it you hate it, if you love it you love it, if it doesn't spark any emotion and it's pretty much a waste of time... say so too!\nWe're only interested in your honest opinion."
+                },
+                "requirements": {
+                    "anyBrowser": "An updated browser",
+                    "aWorking": "A working",
+                    "goodLightning": "Good lightning",
+                    "headphones": "Headphones",
+                    "maybeRecorded": "You won't need a webcam or microphone, but your screen may be recorded. Be sure to read each task and do your best to complete them.",
+                    "microphone": "microphone",
+                    "quietEnvironment": "A quiet environment",
+                    "screener": "You may be asked a few questions to see if you qualify for this study, good luck! :)",
+                    "strongConnection": "Strong connection",
+                    "updatedBrowser": "Latest version of",
+                    "webcam": "webcam"
+                },
+                "participate": "Participate"
+            },
+            "studyRequirementsEmail": {
+                "desktopBrowser": {
+                    "intro": "A desktop computer with an updated",
+                    "ending": "browser",
+                    "any": "A desktop computer with an updated browser."
+                },
+                "deviceBrowserAny": "An updated browser. You can access the study on your computer, tablet or mobile phone.",
+                "deviceMoreThanOne": "You can access the study with any of the following devices:",
+                "incentiveExplanation": "The incentive for this study is {{studyFee}} if your participation is approved.",
+                "phoneOS": {
+                    "intro": "An",
+                    "ending": "with strong connection and enough battery.",
+                    "any": "A smartphone with good connection and enough battery."
+                },
+                "recording": {
+                    "audioVideo": "You will need a webcam and a microphone: Find a quiet, well-lit place and be sure to speak your thoughts out loud as you complete the tasks.\nTo ensure a good audio quality, use headphones or earbuds.",
+                    "audio": "You will need a microphone: Find a nice quiet place and be sure to speak your thoughts out loud as you complete the tasks.\nTo ensure a good audio quality, use headphones or earbuds.",
+                    "video": "You will need a webcam: Find a quiet, well-lit place where to complete the tasks.",
+                    "noneTaskBased": "You won't need a webcam or microphone, but your screen may be recorded. Be sure to read each task and do your best to complete them.",
+                    "noneQuestionnaire": "You won't need a webcam or microphone. Be sure to read each task and do your best to complete them."
+                },
+                "screener": "You may be asked a few questions to see if you qualify for this study, good luck! :)",
+                "tabletOS": {
+                    "intro": "An",
+                    "ending": "with strong connection and enough battery.",
+                    "any": "A tablet with strong connection and enough battery."
+                },
+                "title": "Requirements:"
+            },
+            "and": "and",
+            "aUppercase": "A",
+            "desktop": "desktop computer",
+            "phone": "mobile phone",
+            "tablet": "tablet"
         }
     }
 }
