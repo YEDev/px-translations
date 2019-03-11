@@ -238,7 +238,7 @@
                     "addPhone": "Add phone number"
                 },
                 "deactivateAccount": {
-                    "title": "Deactivate account",
+                    "title": "Deactivate your account",
                     "description": "If you deactivate your account you will lose all your profile progress and you won't be able to take paid studies anymore.",
                     "cta": "Deactivate account",
                     "confirmationModal": {
