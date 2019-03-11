@@ -29,35 +29,6 @@
             "signUp": "Crear cuenta",
             "submit": "Enviar",
             "termsLink": "Condiciones del servicio",
-            "studyRequirements": {
-                "desktopBrowser": {
-                    "intro": "Un ordenador con una versión actualizada de",
-                    "ending": " ",
-                    "any": "Un ordenador con una versión actualizada de cualquier navegador."
-                },
-                "deviceBrowserAny": "Un navegador actualizado. Podrás acceder al estudio desde tu ordenador, tablet o teléfono móvil.",
-                "deviceMoreThanOne": "Podrás acceder al estudio desde cualquiera de los siguientes dispositivos:",
-                "incentiveExplanation": "La remuneración por este estudio es de {{studyFee}} si tu participación es aprobada.",
-                "phoneOS": {
-                    "intro": "Un",
-                    "ending": "con buena conexión y batería suficiente.",
-                    "any": "Un teléfono móvil con buena conexión y batería suficiente."
-                },
-                "recording": {
-                    "audioVideo": "Necesitarás una videocámara y micrófono: Busca un lugar tranquilo y bien iluminado. Recuerda decir lo que piensas en voz alta mientras completas las tareas.\nTe recomendamos utilizar audífonos también para asegurar una buena calidad de audio.",
-                    "audio": "Necesitarás un micrófono: Busca un lugar tranquilo y recuerda decir lo que piensas en voz alta mientras completas las tareas. \nTe recomendamos utilizar audífonos también para asegurar una buena calidad de audio.",
-                    "video": "Necesitarás una videocámara: Busca un lugar tranquilo y bien iluminado donde puedas completar las tareas.",
-                    "noneTaskBased": "No necesitarás cámara ni micrófono, pero tu pantalla puede que sea grabada. Asegúrate de leer y completar cada tarea lo mejor que puedas.",
-                    "noneQuestionnaire": "No necesitarás cámara ni micrófono. Asegúrate de leer y completar cada tarea lo mejor que puedas."
-                },
-                "screener": "Te harán un par de preguntas para confirmar que cumples con el perfil que están buscando. ¡Buena suerte! :)",
-                "tabletOS": {
-                    "intro": "Un",
-                    "ending": "con buena conexión y batería suficiente.",
-                    "any": "Una tablet con buena conexión y batería suficiente."
-                },
-                "title": "Requisitos:"
-            },
             "day": "DD",
             "month": "MM",
             "year": "AAAA",
@@ -80,7 +51,7 @@
                 "otherPlural": "Otros",
                 "unknown": "No lo sé",
                 "yes": "Sí",
-                "<<other>>": "No binario"
+                "nonBinary": "No binario"
             },
             "tip": {
                 "paypal": {
@@ -114,7 +85,76 @@
                 "german": "Alemán"
             },
             "cancel": "Cancelar",
-            "edit": "Editar"
+            "edit": "Editar",
+            "studies": {
+                "cardSort": {
+                    "title": "Card Sort",
+                    "description": "En este tipo de estudios estamos principalmente interesados en cómo agruparías una serie de elementos. Esto le ayuda al creador del estudio a entender mejor cómo categorizan sus usuarios. \nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
+                },
+                "practice": {
+                    "title": "Estudio de práctica",
+                    "description": "Realiza este estudio de práctica y perfecciona el arte de dar tu opinión. \nSi participas y pasas nuestra revisión, podremos invitarte a estudios mejor pagados."
+                },
+                "survey": {
+                    "title": "El clásico cuestionario de toda la vida. Sin efectos especiales. Lo puedes acabar en un abrir y cerrar de ojos. \nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
+                },
+                "taskBased": {
+                    "title": "Task Based",
+                    "description": "En un estudio Task Based, como su nombre en inglés lo indica, te guiaremos a través de una serie de tareas que debes completar. \nAlgunas tareas son simples, otras un poco más complicadas. Nos interesa saber qué tan fáciles o difíciles pueden llegar a ser. \nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
+                },
+                "tol": {
+                    "title": "Think Out Loud",
+                    "description": "Este tipo de estudios requiere que comentes tus impresiones mientras realizas las tareas. \nRecuerda, ninguna respuesta es incorrecta. Cuando te mostramos una idea, diseño o concepto, si no te gusta, no te gusta, si te encanta, te encanta, si no te provoca ninguna reacción y es más bien una pérdida de tiempo... ¡dilo también!\nSolo nos interesa tu opinión más honesta."
+                },
+                "requirements": {
+                    "anyBrowser": "Un navegador actualizado",
+                    "aWorking": "Una",
+                    "goodLightning": "Buena iluminación",
+                    "headphones": "Audífonos",
+                    "maybeRecorded": "No necesitarás cámara ni micrófono, pero tu pantalla puede que sea grabada. Asegúrate de leer y completar cada tarea lo mejor que puedas.",
+                    "microphone": "micrófono",
+                    "quietEnvironment": "Un lugar tranquilo",
+                    "screener": "Te harán un par de preguntas para confirmar que cumples con el perfil que están buscando. ¡Buena suerte! :)",
+                    "strongConnection": "Buena conexión",
+                    "updatedBrowser": "La última versión de",
+                    "webcam": "videocámara"
+                },
+                "participate": "Participar"
+            },
+            "studyRequirementsEmail": {
+                "desktopBrowser": {
+                    "intro": "Un ordenador con una versión actualizada de",
+                    "ending": " ",
+                    "any": "Un ordenador con una versión actualizada de cualquier navegador."
+                },
+                "deviceBrowserAny": "Un navegador actualizado. Podrás acceder al estudio desde tu ordenador, tablet o teléfono móvil.",
+                "deviceMoreThanOne": "Podrás acceder al estudio desde cualquiera de los siguientes dispositivos:",
+                "incentiveExplanation": "La remuneración por este estudio es de {{studyFee}} si tu participación es aprobada.",
+                "phoneOS": {
+                    "intro": "Un",
+                    "ending": "con buena conexión y batería suficiente.",
+                    "any": "Un teléfono móvil con buena conexión y batería suficiente."
+                },
+                "recording": {
+                    "audioVideo": "Necesitarás una videocámara y micrófono: Busca un lugar tranquilo y bien iluminado. Recuerda decir lo que piensas en voz alta mientras completas las tareas.\nTe recomendamos utilizar audífonos también para asegurar una buena calidad de audio.",
+                    "audio": "Necesitarás un micrófono: Busca un lugar tranquilo y recuerda decir lo que piensas en voz alta mientras completas las tareas. \nTe recomendamos utilizar audífonos también para asegurar una buena calidad de audio.",
+                    "video": "Necesitarás una videocámara: Busca un lugar tranquilo y bien iluminado donde puedas completar las tareas.",
+                    "noneTaskBased": "No necesitarás cámara ni micrófono, pero tu pantalla puede que sea grabada. Asegúrate de leer y completar cada tarea lo mejor que puedas.",
+                    "noneQuestionnaire": "No necesitarás cámara ni micrófono. Asegúrate de leer y completar cada tarea lo mejor que puedas."
+                },
+                "screener": "Te harán un par de preguntas para confirmar que cumples con el perfil que están buscando. ¡Buena suerte! :)",
+                "tabletOS": {
+                    "intro": "Un",
+                    "ending": "con buena conexión y batería suficiente.",
+                    "any": "Una tablet con buena conexión y batería suficiente."
+                },
+                "title": "Requisitos:"
+            },
+            "and": "y",
+            "aUppercase": "Un",
+            "desktop": "ordenador",
+            "phone": "teléfono móvil",
+            "tablet": "tablet"
         }
     }
 }
