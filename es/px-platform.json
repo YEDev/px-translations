@@ -7,10 +7,10 @@
                     "firstName": "Nombre",
                     "lastName": "Apellido"
                 },
-                "alreadyRegistered": ""
+                "alreadyRegistered": "¿Ya tienes una cuenta? $t(izPanel.common.logInImperative)"
             },
             "country": {
-                "title": "Qué tal {{firstname}},\n¿en qué país vives?",
+                "title": "¡Qué tal {{firstname}}!",
                 "otherCountry": "Otro país"
             },
             "email": {
@@ -22,14 +22,14 @@
                 "description": "Para que sea segura, incluye:",
                 "requirements": {
                     "capitalLetter": "una letra mayúscula",
-                    "numberOrSymbol": "un número o símbolo",
-                    "minChars": ""
+                    "numberOrSymbol": "un número",
+                    "minChars": "al menos 8 caracteres"
                 },
                 "passwordConfirmation": "Confirmar contraseña"
             },
             "terms": {
                 "title": "Antes de continuar",
-                "description": "Lee con atención nuestras {{termsLink}} y {{privacyLink}}.\nSi tienes cualquier duda sobre cómo es utilizada tu información, por favor, {{contactUsLowercaseImperative}}.",
+                "description": "Lee con atención nuestras <1>{{termsLink}}</1> y <3>{{privacyLink}}</3>.\nSi tienes cualquier duda sobre cómo es utilizada tu información, por favor, <5>{{contactUsLowercaseImperative}}</5>.",
                 "checkbox": {
                     "gdpr": "Quiero ser invitado via email a estudios de investigación de experiencias del usuario que se adecuen a mi perfil. $t(common.requiredField)",
                     "terms": "Acepto las Condiciones del Servicio y la Política de Privacidad. $t(common.requiredField)",
@@ -37,9 +37,9 @@
                 }
             },
             "doubleOptIn": {
-                "title": "",
-                "description": "",
-                "resendSuccess": ""
+                "title": "Te hemos enviado un email de confirmación para activar tu cuenta",
+                "description": "Solo tienes que hacer click en el link del email para activar tu cuenta.\nPor motivos de seguridad, el link expirará en 24h.\nEn caso de que no veas el email, revisa tu carpeta de spam. Si crees que no lo has recibido, te lo <1>reenviamos</1>.",
+                "resendSuccess": "¡Email enviado!"
             }
         },
         "comingSoon": {
@@ -49,7 +49,7 @@
                 "title": "¡Gracias!",
                 "description": "Nos pondremos en contacto contigo en cuanto abramos nuestro panel para {{selectedCountry}}.\n¡Nos vemos pronto!"
             },
-            "gdpr": ""
+            "gdpr": "Quiero ser avisado en cuanto IntelliZoom Panel abra en mi país. $t(common.requiredField)"
         },
         "error": {
             "required": {
@@ -59,107 +59,194 @@
             },
             "format": {
                 "email": "Tienes que utilizar un formato de email válido. Eg. nombre@email.com",
-                "genericFormat": ""
+                "genericFormat": "El formato es incorrecto."
             },
             "registration": {
-                "existingEmail": "Ya existe una cuenta con este email. ¿Prefieres {{logInLowercase}}?",
-                "sendEmailFail": "",
-                "passwordRequirements": ""
+                "existingEmail": "Ya existe una cuenta con este email. ¿Prefieres $t(izPanel.common.logInLowercase)?",
+                "sendEmailFail": "Oops, algo ha salido mal y no hemos podido enviarte el email de confirmación. Por favor, vuelve a intentarlo pasados unos minutos.",
+                "passwordRequirements": "La contraseña no cumple con los requisitos",
+                "emailLength": "¡Wow! Tu email no puede tener más de 150 caracteres..."
             },
             "minTwoChars": {
                 "firstName": "Tu nombre debe contener al menos dos caracteres.",
                 "lastName": "Tu apellido debe contener al menos dos caracteres."
             },
-            "generic": "",
+            "generic": "Oops, algo ha ido mal. Por favor, vuelve a intentarlo pasados unos minutos. ",
             "birthday": {
-                "future": "",
-                "past": ""
+                "future": "Viajando en el tiempo eh... Tu fecha de nacimiento no puede ser del futuro.",
+                "past": "¡No se admiten vampiros! Tu fecha de nacimiento no puede ser de hace más de 100 años."
             },
             "login": {
-                "accountBlocked": "",
-                "accountInactive": "",
-                "expiredLink": "",
-                "invalidCredentials": "",
-                "userNotFound": "",
-                "wrongActivation": "",
-                "wrongActivationWithLink": ""
+                "accountBlocked": "Has superado el número máximo de intentos de acceso y hemos bloqueado tu cuenta.",
+                "accountInactive": "Tu cuenta aún no ha sido activada. ¿Quieres que te <1>reenviemos</1> el email de confirmación?",
+                "expiredLink": "El link de activación que has seguido ha expirado. Por favor, <1>reenvía</1> el email de confirmación e inténtalo de nuevo.",
+                "invalidCredentials": "Lo sentimos, no hemos podido validar esta combinación de email/contraseña.",
+                "userNotFound": "El link de activación que has seguido ha expirado y tus datos fueron borrados. Por favor, intenta crear una cuenta de nuevo.",
+                "wrongActivation": "Algo ha ido mal durante la activación de tu cuenta. Por favor, inténtalo de nuevo más tarde a través del mismo email de confirmación que te hemos enviado antes.",
+                "wrongActivationWithLink": "Algo ha ido mal durante la activación de tu cuenta. Por favor, <1>reenvía</1> el email de confirmación e inténtalo de nuevo."
             },
             "forgotPassword": {
-                "sendEmailFail": ""
+                "sendEmailFail": "Oops, algo ha salido mal y no hemos podido enviarte el email para actualizar tu contraseña. Por favor, vuelve a intentarlo pasados unos minutos."
             },
             "resetPassword": {
-                "incorrectPassword": ""
+                "incorrectPassword": "Contraseña incorrecta"
             }
         },
         "footer": {
             "item": {
-                "faqPayments": "",
-                "faqInvitations": "",
-                "faqChangeEmail": "",
-                "faqBrowseAll": "",
-                "sendEmail": "",
-                "whatIsIZP": ""
+                "faqPayments": "[¿Cuánto tardan normalmente los pagos?](https://help.intellizoom.com/hc/es)",
+                "faqInvitations": "[¿Cómo funcionan las invitaciones?](https://help.intellizoom.com/hc/es)",
+                "faqChangeEmail": "[¿Cómo puedo cambiar mi email?](https://help.intellizoom.com/hc/es)",
+                "faqBrowseAll": "[Ver más](https://help.intellizoom.com/hc/es)",
+                "sendEmail": "[Envíanos un email](https://help.intellizoom.com/hc/es/requests/new)",
+                "whatIsIZP": "Qué es IntelliZoom Panel"
             },
             "title": {
-                "about": "",
-                "contact": "",
-                "faq": "",
-                "social": ""
+                "about": "Sobre nosotros",
+                "contact": "Contacto",
+                "faq": "Preguntas frecuentes",
+                "social": "¡Síguenos!"
             }
         },
         "header": {
-            "email": "",
-            "logOut": "",
-            "mainDashboard": "",
-            "name": "",
-            "profile": "",
-            "settings": ""
+            "email": "{{userEmail}}",
+            "logOut": "Cerrar sesión",
+            "mainDashboard": "Estudios",
+            "name": "{{userFullName}}",
+            "profile": "Mi Perfil",
+            "settings": "Configuración"
         },
         "basicDemographics": {
-            "flowTitle": "",
-            "flowDescription": "",
-            "flowLastQuestion": "",
-            "progress": "",
+            "flowTitle": "¡Genial!\nEmpecemos a crear tu perfil",
+            "flowDescription": "Para poder invitarte a nuestros estudios, necesitamos que respondas **3 preguntas** básicas.",
+            "flowLastQuestion": "Y por último...",
+            "progress": "Pregunta {{currentQuestion}} de {{totalQuestions}}",
             "success": {
-                "title": "",
-                "description": "",
-                "cta": ""
+                "title": "¡Listo!",
+                "description": "Ya puedes empezar a participar en nuestros estudios. \nSigue completando tu perfil para que podamos invitarte a estudios más específicos (y mejor pagados).",
+                "cta": "Ver estudios disponibles"
             },
             "underage": {
-                "title": "",
-                "description": ""
+                "title": "Tienes que tener al menos {{minimumLegalAge}} años para poder participar en nuestros estudios",
+                "description": "Lo sentimos, pero no podemos invitarte a ningún estudio o permitirte continuar. A continuación procederemos a borrar tu cuenta de IntelliZoom Panel y toda tu información personal. \nGracias por tu interés. "
             }
         },
         "login": {
-            "title": "",
-            "forgotPassword": "",
-            "orSocialAccess": "",
-            "newHere": "",
-            "signUp": "",
+            "title": "Iniciar sesión",
+            "forgotPassword": "¿Has olvidado tu contraseña?",
+            "orSocialAccess": "o entra con",
+            "newHere": "¿Aún no estás registrado?",
+            "signUp": "¡Apúntate!",
             "success": {
-                "accountActivated": "",
-                "emailResent": ""
+                "accountActivated": "¡Tu cuenta ha sido activada exitosamente!",
+                "emailResent": "Te hemos reenviado el email de activación. "
             }
         },
         "forgotPassword": {
-            "title": "",
-            "description": "",
+            "title": "¿Has olvidado tu contraseña?",
+            "description": "Introduce tu email y te enviaremos un link para que puedas actualizarla.\t",
             "success": {
-                "title": "",
-                "description": ""
+                "title": "Te hemos enviado un email de confirmación para activar tu cuenta",
+                "description": "Por motivos de seguridad, el link expirará en 24h.\nEn caso de que no veas el email, revisa tu carpeta de spam. Si crees que no lo has recibido, te lo <1>resend</1>."
             }
         },
         "resetPassword": {
-            "title": "",
+            "title": "Crea una nueva contraseña",
             "currentPassword": {
-                "description": "",
-                "field": ""
+                "description": "E introduce tu contraseña actual por favor:",
+                "field": "Contraseña actual"
             },
             "success": {
-                "title": "",
-                "description": "",
-                "cta": "",
-                "backToSettings": ""
+                "title": "¡Contraseña actualizada!",
+                "description": "Tu contraseña ha sido actualizada correctamente.",
+                "cta": "Iniciar sesión",
+                "backToSettings": "Volver a Configuración"
+            }
+        },
+        "landing": {
+            "heroSection": {
+                "title": "Tu opinion cuenta.",
+                "description": "Gana dinero por compartir tus experiencias e influye en los productos que más te importan y aprecias.",
+                "cta": "¡Regístrate!"
+            },
+            "featureBoxes": {
+                "first": {
+                    "title": "Gana dinero rápido y fácil",
+                    "description": "¿Estás ahorrando para algo o te gustaría conseguir ese extra para tus gastos? Únete a nuestra comunidad de panelistas y gana dinero compartiendo tus experiencias."
+                },
+                "second": {
+                    "title": "Influye en la experiencia de los productos que te rodean",
+                    "description": "Crea un impacto en los productos que más te importan y aprecias compartiendo tu opinión con la gente que desarrolla esos productos."
+                },
+                "third": {
+                    "title": "Hazlo en tu tiempo libre",
+                    "description": "¿Tienes 15-20 minutos? Dar tu opinión es fácil. Participa en estudios de manera remota, en tu propio horario, en tu casa o en transporte público, todo usando tu propio dispositivo."
+                }
+            },
+            "reinforcingBanner": {
+                "phrase1": "Da tu opinión",
+                "phrase2": "Gana dinero"
+            },
+            "faqs": {
+                "title": "¿Preguntas?... ¡y respuestas!",
+                "faq1": {
+                    "title": "¿Cómo de rápido puedo empezar a hacer estudios?",
+                    "description": "En cuanto acabes el proceso de registro y respondas 3 preguntas de perfil básico."
+                },
+                "faq2": {
+                    "title": "¿Cuánto dinero puedo ganar?",
+                    "description": "Los pagos dependen de la complexidad del estudio. Para estudios que necesitan grabar el audio o el vídeo el pago estándar es de $10. Para un cuestionario simple, el pago estándar es de $2."
+                },
+                "faq3": {
+                    "title": "¿Cuánto tiempo lleva participar en un estudio?",
+                    "description": "La mayoría de estudios se pueden completar entre 10 y 20 minutos.\t"
+                },
+                "faq4": {
+                    "title": "¿Cuándo se reciben los pagos?",
+                    "description": "Los pagos se envían vía PayPal a los 21 días laborales desde que el estudio ha sido completado, una vez los resultados hayan sido revisados y aprobados. La mayoría de resultados son aprobados entre 3-5 días.\\nRecibirás el pago en el mismo email que hayas usado para registrarte."
+                },
+                "faq5": {
+                    "title": "¿Cuántas invitaciones a estudios recibiré?",
+                    "description": "El número de invitaciones que recibas depende de muchos factores: que tan completo esté tu perfil, si has participado en el estudio de práctica, la calidad de tus resultados..."
+                },
+                "faq6": {
+                    "title": "¿Qué necesito para participar en estudios?",
+                    "description": "Solo necesitas un ordenador, una tablet, o un teléfono móvil con una buena conexión a internet desde la que puedas descargar el software de UserZoom (eCertified). "
+                },
+                "faq7": {
+                    "title": "¿Cuál es la edad mínima para participar?",
+                    "description": "Todos los participantes deben tener al menos 18 años de edad."
+                }
+            },
+            "uzBanner": {
+                "title": "¿Estabas buscando este búho?",
+                "description": "Si lo que quieres es saber más sobre IntelliZoom el motor de reclutamiento que usa UserZoom, has [click aquí](https://www.userzoom.com/participant-sourcing/). Nosotros nos encargamos de encontrar los mejores participantes para tus estudios de investigación de experiencias de usuario."
+            }
+        },
+        "settings": {
+            "title": "Configuración",
+            "account": {
+                "title": "Cuenta",
+                "credentials": {
+                    "title": "Acceso vía email",
+                    "passwordLastUpdate": "Actualizada el ",
+                    "changePassword": "Cambiar contraseña"
+                },
+                "phone": {
+                    "title": "Teléfono",
+                    "description": "Si añades tu número de teléfono a tu cuenta podremos invitarte a sesiones moderadas. \nUna sesión moderada es básicamente que un investigador de experiencias de usuario te guíe durante uno de sus estudios y recoja tus opiniones y experiencias.",
+                    "addPhone": "Añadir teléfono"
+                },
+                "deactivateAccount": {
+                    "title": "Desactivar cuenta",
+                    "description": "Si desactivas tu cuenta perderás todo el progreso que has hecho en tu perfil y ya no podrás participar en ninguno de nuestros estudios pagados.",
+                    "cta": "Desactivar cuenta",
+                    "confirmationModal": {
+                        "title": "¿Estás seguro?",
+                        "description": "Perderás todo el progreso que has hecho en tu perfil y ya no podrás participar en ninguno de nuestros estudios pagados.",
+                        "cta": "Sí, desactivar"
+                    }
+                }
             }
         }
     }
