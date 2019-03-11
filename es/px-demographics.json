@@ -160,7 +160,12 @@
                 "householdSize": {
                     "question": "¿Cuántas personas viven en tu casa incluyéndote?",
                     "list": {
-                        "1": "1 persona"
+                        "1": "1 persona",
+                        "2": "2 personas",
+                        "3": "3 personas",
+                        "4": "4 personas",
+                        "5": "5 personas",
+                        "more_5": "Más de 5 personas"
                     }
                 },
                 "householdChildren": {
@@ -670,6 +675,9 @@
                 "list": {
                     "none": "No formo parte de ningún programa de fidelización de hoteles"
                 }
+            },
+            "ethnicity": {
+                "question": "¿De qué raza eres?"
             }
         }
     }
