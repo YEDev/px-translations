@@ -11,7 +11,7 @@
                 "title": "Hola {{userName}}, ¡bienvenido/a a IntelliZoom Panel!",
                 "bodyCopy": "Por favor haz click en el botón de abajo para activar tu cuenta.\nPor razones de seguridad, este link expirará en 24 horas o en cuanto sea utilizado. ",
                 "cta": "Activa tu cuenta",
-                "closing": ""
+                "closing": "¡Saludos!\nEl equipo de IntelliZoom Panel"
             },
             "reset": {
                 "subject": "Solicitud de cambio de contraseña",
@@ -32,7 +32,7 @@
                 "bodyCopy": "¿Estás listo para dar tu opinión?",
                 "cta": "¡Participa!",
                 "studyID": "ID del estudio para referencia: {{campaignID}}",
-                "closing": ""
+                "closing": "¡Saludos!\nEl equipo de IntelliZoom Panel"
             },
             "studyComplete": {
                 "subject": "Hemos recibido tu participación",
@@ -60,9 +60,9 @@
                 "bodyCopy": "Sentimos informarte que el estudio de práctica no cumplía con los requisitos mínimos de calidad que solicitamos para estudios del tipo Think Out Loud o Card Sort. \nSi crees que es un error o te gustaría intentarlo de nuevo, $t(izpanel.emails.common.contact) con nosotros y estaremos encantados de reactivarte este estudio de práctica.\nSi tienes cualquier duda, consulta nuestra sección de $t(izpanel.emails.common.help) o $t(izpanel.emails.common.contact) directamente con nosotros."
             },
             "generic": {
-                "genericClosing": "",
-                "inlineContact": "",
-                "inlineHelp": ""
+                "genericClosing": "¡Saludos!\nEl equipo de IntelliZoom Panel",
+                "inlineContact": "contáctanos",
+                "inlineHelp": "Ayuda"
             }
         }
     }

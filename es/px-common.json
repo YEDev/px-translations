@@ -1,95 +1,120 @@
 {
     "izPanel": {
         "common": {
-            "androidPhone": "",
-            "androidTablet": "",
-            "chrome": "",
-            "claim": "",
-            "comma": "",
-            "contactUsLowercaseImperative": "",
-            "copyright": "",
-            "edge": "",
-            "email": "",
-            "firefox": "",
-            "ie": "",
-            "iPad": "",
-            "iPhone": "",
-            "logIn": "",
-            "logInImperative": "",
-            "logInLowercase": "",
-            "next": "",
-            "noRobot": "",
-            "or": "",
-            "orPressEnter": "",
-            "password": "",
-            "period": "",
-            "privacyLink": "",
-            "requiredField": "",
-            "safari": "",
-            "signUp": "",
-            "submit": "",
-            "termsLink": "",
+            "androidPhone": "teléfono Android",
+            "androidTablet": "tableta Android",
+            "chrome": "Chrome",
+            "claim": "Tu opinión cuenta. \nGana dinero por compartir tus experiencias y ayuda a mejorar los productos que más te gustan e interesan.",
+            "comma": ",",
+            "contactUsLowercaseImperative": "[contáctanos](https://help.intellizoom.com/hc/en-us/requests/new)",
+            "copyright": "IntelliZoom Panel © 2019. Todos los derechos reservados.",
+            "edge": "Edge",
+            "email": "Email",
+            "firefox": "Firefox",
+            "ie": "Internet Explorer {{version}}",
+            "iPad": "iPad",
+            "iPhone": "iPhone",
+            "logIn": "Iniciar sesión",
+            "logInImperative": "Inicia sesión",
+            "logInLowercase": "iniciar sesión",
+            "next": "Siguiente",
+            "noRobot": "No soy un robot",
+            "or": "o",
+            "orPressEnter": "o presiona Enter",
+            "password": "Contraseña",
+            "period": ".",
+            "privacyLink": "Política de privacidad",
+            "requiredField": "(Obligatorio)",
+            "safari": "Safari",
+            "signUp": "Crear cuenta",
+            "submit": "Enviar",
+            "termsLink": "Condiciones del servicio",
             "studyRequirements": {
                 "desktopBrowser": {
-                    "intro": "",
-                    "ending": "",
-                    "any": ""
+                    "intro": "Un ordenador con una versión actualizada de",
+                    "ending": " ",
+                    "any": "Un ordenador con una versión actualizada de cualquier navegador."
                 },
-                "deviceBrowserAny": "",
-                "deviceMoreThanOne": "",
-                "incentiveExplanation": "",
+                "deviceBrowserAny": "Un navegador actualizado. Podrás acceder al estudio desde tu ordenador, tablet o teléfono móvil.",
+                "deviceMoreThanOne": "Podrás acceder al estudio desde cualquiera de los siguientes dispositivos:",
+                "incentiveExplanation": "La remuneración por este estudio es de {{studyFee}} si tu participación es aprobada.",
                 "phoneOS": {
-                    "intro": "",
-                    "ending": "",
-                    "any": ""
+                    "intro": "Un",
+                    "ending": "con buena conexión y batería suficiente.",
+                    "any": "Un teléfono móvil con buena conexión y batería suficiente."
                 },
                 "recording": {
-                    "audioVideo": "",
-                    "audio": "",
-                    "video": "",
-                    "noneTaskBased": "",
-                    "noneQuestionnaire": ""
+                    "audioVideo": "Necesitarás una videocámara y micrófono: Busca un lugar tranquilo y bien iluminado. Recuerda decir lo que piensas en voz alta mientras completas las tareas.\nTe recomendamos utilizar audífonos también para asegurar una buena calidad de audio.",
+                    "audio": "Necesitarás un micrófono: Busca un lugar tranquilo y recuerda decir lo que piensas en voz alta mientras completas las tareas. \nTe recomendamos utilizar audífonos también para asegurar una buena calidad de audio.",
+                    "video": "Necesitarás una videocámara: Busca un lugar tranquilo y bien iluminado donde puedas completar las tareas.",
+                    "noneTaskBased": "No necesitarás cámara ni micrófono, pero tu pantalla puede que sea grabada. Asegúrate de leer y completar cada tarea lo mejor que puedas.",
+                    "noneQuestionnaire": "No necesitarás cámara ni micrófono. Asegúrate de leer y completar cada tarea lo mejor que puedas."
                 },
-                "screener": "",
+                "screener": "Te harán un par de preguntas para confirmar que cumples con el perfil que están buscando. ¡Buena suerte! :)",
                 "tabletOS": {
-                    "intro": "",
-                    "ending": "",
-                    "any": ""
+                    "intro": "Un",
+                    "ending": "con buena conexión y batería suficiente.",
+                    "any": "Una tablet con buena conexión y batería suficiente."
                 },
-                "title": ""
+                "title": "Requisitos:"
             },
-            "day": "",
-            "month": "",
-            "year": "",
-            "facebook": "",
-            "google": "",
-            "save": "",
-            "send": "",
+            "day": "DD",
+            "month": "MM",
+            "year": "AAAA",
+            "facebook": "Facebook",
+            "google": "Google",
+            "save": "Guardar",
+            "send": "Enviar",
             "demographics": {
-                "female": "",
-                "lessThan": "",
-                "male": "",
-                "na": "",
-                "no": "",
-                "none": "",
-                "noneOrNoTell": "",
-                "orMore": "",
-                "other": "",
-                "otherFeminine": "",
-                "otherFemininePlural": "",
-                "otherPlural": "",
-                "unknown": "",
-                "yes": "",
-                "<<other>>": ""
+                "female": "Mujer",
+                "lessThan": "Menos de",
+                "male": "Hombre",
+                "na": "Prefiero no contestar",
+                "no": "No",
+                "none": "Ninguna de las anteriores",
+                "noneOrNoTell": "Ninguna de las anteriores / Prefiero no contestar",
+                "orMore": "o más",
+                "other": "Otro",
+                "otherFeminine": "Otra",
+                "otherFemininePlural": "Otras",
+                "otherPlural": "Otros",
+                "unknown": "No lo sé",
+                "yes": "Sí",
+                "<<other>>": "No binario"
             },
             "tip": {
                 "paypal": {
-                    "title": "",
-                    "description": ""
+                    "title": "Usamos PayPal para enviar nuestros pagos",
+                    "description": "Asegúrate de que tu email tiene una cuenta PayPal asociada. Recuerda que siempre puedes crear una cuenta PayPal ¡gratis!"
                 }
             },
-            "finish": "",
-            "gotIt": ""
+            "finish": "Terminar",
+            "gotIt": "Ok",
+            "emailNotifications": {
+                "title": "Notificaciones vía email",
+                "mkt": {
+                    "title": "Newsletter y comunicaciones de marketing\t",
+                    "description": "Esto incluye nuestro boletín \"Better UX\" (en inglés) con información sobre las últimas tendencias del mundo de la investigación y diseño de las experiencias de usuario."
+                },
+                "studyInvites": {
+                    "title": "Invitaciones a estudios de investigación de experiencias de usuario",
+                    "description": "Recibirás invitaciones a  estudios de experiencias de usuario que: \n-  Puedes hacer de manera remota, desde la comodidad de tu casa.\n-  Tienen una duración de 10 a 20 minutos aproximadamente.\n-  Pagan {{tolIncentive}} en promedio por estudios que graban voz o video. El pago promedio por una encuesta estándar es de {{surveyIncentive}}.",
+                    "confirmationModal": {
+                        "title": "¿Estás seguro?",
+                        "description": "Si desactivas esta opción dejarás de recibir invitaciones a estudios pagados.",
+                        "cta": "Sí, desactivar"
+                    }
+                }
+            },
+            "language": {
+                "title": "Idioma",
+                "englishUS": "English US",
+                "englishUK": "English UK",
+                "spanish": "Español",
+                "german": "Alemán"
+            },
+            "cancel": "Cancelar",
+            "edit": "Editar"
         }
     }
 }
