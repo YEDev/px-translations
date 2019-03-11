@@ -89,7 +89,32 @@
                 }
             },
             "finish": "Finish",
-            "gotIt": "Got it"
+            "gotIt": "Got it",
+            "emailNotifications": {
+                "title": "Email notifications",
+                "mkt": {
+                    "title": "Newsletter and marketing communications",
+                    "description": "This includes our Better UX Bulletin with information on the latest trends in UX research and design."
+                },
+                "studyInvites": {
+                    "title": "Invitations to UX research studies",
+                    "description": "Receive invitations to UX research studies that:\n-  You can take remotely, from the confort of your home.\n-  Take an average of 10-20 min to answer.\n-  Pay {{tolIncentive}} on average for studies that record think out loud audio and video. For standard surveys, the payment is {{surveyIncentive}} on average.",
+                    "confirmationModal": {
+                        "title": "Are you sure?",
+                        "description": "If you deactivate this option you will no longer receive invitations to paid studies.",
+                        "cta": "Yes, deactivate"
+                    }
+                }
+            },
+            "language": {
+                "title": "Language",
+                "englishUS": "English US",
+                "englishUK": "English UK",
+                "spanish": "Español",
+                "german": "Deutsch"
+            },
+            "cancel": "Cancel",
+            "edit": "Edit"
         }
     }
 }
