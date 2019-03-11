@@ -64,7 +64,8 @@
             "registration": {
                 "existingEmail": "Seems like you are already registered! Please, $t(izPanel.common.logInLowercase).",
                 "sendEmailFail": "Oops, something went wrong and we couldn't send you the confirmation email. Please, try again later.",
-                "passwordRequirements": "The password does not meet the requirements"
+                "passwordRequirements": "The password does not meet the requirements",
+                "emailLength": "Wow! Your email cannot be 150 characters long..."
             },
             "minTwoChars": {
                 "firstName": "Your name must contain at least two characters.",
@@ -220,6 +221,32 @@
             "uzBanner": {
                 "title": "Is this the owl you are looking for?",
                 "description": "If you want to learn more about IntelliZoom the sourcing engine used by UserZoom, [click here](https://www.userzoom.com/participant-sourcing/). We'll find the best participants for your UX research studies."
+            }
+        },
+        "settings": {
+            "title": "Settings",
+            "account": {
+                "title": "Account",
+                "credentials": {
+                    "title": "Email access",
+                    "passwordLastUpdate": "Updated on",
+                    "changePassword": "Change Password"
+                },
+                "phone": {
+                    "title": "Phone number",
+                    "description": "If you add your phone number to your account it will allow us to invite you to moderated sessions. A moderated session basically means a UX researcher guiding you through one of their studies and gathering your feedback.",
+                    "addPhone": "Add phone number"
+                },
+                "deactivateAccount": {
+                    "title": "Deactivate account",
+                    "description": "If you deactivate your account you will lose all your profile progress and you won't be able to take paid studies anymore.",
+                    "cta": "Deactivate account",
+                    "confirmationModal": {
+                        "title": "Are you sure?",
+                        "description": "You will lose all your profile progress and you won't be able to take paid studies anymore.",
+                        "cta": "Yes, deactivate"
+                    }
+                }
             }
         }
     }
