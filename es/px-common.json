@@ -6,7 +6,7 @@
             "chrome": "Chrome",
             "claim": "Tu opinión cuenta. \nGana dinero por compartir tus experiencias y ayuda a mejorar los productos que más te gustan e interesan.",
             "comma": ",",
-            "contactUsLowercaseImperative": "[contáctanos](https://help.intellizoom.com/hc/en-us/requests/new)",
+            "contactUsLowercaseImperative": "contáctanos",
             "copyright": "IntelliZoom Panel © 2019. Todos los derechos reservados.",
             "edge": "Edge",
             "email": "Email",
@@ -75,7 +75,8 @@
                         "description": "Si desactivas esta opción dejarás de recibir invitaciones a estudios pagados.",
                         "cta": "Sí, desactivar"
                     }
-                }
+                },
+                "description": "Hola {{userName}},\nEstas son las comunicaciones a las que estás suscrito: "
             },
             "language": {
                 "title": "Idioma",
@@ -119,7 +120,9 @@
                     "updatedBrowser": "La última versión de",
                     "webcam": "videocámara"
                 },
-                "participate": "Participar"
+                "participate": "Participar",
+                "devices": "Dispositivos",
+                "youWillNeed": "Necesitarás"
             },
             "studyRequirementsEmail": {
                 "desktopBrowser": {
