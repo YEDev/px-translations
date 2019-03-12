@@ -190,32 +190,32 @@
             "faqs": {
                 "title": "Got questions? We got answers",
                 "faq1": {
-                    "title": "How quickly can I start taking tests?",
+                    "title": "How quickly can I start taking studies?",
                     "description": "As soon as you finish the registration process and answer to three basic profiling questions."
                 },
                 "faq2": {
-                    "title": "How much money do I make?",
-                    "description": "Payment depends on the complexity of the study. For studies that record think out loud audio and video, you can expect to make $10 on average. For standard surveys, the payment is $2 on average."
-                },
-                "faq3": {
                     "title": "How long are the studies going to be?",
                     "description": "Most studies take an average of 10-20 minutes."
                 },
-                "faq4": {
-                    "title": "When do I get my money?",
-                    "description": "Payments are sent out via PayPal within 21 business days after the completion of the study, once your results have been reviewed and approved. Most results are approved within 3-5 days.\nYou will receive the payment in the same email used to register."
+                "faq3": {
+                    "title": "How old do I have to be?",
+                    "description": "All participants must be 18 years or older."
                 },
-                "faq5": {
+                "faq4": {
                     "title": "How many study invitations will I receive?",
                     "description": "The number of opportunities you receive will depend on a number of factors, such as your demographics and your quality rating."
+                },
+                "faq5": {
+                    "title": "How much money could I make?",
+                    "description": "Payment depends on the complexity of the study. For studies that record think out loud audio and video, you can expect to make $10 on average. For standard surveys, the payment is $2 on average."
                 },
                 "faq6": {
                     "title": "What do I need to participate in studies?",
                     "description": "All that you need is a desktop, tablet or smartphone, a reliable connection to Wi-Fi, a quiet place, and the ability to download UserZoom’s eCertified testing software."
                 },
                 "faq7": {
-                    "title": "How old do I have to be?",
-                    "description": "All participants must be 18 years or older."
+                    "title": "When do I get my money?",
+                    "description": "Payments are sent out via PayPal within 21 business days after the completion of the study, once your results have been reviewed and approved. Most results are approved within 3-5 days.\nYou will receive the payment in the same email used to register."
                 }
             },
             "uzBanner": {
@@ -248,6 +248,62 @@
                     }
                 }
             }
+        },
+        "studiesDashboard": {
+            "completed": {
+                "sectionTitle": "Completed studies",
+                "completitionDate": "Completed on {{date}}.",
+                "paymentsDescription": "Remember that if your participation is accepted, the payment can take up to 21 business days to appear in your PayPal account."
+            },
+            "incompleteProfile": {
+                "title": "Get invited to more studies!",
+                "description": "Complete your personal info in My Profile and we will be able to invite you to studies with more specific criteria.",
+                "cta": "Complete my profile"
+            },
+            "intro": {
+                "title": "Welcome {{userName}}!",
+                "descriptionFTU": "This is your studies dashboard. In here you'll see the studies that are available for you and some useful tips.\n\nDon't take too long to participate on them! They’re usually available only for a short period of time.",
+                "oneStudyAvailable": "You have 1 study available",
+                "severalStudiesAvailable": "You have {{studiesAvailable}} studies available"
+            },
+            "practiceStudy": {
+                "cta": "Take practice study"
+            },
+            "reactiveMessage": {
+                "certification": {
+                    "underRevision": {
+                        "title": "Practice study",
+                        "description": "Our team is reviewing your practice study and will get back to you with feedback soon!"
+                    },
+                    "rejected": {
+                        "title": "Practice study",
+                        "description": "The practice study you sent us did not meet the quality requirements we demand for this kind of studies.\n\nIf you think this is a mistake or you would like a second shot, {{contactUsLowercaseImperative}}."
+                    },
+                    "accepted": {
+                        "title": "Congrats!",
+                        "description": "Your practice study was reviewed and approved!\n\nNow we'll be able to start sending you invitations to Think Out Loud and Card Sort studies.",
+                        "cta": "Awesome!"
+                    }
+                },
+                "unsubscribe": {
+                    "title": "FOMO? Don't miss any invitation!",
+                    "description": "Activate the email notifications for UX Research studies and never lose again any of our invitations.",
+                    "cta": "Activate email notifications"
+                }
+            },
+            "tip": {
+                "phone": {
+                    "title": "Hey {{userName}},",
+                    "description": "Would you be interested in taking moderated studies? This means a UX researcher guiding you through one of their studies and gathering your feedback.",
+                    "mainCTA": "Sure",
+                    "secondaryCTA": "No thanks"
+                }
+            },
+            "availableStudiesTitle": "{{availableStudies}} Available studies",
+            "availableStudyTitle": "1 Available study",
+            "emptyDescription": "There are no available studies at the moment. Stay tuned!",
+            "noLongerAvailable": "This study is no longer available",
+            "studyCTA": "Take this study"
         }
     }
 }
