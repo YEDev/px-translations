@@ -2,12 +2,12 @@
     "izPanel": {
         "registration": {
             "name": {
-                "title": "Hello!\nWhat's your name?",
+                "title": "Hello!\n\nWhat's your name?",
                 "field": {
                     "firstName": "Name",
                     "lastName": "Last name"
                 },
-                "alreadyRegistered": "Already registered? $t(izPanel.common.logInImperative)"
+                "alreadyRegistered": "Already registered? $t(px-common:izPanel.common.logInImperative)"
             },
             "country": {
                 "title": "Welcome {{firstName}}!",
@@ -19,26 +19,27 @@
             },
             "password": {
                 "title": "Choose a password",
-                "description": "Make sure it's a strong one!\nInclude:",
+                "description": "Make sure it's a strong one!\n\nInclude:",
                 "requirements": {
                     "capitalLetter": "a capital letter",
                     "numberOrSymbol": "a number",
-                    "minChars": "at least eight characters"
+                    "minChars": "at least eight characters",
+                    "lowercaseLetter": "a lowercase letter"
                 },
                 "passwordConfirmation": "Confirm password"
             },
             "terms": {
                 "title": "Before continuing...",
-                "description": "Please take a moment to read our <1>{{termsLink}}</1> and <3>{{privacyLink}}</3>.\nIf you have any doubts on how your data is managed, please, <5>{{contactUsLowercaseImperative}}</5>.",
+                "description": "Please take a moment to read our <1>{{termsLink}}</1> and <3>{{privacyLink}}</3>.\n\nIf you have any doubts on how your data is managed, please, <5>{{contactUsLowercaseImperative}}</5>.",
                 "checkbox": {
-                    "gdpr": "I want to be invited via email to UX research studies that match my profile. $t(common.requiredField)",
-                    "terms": "I agree with the Terms of Service and the Privacy Policy. $t(common.requiredField)",
+                    "gdpr": "I want to be invited via email to UX research studies that match my profile. $t(px-common:izPanel.common.requiredField)",
+                    "terms": "I agree with the Terms of Service and the Privacy Policy. $t(px-common:izPanel.common.requiredField)",
                     "mkt": "I want to receive communications and newsletters from IntelliZoom."
                 }
             },
             "doubleOptIn": {
                 "title": "We've sent you a confirmation email to activate your account",
-                "description": "Please click on the link in the email to activate your account.\nFor security purposes, the link will expire in 24h.\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email.",
+                "description": "Please click on the link in the email to activate your account.\n\nFor security purposes, the link will expire in 24h.\n\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email.",
                 "resendSuccess": "Email sent!"
             }
         },
@@ -47,9 +48,9 @@
             "description": "We currently do not have an active panel in {{selectedCountry}}, but leave us your email and we'll inform you when we open one.",
             "success": {
                 "title": "Thank you!",
-                "description": "We'll get in touch with you when we open our panel to {{selectedCountry}}.\nSee you soon!"
+                "description": "We'll get in touch with you when we open our panel to {{selectedCountry}}.\n\nSee you soon!"
             },
-            "gdpr": "I want to be informed when IntelliZoom Panel opens in my country. $t(common.requiredField)"
+            "gdpr": "I want to be informed when IntelliZoom Panel opens in my country. $t(px-common:izPanel.common.requiredField)"
         },
         "error": {
             "required": {
@@ -62,7 +63,7 @@
                 "genericFormat": "The format is invalid."
             },
             "registration": {
-                "existingEmail": "Seems like you are already registered! Please, $t(izPanel.common.logInLowercase).",
+                "existingEmail": "Seems like you are already registered! Please, $t(px-common:izPanel.common.logInLowercase).",
                 "sendEmailFail": "Oops, something went wrong and we couldn't send you the confirmation email. Please, try again later.",
                 "passwordRequirements": "The password does not meet the requirements",
                 "emailLength": "Wow! Your email cannot be 150 characters long..."
@@ -117,18 +118,18 @@
             "settings": "Settings"
         },
         "basicDemographics": {
-            "flowTitle": "Alright!\nLet's get started",
+            "flowTitle": "Alright!\n\nLet's get started",
             "flowDescription": "To invite you to studies, we need to ask you **just 3 basic** profiling questions.",
             "flowLastQuestion": "And last but no least...",
             "progress": "Question {{currentQuestion}} of {{totalQuestions}}",
             "success": {
                 "title": "That's it!",
-                "description": "You're now ready to start participating in our studies.\nKeep on completing your profile so we can invite you to more specific (and better paid) studies.",
+                "description": "You're now ready to start participating in our studies.\n\nKeep on completing your profile so we can invite you to more specific (and better paid) studies.",
                 "cta": "Let's do this!"
             },
             "underage": {
                 "title": "You must be at least {{minimumLegalAge}} years old to participate in our studies",
-                "description": "We're sorry, but we cannot invite you to our studies or allow you to continue. We will now proceed to delete your IntelliZoom Panel account and all you personal info.\nThank you for your interest."
+                "description": "We're sorry, but we cannot invite you to our studies or allow you to continue. We will now proceed to delete your IntelliZoom Panel account and all you personal info.\n\nThank you for your interest."
             }
         },
         "login": {
@@ -147,7 +148,7 @@
             "description": "Please enter your email and we'll send you a link to reset your password.",
             "success": {
                 "title": "We've sent you an email to reset your password",
-                "description": "For security purposes, the link will expire in 24h.\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email."
+                "description": "For security purposes, the link will expire in 24h.\n\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email."
             }
         },
         "resetPassword": {
@@ -191,7 +192,7 @@
                 "title": "Got questions? We got answers",
                 "faq1": {
                     "title": "How quickly can I start taking studies?",
-                    "description": "As soon as you finish the registration process and answer to three basic profiling questions."
+                    "description": "As soon as you finish the registration process and answer to 3 basic profiling questions."
                 },
                 "faq2": {
                     "title": "How long are the studies going to be?",
@@ -215,12 +216,12 @@
                 },
                 "faq7": {
                     "title": "When do I get my money?",
-                    "description": "Payments are sent out via PayPal within 21 business days after the completion of the study, once your results have been reviewed and approved. Most results are approved within 3-5 days.\nYou will receive the payment in the same email used to register."
+                    "description": "Payments are sent out via PayPal within 21 business days after the completion of the study, once your results have been reviewed and approved. Most results are approved within 3-5 days.\n\nYou will receive the payment in the same email used to register."
                 }
             },
             "uzBanner": {
                 "title": "Is this the owl you are looking for?",
-                "description": "If you want to learn more about IntelliZoom the sourcing engine used by UserZoom, [click here](https://www.userzoom.com/participant-sourcing/). We'll find the best participants for your UX research studies."
+                "description": "If you want to learn more about IntelliZoom, the sourcing engine used by UserZoom, [click here](https://www.userzoom.com/participant-sourcing/). We'll find the best participants for your UX research studies."
             }
         },
         "settings": {
@@ -287,7 +288,7 @@
                 },
                 "unsubscribe": {
                     "title": "FOMO? Don't miss any invitation!",
-                    "description": "Activate the email notifications for UX Research studies and never lose again any of our invitations.",
+                    "description": "Activate the email notifications for UX Research studies and never miss again any of our invitations.",
                     "cta": "Activate email notifications"
                 }
             },
@@ -296,7 +297,7 @@
                     "title": "Hey {{userName}},",
                     "description": "Would you be interested in taking moderated studies? This means a UX researcher guiding you through one of their studies and gathering your feedback.",
                     "mainCTA": "Sure",
-                    "secondaryCTA": "No thanks"
+                    "secondaryCTA": "No, thanks"
                 }
             },
             "availableStudiesTitle": "{{availableStudies}} Available studies",

@@ -69,14 +69,14 @@
                 },
                 "studyInvites": {
                     "title": "Invitations to UX research studies",
-                    "description": "Receive invitations to UX research studies that:\n-  You can take remotely, from the confort of your home.\n-  Take an average of 10-20 min to answer.\n-  Pay {{tolIncentive}} on average for studies that record think out loud audio and video. For standard surveys, the payment is {{surveyIncentive}} on average.",
+                    "description": "Receive invitations to UX research studies that:\n\n-  You can take remotely, from the confort of your home.\n-  Take an average of 10-20 min to answer.\n-  Pay {{tolIncentive}} on average for studies that record think out loud audio and video. For standard surveys, the payment is {{surveyIncentive}} on average.",
                     "confirmationModal": {
                         "title": "Are you sure?",
                         "description": "If you deactivate this option you will no longer receive invitations to paid studies.",
                         "cta": "Yes, deactivate"
                     }
                 },
-                "description": "Hello {{userName}},\nThese are the communications you’re subscribed to:"
+                "description": "###Hello\n\nThese are the communications you’re subscribed to:"
             },
             "language": {
                 "title": "Language",
@@ -90,22 +90,22 @@
             "studies": {
                 "cardSort": {
                     "title": "Card Sort",
-                    "description": "In these kind of studies we're mostly interested in how you would group certain items. This helps the study creator understand the users train of thought when categorizing.\nRemember, there are no wrong answers. We're only interested in your honest opinion."
+                    "description": "In these kind of studies we're mostly interested in how you would group certain items. This helps the study creator understand the users train of thought when categorizing.\n\nRemember, there are no wrong answers. We're only interested in your honest opinion."
                 },
                 "practice": {
                     "title": "Practice study",
-                    "description": "Take this practice study and master the art of giving feedback.\nIf you participate and pass our review, we'll be able to invite you to better paid studies."
+                    "description": "Take this practice study and master the art of giving feedback.\n\nIf you participate and pass our review, we'll be able to invite you to better paid studies."
                 },
                 "survey": {
-                    "title": "A standard question-answer survey. No special effects. Can be finished in a blink.\nRemember, there are no wrong answers. We're only interested in your honest opinion."
+                    "title": "A standard question-answer survey. No special effects. Can be finished in a blink.\n\nRemember, there are no wrong answers. We're only interested in your honest opinion."
                 },
                 "taskBased": {
                     "title": "Task Based",
-                    "description": "In a task based, pretty much as the name states, the study will guide you through a set of tasks for you to complete.\nSome tasks are simple, some are a bit more complex. We're interested in knowing how easy or difficult you find them.\nRemember, there are no wrong answers. We're only interested in your honest opinion."
+                    "description": "In a task based, pretty much as the name states, the study will guide you through a set of tasks for you to complete.\n\nSome tasks are simple, some are a bit more complex. We're interested in knowing how easy or difficult you find them.\n\nRemember, there are no wrong answers. We're only interested in your honest opinion."
                 },
                 "tol": {
                     "title": "Think Out Loud",
-                    "description": "This kind of studies require you to speak your thoughts while you perform tasks.\nRemember, there are no wrong answers. When we show you an idea, design or concept, if you hate it you hate it, if you love it you love it, if it doesn't spark any emotion and it's pretty much a waste of time... say so too!\nWe're only interested in your honest opinion."
+                    "description": "This kind of studies require you to speak your thoughts while you perform tasks.\n\nRemember, there are no wrong answers. When we show you an idea, design or concept, if you hate it you hate it, if you love it you love it, if it doesn't spark any emotion and it's pretty much a waste of time... say so too!\n\nWe're only interested in your honest opinion."
                 },
                 "requirements": {
                     "anyBrowser": "An updated browser",
@@ -139,8 +139,8 @@
                     "any": "A smartphone with good connection and enough battery."
                 },
                 "recording": {
-                    "audioVideo": "You will need a webcam and a microphone: Find a quiet, well-lit place and be sure to speak your thoughts out loud as you complete the tasks.\nTo ensure a good audio quality, use headphones or earbuds.",
-                    "audio": "You will need a microphone: Find a nice quiet place and be sure to speak your thoughts out loud as you complete the tasks.\nTo ensure a good audio quality, use headphones or earbuds.",
+                    "audioVideo": "You will need a webcam and a microphone: Find a quiet, well-lit place and be sure to speak your thoughts out loud as you complete the tasks.\n\nTo ensure a good audio quality, use headphones or earbuds.",
+                    "audio": "You will need a microphone: Find a nice quiet place and be sure to speak your thoughts out loud as you complete the tasks.\n\nTo ensure a good audio quality, use headphones or earbuds.",
                     "video": "You will need a webcam: Find a quiet, well-lit place where to complete the tasks.",
                     "noneTaskBased": "You won't need a webcam or microphone, but your screen may be recorded. Be sure to read each task and do your best to complete them.",
                     "noneQuestionnaire": "You won't need a webcam or microphone. Be sure to read each task and do your best to complete them."
@@ -157,7 +157,8 @@
             "aUppercase": "A",
             "desktop": "desktop computer",
             "phone": "mobile phone",
-            "tablet": "tablet"
+            "tablet": "tablet",
+            "selectAnOption": "Select an option"
         }
     }
 }
