@@ -69,14 +69,14 @@
                 },
                 "studyInvites": {
                     "title": "Invitaciones a estudios de investigación de experiencias de usuario",
-                    "description": "Recibirás invitaciones a  estudios de experiencias de usuario que: \n-  Puedes hacer de manera remota, desde la comodidad de tu casa.\n-  Tienen una duración de 10 a 20 minutos aproximadamente.\n-  Pagan {{tolIncentive}} en promedio por estudios que graban voz o video. El pago promedio por una encuesta estándar es de {{surveyIncentive}}.",
+                    "description": "Recibirás invitaciones a  estudios de experiencias de usuario que:\\n\\n-  Puedes hacer de manera remota, desde la comodidad de tu casa.\n-  Tienen una duración de 10 a 20 minutos aproximadamente.\n-  Pagan {{tolIncentive}} en promedio por estudios que graban voz o video. El pago promedio por una encuesta estándar es de {{surveyIncentive}}.",
                     "confirmationModal": {
                         "title": "¿Estás seguro?",
                         "description": "Si desactivas esta opción dejarás de recibir invitaciones a estudios pagados.",
                         "cta": "Sí, desactivar"
                     }
                 },
-                "description": "Hola {{userName}},\nEstas son las comunicaciones a las que estás suscrito: "
+                "description": "###Hola,\\n\\nEstas son las comunicaciones a las que estás suscrito:"
             },
             "language": {
                 "title": "Idioma",
@@ -101,7 +101,7 @@
                 },
                 "taskBased": {
                     "title": "Task Based",
-                    "description": "En un estudio Task Based, como su nombre en inglés lo indica, te guiaremos a través de una serie de tareas que debes completar. \nAlgunas tareas son simples, otras un poco más complicadas. Nos interesa saber qué tan fáciles o difíciles pueden llegar a ser. \nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
+                    "description": "En un estudio Task Based, como su nombre en inglés indica, te guiaremos a través de una serie de tareas que debes completar. \nAlgunas tareas son simples, otras un poco más complicadas. Nos interesa saber lo fáciles o difíciles que pueden llegar a ser. \nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
                 },
                 "tol": {
                     "title": "Think Out Loud",
@@ -112,7 +112,7 @@
                     "aWorking": "Una",
                     "goodLightning": "Buena iluminación",
                     "headphones": "Audífonos",
-                    "maybeRecorded": "No necesitarás cámara ni micrófono, pero tu pantalla puede que sea grabada. Asegúrate de leer y completar cada tarea lo mejor que puedas.",
+                    "maybeRecorded": "No necesitarás cámara ni micrófono, pero puede que tu pantalla sea grabada. Asegúrate de leer y completar cada tarea lo mejor que puedas.",
                     "microphone": "micrófono",
                     "quietEnvironment": "Un lugar tranquilo",
                     "screener": "Te harán un par de preguntas para confirmar que cumples con el perfil que están buscando. ¡Buena suerte! :)",
@@ -157,7 +157,8 @@
             "aUppercase": "Un",
             "desktop": "ordenador",
             "phone": "teléfono móvil",
-            "tablet": "tablet"
+            "tablet": "tablet",
+            "selectAnOption": "Selecciona una opción"
         }
     }
 }
