@@ -248,6 +248,62 @@
                     }
                 }
             }
+        },
+        "studiesDashboard": {
+            "completed": {
+                "sectionTitle": "Estudios completados",
+                "completitionDate": "Completado el {{date}}.",
+                "paymentsDescription": "Recuerda que si tu participación es aceptada, el pago puede tardar hasta 21 días hábiles en aparecer en tu cuenta PayPal."
+            },
+            "incompleteProfile": {
+                "title": "¿Quieres ser invitado a más estudios?",
+                "description": "Completa tu información personal en Mi Perfil y podremos invitarte a estudios más específicos (y mejor pagados).",
+                "cta": "Completar perfil"
+            },
+            "intro": {
+                "title": "¡Hola {{userName}}!",
+                "descriptionFTU": "En esta sección encontrarás todos los estudios que estén disponibles para ti. \n¡Pero no tardes mucho en participar! No están disponibles por mucho tiempo...",
+                "oneStudyAvailable": "Tienes 1 estudio disponible",
+                "severalStudiesAvailable": "Tienes {{studiesAvailable}} estudios disponibles"
+            },
+            "practiceStudy": {
+                "cta": "Realizar estudio de práctica"
+            },
+            "reactiveMessage": {
+                "certification": {
+                    "underRevision": {
+                        "title": "Estudio de práctica",
+                        "description": "Nuestro equipo está revisando tu participación y se pondrá en contacto contigo en breve."
+                    },
+                    "rejected": {
+                        "title": "Estudio de práctica",
+                        "description": "El estudio de práctica que nos has enviado no cumple con los requisitos mínimos de calidad que necesitamos. \n\nSi crees que es un error o te gustaría intentarlo de nuevo, {{contactUsLowercaseImperative}}."
+                    },
+                    "accepted": {
+                        "title": "¡Felicidades!",
+                        "description": "El estudio de práctica que nos enviaste ha sido revisado ¡y aprobado!\n\nAhora podremos invitarte a estudios de tipo Think Out Loud y Card Sort.",
+                        "cta": "¡Genial!"
+                    }
+                },
+                "unsubscribe": {
+                    "title": "¡No te pierdas ningún estudio!",
+                    "description": "Activa las notificaciones vía email para los estudios de investigación de experiencias de usuario y no vuelvas a perder ninguna invitación.",
+                    "cta": "Activar notificaciones vía email"
+                }
+            },
+            "tip": {
+                "phone": {
+                    "title": "Hola {{username}},",
+                    "description": "¿Te interesaría participar en estudios moderados? Es decir un investigador de experiencias de usuario guiándote durante el estudio y recolectando tus opiniones y experiencias.",
+                    "mainCTA": "Me interesa",
+                    "secondaryCTA": "No gracias"
+                }
+            },
+            "availableStudiesTitle": "{{availableStudies}} Estudios disponibles",
+            "availableStudyTitle": "1 Estudio disponible",
+            "emptyDescription": "Actualmente no hay ningún estudio disponible.",
+            "noLongerAvailable": "Este estudio ya no está disponible",
+            "studyCTA": "Participar"
         }
     }
 }

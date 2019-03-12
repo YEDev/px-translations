@@ -6,7 +6,7 @@
             "chrome": "Chrome",
             "claim": "Your opinion matters. Get paid to share your experiences and make an impact on products you love and care about.",
             "comma": ",",
-            "contactUsLowercaseImperative": "[contact us](https://help.intellizoom.com/hc/en-us/requests/new)",
+            "contactUsLowercaseImperative": "contact us",
             "copyright": "IntelliZoom Panel © 2019. All rights reserved.",
             "edge": "Edge",
             "email": "Email",
@@ -75,7 +75,8 @@
                         "description": "If you deactivate this option you will no longer receive invitations to paid studies.",
                         "cta": "Yes, deactivate"
                     }
-                }
+                },
+                "description": "Hello {{userName}},\nThese are the communications you’re subscribed to:"
             },
             "language": {
                 "title": "Language",
@@ -104,7 +105,7 @@
                 },
                 "tol": {
                     "title": "Think Out Loud",
-                    "description": "This kind of studies requires you to speak your thoughts while you perform tasks.\nRemember, there are no wrong answers. When we show you an idea, design or concept, if you hate it you hate it, if you love it you love it, if it doesn't spark any emotion and it's pretty much a waste of time... say so too!\nWe're only interested in your honest opinion."
+                    "description": "This kind of studies require you to speak your thoughts while you perform tasks.\nRemember, there are no wrong answers. When we show you an idea, design or concept, if you hate it you hate it, if you love it you love it, if it doesn't spark any emotion and it's pretty much a waste of time... say so too!\nWe're only interested in your honest opinion."
                 },
                 "requirements": {
                     "anyBrowser": "An updated browser",
@@ -119,7 +120,9 @@
                     "updatedBrowser": "Latest version of",
                     "webcam": "webcam"
                 },
-                "participate": "Participate"
+                "participate": "Participate",
+                "devices": "Devices",
+                "youWillNeed": "You will need"
             },
             "studyRequirementsEmail": {
                 "desktopBrowser": {
