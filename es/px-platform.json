@@ -23,7 +23,8 @@
                 "requirements": {
                     "capitalLetter": "una letra mayúscula",
                     "numberOrSymbol": "un número",
-                    "minChars": "al menos 8 caracteres"
+                    "minChars": "al menos 8 caracteres",
+                    "lowercaseLetter": "una letra minúscula"
                 },
                 "passwordConfirmation": "Confirmar contraseña"
             },
@@ -165,7 +166,7 @@
         },
         "landing": {
             "heroSection": {
-                "title": "Tu opinion cuenta.",
+                "title": "Tu opinión cuenta.",
                 "description": "Gana dinero por compartir tus experiencias e influye en los productos que más te importan y aprecias.",
                 "cta": "¡Regístrate!"
             },
@@ -180,7 +181,7 @@
                 },
                 "third": {
                     "title": "Hazlo en tu tiempo libre",
-                    "description": "¿Tienes 15-20 minutos? Dar tu opinión es fácil. Participa en estudios de manera remota, en tu propio horario, en tu casa o en transporte público, todo usando tu propio dispositivo."
+                    "description": "¿Tienes 15-20 minutos? Dar tu opinión es fácil. Participa en estudios de manera remota, en tu propio horario, en tu casa o en transporte público. Todo, usando tu propio dispositivo."
                 }
             },
             "reinforcingBanner": {
@@ -194,33 +195,33 @@
                     "description": "En cuanto acabes el proceso de registro y respondas 3 preguntas de perfil básico."
                 },
                 "faq2": {
-                    "title": "¿Cuánto dinero puedo ganar?",
-                    "description": "Los pagos dependen de la complexidad del estudio. Para estudios que necesitan grabar el audio o el vídeo el pago estándar es de $10. Para un cuestionario simple, el pago estándar es de $2."
+                    "title": "¿Cuánto tiempo lleva participar en un estudio?",
+                    "description": "La mayoría de estudios se pueden completar en 10-20 minutos."
                 },
                 "faq3": {
-                    "title": "¿Cuánto tiempo lleva participar en un estudio?",
-                    "description": "La mayoría de estudios se pueden completar entre 10 y 20 minutos.\t"
+                    "title": "¿Cuál es la edad mínima para participar?",
+                    "description": "Todos los participantes deben tener al menos 18 años de edad."
                 },
                 "faq4": {
-                    "title": "¿Cuándo se reciben los pagos?",
-                    "description": "Los pagos se envían vía PayPal a los 21 días laborales desde que el estudio ha sido completado, una vez los resultados hayan sido revisados y aprobados. La mayoría de resultados son aprobados entre 3-5 días.\\nRecibirás el pago en el mismo email que hayas usado para registrarte."
+                    "title": "¿Cuántas invitaciones a estudios recibiré?",
+                    "description": "El número de invitaciones que recibas depende de muchos factores: lo completo  que esté tu perfil, si has participado en el estudio de práctica, la calidad de tus resultados..."
                 },
                 "faq5": {
-                    "title": "¿Cuántas invitaciones a estudios recibiré?",
-                    "description": "El número de invitaciones que recibas depende de muchos factores: que tan completo esté tu perfil, si has participado en el estudio de práctica, la calidad de tus resultados..."
+                    "title": "¿Cuánto dinero puedo ganar?",
+                    "description": "Los pagos dependen de la complejidad del estudio. Para estudios que necesitan grabar el audio o el vídeo el pago estándar es de $10. Para un cuestionario simple, el pago estándar es de $2."
                 },
                 "faq6": {
                     "title": "¿Qué necesito para participar en estudios?",
                     "description": "Solo necesitas un ordenador, una tablet, o un teléfono móvil con una buena conexión a internet desde la que puedas descargar el software de UserZoom (eCertified). "
                 },
                 "faq7": {
-                    "title": "¿Cuál es la edad mínima para participar?",
-                    "description": "Todos los participantes deben tener al menos 18 años de edad."
+                    "title": "¿Cuándo se reciben los pagos?",
+                    "description": "Los pagos se envían vía PayPal a los 21 días laborables desde que el estudio ha sido completado, una vez los resultados hayan sido revisados y aprobados. La mayoría de resultados son aprobados en 3-5 días.\\n\\nRecibirás el pago en el mismo email que hayas usado para registrarte."
                 }
             },
             "uzBanner": {
                 "title": "¿Estabas buscando este búho?",
-                "description": "Si lo que quieres es saber más sobre IntelliZoom el motor de reclutamiento que usa UserZoom, has [click aquí](https://www.userzoom.com/participant-sourcing/). Nosotros nos encargamos de encontrar los mejores participantes para tus estudios de investigación de experiencias de usuario."
+                "description": "Si lo que quieres es saber más sobre IntelliZoom, el motor de reclutamiento que usa UserZoom, haz [click aquí](https://www.userzoom.com/participant-sourcing/). Nosotros nos encargamos de encontrar los mejores participantes para tus estudios de investigación de experiencias de usuario."
             }
         },
         "settings": {
@@ -234,7 +235,7 @@
                 },
                 "phone": {
                     "title": "Teléfono",
-                    "description": "Si añades tu número de teléfono a tu cuenta podremos invitarte a sesiones moderadas. \nUna sesión moderada es básicamente que un investigador de experiencias de usuario te guíe durante uno de sus estudios y recoja tus opiniones y experiencias.",
+                    "description": "Si añades tu número de teléfono a tu cuenta podremos invitarte a sesiones moderadas. \nUna sesión moderada consiste básicamente en que un investigador de experiencias de usuario te guíe durante uno de sus estudios y recoja tus opiniones y experiencias.",
                     "addPhone": "Añadir teléfono"
                 },
                 "deactivateAccount": {
@@ -243,7 +244,7 @@
                     "cta": "Desactivar cuenta",
                     "confirmationModal": {
                         "title": "¿Estás seguro?",
-                        "description": "Perderás todo el progreso que has hecho en tu perfil y ya no podrás participar en ninguno de nuestros estudios pagados.",
+                        "description": "Perderás todo el progreso que hayas hecho en tu perfil y ya no podrás participar en ninguno de nuestros estudios pagados.",
                         "cta": "Sí, desactivar"
                     }
                 }
@@ -287,16 +288,16 @@
                 },
                 "unsubscribe": {
                     "title": "¡No te pierdas ningún estudio!",
-                    "description": "Activa las notificaciones vía email para los estudios de investigación de experiencias de usuario y no vuelvas a perder ninguna invitación.",
+                    "description": "Activa las notificaciones vía email para los estudios de investigación de experiencias de usuario y no te vuelvas a perder ninguna invitación.",
                     "cta": "Activar notificaciones vía email"
                 }
             },
             "tip": {
                 "phone": {
                     "title": "Hola {{username}},",
-                    "description": "¿Te interesaría participar en estudios moderados? Es decir un investigador de experiencias de usuario guiándote durante el estudio y recolectando tus opiniones y experiencias.",
+                    "description": "¿Te interesaría participar en estudios moderados? Es decir, un investigador de experiencias de usuario guiándote durante el estudio y recolectando tus opiniones y experiencias.",
                     "mainCTA": "Me interesa",
-                    "secondaryCTA": "No gracias"
+                    "secondaryCTA": "No, gracias"
                 }
             },
             "availableStudiesTitle": "{{availableStudies}} Estudios disponibles",
