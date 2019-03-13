@@ -16,7 +16,7 @@
             "reset": {
                 "subject": "Solicitud de cambio de contraseña",
                 "title": "¿Has olvidado tu contraseña?",
-                "bodyCopy": "Tranqui, a todos nos pasa de vez en cuando. Solo tienes que hacer click en el botón de abajo y podrás crear una contraseña nueva. Si tú no has solicitado este cambio de contraseña, por favor, ignora este email. \nPor razones de seguridad, este link expirará en 24 horas o en cuanto sea utilizado. ",
+                "bodyCopy": "Tranqui, a todos nos pasa de vez en cuando. Solo tienes que hacer click en el botón de abajo y podrás crear una contraseña nueva. Si tú no has solicitado este cambio de contraseña, por favor, ignora este email. Por razones de seguridad, este link expirará en 24 horas o en cuanto sea utilizado. ",
                 "cta": "Crear una nueva contraseña"
             },
             "registeredTwice": {
