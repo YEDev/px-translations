@@ -92,7 +92,7 @@
             },
             "resetPassword": {
                 "incorrectPassword": "Incorrect password",
-                "expiredLink": "The activation link that you followed has expired. Please, request a new link from the [Forgot password](https://www.intellizoom.com/forgot-password) page."
+                "expiredLink": "The activation link that you followed has expired. Please, request a new link from the [Forgot password](/forgot-password) page."
             }
         },
         "footer": {
