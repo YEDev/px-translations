@@ -24,7 +24,8 @@
                     "capitalLetter": "a capital letter",
                     "numberOrSymbol": "a number",
                     "minChars": "at least eight characters",
-                    "lowercaseLetter": "a lowercase letter"
+                    "lowercaseLetter": "a lowercase letter",
+                    "passwordsShouldMatch": "and of course, your passwords should match"
                 },
                 "passwordConfirmation": "Confirm password"
             },
@@ -90,14 +91,15 @@
                 "sendEmailFail": "Oops, something went wrong and we couldn't send you the reset password email. Please, try again later."
             },
             "resetPassword": {
-                "incorrectPassword": "Incorrect password"
+                "incorrectPassword": "Incorrect password",
+                "expiredLink": "The activation link that you followed has expired. Please, request a new link from the [Forgot password](https://www.intellizoom.com/forgot-password) page."
             }
         },
         "footer": {
             "item": {
-                "faqPayments": "[How long do payments usually take?](https://help.intellizoom.com/hc/en-us)",
-                "faqInvitations": "[How do invitations work?](https://help.intellizoom.com/hc/en-us)",
-                "faqChangeEmail": "[How can I change my email?](https://help.intellizoom.com/hc/en-us)",
+                "faqPayments": "[How long do payments usually take?](https://help.intellizoom.com/hc/en-us/articles/360000650458--When-and-how-much-will-I-get-paid-)",
+                "faqInvitations": "[How do invitations work?](https://help.intellizoom.com/hc/en-us/articles/360000658537-How-will-I-be-notified-of-new-studies-)",
+                "faqChangeEmail": "[How can I change my email?](https://help.intellizoom.com/hc/en-us/articles/360001190318-How-can-I-change-my-email-)",
                 "faqBrowseAll": "[See more](https://help.intellizoom.com/hc/en-us)",
                 "sendEmail": "[Send us an email](https://help.intellizoom.com/hc/en-us/requests/new)",
                 "whatIsIZP": "What is IntelliZoom Panel"

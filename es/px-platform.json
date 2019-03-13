@@ -2,12 +2,12 @@
     "izPanel": {
         "registration": {
             "name": {
-                "title": "¡Hola!\n¿Cómo te llamas?",
+                "title": "¡Hola!\n\n¿Cómo te llamas?",
                 "field": {
                     "firstName": "Nombre",
                     "lastName": "Apellido"
                 },
-                "alreadyRegistered": "¿Ya tienes una cuenta? $t(izPanel.common.logInImperative)"
+                "alreadyRegistered": "¿Ya tienes una cuenta? $t(px-common:izPanel.common.logInImperative)"
             },
             "country": {
                 "title": "¡Qué tal {{firstname}}!",
@@ -24,33 +24,34 @@
                     "capitalLetter": "una letra mayúscula",
                     "numberOrSymbol": "un número",
                     "minChars": "al menos 8 caracteres",
-                    "lowercaseLetter": "una letra minúscula"
+                    "lowercaseLetter": "una letra minúscula",
+                    "passwordsShouldMatch": "y por supuesto, tus contraseñas deben coincidir"
                 },
                 "passwordConfirmation": "Confirmar contraseña"
             },
             "terms": {
                 "title": "Antes de continuar",
-                "description": "Lee con atención nuestras <1>{{termsLink}}</1> y <3>{{privacyLink}}</3>.\nSi tienes cualquier duda sobre cómo es utilizada tu información, por favor, <5>{{contactUsLowercaseImperative}}</5>.",
+                "description": "Lee con atención nuestras <1>{{termsLink}}</1> y <3>{{privacyLink}}</3>.\n\nSi tienes cualquier duda sobre cómo es utilizada tu información, por favor, <5>{{contactUsLowercaseImperative}}</5>.",
                 "checkbox": {
-                    "gdpr": "Quiero ser invitado via email a estudios de investigación de experiencias del usuario que se adecuen a mi perfil. $t(common.requiredField)",
-                    "terms": "Acepto las Condiciones del Servicio y la Política de Privacidad. $t(common.requiredField)",
+                    "gdpr": "Quiero ser invitado via email a estudios de investigación de experiencias del usuario que se adecuen a mi perfil. $t(px-common:izPanel.common.requiredField)",
+                    "terms": "Acepto las Condiciones del Servicio y la Política de Privacidad. $t(px-common:izPanel.common.requiredField)",
                     "mkt": "Quiero recibir comunicaciones y newsletters de IntelliZoom Panel."
                 }
             },
             "doubleOptIn": {
                 "title": "Te hemos enviado un email de confirmación para activar tu cuenta",
-                "description": "Solo tienes que hacer click en el link del email para activar tu cuenta.\nPor motivos de seguridad, el link expirará en 24h.\nEn caso de que no veas el email, revisa tu carpeta de spam. Si crees que no lo has recibido, te lo <1>reenviamos</1>.",
+                "description": "Solo tienes que hacer click en el link del email para activar tu cuenta.\n\nPor motivos de seguridad, el link expirará en 24h.\n\nEn caso de que no veas el email, revisa tu carpeta de spam. Si crees que no lo has recibido, te lo <1>reenviamos</1>.",
                 "resendSuccess": "¡Email enviado!"
             }
         },
         "comingSoon": {
             "title": "¡Próxima apertura!",
-            "description": "De momento no tenemos un panel activo en {{selectedCountry}}, pero déjanos tu email y te avisaremos en cuanto lo abramos. ",
+            "description": "De momento no tenemos un panel activo en {{selectedCountry}}, pero déjanos tu email y te avisaremos en cuanto lo abramos.",
             "success": {
                 "title": "¡Gracias!",
-                "description": "Nos pondremos en contacto contigo en cuanto abramos nuestro panel para {{selectedCountry}}.\n¡Nos vemos pronto!"
+                "description": "Nos pondremos en contacto contigo en cuanto abramos nuestro panel para {{selectedCountry}}.\n\n¡Nos vemos pronto!"
             },
-            "gdpr": "Quiero ser avisado en cuanto IntelliZoom Panel abra en mi país. $t(common.requiredField)"
+            "gdpr": "Quiero ser avisado en cuanto IntelliZoom Panel abra en mi país. $t(px-common:izPanel.common.requiredField)"
         },
         "error": {
             "required": {
@@ -63,7 +64,7 @@
                 "genericFormat": "El formato es incorrecto."
             },
             "registration": {
-                "existingEmail": "Ya existe una cuenta con este email. ¿Prefieres $t(izPanel.common.logInLowercase)?",
+                "existingEmail": "Ya existe una cuenta con este email. ¿Prefieres $t(px-common:izPanel.common.logInLowercase)?",
                 "sendEmailFail": "Oops, algo ha salido mal y no hemos podido enviarte el email de confirmación. Por favor, vuelve a intentarlo pasados unos minutos.",
                 "passwordRequirements": "La contraseña no cumple con los requisitos",
                 "emailLength": "¡Wow! Tu email no puede tener más de 150 caracteres..."
@@ -90,14 +91,15 @@
                 "sendEmailFail": "Oops, algo ha salido mal y no hemos podido enviarte el email para actualizar tu contraseña. Por favor, vuelve a intentarlo pasados unos minutos."
             },
             "resetPassword": {
-                "incorrectPassword": "Contraseña incorrecta"
+                "incorrectPassword": "Contraseña incorrecta",
+                "expiredLink": "El link de activación que has utilizado ya está expirado. Por favor, solicita uno nuevo desde la página [¿Has olvidado tu contraseña?](https://www.intellizoom.com/forgot-password)"
             }
         },
         "footer": {
             "item": {
-                "faqPayments": "[¿Cuánto tardan normalmente los pagos?](https://help.intellizoom.com/hc/es)",
-                "faqInvitations": "[¿Cómo funcionan las invitaciones?](https://help.intellizoom.com/hc/es)",
-                "faqChangeEmail": "[¿Cómo puedo cambiar mi email?](https://help.intellizoom.com/hc/es)",
+                "faqPayments": "[¿Cuánto tardan normalmente los pagos?](https://help.intellizoom.com/hc/es/articles/360000650458--When-and-how-much-will-I-get-paid-)",
+                "faqInvitations": "[¿Cómo funcionan las invitaciones?](https://help.intellizoom.com/hc/es/articles/360000658537-How-will-I-be-notified-of-new-studies-)",
+                "faqChangeEmail": "[¿Cómo puedo cambiar mi email?](https://help.intellizoom.com/hc/es/articles/360001190318-How-can-I-change-my-email-)",
                 "faqBrowseAll": "[Ver más](https://help.intellizoom.com/hc/es)",
                 "sendEmail": "[Envíanos un email](https://help.intellizoom.com/hc/es/requests/new)",
                 "whatIsIZP": "Qué es IntelliZoom Panel"
@@ -118,18 +120,18 @@
             "settings": "Configuración"
         },
         "basicDemographics": {
-            "flowTitle": "¡Genial!\nEmpecemos a crear tu perfil",
+            "flowTitle": "¡Genial!\n\nEmpecemos a crear tu perfil",
             "flowDescription": "Para poder invitarte a nuestros estudios, necesitamos que respondas **3 preguntas** básicas.",
             "flowLastQuestion": "Y por último...",
             "progress": "Pregunta {{currentQuestion}} de {{totalQuestions}}",
             "success": {
                 "title": "¡Listo!",
-                "description": "Ya puedes empezar a participar en nuestros estudios. \nSigue completando tu perfil para que podamos invitarte a estudios más específicos (y mejor pagados).",
+                "description": "Ya puedes empezar a participar en nuestros estudios. \n\nSigue completando tu perfil para que podamos invitarte a estudios más específicos (y mejor pagados).",
                 "cta": "Ver estudios disponibles"
             },
             "underage": {
                 "title": "Tienes que tener al menos {{minimumLegalAge}} años para poder participar en nuestros estudios",
-                "description": "Lo sentimos, pero no podemos invitarte a ningún estudio o permitirte continuar. A continuación procederemos a borrar tu cuenta de IntelliZoom Panel y toda tu información personal. \nGracias por tu interés. "
+                "description": "Lo sentimos, pero no podemos invitarte a ningún estudio o permitirte continuar. A continuación procederemos a borrar tu cuenta de IntelliZoom Panel y toda tu información personal. \n\nGracias por tu interés. "
             }
         },
         "login": {
@@ -139,16 +141,16 @@
             "newHere": "¿Aún no estás registrado?",
             "signUp": "¡Apúntate!",
             "success": {
-                "accountActivated": "¡Tu cuenta ha sido activada exitosamente!",
-                "emailResent": "Te hemos reenviado el email de activación. "
+                "accountActivated": "¡Tu cuenta ha sido activada con éxito!",
+                "emailResent": "Te hemos reenviado el email de activación."
             }
         },
         "forgotPassword": {
             "title": "¿Has olvidado tu contraseña?",
-            "description": "Introduce tu email y te enviaremos un link para que puedas actualizarla.\t",
+            "description": "Introduce tu email y te enviaremos un link para que puedas actualizarla.",
             "success": {
                 "title": "Te hemos enviado un email de confirmación para activar tu cuenta",
-                "description": "Por motivos de seguridad, el link expirará en 24h.\nEn caso de que no veas el email, revisa tu carpeta de spam. Si crees que no lo has recibido, te lo <1>resend</1>."
+                "description": "Por motivos de seguridad, el link expirará en 24h.\n\nEn caso de que no veas el email, revisa tu carpeta de spam. Si crees que no lo has recibido, te lo <1>resend</1>."
             }
         },
         "resetPassword": {
@@ -216,7 +218,7 @@
                 },
                 "faq7": {
                     "title": "¿Cuándo se reciben los pagos?",
-                    "description": "Los pagos se envían vía PayPal a los 21 días laborables desde que el estudio ha sido completado, una vez los resultados hayan sido revisados y aprobados. La mayoría de resultados son aprobados en 3-5 días.\\n\\nRecibirás el pago en el mismo email que hayas usado para registrarte."
+                    "description": "Los pagos se envían vía PayPal a los 21 días laborables desde que el estudio ha sido completado, una vez los resultados hayan sido revisados y aprobados. La mayoría de resultados son aprobados en 3-5 días.\n\nRecibirás el pago en el mismo email que hayas usado para registrarte."
                 }
             },
             "uzBanner": {

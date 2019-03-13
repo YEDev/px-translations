@@ -6,7 +6,7 @@
             "chrome": "Chrome",
             "claim": "Tu opinión cuenta. \nGana dinero por compartir tus experiencias y ayuda a mejorar los productos que más te gustan e interesan.",
             "comma": ",",
-            "contactUsLowercaseImperative": "contáctanos",
+            "contactUsLowercaseImperative": "<1>contáctanos</1>",
             "copyright": "IntelliZoom Panel © 2019. Todos los derechos reservados.",
             "edge": "Edge",
             "email": "Email",
@@ -15,20 +15,20 @@
             "iPad": "iPad",
             "iPhone": "iPhone",
             "logIn": "Iniciar sesión",
-            "logInImperative": "Inicia sesión",
-            "logInLowercase": "iniciar sesión",
+            "logInImperative": "<1>Inicia sesión</1>",
+            "logInLowercase": "<1>iniciar sesión</1>",
             "next": "Siguiente",
             "noRobot": "No soy un robot",
             "or": "o",
             "orPressEnter": "o presiona Enter",
             "password": "Contraseña",
             "period": ".",
-            "privacyLink": "Política de privacidad",
+            "privacyLink": "<1>Política de privacidad</1>",
             "requiredField": "(Obligatorio)",
             "safari": "Safari",
             "signUp": "Crear cuenta",
             "submit": "Enviar",
-            "termsLink": "Condiciones del servicio",
+            "termsLink": "<1>Condiciones del servicio</1>",
             "day": "DD",
             "month": "MM",
             "year": "AAAA",
@@ -90,22 +90,22 @@
             "studies": {
                 "cardSort": {
                     "title": "Card Sort",
-                    "description": "En este tipo de estudios estamos principalmente interesados en cómo agruparías una serie de elementos. Esto le ayuda al creador del estudio a entender mejor cómo categorizan sus usuarios. \nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
+                    "description": "En este tipo de estudios estamos principalmente interesados en cómo agruparías una serie de elementos. Esto le ayuda al creador del estudio a entender mejor cómo categorizan sus usuarios.\n\nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
                 },
                 "practice": {
                     "title": "Estudio de práctica",
-                    "description": "Realiza este estudio de práctica y perfecciona el arte de dar tu opinión. \nSi participas y pasas nuestra revisión, podremos invitarte a estudios mejor pagados."
+                    "description": "Realiza este estudio de práctica y perfecciona el arte de dar tu opinión.\n\nSi participas y pasas nuestra revisión, podremos invitarte a estudios mejor pagados."
                 },
                 "survey": {
-                    "title": "El clásico cuestionario de toda la vida. Sin efectos especiales. Lo puedes acabar en un abrir y cerrar de ojos. \nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
+                    "title": "El clásico cuestionario de toda la vida. Sin efectos especiales. Lo puedes acabar en un abrir y cerrar de ojos.\n\nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
                 },
                 "taskBased": {
                     "title": "Task Based",
-                    "description": "En un estudio Task Based, como su nombre en inglés indica, te guiaremos a través de una serie de tareas que debes completar. \nAlgunas tareas son simples, otras un poco más complicadas. Nos interesa saber lo fáciles o difíciles que pueden llegar a ser. \nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
+                    "description": "En un estudio Task Based, como su nombre en inglés indica, te guiaremos a través de una serie de tareas que debes completar.\n\nAlgunas tareas son simples, otras un poco más complicadas. Nos interesa saber lo fáciles o difíciles que pueden llegar a ser.\n\nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
                 },
                 "tol": {
                     "title": "Think Out Loud",
-                    "description": "Este tipo de estudios requiere que comentes tus impresiones mientras realizas las tareas. \nRecuerda, ninguna respuesta es incorrecta. Cuando te mostramos una idea, diseño o concepto, si no te gusta, no te gusta, si te encanta, te encanta, si no te provoca ninguna reacción y es más bien una pérdida de tiempo... ¡dilo también!\nSolo nos interesa tu opinión más honesta."
+                    "description": "Este tipo de estudios requiere que comentes tus impresiones mientras realizas las tareas.\n\nRecuerda, ninguna respuesta es incorrecta. Cuando te mostramos una idea, diseño o concepto, si no te gusta, no te gusta, si te encanta, te encanta, si no te provoca ninguna reacción y es más bien una pérdida de tiempo... ¡dilo también!\n\nSolo nos interesa tu opinión más honesta."
                 },
                 "requirements": {
                     "anyBrowser": "Un navegador actualizado",
@@ -118,11 +118,16 @@
                     "screener": "Te harán un par de preguntas para confirmar que cumples con el perfil que están buscando. ¡Buena suerte! :)",
                     "strongConnection": "Buena conexión",
                     "updatedBrowser": "La última versión de",
-                    "webcam": "videocámara"
+                    "webcam": "videocámara",
+                    "title": "For this study you will need:"
                 },
                 "participate": "Participar",
                 "devices": "Dispositivos",
-                "youWillNeed": "Necesitarás"
+                "youWillNeed": "Necesitarás",
+                "manualSourcing": {
+                    "title": "¡Mantente al tanto de tu email!",
+                    "description": "Para estudios en {{country}} usamos emails para gestionar nuestras invitaciones.\n\nPara asegurarte que recibes invitaciones lo más seguido posible, mantén tu perfil completo y actualizado."
+                }
             },
             "studyRequirementsEmail": {
                 "desktopBrowser": {
@@ -139,8 +144,8 @@
                     "any": "Un teléfono móvil con buena conexión y batería suficiente."
                 },
                 "recording": {
-                    "audioVideo": "Necesitarás una videocámara y micrófono: Busca un lugar tranquilo y bien iluminado. Recuerda decir lo que piensas en voz alta mientras completas las tareas.\nTe recomendamos utilizar audífonos también para asegurar una buena calidad de audio.",
-                    "audio": "Necesitarás un micrófono: Busca un lugar tranquilo y recuerda decir lo que piensas en voz alta mientras completas las tareas. \nTe recomendamos utilizar audífonos también para asegurar una buena calidad de audio.",
+                    "audioVideo": "Necesitarás una videocámara y micrófono: Busca un lugar tranquilo y bien iluminado. Recuerda decir lo que piensas en voz alta mientras completas las tareas.\n\nTe recomendamos utilizar audífonos también para asegurar una buena calidad de audio.",
+                    "audio": "Necesitarás un micrófono: Busca un lugar tranquilo y recuerda decir lo que piensas en voz alta mientras completas las tareas.\n\nTe recomendamos utilizar audífonos también para asegurar una buena calidad de audio.",
                     "video": "Necesitarás una videocámara: Busca un lugar tranquilo y bien iluminado donde puedas completar las tareas.",
                     "noneTaskBased": "No necesitarás cámara ni micrófono, pero tu pantalla puede que sea grabada. Asegúrate de leer y completar cada tarea lo mejor que puedas.",
                     "noneQuestionnaire": "No necesitarás cámara ni micrófono. Asegúrate de leer y completar cada tarea lo mejor que puedas."
