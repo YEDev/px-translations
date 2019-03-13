@@ -7,7 +7,7 @@
                     "firstName": "Nombre",
                     "lastName": "Apellido"
                 },
-                "alreadyRegistered": "¿Ya tienes una cuenta? $t(px-common:izPanel.common.logInImperative)"
+                "alreadyRegistered": "¿Ya tienes una cuenta? <1>$t(px-common:izPanel.common.logInImperative)</1>"
             },
             "country": {
                 "title": "¡Qué tal {{firstname}}!",
@@ -64,7 +64,7 @@
                 "genericFormat": "El formato es incorrecto."
             },
             "registration": {
-                "existingEmail": "Ya existe una cuenta con este email. ¿Prefieres $t(px-common:izPanel.common.logInLowercase)?",
+                "existingEmail": "Ya existe una cuenta con este email. ¿Prefieres <1>$t(px-common:izPanel.common.logInLowercase)</1>?",
                 "sendEmailFail": "Oops, algo ha salido mal y no hemos podido enviarte el email de confirmación. Por favor, vuelve a intentarlo pasados unos minutos.",
                 "passwordRequirements": "La contraseña no cumple con los requisitos",
                 "emailLength": "¡Wow! Tu email no puede tener más de 150 caracteres..."
