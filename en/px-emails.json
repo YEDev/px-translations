@@ -16,7 +16,7 @@
             "reset": {
                 "subject": "Password reset request",
                 "title": "Forgot your password? ",
-                "bodyCopy": "It's ok, we all do from time to time. Just click on the button below to set a new password and that's it. If you didn't make this request, please ignore this email.\nFor security reasons this link will expire in 24 hours or once it's used.",
+                "bodyCopy": "It's ok, we all do from time to time.<br><br><br> Just click on the button below to set a new password and that's it. If you didn't make this request, please ignore this email.\nFor security reasons this link will expire in 24 hours or once it's used.",
                 "cta": "Reset password"
             },
             "registeredTwice": {
