@@ -8,7 +8,7 @@
             },
             "doubleOptIn": {
                 "subject": "Bienvenido a IntelliZoom Panel",
-                "title": "Hola {{userName}}, ¡bienvenido/a a IntelliZoom Panel!",
+                "title": "Hola {{user.name}}, ¡bienvenido/a a IntelliZoom Panel!",
                 "bodyCopy": "Por favor haz click en el botón de abajo para activar tu cuenta.\nPor razones de seguridad, este link expirará en 24 horas o en cuanto sea utilizado. ",
                 "cta": "Activa tu cuenta",
                 "closing": "¡Saludos!\nEl equipo de IntelliZoom Panel"
@@ -16,7 +16,7 @@
             "reset": {
                 "subject": "Solicitud de cambio de contraseña",
                 "title": "¿Has olvidado tu contraseña?",
-                "bodyCopy": "Tranqui, a todos nos pasa. Solo tienes que hacer click en el botón de abajo y podrás crear una contraseña nueva. Si tú no has solicitado este cambio de contraseña, por favor, ignora este email. \nPor razones de seguridad, este link expirará en 24 horas o en cuanto sea utilizado. ",
+                "bodyCopy": "Tranqui, a todos nos pasa de vez en cuando. Solo tienes que hacer click en el botón de abajo y podrás crear una contraseña nueva. Si tú no has solicitado este cambio de contraseña, por favor, ignora este email. \nPor razones de seguridad, este link expirará en 24 horas o en cuanto sea utilizado. ",
                 "cta": "Crear una nueva contraseña"
             },
             "registeredTwice": {
@@ -28,7 +28,7 @@
             },
             "studyInvitation": {
                 "subject": "¡Nuevo estudio disponible!",
-                "title": "Hola {{userName}}, ¡tienes un nuevo estudio disponible!",
+                "title": "Hola {{user.name}}, ¡tienes un nuevo estudio disponible!",
                 "bodyCopy": "¿Estás listo para dar tu opinión?",
                 "cta": "¡Participa!",
                 "studyID": "ID del estudio para referencia: {{campaignID}}",
@@ -41,22 +41,22 @@
             },
             "paymentSent": {
                 "subject": "Tu pago ha sido enviado",
-                "title": "Hola {{userName}}, ¡acabamos de realizar tu pago!",
-                "bodyCopy": "Hemos enviado {{studyFee}} via PayPal a este email:\n{{userEmail}}\n\nEste pago es referente al estudio: {{campaignID}}\nSi tienes cualquier duda, consulta nuestra sección de $t(izpanel.emails.common.help) o $t(izpanel.emails.common.contact) directamente con nosotros."
+                "title": "Hola {{user.name}}, ¡acabamos de realizar tu pago!",
+                "bodyCopy": "Hemos enviado {{studyFee}} via PayPal a este email:\n{{user.email}}\n\nEste pago es referente al estudio: {{campaignID}}\nSi tienes cualquier duda, consulta nuestra sección de $t(izpanel.emails.common.help) o $t(izpanel.emails.common.contact) directamente con nosotros."
             },
             "paymentConfirmation": {
                 "subject": "¡Tu pago ya está en tu cuenta!",
-                "title": "Hola {{userName}}, PayPal acaba de confirmarnos que tu pago ha sido recibido",
-                "bodyCopy": "Ahora deberías tener {{studyFee}} más en tu cuenta PayPal del email:\n{{userEmail}}\n\nEste pago es referente al estudio: {{campaignID}}\nSi tienes cualquier duda, consulta nuestra sección de $t(izpanel.emails.common.help) o $t(izpanel.emails.common.contact) directamente con nosotros."
+                "title": "Hola {{user.name}}, PayPal acaba de confirmarnos que tu pago ha sido recibido",
+                "bodyCopy": "Ahora deberías tener {{studyFee}} más en tu cuenta PayPal del email:\n{{user.email}}\n\nEste pago es referente al estudio: {{campaignID}}\nSi tienes cualquier duda, consulta nuestra sección de $t(izpanel.emails.common.help) o $t(izpanel.emails.common.contact) directamente con nosotros."
             },
             "certificationApproved": {
                 "subject": "¡Has realizado un estudio de práctica de 10!",
-                "title": "Hola {{userName}}, ¡muy buen trabajo en tu estudio de práctica!",
+                "title": "Hola {{user.name}}, ¡muy buen trabajo en tu estudio de práctica!",
                 "bodyCopy": "Nos alegra saber que puedes expresar tus ideas y experiencia con claridad. ¡Eres exactamente el tipo de panelista que estábamos buscando!\nA partir de ahora recibirás invitaciones para estudios donde tengas que explicar en voz alta tu experiencia. Este tipo de estudios también son mejor pagados normalmente :)\nSi tienes cualquier duda, consulta nuestra sección de $t(izpanel.emails.common.help) o $t(izpanel.emails.common.contact) directamente con nosotros."
             },
             "certificationRejected": {
                 "subject": "Tu estudio de práctica no ha sido aprobado",
-                "title": "Hola {{userName}}, el estudio de práctica que nos enviaste no ha sido aprobado",
+                "title": "Hola {{user.name}}, el estudio de práctica que nos enviaste no ha sido aprobado",
                 "bodyCopy": "Sentimos informarte que el estudio de práctica no cumplía con los requisitos mínimos de calidad que solicitamos para estudios del tipo Think Out Loud o Card Sort. \nSi crees que es un error o te gustaría intentarlo de nuevo, $t(izpanel.emails.common.contact) con nosotros y estaremos encantados de reactivarte este estudio de práctica.\nSi tienes cualquier duda, consulta nuestra sección de $t(izpanel.emails.common.help) o $t(izpanel.emails.common.contact) directamente con nosotros."
             },
             "generic": {
