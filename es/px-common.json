@@ -97,7 +97,7 @@
                     "description": "Realiza este estudio de práctica y perfecciona el arte de dar tu opinión.\n\nSi participas y pasas nuestra revisión, podremos invitarte a estudios mejor pagados."
                 },
                 "survey": {
-                    "title": "El clásico cuestionario de toda la vida. Sin efectos especiales. Lo puedes acabar en un abrir y cerrar de ojos.\n\nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
+                    "title": "El clásico cuestionario de toda la vida. Sin efectos especiales.\n\nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
                 },
                 "taskBased": {
                     "title": "Task Based",
@@ -126,7 +126,7 @@
                 "youWillNeed": "Necesitarás",
                 "manualSourcing": {
                     "title": "¡Mantente al tanto de tu email!",
-                    "description": "Para estudios en {{country}} usamos emails para gestionar nuestras invitaciones.\n\nPara asegurarte que recibes invitaciones lo más seguido posible, mantén tu perfil completo y actualizado."
+                    "description": "Para estudios en {{country}} usamos emails para gestionar nuestras invitaciones.\n\nMantén tu perfil completo y actualizado para asegurarte de que recibes invitaciones lo más seguido posible."
                 }
             },
             "studyRequirementsEmail": {

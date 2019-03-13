@@ -3,26 +3,26 @@
         "emails": {
             "footer": {
                 "support": "Help!",
-                "copyright": "IntelliZoom Panel is operated by UserZoom Technologies, Inc. © 2019\n10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A.",
+                "copyright": "IntelliZoom Panel is operated by UserZoom Technologies, Inc. © 2019<br>10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A.",
                 "unsubscribe": "Unsubscribe from our emails"
             },
             "doubleOptIn": {
                 "subject": "Welcome to IntelliZoom Panel",
                 "title": "Hi {{user.name}}, welcome to IntelliZoom Panel!",
-                "bodyCopy": "Please click on the button below to activate your account.\nFor security reasons this link will expire in 24 hours or once it's used.",
+                "bodyCopy": "Please click on the button below to activate your account.<br>For security reasons this link will expire in 24 hours or once it's used.",
                 "cta": "Activate account",
-                "closing": "Enjoy!\nIntelliZoom Panel Team"
+                "closing": "Enjoy!<br>IntelliZoom Panel Team"
             },
             "reset": {
                 "subject": "Password reset request",
                 "title": "Forgot your password? ",
-                "bodyCopy": "It's ok, we all do from time to time. Just click on the button below to set a new password and that's it. If you didn't make this request, please ignore this email.\nFor security reasons this link will expire in 24 hours or once it's used.",
+                "bodyCopy": "It's ok, we all do from time to time. Just click on the button below to set a new password and that's it. If you didn't make this request, please ignore this email.<br>For security reasons this link will expire in 24 hours or once it's used.",
                 "cta": "Reset password"
             },
             "registeredTwice": {
                 "subject": "Someone just tried to register to IntelliZoom Panel using your email",
                 "title": "Someone just tried to register to IntelliZoom Panel using your email",
-                "bodyCopy": "Was it you? Well in that case, just $t(izpanel.emails.registeredtwice.logIn). If you can't remember your password, you could $t(izpanel.emails.registeredtwice.updatePassword).\nIf it was not you, please ignore this email, we've got your back.",
+                "bodyCopy": "Was it you? Well in that case, just $t(izpanel.emails.registeredtwice.logIn). If you can't remember your password, you could $t(izpanel.emails.registeredtwice.updatePassword).<br>If it was not you, please ignore this email, we've got your back.",
                 "logIn": "log in",
                 "updatePassword": "request to change it"
             },
@@ -32,35 +32,35 @@
                 "bodyCopy": "Are you ready to give your feedback?",
                 "cta": "Participate!",
                 "studyID": "Study ID for your reference: {{campaignID}}",
-                "closing": "Enjoy!\nIntelliZoom Panel Team"
+                "closing": "Enjoy!<br>IntelliZoom Panel Team"
             },
             "studyComplete": {
                 "subject": "We have received your study participation",
                 "title": "Thanks for sharing your thoughts!",
-                "bodyCopy": "We will review your participation in the study {{campaignID}} asap and proceed to send you the payment within 21 business days.\nIf you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
+                "bodyCopy": "We will review your participation in the study {{campaignID}} asap and proceed to send you the payment within 21 business days.<br>If you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
             },
             "paymentSent": {
                 "subject": "Your payment has been sent",
                 "title": "Hey {{useuser.namerName}}, your payment has been sent!",
-                "bodyCopy": "We've sent {{studyFee}} via PayPal to the following email address:\n{{user.email}}\n\nThis payment refers to the study: {{campaignID}}\nIf you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
+                "bodyCopy": "We've sent {{studyFee}} via PayPal to the following email address:<br>{{user.email}}<br><br>This payment refers to the study: {{campaignID}}<br>If you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
             },
             "paymentConfirmation": {
                 "subject": "Your payment has arrived!",
                 "title": "Hey {{user.name}}, PayPal has just confirmed us that your payment has been received",
-                "bodyCopy": "You should now have {{studyFee}} more in your PayPal account for:\n{{user.email}}\n\nThis payment refers to the study: {{campaignID}}\nIf you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
+                "bodyCopy": "You should now have {{studyFee}} more in your PayPal account for:<br>{{user.email}}<br><br>This payment refers to the study: {{campaignID}}<br>If you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
             },
             "certificationApproved": {
                 "subject": "You did great in your practice study!",
                 "title": "Hey {{user.name}}, awesome job on your practice study!",
-                "bodyCopy": "We see that you can clearly articulate your thoughts and experience. You're exactly the kind of panelist we hoped for!\nYou will now receive invitations to Think Out Loud and Card Sort studies as well. These type of studies are better paid generally ;)\nIf you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
+                "bodyCopy": "We see that you can clearly articulate your thoughts and experience. You're exactly the kind of panelist we hoped for!<br>You will now receive invitations to Think Out Loud and Card Sort studies as well. These type of studies are better paid generally ;)<br>If you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
             },
             "certificationRejected": {
                 "subject": "Your practice study was not approved",
                 "title": "Hi {{user.name}}, the practice study that you sent us was not approved",
-                "bodyCopy": "We’re sorry to inform you that the practice study you submitted did not meet the quality requirements we demand for a Think Out Loud or Card Sort study.\nIf you think this is a mistake or you would like a second shot, $t(izpanel.emails.common.contact) and we'll be happy to reactivate the practice study for you.\nIf you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
+                "bodyCopy": "We’re sorry to inform you that the practice study you submitted did not meet the quality requirements we demand for a Think Out Loud or Card Sort study.<br>If you think this is a mistake or you would like a second shot, $t(izpanel.emails.common.contact) and we'll be happy to reactivate the practice study for you.<br>If you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
             },
             "generic": {
-                "genericClosing": "Kind regards,\nIntelliZoom Panel Team",
+                "genericClosing": "Kind regards,<br>IntelliZoom Panel Team",
                 "inlineContact": "contact us",
                 "inlineHelp": "Help Center"
             }
