@@ -7,7 +7,7 @@
                     "firstName": "Name",
                     "lastName": "Last name"
                 },
-                "alreadyRegistered": "Already registered? $t(px-common:izPanel.common.logInImperative)"
+                "alreadyRegistered": "Already registered? <1>$t(px-common:izPanel.common.logInImperative)</1>"
             },
             "country": {
                 "title": "Welcome {{firstName}}!",
@@ -64,7 +64,7 @@
                 "genericFormat": "The format is invalid."
             },
             "registration": {
-                "existingEmail": "Seems like you are already registered! Please, $t(px-common:izPanel.common.logInLowercase).",
+                "existingEmail": "Seems like you are already registered! Please, <1>$t(px-common:izPanel.common.logInLowercase)</1>.",
                 "sendEmailFail": "Oops, something went wrong and we couldn't send you the confirmation email. Please, try again later.",
                 "passwordRequirements": "The password does not meet the requirements",
                 "emailLength": "Wow! Your email cannot be 150 characters long..."
