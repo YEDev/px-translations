@@ -6,7 +6,7 @@
             "chrome": "Chrome",
             "claim": "Tu opinión cuenta. \nGana dinero por compartir tus experiencias y ayuda a mejorar los productos que más te gustan e interesan.",
             "comma": ",",
-            "contactUsLowercaseImperative": "<1>contáctanos</1>",
+            "contactUsLowercaseImperative": "contáctanos",
             "copyright": "IntelliZoom Panel © 2019. Todos los derechos reservados.",
             "edge": "Edge",
             "email": "Email",
@@ -23,12 +23,12 @@
             "orPressEnter": "o presiona Enter",
             "password": "Contraseña",
             "period": ".",
-            "privacyLink": "<1>Política de privacidad</1>",
+            "privacyLink": "Política de privacidad",
             "requiredField": "(Obligatorio)",
             "safari": "Safari",
             "signUp": "Crear cuenta",
             "submit": "Enviar",
-            "termsLink": "<1>Condiciones del servicio</1>",
+            "termsLink": "Condiciones del servicio",
             "day": "DD",
             "month": "MM",
             "year": "AAAA",
@@ -76,7 +76,7 @@
                         "cta": "Sí, desactivar"
                     }
                 },
-                "description": "###Hola,\\n\\nEstas son las comunicaciones a las que estás suscrito:"
+                "description": "###Hola,\n\nEstas son las comunicaciones a las que estás suscrito:"
             },
             "language": {
                 "title": "Idioma",
