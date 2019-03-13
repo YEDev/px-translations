@@ -126,7 +126,7 @@
             "progress": "Pregunta {{currentQuestion}} de {{totalQuestions}}",
             "success": {
                 "title": "¡Listo!",
-                "description": "Ya puedes empezar a participar en nuestros estudios. \n\nSigue completando tu perfil para que podamos invitarte a estudios más específicos (y mejor pagados).",
+                "description": "Ya puedes empezar a participar en nuestros estudios.",
                 "cta": "Ver estudios disponibles"
             },
             "underage": {
@@ -280,7 +280,7 @@
                     },
                     "rejected": {
                         "title": "Estudio de práctica",
-                        "description": "El estudio de práctica que nos has enviado no cumple con los requisitos mínimos de calidad que necesitamos. \n\nSi crees que es un error o te gustaría intentarlo de nuevo, {{contactUsLowercaseImperative}}."
+                        "description": "El estudio de práctica que nos has enviado no cumple con los requisitos mínimos de calidad que necesitamos. \n\nSi crees que es un error o te gustaría intentarlo de nuevo, <1>{{contactUsLowercaseImperative}}</1>."
                     },
                     "accepted": {
                         "title": "¡Felicidades!",
