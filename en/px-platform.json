@@ -126,7 +126,7 @@
             "progress": "Question {{currentQuestion}} of {{totalQuestions}}",
             "success": {
                 "title": "That's it!",
-                "description": "You're now ready to start participating in our studies.\n\nKeep on completing your profile so we can invite you to more specific (and better paid) studies.",
+                "description": "You're now ready to start participating in our studies.",
                 "cta": "Let's do this!"
             },
             "underage": {
@@ -280,7 +280,7 @@
                     },
                     "rejected": {
                         "title": "Practice study",
-                        "description": "The practice study you sent us did not meet the quality requirements we demand for this kind of studies.\n\nIf you think this is a mistake or you would like a second shot, {{contactUsLowercaseImperative}}."
+                        "description": "The practice study you sent us did not meet the quality requirements we demand for this kind of studies.\n\nIf you think this is a mistake or you would like a second shot, <1>{{contactUsLowercaseImperative}}</1>."
                     },
                     "accepted": {
                         "title": "Congrats!",
