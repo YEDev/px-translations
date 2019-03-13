@@ -10,7 +10,7 @@
                 "alreadyRegistered": "¿Ya tienes una cuenta? <1>$t(px-common:izPanel.common.logInImperative)</1>"
             },
             "country": {
-                "title": "¡Qué tal {{firstname}}!",
+                "title": "¡Qué tal {{firstName}}!",
                 "otherCountry": "Otro país"
             },
             "email": {
