@@ -131,9 +131,9 @@
             },
             "studyRequirementsEmail": {
                 "desktopBrowser": {
-                    "intro": "A desktop computer with an updated",
+                    "intro": "A computer with an updated",
                     "ending": "browser",
-                    "any": "A desktop computer with an updated browser."
+                    "any": "A computer with an updated browser."
                 },
                 "deviceBrowserAny": "An updated browser. You can access the study on your computer, tablet or mobile phone.",
                 "deviceMoreThanOne": "You can access the study with any of the following devices:",
@@ -160,10 +160,11 @@
             },
             "and": "and",
             "aUppercase": "A",
-            "desktop": "desktop computer",
+            "desktop": "computer",
             "phone": "mobile phone",
             "tablet": "tablet",
-            "selectAnOption": "Select an option"
+            "selectAnOption": "Select an option",
+            "comingSoon": "Coming soon"
         }
     }
 }
