@@ -163,7 +163,8 @@
             "desktop": "ordenador",
             "phone": "teléfono móvil",
             "tablet": "tablet",
-            "selectAnOption": "Selecciona una opción"
+            "selectAnOption": "Selecciona una opción",
+            "comingSoon": "Próximamente"
         }
     }
 }
