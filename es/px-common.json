@@ -69,7 +69,7 @@
                 },
                 "studyInvites": {
                     "title": "Invitaciones a estudios de investigación de experiencias de usuario",
-                    "description": "Recibirás invitaciones a  estudios de experiencias de usuario que:\\n\\n-  Puedes hacer de manera remota, desde la comodidad de tu casa.\n-  Tienen una duración de 10 a 20 minutos aproximadamente.\n-  Pagan {{tolIncentive}} en promedio por estudios que graban voz o video. El pago promedio por una encuesta estándar es de {{surveyIncentive}}.",
+                    "description": "Recibirás invitaciones a  estudios de experiencias de usuario que:\n\n-  Puedes hacer de manera remota, desde la comodidad de tu casa.\n-  Tienen una duración de 10 a 20 minutos aproximadamente.\n-  Pagan {{tolIncentive}} en promedio por estudios que graban voz o video. El pago promedio por una encuesta estándar es de {{surveyIncentive}}.",
                     "confirmationModal": {
                         "title": "¿Estás seguro?",
                         "description": "Si desactivas esta opción dejarás de recibir invitaciones a estudios pagados.",
@@ -94,7 +94,7 @@
                 },
                 "practice": {
                     "title": "Estudio de práctica",
-                    "description": "Realiza este estudio de práctica y perfecciona el arte de dar tu opinión.\n\nSi participas y pasas nuestra revisión, podremos invitarte a estudios mejor pagados."
+                    "description": "Realiza este estudio de práctica y perfecciona el arte de dar tu opinión.\n\nSi participas y pasas nuestra revisión, podremos invitarte a estudios mejor pagados.\n\nDe momento este estudio está disponible únicamente en inglés."
                 },
                 "survey": {
                     "title": "El clásico cuestionario de toda la vida. Sin efectos especiales.\n\nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
@@ -111,7 +111,7 @@
                     "anyBrowser": "Un navegador actualizado",
                     "aWorking": "Una",
                     "goodLightning": "Buena iluminación",
-                    "headphones": "Audífonos",
+                    "headphones": "Auriculares",
                     "maybeRecorded": "No necesitarás cámara ni micrófono, pero puede que tu pantalla sea grabada. Asegúrate de leer y completar cada tarea lo mejor que puedas.",
                     "microphone": "micrófono",
                     "quietEnvironment": "Un lugar tranquilo",

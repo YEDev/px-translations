@@ -8,8 +8,8 @@
             },
             "doubleOptIn": {
                 "subject": "Bienvenido a IntelliZoom Panel",
-                "title": "Hola {{user.name}}, ¡bienvenido/a a IntelliZoom Panel!",
-                "bodyCopy": "Por favor haz click en el botón de abajo para activar tu cuenta.<br>Por razones de seguridad, este link expirará en 24 horas o en cuanto sea utilizado. ",
+                "title": "Hola {{user.name}},<br>¡bienvenido/a a IntelliZoom Panel!",
+                "bodyCopy": "<strong>Por favor haz click en el botón de abajo para activar tu cuenta.</strong><br>Por razones de seguridad, este link expirará en 24 horas o en cuanto sea utilizado. ",
                 "cta": "Activa tu cuenta",
                 "closing": "¡Saludos!<br>El equipo de IntelliZoom Panel"
             },
