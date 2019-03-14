@@ -4,7 +4,7 @@
             "name": {
                 "title": "Hello!\n\nWhat's your name?",
                 "field": {
-                    "firstName": "Name",
+                    "firstName": "First name",
                     "lastName": "Last name"
                 },
                 "alreadyRegistered": "Already registered? <1>$t(px-common:izPanel.common.logInImperative)</1>"
