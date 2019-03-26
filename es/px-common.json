@@ -97,7 +97,8 @@
                     "description": "Realiza este estudio de práctica y perfecciona el arte de dar tu opinión.\n\nSi participas y pasas nuestra revisión, podremos invitarte a estudios mejor pagados.\n\nDe momento este estudio está disponible únicamente en inglés."
                 },
                 "survey": {
-                    "title": "El clásico cuestionario de toda la vida. Sin efectos especiales.\n\nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
+                    "description": "El clásico cuestionario de toda la vida. Sin efectos especiales.\n\nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta.",
+                    "title": "Cuestionario"
                 },
                 "taskBased": {
                     "title": "Task Based",
