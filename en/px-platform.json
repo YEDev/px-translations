@@ -93,7 +93,8 @@
             "resetPassword": {
                 "incorrectPassword": "Incorrect password",
                 "expiredLink": "The activation link that you followed has expired. Please, request a new link from the [Forgot password](/forgot-password) page."
-            }
+            },
+            "limitExceeded": "You have reached the maximum amount of attempts. Please, try again later."
         },
         "footer": {
             "item": {
@@ -250,7 +251,8 @@
                         "cta": "Yes, deactivate"
                     }
                 }
-            }
+            },
+            "successfulUpdate": "Your settings have been updated successfully!"
         },
         "studiesDashboard": {
             "completed": {
