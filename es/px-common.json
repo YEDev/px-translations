@@ -119,7 +119,7 @@
                     "strongConnection": "Buena conexión",
                     "updatedBrowser": "La última versión de",
                     "webcam": "videocámara",
-                    "title": "For this study you will need:"
+                    "title": "Para realizar este estudio necesitarás:"
                 },
                 "participate": "Participar",
                 "devices": "Dispositivos",
@@ -127,6 +127,14 @@
                 "manualSourcing": {
                     "title": "¡Mantente al tanto de tu email!",
                     "description": "Para estudios en {{country}} usamos emails para gestionar nuestras invitaciones.\n\nMantén tu perfil completo y actualizado para asegurarte de que recibes invitaciones lo más seguido posible."
+                },
+                "treeTest": {
+                    "title": "Tree Test",
+                    "description": "En este tipo de estudios, intentamos encontrar la mejor forma de categorizar y nombrar las secciones de un menú de navegación.\n\nEsto quiere decir, si las secciones del menú tienen sentido para ti y si las opciones dentro de cada sección son las que esperabas encontrar. \n\nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
+                },
+                "clickTest": {
+                    "title": "Click Test",
+                    "description": "En un estudio Click Test esperamos entender mejor dónde harías click cuando te pedimos realizar alguna acción. \n\nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
                 }
             },
             "studyRequirementsEmail": {
