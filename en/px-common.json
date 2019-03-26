@@ -127,6 +127,14 @@
                 "manualSourcing": {
                     "title": "Stay tuned to your email!",
                     "description": "For studies in {{country}} we use emails to manage our invitations.\n\nTo ensure you're invited as often as possible, make sure to keep your profile complete and updated."
+                },
+                "treeTest": {
+                    "title": "Tree Test",
+                    "description": "In these kind of studies we're trying to find the best possible organization and naming for navigation menus.\n\nMeaning, if the categories make sense for you and if the items are where you're expecting them to be.\n\nRemember, there are no wrong answers. We're only interested in your honest opinion."
+                },
+                "clickTest": {
+                    "title": "Click Test",
+                    "description": "With a Click Test we want to understand where would you click when we ask you to do a certain action.\n\nRemember, there are no wrong answers. We're only interested in your honest opinion."
                 }
             },
             "studyRequirementsEmail": {
