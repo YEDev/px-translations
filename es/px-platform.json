@@ -151,7 +151,7 @@
             "description": "Introduce tu email y te enviaremos un link para que puedas actualizarla.",
             "success": {
                 "title": "Te hemos enviado un email de confirmación para activar tu cuenta",
-                "description": "Por motivos de seguridad, el link expirará en 24h.\n\nEn caso de que no veas el email, revisa tu carpeta de spam. Si crees que no lo has recibido, te lo <1>resend</1>."
+                "description": "Por motivos de seguridad, el link expirará en 24h.\n\nEn caso de que no veas el email, revisa tu carpeta de spam. Si crees que no lo has recibido, te lo <1>reenviamos</1>."
             }
         },
         "resetPassword": {
