@@ -97,7 +97,8 @@
                     "description": "Take this practice study and master the art of giving feedback.\n\nIf you participate and pass our review, we'll be able to invite you to better paid studies."
                 },
                 "survey": {
-                    "title": "A standard question-answer survey. No special effects.\n\nRemember, there are no wrong answers. We're only interested in your honest opinion."
+                    "description": "A standard question-answer survey. No special effects.\n\nRemember, there are no wrong answers. We're only interested in your honest opinion.",
+                    "title": "Survey"
                 },
                 "taskBased": {
                     "title": "Task Based",
