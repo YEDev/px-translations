@@ -65,11 +65,11 @@
                 "title": "Email notifications",
                 "mkt": {
                     "title": "Newsletter and marketing communications",
-                    "description": "This includes our Better UX Bulletin with information on the latest trends in UX research and design."
+                    "description": "We may occasionally send you:\n\n-  Updates on how your opinion is impacting the products you love.\n-  A few tips on how to become a master of giving feedback."
                 },
                 "studyInvites": {
-                    "title": "Invitations to UX research studies",
-                    "description": "Receive invitations to UX research studies that:\n\n-  You can take remotely, from the confort of your home.\n-  Take an average of 10-20 min to answer.\n-  Pay {{tolIncentive}} on average for studies that record think out loud audio and video. For standard surveys, the payment is {{surveyIncentive}} on average.",
+                    "title": "Invitations to user experience studies",
+                    "description": "Receive invitations to user experience studies that:\n\n-  You can take remotely, from the confort of your home.\n-  Take an average of 10-20 min to answer.\n-  Pay {{tolIncentive}} on average for studies that record think out loud audio and video. For standard surveys, the payment is {{surveyIncentive}} on average.",
                     "confirmationModal": {
                         "title": "Are you sure?",
                         "description": "If you deactivate this option you will no longer receive invitations to paid studies.",
