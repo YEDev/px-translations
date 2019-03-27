@@ -267,7 +267,7 @@
             },
             "intro": {
                 "title": "¡Hola {{userName}}!",
-                "descriptionFTU": "En esta sección encontrarás todos los estudios que estén disponibles para ti. \n¡Pero no tardes mucho en participar! No están disponibles por mucho tiempo...",
+                "descriptionFTU": "En esta sección encontrarás todos los estudios que estén disponibles para ti. \n\n¡Pero no tardes mucho en participar! No están disponibles por mucho tiempo...",
                 "oneStudyAvailable": "Tienes 1 estudio disponible",
                 "severalStudiesAvailable": "Tienes {{studiesAvailable}} estudios disponibles"
             },
