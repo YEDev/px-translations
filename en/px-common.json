@@ -169,9 +169,9 @@
             },
             "and": "and",
             "aUppercase": "A",
-            "desktop": "computer",
-            "phone": "mobile phone",
-            "tablet": "tablet",
+            "desktop": "Computer",
+            "phone": "Mobile phone",
+            "tablet": "Tablet",
             "selectAnOption": "Select an option",
             "comingSoon": "Coming soon"
         }
