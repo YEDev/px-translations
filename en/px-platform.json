@@ -309,6 +309,25 @@
             "emptyDescription": "There are no available studies at the moment. Stay tuned!",
             "noLongerAvailable": "This study is no longer available",
             "studyCTA": "Take this study"
+        },
+        "myProfile": {
+            "panelistName": "{{user.firstName}} {{user.lastName}}",
+            "profileCompletion": {
+                "tilte": "Your profile is {{completionPercentage}} complete!",
+                "description": "Answer the questions in the categories below and get invited to more studies."
+            },
+            "availableStudyTypes": {
+                "title": "Available study types",
+                "description": "Complete the <1>practice study</1> to take these types of studies."
+            },
+            "categories": {
+                "title": "Personal info",
+                "description": "Answer all questions and complete your profile. Some studies require a very specific criteria, so the more complete and updated your profile is, the more possibilities you have to be invited to them.",
+                "complete": "Complete",
+                "questionsPending": "{{numberQuestionsPending}} questions left",
+                "editCTA": "Review / Edit",
+                "answerCTA": "Add details"
+            }
         }
     }
 }
