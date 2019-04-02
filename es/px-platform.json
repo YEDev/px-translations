@@ -309,6 +309,25 @@
             "emptyDescription": "Actualmente no hay ningún estudio disponible.",
             "noLongerAvailable": "Este estudio ya no está disponible",
             "studyCTA": "Participar"
+        },
+        "myProfile": {
+            "panelistName": "{{user.firstName}} {{user.lastName}}",
+            "profileCompletion": {
+                "tilte": "Has completado el {{completionPercentage}} de tu perfil",
+                "description": "Responde las preguntas de todas las categorías para que podamos invitarte a más estudios."
+            },
+            "availableStudyTypes": {
+                "title": "Tipos de estudios disponibles",
+                "description": "Completa el <1>estudio de práctica</1> para acceder a este tipo de estudios."
+            },
+            "categories": {
+                "title": "Información personal",
+                "description": "Responde todas las preguntas y completa tu perfil. Algunos estudios requieren un tipo de participantes muy específico, así que entre más completa y actualizada esté tu información personal, más posibilidades tienes de que podamos invitarte a ellos.",
+                "complete": "Completada",
+                "questionsPending": "{{numberQuestionsPending}} preguntas sin responder",
+                "editCTA": "Revisar / Editar",
+                "answerCTA": "Añadir detalles"
+            }
         }
     }
 }
