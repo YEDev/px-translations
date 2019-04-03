@@ -328,6 +328,31 @@
                 "editCTA": "Revisar / Editar",
                 "answerCTA": "Añadir detalles"
             }
+        },
+        "demographics": {
+            "categories": {
+                "aboutMe": "Sobre mí",
+                "healthAndFitness": "Salud y bienestar",
+                "hobbiesAndInterests": "Hobbies e intereses",
+                "household": "Hogar",
+                "financial": "Finanzas",
+                "occupation": "Profesión",
+                "technology": "Tecnología",
+                "travel": "Viajes"
+            },
+            "success": {
+                "title": "¡Genial!",
+                "description": "Ahora podremos invitarte a estudios que cumplan con tu perfil de {{categoryFilled}}.\n\nRecuerda que siempre puedes <4>revisar o editar</4> tu información de {{categoryFilled}} desde la sección Mi perfil.",
+                "backToMyProfile": "Volver a Mi perfil",
+                "moreCategories": {
+                    "title": "¡Que el ritmo no pare!",
+                    "description": "Responde **solo {{numberQuestionsMissing}} preguntas** sobre {{categoryMissing} y podremos invitarte a más estudios. ",
+                    "letsDoThis": "¡Ok!"
+                },
+                "aboutMe": {
+                    "nonEditableFields": "Si quieres cambiar tu fecha de nacimiento, país o sexo, por favor <1>ponte en contacto</1> con nuestro equipo de Atención al cliente."
+                }
+            }
         }
     }
 }
