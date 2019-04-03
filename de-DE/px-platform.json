@@ -2,331 +2,356 @@
     "izPanel": {
         "registration": {
             "name": {
-                "title": "Hello!\n\nWhat's your name?",
+                "title": "",
                 "field": {
-                    "firstName": "First name",
-                    "lastName": "Last name"
+                    "firstName": "",
+                    "lastName": ""
                 },
-                "alreadyRegistered": "Already registered? <1>$t(px-common:izPanel.common.logInImperative)</1>"
+                "alreadyRegistered": ""
             },
             "country": {
-                "title": "Welcome {{firstName}}!",
-                "otherCountry": "Show more countries"
+                "title": "",
+                "otherCountry": ""
             },
             "email": {
-                "title": "What's your email?",
-                "description": "Here's where you will receive our invitations to studies in."
+                "title": "",
+                "description": ""
             },
             "password": {
-                "title": "Choose a password",
-                "description": "Make sure it's a strong one!\n\nInclude:",
+                "title": "",
+                "description": "",
                 "requirements": {
-                    "capitalLetter": "a capital letter",
-                    "numberOrSymbol": "a number",
-                    "minChars": "at least eight characters",
-                    "lowercaseLetter": "a lowercase letter",
-                    "passwordsShouldMatch": "and of course, your passwords should match"
+                    "capitalLetter": "",
+                    "numberOrSymbol": "",
+                    "minChars": "",
+                    "lowercaseLetter": "",
+                    "passwordsShouldMatch": ""
                 },
-                "passwordConfirmation": "Confirm password"
+                "passwordConfirmation": ""
             },
             "terms": {
-                "title": "Before continuing...",
-                "description": "Please take a moment to read our <1>{{termsLink}}</1> and <3>{{privacyLink}}</3>.\n\nIf you have any doubts on how your data is managed, please, <5>{{contactUsLowercaseImperative}}</5>.",
+                "title": "",
+                "description": "",
                 "checkbox": {
-                    "gdpr": "I want to be invited via email to UX research studies that match my profile. $t(px-common:izPanel.common.requiredField)",
-                    "terms": "I agree with the Terms of Service and the Privacy Policy. $t(px-common:izPanel.common.requiredField)",
-                    "mkt": "I want to receive communications and newsletters from IntelliZoom."
+                    "gdpr": "",
+                    "terms": "",
+                    "mkt": ""
                 }
             },
             "doubleOptIn": {
-                "title": "We've sent you a confirmation email to activate your account",
-                "description": "Please click on the link in the email to activate your account.\n\nFor security purposes, the link will expire in 24h.\n\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email.",
-                "resendSuccess": "Email sent!"
+                "title": "",
+                "description": "",
+                "resendSuccess": ""
             }
         },
         "comingSoon": {
-            "title": "Coming soon!",
-            "description": "We currently do not have an active panel in {{selectedCountry}}, but leave us your email and we'll inform you when we open one.",
+            "title": "",
+            "description": "",
             "success": {
-                "title": "Thank you!",
-                "description": "We'll get in touch with you when we open our panel to {{selectedCountry}}.\n\nSee you soon!"
+                "title": "",
+                "description": ""
             },
-            "gdpr": "I want to be informed when IntelliZoom Panel opens in my country. $t(px-common:izPanel.common.requiredField)"
+            "gdpr": ""
         },
         "error": {
             "required": {
-                "field": "This field is required.",
-                "gdpr": "This consent is required.",
-                "terms": "You must accept the Terms of Service and Privacy Policy."
+                "field": "",
+                "gdpr": "",
+                "terms": ""
             },
             "format": {
-                "email": "Please use a valid email format. Ex. name@email.com",
-                "genericFormat": "The format is invalid."
+                "email": "",
+                "genericFormat": ""
             },
             "registration": {
-                "existingEmail": "Seems like you are already registered! Please, <1>$t(px-common:izPanel.common.logInLowercase)</1>.",
-                "sendEmailFail": "Oops, something went wrong and we couldn't send you the confirmation email. Please, try again later.",
-                "passwordRequirements": "The password does not meet the requirements",
-                "emailLength": "Wow! Your email cannot be 150 characters long..."
+                "existingEmail": "",
+                "sendEmailFail": "",
+                "passwordRequirements": "",
+                "emailLength": ""
             },
             "minTwoChars": {
-                "firstName": "Your name must contain at least two characters.",
-                "lastName": "Your last name must contain at least two characters."
+                "firstName": "",
+                "lastName": ""
             },
-            "generic": "Oops, something went wrong. Please, try again later.",
+            "generic": "",
             "birthday": {
-                "future": "Time travelling ha? Your date of birth cannot be in the future.",
-                "past": "No vampires allowed! Your date of birth has to be of this century."
+                "future": "",
+                "past": ""
             },
             "login": {
-                "accountBlocked": "Your account has been blocked after multiple consecutive login attempts.",
-                "accountInactive": "Your account has not yet been activated. Would you like us to <1>resend</1> you the confirmation email?",
-                "expiredLink": "The activation link that you followed has expired. Please, <1>resend it</1> and try again.",
-                "invalidCredentials": "We're sorry, this email/password combination could not be found.",
-                "userNotFound": "The activation link that you followed has expired and your data was deleted. Please, try signing up again.",
-                "wrongActivation": "Something went wrong during your account activation. Please, try again later via the same confirmation email we've sent you before.",
-                "wrongActivationWithLink": "Something went wrong during your account activation. Please, <1>resend</1> the confirmation email and try again."
+                "accountBlocked": "",
+                "accountInactive": "",
+                "expiredLink": "",
+                "invalidCredentials": "",
+                "userNotFound": "",
+                "wrongActivation": "",
+                "wrongActivationWithLink": ""
             },
             "forgotPassword": {
-                "sendEmailFail": "Oops, something went wrong and we couldn't send you the reset password email. Please, try again later."
+                "sendEmailFail": ""
             },
             "resetPassword": {
-                "incorrectPassword": "Incorrect password",
-                "expiredLink": "The activation link that you followed has expired. Please, request a new link from the [Forgot password](/forgot-password) page."
+                "incorrectPassword": "",
+                "expiredLink": ""
             },
-            "limitExceeded": "You have reached the maximum amount of attempts. Please, try again later."
+            "limitExceeded": ""
         },
         "footer": {
             "item": {
-                "faqPayments": "[How long do payments usually take?](https://help.intellizoom.com/hc/en-us/articles/360000650458--When-and-how-much-will-I-get-paid-)",
-                "faqInvitations": "[How do invitations work?](https://help.intellizoom.com/hc/en-us/articles/360000658537-How-will-I-be-notified-of-new-studies-)",
-                "faqChangeEmail": "[How can I change my email?](https://help.intellizoom.com/hc/en-us/articles/360001190318-How-can-I-change-my-email-)",
-                "faqBrowseAll": "[See more](https://help.intellizoom.com/hc/en-us)",
-                "sendEmail": "[Send us an email](https://help.intellizoom.com/hc/en-us/requests/new)",
-                "whatIsIZP": "What is IntelliZoom Panel"
+                "faqPayments": "",
+                "faqInvitations": "",
+                "faqChangeEmail": "",
+                "faqBrowseAll": "",
+                "sendEmail": "",
+                "whatIsIZP": ""
             },
             "title": {
-                "about": "About us",
-                "contact": "Contact",
-                "faq": "FAQ",
-                "social": "Follow us!"
+                "about": "",
+                "contact": "",
+                "faq": "",
+                "social": ""
             }
         },
         "header": {
-            "email": "{{userEmail}}",
-            "logOut": "Log out",
-            "mainDashboard": "Studies",
-            "name": "{{userFullName}}",
-            "profile": "My profile",
-            "settings": "Settings"
+            "email": "",
+            "logOut": "",
+            "mainDashboard": "",
+            "name": "",
+            "profile": "",
+            "settings": ""
         },
         "basicDemographics": {
-            "flowTitle": "Alright!\n\nLet's get started",
-            "flowDescription": "To invite you to studies, we need to ask you **just 3 basic** profiling questions.",
-            "flowLastQuestion": "And last but no least...",
-            "progress": "Question {{currentQuestion}} of {{totalQuestions}}",
+            "flowTitle": "",
+            "flowDescription": "",
+            "flowLastQuestion": "",
+            "progress": "",
             "success": {
-                "title": "That's it!",
-                "description": "You're now ready to start participating in our studies.",
-                "cta": "Let's do this!"
+                "title": "",
+                "description": "",
+                "cta": ""
             },
             "underage": {
-                "title": "You must be at least {{minimumLegalAge}} years old to participate in our studies",
-                "description": "We're sorry, but we cannot invite you to our studies or allow you to continue. We will now proceed to delete your IntelliZoom Panel account and all you personal info.\n\nThank you for your interest."
+                "title": "",
+                "description": ""
             }
         },
         "login": {
-            "title": "Log in",
-            "forgotPassword": "Forgot password?",
-            "orSocialAccess": "or continue with",
-            "newHere": "Don't have an account?",
-            "signUp": "Sign up!",
+            "title": "",
+            "forgotPassword": "",
+            "orSocialAccess": "",
+            "newHere": "",
+            "signUp": "",
             "success": {
-                "accountActivated": "Your account has been successfully activated!",
-                "emailResent": "We have resent you the activation email."
+                "accountActivated": "",
+                "emailResent": ""
             }
         },
         "forgotPassword": {
-            "title": "Forgot your password?",
-            "description": "Please enter your email and we'll send you a link to reset your password.",
+            "title": "",
+            "description": "",
             "success": {
-                "title": "We've sent you an email to reset your password",
-                "description": "For security purposes, the link will expire in 24h.\n\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email."
+                "title": "",
+                "description": ""
             }
         },
         "resetPassword": {
-            "title": "Set new password",
+            "title": "",
             "currentPassword": {
-                "description": "And type in your current password please:",
-                "field": "Current password"
+                "description": "",
+                "field": ""
             },
             "success": {
-                "title": "Password updated!",
-                "description": "Your new password has been saved successfully.",
-                "cta": "Go to login",
-                "backToSettings": "Back to Settings"
+                "title": "",
+                "description": "",
+                "cta": "",
+                "backToSettings": ""
             }
         },
         "landing": {
             "heroSection": {
-                "title": "Your opinion matters.",
-                "description": "Get paid to share your experiences and make an impact on products you love and care about.",
-                "cta": "Let's do this!"
+                "title": "",
+                "description": "",
+                "cta": ""
             },
             "featureBoxes": {
                 "first": {
-                    "title": "Get paid quickly and easily",
-                    "description": "Saving up for something or looking for that bit of extra spending money? Join the people all over the world making additional income by sharing their experiences."
+                    "title": "",
+                    "description": ""
                 },
                 "second": {
-                    "title": "Influence product experiences",
-                    "description": "Make an immediate impact on the products that you love and use today by sharing your opinion with the people that make and improve those products."
+                    "title": "",
+                    "description": ""
                 },
                 "third": {
-                    "title": "Do it in your spare time",
-                    "description": "Got 15-20 minutes to spare? Giving feedback is easy. Participate in studies remotely, on your schedule, from your home or on the go, using your own device."
+                    "title": "",
+                    "description": ""
                 }
             },
             "reinforcingBanner": {
-                "phrase1": "Give feedback",
-                "phrase2": "Get paid"
+                "phrase1": "",
+                "phrase2": ""
             },
             "faqs": {
-                "title": "Got questions? We got answers",
+                "title": "",
                 "faq1": {
-                    "title": "How quickly can I start taking studies?",
-                    "description": "As soon as you finish the registration process and answer 3 basic profiling questions."
+                    "title": "",
+                    "description": ""
                 },
                 "faq2": {
-                    "title": "How long are the studies going to be?",
-                    "description": "Most studies take an average of 10-20 minutes."
+                    "title": "",
+                    "description": ""
                 },
                 "faq3": {
-                    "title": "How old do I have to be?",
-                    "description": "All participants must be 18 years or older."
+                    "title": "",
+                    "description": ""
                 },
                 "faq4": {
-                    "title": "How many study invitations will I receive?",
-                    "description": "The number of opportunities you receive will depend on a number of factors, such as your demographics and your quality rating."
+                    "title": "",
+                    "description": ""
                 },
                 "faq5": {
-                    "title": "How much money could I make?",
-                    "description": "Payment depends on the complexity of the study. For studies that record think out loud audio and video, you can expect to make $10 on average. For standard surveys, the payment is $2 on average."
+                    "title": "",
+                    "description": ""
                 },
                 "faq6": {
-                    "title": "What do I need to participate in studies?",
-                    "description": "All you need is a computer, tablet or smartphone, a reliable connection to Wi-Fi, a quiet place, and the ability to download UserZoom’s eCertified testing software."
+                    "title": "",
+                    "description": ""
                 },
                 "faq7": {
-                    "title": "When do I get my money?",
-                    "description": "Payments are sent out via PayPal within 21 business days after the completion of the study, once your results have been reviewed and approved. Most results are approved within 3-5 days.\n\nYou will receive the payment in the same email used to register."
+                    "title": "",
+                    "description": ""
                 }
             },
             "uzBanner": {
-                "title": "Is this the owl you are looking for?",
-                "description": "If you want to learn more about IntelliZoom, the sourcing engine used by UserZoom, [click here](https://www.userzoom.com/participant-sourcing/). We'll find the best participants for your UX research studies."
+                "title": "",
+                "description": ""
             }
         },
         "settings": {
-            "title": "Settings",
+            "title": "",
             "account": {
-                "title": "Account",
+                "title": "",
                 "credentials": {
-                    "title": "Email access",
-                    "passwordLastUpdate": "Updated on",
-                    "changePassword": "Change Password"
+                    "title": "",
+                    "passwordLastUpdate": "",
+                    "changePassword": ""
                 },
                 "phone": {
-                    "title": "Phone number",
-                    "description": "If you add your phone number to your account it will allow us to invite you to moderated sessions. A moderated session basically means a UX researcher guiding you through one of their studies and gathering your feedback.",
-                    "addPhone": "Add phone number"
+                    "title": "",
+                    "description": "",
+                    "addPhone": ""
                 },
                 "deactivateAccount": {
-                    "title": "Deactivate your account",
-                    "description": "If you deactivate your account you will lose all your profile progress and you won't be able to take paid studies anymore.",
-                    "cta": "Deactivate account",
+                    "title": "",
+                    "description": "",
+                    "cta": "",
                     "confirmationModal": {
-                        "title": "Are you sure?",
-                        "description": "You will lose all your profile progress and you won't be able to take paid studies anymore.",
-                        "cta": "Yes, deactivate"
+                        "title": "",
+                        "description": "",
+                        "cta": ""
                     }
                 }
             },
-            "successfulUpdate": "Your settings have been updated successfully!"
+            "successfulUpdate": ""
         },
         "studiesDashboard": {
             "completed": {
-                "sectionTitle": "Completed studies",
-                "completitionDate": "Completed on {{date}}.",
-                "paymentsDescription": "Remember that if your participation is accepted, the payment can take up to 21 business days to appear in your PayPal account."
+                "sectionTitle": "",
+                "completitionDate": "",
+                "paymentsDescription": ""
             },
             "incompleteProfile": {
-                "title": "Get invited to more studies!",
-                "description": "Complete your personal info in My Profile and we will be able to invite you to studies with more specific criteria.",
-                "cta": "Complete my profile"
+                "title": "",
+                "description": "",
+                "cta": ""
             },
             "intro": {
-                "title": "Welcome {{userName}}!",
-                "descriptionFTU": "This is your studies dashboard. In here you'll see the studies that are available for you and some useful tips.\n\nDon't take too long to participate on them! They’re usually available only for a short period of time.",
-                "oneStudyAvailable": "You have 1 study available",
-                "severalStudiesAvailable": "You have {{studiesAvailable}} studies available"
+                "title": "",
+                "descriptionFTU": "",
+                "oneStudyAvailable": "",
+                "severalStudiesAvailable": ""
             },
             "practiceStudy": {
-                "cta": "Take practice study"
+                "cta": ""
             },
             "reactiveMessage": {
                 "certification": {
                     "underRevision": {
-                        "title": "Practice study",
-                        "description": "Our team is reviewing your practice study and will get back to you with feedback soon!"
+                        "title": "",
+                        "description": ""
                     },
                     "rejected": {
-                        "title": "Practice study",
-                        "description": "The practice study you sent us did not meet the quality requirements we demand for this kind of studies.\n\nIf you think this is a mistake or you would like a second shot, <1>{{contactUsLowercaseImperative}}</1>."
+                        "title": "",
+                        "description": ""
                     },
                     "accepted": {
-                        "title": "Congrats!",
-                        "description": "Your practice study was reviewed and approved!\n\nNow we'll be able to start sending you invitations to Think Out Loud and Card Sort studies.",
-                        "cta": "Awesome!"
+                        "title": "",
+                        "description": "",
+                        "cta": ""
                     }
                 },
                 "unsubscribe": {
-                    "title": "FOMO? Don't miss any invitation!",
-                    "description": "Activate the email notifications for UX Research studies and never miss again any of our invitations.",
-                    "cta": "Activate email notifications"
+                    "title": "",
+                    "description": "",
+                    "cta": ""
                 }
             },
             "tip": {
                 "phone": {
-                    "title": "Hey {{userName}},",
-                    "description": "Would you be interested in taking moderated studies? This means a UX researcher guiding you through one of their studies and gathering your feedback.",
-                    "mainCTA": "Sure",
-                    "secondaryCTA": "No, thanks"
+                    "title": "",
+                    "description": "",
+                    "mainCTA": "",
+                    "secondaryCTA": ""
                 }
             },
-            "availableStudiesTitle": "{{availableStudies}} Available studies",
-            "availableStudyTitle": "1 Available study",
-            "emptyDescription": "There are no available studies at the moment. Stay tuned!",
-            "noLongerAvailable": "This study is no longer available",
-            "studyCTA": "Take this study"
+            "availableStudiesTitle": "",
+            "availableStudyTitle": "",
+            "emptyDescription": "",
+            "noLongerAvailable": "",
+            "studyCTA": ""
         },
         "myProfile": {
-            "panelistName": "{{user.firstName}} {{user.lastName}}",
+            "panelistName": "",
             "profileCompletion": {
-                "tilte": "Your profile is {{completionPercentage}} complete!",
-                "description": "Answer the questions in the categories below and get invited to more studies."
+                "tilte": "",
+                "description": ""
             },
             "availableStudyTypes": {
-                "title": "Available study types",
-                "description": "Complete the <1>practice study</1> to take these types of studies."
+                "title": "",
+                "description": ""
             },
             "categories": {
-                "title": "Personal info",
-                "description": "Answer all questions and complete your profile. Some studies require a very specific criteria, so the more complete and updated your profile is, the more possibilities you have to be invited to them.",
-                "complete": "Complete",
-                "questionsPending": "{{numberQuestionsPending}} questions left",
-                "editCTA": "Review / Edit",
-                "answerCTA": "Add details"
+                "title": "",
+                "description": "",
+                "complete": "",
+                "questionsPending": "",
+                "editCTA": "",
+                "answerCTA": ""
+            }
+        },
+        "demographics": {
+            "categories": {
+                "aboutMe": "",
+                "healthAndFitness": "",
+                "hobbiesAndInterests": "",
+                "household": "",
+                "financial": "",
+                "occupation": "",
+                "technology": "",
+                "travel": ""
+            },
+            "success": {
+                "title": "",
+                "description": "",
+                "backToMyProfile": "",
+                "moreCategories": {
+                    "title": "",
+                    "description": "",
+                    "letsDoThis": ""
+                },
+                "aboutMe": {
+                    "nonEditableFields": ""
+                }
             }
         }
     }
