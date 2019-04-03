@@ -2,67 +2,67 @@
     "izPanel": {
         "emails": {
             "footer": {
-                "support": "Help!",
-                "copyright": "IntelliZoom Panel is operated by UserZoom Technologies, Inc. © 2019<br>10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A.",
-                "unsubscribe": "Unsubscribe from our emails"
+                "support": "Hilfe!",
+                "copyright": "IntelliZoom Panel wird betrieben von UserZoom Technologies, Inc. © 2019\n10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A.",
+                "unsubscribe": "Von unseren E-Mails abmelden"
             },
             "doubleOptIn": {
-                "subject": "Welcome to IntelliZoom Panel",
-                "title": "Hi {{user.name}},<br>welcome to IntelliZoom Panel!",
-                "bodyCopy": "<strong>Please click on the button below to activate your account.</strong><br>For security reasons this link will expire in 24 hours or once it's used.",
-                "cta": "Activate account",
-                "closing": "Enjoy!<br>IntelliZoom Panel Team"
+                "subject": "Willkommen zu IntelliZoom Panel",
+                "title": "Hallo {{user.name}}, Willkommen zu IntelliZoom Panel!",
+                "bodyCopy": "Klicke hier um Dein Konto zu aktivieren.\n\nAus Sicherheitsgründen wird dieser Link nach 24 Stunden oder einmaliger Benützung ungültig.",
+                "cta": "Konto aktivieren",
+                "closing": "Tschüss!\n\nIntelliZoom Panel Team"
             },
             "reset": {
-                "subject": "Password reset request",
-                "title": "Forgot your password? ",
-                "bodyCopy": "It's ok, we all do from time to time. Just click on the button below to set a new password and that's it. If you didn't make this request, please ignore this email.<br>For security reasons this link will expire in 24 hours or once it's used.",
-                "cta": "Reset password"
+                "subject": "Passwort zurücksetzen",
+                "title": "Hast Du Dein Passwort vergessen?",
+                "bodyCopy": "Das ist in Ordnung und passiert uns allen. Klicke einfach auf die Schaltfläche unten um Dein Passwort zurückzusetzen und fertig. Solltest Du diese Anfrage nicht getätigt haben, bitte ignoriere dieses E-Mail.\n\nAus Sicherheitsgründen wird dieser Link nach 24 Stunden oder einmaliger Benützung ungültig.",
+                "cta": "Passwort zurücksetzen"
             },
             "registeredTwice": {
-                "subject": "Someone just tried to register to IntelliZoom Panel using your email",
-                "title": "Someone just tried to register to IntelliZoom Panel using your email",
-                "bodyCopy": "Was it you? Well in that case, just $t(izpanel.emails.registeredtwice.logIn). If you can't remember your password, you could $t(izpanel.emails.registeredtwice.updatePassword).<br>If it was not you, please ignore this email, we've got your back.",
-                "logIn": "log in",
-                "updatePassword": "request to change it"
+                "subject": "Jemand hat gerade versucht sich mit Deiner E-Mail bei IntelliZoom Panel zu registrieren",
+                "title": "Jemand hat gerade versucht sich mit Deiner E-Mail bei IntelliZoom Panel zu registrieren",
+                "bodyCopy": "Warst das Du? In diesem Fall $t(izpanel.emails.registeredtwice.logIn). Wenn Du Dein Passwort vergessen hast, kannst Du eine $t(izpanel.emails.registeredtwice.updatePassword).\n\nWenn Du es nicht warst, bitte ignoriere diese E-Mail, wir kümmern uns darum.",
+                "logIn": "melde Dich einfach an",
+                "updatePassword": "Änderung beantragen"
             },
             "studyInvitation": {
-                "subject": "There's a new study available for you!",
-                "title": "Hey {{user.name}}, there's a new study available for you!",
-                "bodyCopy": "Are you ready to give your feedback?",
-                "cta": "Participate!",
-                "studyID": "Study ID for your reference: {{campaignID}}",
-                "closing": "Enjoy!<br>IntelliZoom Panel Team"
+                "subject": "Da ist eine neue Studie verfügbar für Dich",
+                "title": "Hallo {{user.name}}, da ist eine neue Studie verfügbar für Dich!",
+                "bodyCopy": "Bist Du bereit uns Dein Feedback zu geben?",
+                "cta": "Nimm teil!",
+                "studyID": "Studien ID zur Referenz: {{campaignID}}",
+                "closing": "Tschüss!\n\nIntelliZoom Panel Team"
             },
             "studyComplete": {
-                "subject": "We have received your study participation",
-                "title": "Thanks for sharing your thoughts!",
-                "bodyCopy": "We will review your participation in the study {{campaignID}} asap and proceed to send you the payment within 21 business days.<br>If you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
+                "subject": "",
+                "title": "",
+                "bodyCopy": ""
             },
             "paymentSent": {
-                "subject": "Your payment has been sent",
-                "title": "Hey {{useuser.namerName}}, your payment has been sent!",
-                "bodyCopy": "We've sent {{studyFee}} via PayPal to the following email address:<br>{{user.email}}<br><br>This payment refers to the study: {{campaignID}}<br>If you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
+                "subject": "",
+                "title": "",
+                "bodyCopy": ""
             },
             "paymentConfirmation": {
-                "subject": "Your payment has arrived!",
-                "title": "Hey {{user.name}}, PayPal has just confirmed us that your payment has been received",
-                "bodyCopy": "You should now have {{studyFee}} more in your PayPal account for:<br>{{user.email}}<br><br>This payment refers to the study: {{campaignID}}<br>If you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
+                "subject": "",
+                "title": "",
+                "bodyCopy": ""
             },
             "certificationApproved": {
-                "subject": "You did great in your practice study!",
-                "title": "Hey {{user.name}}, awesome job on your practice study!",
-                "bodyCopy": "We see that you can clearly articulate your thoughts and experience. You're exactly the kind of panelist we hoped for!<br>You will now receive invitations to Think Out Loud and Card Sort studies as well. These type of studies are better paid generally ;)<br>If you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
+                "subject": "",
+                "title": "",
+                "bodyCopy": ""
             },
             "certificationRejected": {
-                "subject": "Your practice study was not approved",
-                "title": "Hi {{user.name}}, the practice study that you sent us was not approved",
-                "bodyCopy": "We’re sorry to inform you that the practice study you submitted did not meet the quality requirements we demand for a Think Out Loud or Card Sort study.<br>If you think this is a mistake or you would like a second shot, $t(izpanel.emails.common.contact) and we'll be happy to reactivate the practice study for you.<br>If you have any further questions, please $t(izpanel.emails.common.contact) or visit our $t(izpanel.emails.common.help)."
+                "subject": "",
+                "title": "",
+                "bodyCopy": ""
             },
             "generic": {
-                "genericClosing": "Kind regards,<br>IntelliZoom Panel Team",
-                "inlineContact": "contact us",
-                "inlineHelp": "Help Center"
+                "genericClosing": "Tschüss!\n\nIntelliZoom Panel Team",
+                "inlineContact": "",
+                "inlineHelp": ""
             }
         }
     }
