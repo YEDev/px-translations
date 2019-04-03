@@ -328,6 +328,31 @@
                 "editCTA": "Review / Edit",
                 "answerCTA": "Add details"
             }
+        },
+        "demographics": {
+            "categories": {
+                "aboutMe": "About me",
+                "healthAndFitness": "Health & Fitness",
+                "hobbiesAndInterests": "Hobbies & Interests",
+                "household": "Household",
+                "financial": "Financial",
+                "occupation": "Occupation",
+                "technology": "Technology",
+                "travel": "Travel"
+            },
+            "success": {
+                "title": "Great!",
+                "description": "You now can be invited to studies that match your {{categoryFilled}} profile.\n\nRemember that you can always <4>review or edit</4> your {{categoryFilled}} info from My profile section.",
+                "backToMyProfile": "Back to My profile",
+                "moreCategories": {
+                    "title": "Don't break momentum!",
+                    "description": "Answer **just {{numberQuestionsMissing}} questions** on {{categoryMissing}} to be able to be invited to more studies.",
+                    "letsDoThis": "Let's do this"
+                },
+                "aboutMe": {
+                    "nonEditableFields": "If you want to change your birthday, gender or country information, please <1>get in touch</1> with our Support team."
+                }
+            }
         }
     }
 }
