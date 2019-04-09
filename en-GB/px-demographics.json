@@ -15,8 +15,8 @@
                     "shortName": "Gender"
                 },
                 "postalCode": {
-                    "question": "What is your Zip Code?",
-                    "shortName": "Zip Code"
+                    "question": "What is your Postal Code?",
+                    "shortName": "Postal Code"
                 },
                 "hispanic": {
                     "question": "Are you of Hispanic, Latino, or Spanish origin?",
@@ -270,13 +270,13 @@
             },
             "technology": {
                 "mobilePlan": {
-                    "question": "What type of cell phone plan do you have?",
+                    "question": "What type of mobile phone plan do you have?",
                     "list": {
                         "prepaid": "Pre-paid",
                         "contract": "Contract",
-                        "noPhone": "I don't have a cell phone"
+                        "noPhone": "I don't have a mobile phone"
                     },
-                    "shortName": "Type of cell phone plan"
+                    "shortName": "Type of mobile phone plan"
                 },
                 "electronicDevices": {
                     "question": "Which of the following electronic products do you own?",
@@ -328,21 +328,21 @@
                     "question": "In which of the following industry do you work?",
                     "list": {
                         "accounting": "Accounting",
-                        "administrative": "Administrative and Support Services",
+                        "administrative": "Administrative",
                         "advertising": "Advertising",
                         "agriculture": "Agriculture / Fishing",
                         "architecture": "Architecture",
-                        "arts_recreation": "Arts, Entertainment and Recreation",
+                        "arts_recreation": "Arts and Recreation",
                         "automotive": "Automotive",
                         "aviation": "Aviation",
                         "banking_finance": "Banking / Financial",
                         "biotech": "Bio-Tech",
                         "brokerage": "Brokerage",
                         "chemicals_plastics_rubber": "Chemicals / Plastics / Rubber",
-                        "communications_information": "Communications / Information",
+                        "communications_information": "Communications",
                         "computer_hardware": "Computer Hardware",
                         "computer_software": "Computer Software",
-                        "computer_reseller": "Computer reseller (software / hardware)",
+                        "computer_reseller": "Computer Reseller (software/hardware)",
                         "construction": "Construction",
                         "consulting": "Consulting",
                         "consumer_electronics": "Consumer Electronics",
@@ -354,10 +354,10 @@
                         "fashion_apparel": "Fashion / Apparel",
                         "food_beverage": "Food / Beverage",
                         "government_public_sector": "Government / Public Sector",
-                        "healthcare": "Healthcare",
+                        "healthcare": "Healthcare / Mental Health Services",
                         "hospitality_tourism": "Hospitality / Tourism",
                         "human_resources": "Human Resources",
-                        "information_technology": "Information Technology",
+                        "information_technology": "Information Technology / IT",
                         "insurance": "Insurance",
                         "internet": "Internet",
                         "legal_law": "Legal / Law",
@@ -658,7 +658,7 @@
                         "domestic": "Domestic",
                         "international": "International",
                         "both": "Both, domestic and international",
-                        "neither": "Prefer not to answer"
+                        "neither": "Neither, I don't travel by plane"
                     },
                     "shortName": "Types of flights you take"
                 },
@@ -710,14 +710,14 @@
                 "shortName": "Total annual income that all members of your household earn combined (before taxes)"
             },
             "mobileCarrier": {
-                "question": "Which of these is the carrier for the cell phone you use most often?",
-                "shortName": "Carrier for the cell phone you use most often"
+                "question": "Which of these is the carrier for the mobile phone you use most often?",
+                "shortName": "Carrier for the mobile phone you use most often"
             },
             "noPhone": {
-                "noPhone": "I don't have a cell phone"
+                "noPhone": "I don't have a mobile phone"
             },
             "companyRevenue": {
-                "question": "Approximately what is the annual revenue for your organization?",
+                "question": "undefined",
                 "shortName": "Approximate annual revenue of your organization"
             },
             "subscriptions": {

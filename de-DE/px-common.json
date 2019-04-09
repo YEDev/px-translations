@@ -1,0 +1,179 @@
+{
+    "izPanel": {
+        "common": {
+            "androidPhone": "",
+            "androidTablet": "",
+            "chrome": "",
+            "claim": "",
+            "comma": "",
+            "contactUsLowercaseImperative": "",
+            "copyright": "",
+            "edge": "",
+            "email": "",
+            "firefox": "",
+            "ie": "",
+            "iPad": "",
+            "iPhone": "",
+            "logIn": "",
+            "logInImperative": "",
+            "logInLowercase": "",
+            "next": "",
+            "noRobot": "",
+            "or": "",
+            "orPressEnter": "",
+            "password": "",
+            "period": "",
+            "privacyLink": "Datenschutzerklärung",
+            "requiredField": "",
+            "safari": "",
+            "signUp": "",
+            "submit": "",
+            "termsLink": "Nutzungsbedingungen",
+            "day": "",
+            "month": "",
+            "year": "",
+            "facebook": "",
+            "google": "",
+            "save": "",
+            "send": "",
+            "demographics": {
+                "female": "",
+                "lessThan": "",
+                "male": "",
+                "na": "",
+                "no": "",
+                "none": "",
+                "noneOrNoTell": "",
+                "orMore": "",
+                "other": "",
+                "otherFeminine": "",
+                "otherFemininePlural": "",
+                "otherPlural": "",
+                "unknown": "",
+                "yes": "",
+                "nonBinary": ""
+            },
+            "tip": {
+                "paypal": {
+                    "title": "",
+                    "description": ""
+                }
+            },
+            "finish": "",
+            "gotIt": "",
+            "emailNotifications": {
+                "title": "",
+                "mkt": {
+                    "title": "",
+                    "description": ""
+                },
+                "studyInvites": {
+                    "title": "",
+                    "description": "",
+                    "confirmationModal": {
+                        "title": "",
+                        "description": "",
+                        "cta": ""
+                    }
+                },
+                "description": ""
+            },
+            "language": {
+                "title": "",
+                "englishUS": "",
+                "englishUK": "",
+                "spanish": "",
+                "german": ""
+            },
+            "cancel": "",
+            "edit": "",
+            "studies": {
+                "cardSort": {
+                    "title": "",
+                    "description": ""
+                },
+                "practice": {
+                    "title": "",
+                    "description": ""
+                },
+                "survey": {
+                    "description": "",
+                    "title": ""
+                },
+                "taskBased": {
+                    "title": "",
+                    "description": ""
+                },
+                "tol": {
+                    "title": "",
+                    "description": ""
+                },
+                "requirements": {
+                    "anyBrowser": "",
+                    "aWorking": "",
+                    "goodLightning": "",
+                    "headphones": "",
+                    "maybeRecorded": "",
+                    "microphone": "",
+                    "quietEnvironment": "",
+                    "screener": "",
+                    "strongConnection": "",
+                    "updatedBrowser": "",
+                    "webcam": "",
+                    "title": ""
+                },
+                "participate": "",
+                "devices": "",
+                "youWillNeed": "",
+                "manualSourcing": {
+                    "title": "",
+                    "description": ""
+                },
+                "treeTest": {
+                    "title": "",
+                    "description": ""
+                },
+                "clickTest": {
+                    "title": "",
+                    "description": ""
+                }
+            },
+            "studyRequirementsEmail": {
+                "desktopBrowser": {
+                    "intro": "Computer mit einer aktuellen Version von",
+                    "ending": " ",
+                    "any": "Computer mit aktualisiertem Browser."
+                },
+                "deviceBrowserAny": "Ein aktueller Browser. Du kannst mit Deinem Computer, Tablet oder Handy an dieser Studie teilnehmen.",
+                "deviceMoreThanOne": "Du kannst an dieser Studie mit den folgenden Endgeräten teilnehmen:",
+                "incentiveExplanation": "Die Prämie für diese Studie beträgt {{studyFee}} wenn Deine Teilnahme bestätigt ist.",
+                "phoneOS": {
+                    "intro": "Ein",
+                    "ending": "mit guter Internetverbindung und genügend Batterie.",
+                    "any": "Ein Smartphone mit guter Internetverbindung und genügend Batterie."
+                },
+                "recording": {
+                    "audioVideo": "Du benötigst eine Webcam und ein Mikrofon: Begebe Dich an einen ruhigen, gut beleuchteten Ort und stelle sicher Deine Gedanken laut auszusprechen während Du die Aufgaben löst. \n\nBenutze Kopfhörer um eine gute Aufnahmequalität zu gewährleisten.",
+                    "audio": "",
+                    "video": "",
+                    "noneTaskBased": "",
+                    "noneQuestionnaire": ""
+                },
+                "screener": "",
+                "tabletOS": {
+                    "intro": "",
+                    "ending": "",
+                    "any": ""
+                },
+                "title": ""
+            },
+            "and": "",
+            "aUppercase": "",
+            "desktop": "",
+            "phone": "",
+            "tablet": "",
+            "selectAnOption": "",
+            "comingSoon": ""
+        }
+    }
+}

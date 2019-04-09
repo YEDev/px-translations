@@ -3,19 +3,24 @@
         "category": {
             "aboutMe": {
                 "birthday": {
-                    "question": "¿Cuál es tu fecha de nacimiento?"
+                    "question": "¿Cuál es tu fecha de nacimiento?",
+                    "shortName": "Fecha de nacimiento"
                 },
                 "country": {
-                    "question": "¿En qué país vives?"
+                    "question": "¿En qué país vives?",
+                    "shortName": "País"
                 },
                 "gender": {
-                    "question": "Eres..."
+                    "question": "Eres...",
+                    "shortName": "Sexo"
                 },
                 "postalCode": {
-                    "question": "¿Cuál es tu código postal?"
+                    "question": "¿Cuál es tu código postal?",
+                    "shortName": "Código postal"
                 },
                 "hispanic": {
-                    "question": "¿Eres de origen hispánico, látino o español?"
+                    "question": "¿Eres de origen hispánico, latino o español?",
+                    "shortName": "Origen hispánico, latino o español"
                 },
                 "ethnicity_us": {
                     "list": {
@@ -53,7 +58,9 @@
                         "divorcedFemale": "Divorciada",
                         "separatedFemale": "Separada",
                         "widowedFemale": "Viuda"
-                    }
+                    },
+                    "question": "¿Cuál es tu estado civil?",
+                    "shortName": "Estado civil"
                 },
                 "education_us": {
                     "list": {
@@ -112,7 +119,8 @@
                         "turkish": "Turco",
                         "urdu": "Urdu",
                         "welsh": "Galés"
-                    }
+                    },
+                    "shortName": "Idiomas que hablas fuildamente y te sientes cómodo para dar tu opinión"
                 }
             },
             "education": {
@@ -166,22 +174,12 @@
                         "4": "4 personas",
                         "5": "5 personas",
                         "more_5": "Más de 5 personas"
-                    }
+                    },
+                    "shortName": "Número de personas que viven en tu casa (incluyéndote)"
                 },
                 "householdChildren": {
                     "question": "¿Cuántos menores de 18 años viven en tu casa?",
-                    "list": {
-                        "firstChildGender": "Del primer menor de 18, ¿cuál es su sexo?",
-                        "firstChildBirthday": "Del primer menor de 18, ¿cuál es su fecha de nacimiento?",
-                        "secondChildGender": "Del segundo menor de 18, ¿cuál es su sexo?",
-                        "secondChildBirthday": "Del segundo menor de 18, ¿cuál es su fecha de nacimiento?",
-                        "thirdChildGender": "Del tercer menor de 18, ¿cuál es su sexo?",
-                        "thirdChildBirthday": "Del tercer menor de 18, ¿cuál es su fecha de nacimiento?",
-                        "fourthChildGender": "Del cuarto menor de 18, ¿cuál es su sexo?",
-                        "fourthChildBirthday": "Del cuarto menor de 18, ¿cuál es su fecha de nacimiento?",
-                        "fifthChildGender": "Del quinto menor de 18, ¿cuál es su sexo?",
-                        "fifthChildBirthday": "Del quinto menor de 18, ¿cuál es su fecha de nacimiento?"
-                    }
+                    "shortName": "Número de menores de 18 años que viven en tu casa"
                 },
                 "pets": {
                     "question": "¿Qué tipo de mascotas viven en tu casa?",
@@ -191,7 +189,8 @@
                         "bird": "Pájaro(s)",
                         "fish": "Peces",
                         "noPets": "No tengo mascotas"
-                    }
+                    },
+                    "shortName": "Mascotas que viven en tu casa"
                 },
                 "ownRent": {
                     "question": "¿Cuál sería la mejor descripción de tu casa actual?",
@@ -199,7 +198,8 @@
                         "rented": "Apartamento o casa alquilada",
                         "owned": "Apartamento o casa en propiedad",
                         "parents": "Vivo con mi padres"
-                    }
+                    },
+                    "shortName": "Descripción de tu casa actual"
                 },
                 "purchaseDecisionMaker": {
                     "question": "De la siguiente lista de opciones, ¿de cuáles eres responsable o parcialmente responsable de tomar desiciones en tu casa?",
@@ -212,7 +212,8 @@
                         "mortgage": "Hipoteca",
                         "finance": "Finanzas",
                         "clothing": "Ropa"
-                    }
+                    },
+                    "shortName": "Cosas de las cuales eres responsable o parcialmente responsable de tomar desiciones en tu casa"
                 },
                 "investments_gb": {
                     "list": {
@@ -225,6 +226,46 @@
                         "investmentTrusts": "Fideicomisos de inversión",
                         "fixedIncomeProducts": "Productos de renta fija"
                     }
+                },
+                "firstChild_gender": {
+                    "question": "Del primer menor de 18, ¿cuál es su sexo?",
+                    "shortName": "Sexo del primer menor de 18"
+                },
+                "firstChild_birthday": {
+                    "question": "Del primer menor de 18, ¿cuál es su fecha de nacimiento?",
+                    "shortName": "Fecha de nacimiento del primer menor de 18"
+                },
+                "secondChild_gender": {
+                    "question": "Del segundo menor de 18, ¿cuál es su sexo?",
+                    "shortName": "Sexo del segundo menor de 18"
+                },
+                "secondChild_birthday": {
+                    "question": "Del segundo menor de 18, ¿cuál es su fecha de nacimiento?",
+                    "shortName": "Fecha de nacimiento del segundo menor de 18"
+                },
+                "thirdChild_gender": {
+                    "question": "Del tercer menor de 18, ¿cuál es su sexo?",
+                    "shortName": "Sexo del tercer menor de 18"
+                },
+                "thirdChild_birthday": {
+                    "question": "Del tercer menor de 18, ¿cuál es su fecha de nacimiento?",
+                    "shortName": "Fecha de nacimiento del tercer menor de 18"
+                },
+                "fourthChild_gender": {
+                    "question": "Del cuarto menor de 18, ¿cuál es su sexo?",
+                    "shortName": "Sexo del cuarto menor de 18"
+                },
+                "fourthChild_birthday": {
+                    "question": "Del cuarto menor de 18, ¿cuál es su fecha de nacimiento?",
+                    "shortName": "Fecha de nacimiento del cuarto menor de 18"
+                },
+                "fifthChild_gender": {
+                    "question": "Del quinto menor de 18, ¿cuál es su sexo?",
+                    "shortName": "Sexo del quinto menor de 18"
+                },
+                "fifthChild_birthday": {
+                    "question": "Del quinto menor de 18, ¿cuál es su fecha de nacimiento?",
+                    "shortName": "Fecha de nacimiento del quinto menor de 18"
                 }
             },
             "technology": {
@@ -234,10 +275,11 @@
                         "prepaid": "Pre pago",
                         "contract": "Contrato",
                         "noPhone": "No tengo teléfono móvil"
-                    }
+                    },
+                    "shortName": "Tipo de plan para móvil"
                 },
                 "electronicDevices": {
-                    "question": "¿Cuáles de los siguientes artículos electrónicos tienes?",
+                    "question": "¿Cuáles de los siguientes dispositivos electrónicos tienes?",
                     "list": {
                         "flatTv": "Televisión de pantalla plana",
                         "handheldConsole": "Consola de videojuegos portatil (Nintendo 2DS, Nintendo Switch)",
@@ -259,7 +301,8 @@
                         "digitalMediaReceiver": "Receptor de medios digitales (eg. Apple TV, Roku)",
                         "tablet": "Tableta (eg. iPad)",
                         "ebook": "Lector de libros electrónicos (eg. Kindle)"
-                    }
+                    },
+                    "shortName": "Dispositivos electrónicos en tu casa"
                 }
             },
             "occupation": {
@@ -278,7 +321,8 @@
                         "student": "Estudiante",
                         "unable_or_disabled": "Discapacitado o incapaz de trabajar",
                         "looking_for_work": "Temporalmente desempleado"
-                    }
+                    },
+                    "shortName": "Estado laboral actual"
                 },
                 "industry": {
                     "question": "¿En cuál de las siguientes industrias trabajas?",
@@ -339,7 +383,8 @@
                         "transportation": "Transporte",
                         "user_experience_research": "Investigación de la experiencia del usuario",
                         "otherFeminine": "Otra"
-                    }
+                    },
+                    "shortName": "Industria laboral"
                 },
                 "jobDepartment": {
                     "question": "¿En qué departamento trabajas principalmente en tu empresa / organización?",
@@ -359,7 +404,8 @@
                         "technology_software": "Desarrollo tecnológico de Software (no solo el departamento informático)",
                         "technology_implementation": "Implementación de tecnología",
                         "other": "Otro"
-                    }
+                    },
+                    "shortName": "Departamento en el trabajo"
                 },
                 "jobTitle": {
                     "question": "¿Cuál es tu título de trabajo, nivel o grado de responsabilidad?",
@@ -377,10 +423,11 @@
                         "intern": "Interno o practicante",
                         "volunteer": "Voluntario",
                         "other": "Otro"
-                    }
+                    },
+                    "shortName": "Titulo laboral"
                 },
                 "decisionMaker": {
-                    "question": "Por favor selecciona los departamentos o productos sobre los cuales tengas influencia o poder de desición para hacer gastos o compras.",
+                    "question": "Por favor selecciona los departamentos o productos sobre los cuales tienes influencia o poder de desición para hacer gastos o compras.",
                     "list": {
                         "itHardware": "Equipos de computo (IT Hardware)",
                         "itSoftware": "Programas informáticos (IT Software)",
@@ -398,10 +445,12 @@
                         "security": "Seguridad",
                         "foodServices": "Servicios de comida",
                         "autoleasing": "Alquiler o compra de automóviles"
-                    }
+                    },
+                    "shortName": "Departamentos o productos sobre los cuales tienes influencia o poder de desición para hacer gastos o compras."
                 },
                 "companySize": {
-                    "question": "Aproximadamente ¿cuántos empleados tiene tu compañía / organización en todas sus sedes?"
+                    "question": "Aproximadamente ¿cuántos empleados tiene tu compañía / organización en todas sus sedes?",
+                    "shortName": "Empleados en tu compañía"
                 }
             },
             "hobbiesAndInterests": {
@@ -424,10 +473,12 @@
                         "technology": "Tecnología / Ordenadores",
                         "travel": "Viajar",
                         "tvSports": "Ver deportes en la televisión"
-                    }
+                    },
+                    "shortName": "Pasatiempos o intereses"
                 },
                 "socialMedia": {
-                    "question": "¿En cuáles de las siguientes redes sociales participas o usas activamente?"
+                    "question": "¿En cuáles de las siguientes redes sociales participas o usas activamente?",
+                    "shortName": "Redes sociales que usas activamente"
                 },
                 "streamingMovies": {
                     "question": "En general, ¿qué tan frecuentemente descargas o miras películas online?",
@@ -439,7 +490,8 @@
                         "4": "Cuatro veces al mes",
                         "5": "Cinco o más veces al mes",
                         "none": "No descargo o miro películas online"
-                    }
+                    },
+                    "shortName": "Frecuencia con la que descargas o miras películas online"
                 },
                 "gambling": {
                     "question": "¿En qué tipo de apuestas participas?",
@@ -455,7 +507,8 @@
                         "horseTrack": "Carreras de caballos",
                         "carRace": "Carreras de coches",
                         "none": "No participo en apuestas"
-                    }
+                    },
+                    "shortName": "Tipo de apuestas en las que participas"
                 }
             },
             "financial": {
@@ -467,7 +520,8 @@
                         "savingsAccount": "Cuenta de ahorros",
                         "personalLoan": "Préstamo personal",
                         "mortgage": "Hipoteca"
-                    }
+                    },
+                    "shortName": "Productos financieros contratados"
                 },
                 "investments_us": {
                     "list": {
@@ -573,18 +627,20 @@
                         "ulcerativeColitis": "Colitis ulcerosa",
                         "ulcers": "Úlceras",
                         "urinaryIncontinence": "Incontinencia urinaria"
-                    }
+                    },
+                    "shortName": "Enfermedades / afecciones con las que hayas sido diagnosticado"
                 }
             },
             "travel": {
                 "travelFlights": {
-                    "question": "¿Que tan seguido vuelas?",
+                    "question": "¿Que tan seguido viajas por avión?",
                     "list": {
                         "everyMonth": "Una o dos veces al mes",
                         "every2-4Months": "Una vez cada 2-4 meses",
                         "twiceYear": "Dos veces al año",
                         "onceYear": "Una vez al año"
-                    }
+                    },
+                    "shortName": "Frecuencia con la que viajas por avión"
                 },
                 "flightPurpose": {
                     "question": "¿Cuál es el propósito de tus viajes por avión?",
@@ -593,7 +649,8 @@
                         "leisure": "Placer",
                         "both": "Ambos, negocios y placer",
                         "neither": "Ninguno, no viajo por avión"
-                    }
+                    },
+                    "shortName": "Propósito de tus viajes por avión"
                 },
                 "flightDestination": {
                     "question": "Cuando vuelas, ¿qué tipos de vuelos son?",
@@ -602,22 +659,25 @@
                         "international": "Internacionales",
                         "both": "Ambos, nacionales e internacionales",
                         "neither": "Ninguno, no viajo por avión"
-                    }
+                    },
+                    "shortName": "Tipo de vuelos que haces"
                 },
                 "domesticAirlines_us": {
                     "question": "¿Con qué aerolíneas nacionales has viajado en los últimos 12 meses?",
                     "list": {
                         "none": "No he volado con ninguna aerolínea nacional en los últimos 12 meses"
-                    }
+                    },
+                    "shortName": "Aerolíneas nacionales con las que has viajado en los últimos 12 meses"
                 },
                 "internationalAirlines": {
                     "question": "¿Con qué aerolíneas internacionales has viajado en los últimos 12 meses?",
                     "list": {
                         "none": "No he volado con ninguna aerolínea internacional en los últimos 12 meses"
-                    }
+                    },
+                    "shortName": "Aerolíneas internacionales con las que has viajado en los últimos 12 meses"
                 },
                 "accomodationType": {
-                    "question": "¿En qué tipo de alojamiento te has hospedado en el último año?",
+                    "question": "¿En qué tipo de alojamientos te has hospedado en el último año?",
                     "list": {
                         "houseRental": "Alquiler de casas (AirBnB & VRBO)",
                         "bedBreakfast": "Bed & Breakfast",
@@ -627,49 +687,60 @@
                         "motel": "Motel",
                         "personalVacationHome": "Casa vacacional personal",
                         "timeshare": "Casa vacacional compartida"
-                    }
+                    },
+                    "shortName": "Tipo de alojamientos en los que te has hospedado en el último año"
                 },
                 "hotelLoyalty": {
-                    "question": "¿Eres parte de alguno de los siguientes programas de fidelización de hoteles?"
+                    "question": "¿Eres parte de alguno de los siguientes programas de fidelización de hoteles?",
+                    "shortName": "Programas de fidelización de hoteles a los que perteneces"
                 }
             }
         },
         "generic.\"ethnicity": {
-            "question": "¿De qué raza eres?"
+            "question": "¿De qué raza eres?",
+            "shortName": "Raza"
         },
         "generic": {
             "education": {
-                "question": "¿Cuál es el nivel de educación más alto que has completado?"
+                "question": "¿Cuál es el nivel de educación más alto que has completado?",
+                "shortName": "Nivel de educación más alto"
             },
             "householdIncome": {
-                "question": "¿Cuál es el ingreso anual y combinado de todos los miembros de tu casa antes de impuestos?"
+                "question": "¿Cuál es el ingreso anual y combinado de todos los miembros de tu casa antes de impuestos?",
+                "shortName": "Ingreso anual y combinado de todos los miembros de tu casa antes de impuestos"
             },
             "mobileCarrier": {
-                "question": "De las siguientes operadoras de telefonía móvil, ¿cuál es la que más utilizas?"
+                "question": "De las siguientes operadoras de telefonía móvil, ¿cuál es la que más utilizas?",
+                "shortName": "Operadora móvil del teléfono que más utilizas"
             },
             "noPhone": {
                 "noPhone": "No tengo teléfono móvil"
             },
             "companyRevenue": {
-                "question": "undefined"
+                "question": "undefined",
+                "shortName": "Ingreso anual aproximado de tu compañía / organización"
             },
             "subscriptions": {
-                "question": "¿A cuáles de los siguientes servicios estas subscrito?"
+                "question": "¿A cuáles de los siguientes servicios estas subscrito?",
+                "shortName": "Servicios a los que estas suscrito"
             },
             "investments": {
                 "question": "¿Qué tipo de ahorros o inversiones tienes?",
                 "realEstate": "Bienes raíces",
                 "savingsAccount": "Cuenta de ahorros",
-                "shares": "Acciones"
+                "shares": "Acciones",
+                "shortName": "Tipo de ahorros o inversiones que poseés"
             },
             "investableAssets": {
-                "question": "De los siguientes valores, ¿cuál representa mejor los bienes de tu casa que pueden ser invertidos? (sin incluir la propiedad de la casa)"
+                "question": "De los siguientes valores, ¿cuál representa mejor los bienes de tu casa que pueden ser invertidos? (sin incluir la propiedad de la casa)",
+                "shortName": "Valor aproximado de los bienes invertibles de tu casa (sin incluir la propiedad de la casa)"
             },
             "airlineLoyalty": {
                 "question": "¿Eres parte de alguno de los siguientes programas de fidelización de aerolíneas?",
                 "list": {
                     "none": "No formo parte de ningún programa de fidelización de aerolíneas"
-                }
+                },
+                "shortName": "Programas de fidelización de aerolíneas a los que perteneces"
             },
             "hotelLoyalty": {
                 "list": {

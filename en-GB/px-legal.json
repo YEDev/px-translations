@@ -1,0 +1,14 @@
+{
+    "izPanel": {
+        "legal": {
+            "termsOfService": {
+                "title": "Terms of Service",
+                "text": ""
+            },
+            "privacyPolicy": {
+                "title": "Privacy Policy",
+                "text": ""
+            }
+        }
+    }
+}
