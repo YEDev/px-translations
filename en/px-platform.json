@@ -40,7 +40,7 @@
             },
             "doubleOptIn": {
                 "title": "We've sent you a confirmation email to activate your account",
-                "description": "Please click on the link in the email to activate your account.\n\nFor security purposes, the link will expire in 24h.\n\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email.",
+                "description": "Please click on the link in the email to activate your account.\n\nFor security purposes, the link will expire in 24 hours.\n\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email.",
                 "resendSuccess": "Email sent!"
             }
         },
@@ -151,7 +151,7 @@
             "description": "Please enter your email and we'll send you a link to reset your password.",
             "success": {
                 "title": "We've sent you an email to reset your password",
-                "description": "For security purposes, the link will expire in 24h.\n\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email."
+                "description": "For security purposes, the link will expire in 24 hours.\n\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email."
             }
         },
         "resetPassword": {
@@ -313,7 +313,7 @@
         "myProfile": {
             "panelistName": "{{user.firstName}} {{user.lastName}}",
             "profileCompletion": {
-                "tilte": "Your profile is {{completionPercentage}} complete!",
+                "title": "Your profile is {{completionPercentage}} complete!",
                 "description": "Answer the questions in the categories below and get invited to more studies."
             },
             "availableStudyTypes": {
@@ -342,16 +342,16 @@
             },
             "success": {
                 "title": "Great!",
-                "description": "You now can be invited to studies that match your {{categoryFilled}} profile.\n\nRemember that you can always <4>review or edit</4> your {{categoryFilled}} info from My profile section.",
+                "description": "You now can be invited to studies that match your {{categoryFilled}} profile.\n\nRemember that you can always <0>review or edit</0> your {{categoryFilled}} info from My profile section.",
                 "backToMyProfile": "Back to My profile",
                 "moreCategories": {
                     "title": "Don't break momentum!",
                     "description": "Answer **just {{numberQuestionsMissing}} questions** on {{categoryMissing}} to be able to be invited to more studies.",
                     "letsDoThis": "Let's do this"
-                },
-                "aboutMe": {
-                    "nonEditableFields": "If you want to change your birthday, gender or country information, please <1>get in touch</1> with our Support team."
                 }
+            },
+            "aboutMe": {
+                "nonEditableFields": "If you want to change your birthday, gender or country information, please <1>get in touch</1> with our Support team."
             }
         }
     }
