@@ -69,7 +69,7 @@
                 },
                 "studyInvites": {
                     "title": "Invitations to user experience studies",
-                    "description": "Receive invitations to user experience studies that:\n\n-  You can take remotely, from the confort of your home.\n-  Take an average of 10-20 min to answer.\n-  Pay {{tolIncentive}} on average for studies that record think out loud audio and video. For standard surveys, the payment is {{surveyIncentive}} on average.",
+                    "description": "Receive invitations to user experience studies that:\n\n-  You can take remotely, from the confort of your home.\n-  Take an average of 10-20 min to answer.\n-  Pay {{tolIncentive}} on average for studies that record audio and video. For standard surveys, the payment is {{surveyIncentive}} on average.",
                     "confirmationModal": {
                         "title": "Are you sure?",
                         "description": "If you deactivate this option you will no longer receive invitations to paid studies.",
@@ -106,12 +106,12 @@
                 },
                 "tol": {
                     "title": "Think Out Loud",
-                    "description": "This kind of studies require you to speak your thoughts while you perform tasks.\n\nRemember, there are no wrong answers. When we show you an idea, design or concept, if you hate it you hate it, if you love it you love it, if it doesn't spark any emotion and it's pretty much a waste of time... say so too!\n\nWe're only interested in your honest opinion."
+                    "description": "These kind of studies require you to speak your thoughts while you perform tasks.\n\nRemember, there are no wrong answers. When we show you an idea, design or concept, if you hate it you hate it, if you love it you love it, if it doesn't spark any emotion and it's pretty much a waste of time... say so too!\n\nWe're only interested in your honest opinion."
                 },
                 "requirements": {
                     "anyBrowser": "An updated browser",
                     "aWorking": "A working",
-                    "goodLightning": "Good lightning",
+                    "goodLightning": "A well-lit place",
                     "headphones": "Headphones",
                     "maybeRecorded": "You won't need a webcam or microphone, but your screen may be recorded. Be sure to read each task and do your best to complete them.",
                     "microphone": "microphone",
@@ -173,7 +173,8 @@
             "phone": "Mobile phone",
             "tablet": "Tablet",
             "selectAnOption": "Select an option",
-            "comingSoon": "Coming soon"
+            "comingSoon": "Coming soon",
+            "saved": "Saved"
         }
     }
 }
