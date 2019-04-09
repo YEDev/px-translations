@@ -98,9 +98,9 @@
         },
         "footer": {
             "item": {
-                "faqPayments": "[How long do payments usually take?](https://help.intellizoom.com/hc/en-us/articles/360000650458--When-and-how-much-will-I-get-paid-)",
-                "faqInvitations": "[How do invitations work?](https://help.intellizoom.com/hc/en-us/articles/360000658537-How-will-I-be-notified-of-new-studies-)",
-                "faqChangeEmail": "[How can I change my email?](https://help.intellizoom.com/hc/en-us/articles/360001190318-How-can-I-change-my-email-)",
+                "faqPayments": "[How long do payments usually take?](https://help.intellizoom.com/hc/en-uk/articles/360000650458--When-and-how-much-will-I-get-paid-)",
+                "faqInvitations": "[How do invitations work?](https://help.intellizoom.com/hc/en-uk/articles/360000658537-How-will-I-be-notified-of-new-studies-)",
+                "faqChangeEmail": "[How can I change my email?](https://help.intellizoom.com/hc/en-uk/articles/360001190318-How-can-I-change-my-email-)",
                 "faqBrowseAll": "[See more](https://help.intellizoom.com/hc/en-us)",
                 "sendEmail": "[Send us an email](https://help.intellizoom.com/hc/en-us/requests/new)",
                 "whatIsIZP": "What is IntelliZoom Panel"
@@ -342,11 +342,11 @@
             },
             "success": {
                 "title": "Great!",
-                "description": "You now can be invited to studies that match your {{categoryFilled}} profile.\n\nRemember that you can always <0>review or edit</0> your {{categoryFilled}} info from My profile section.",
-                "backToMyProfile": "Back to My profile",
+                "description": "You can now be invited to studies that match your {{categoryFilled}} profile.\n\nRemember that you can always <0>review or edit</0> your {{categoryFilled}} info from My profile section.",
+                "backToMyProfile": "Back to My Profile",
                 "moreCategories": {
-                    "title": "Don't break momentum!",
-                    "description": "Answer **just {{numberQuestionsMissing}} questions** on {{categoryMissing}} to be able to be invited to more studies.",
+                    "title": "Don't break momentum!\t",
+                    "description": "Answer **just {{numberQuestionsMissing}} questions** on {{categoryMissing}} to be able to be invited to more studies.",
                     "letsDoThis": "Let's do this"
                 }
             },

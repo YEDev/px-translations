@@ -173,7 +173,8 @@
             "phone": "Teléfono móvil",
             "tablet": "Tablet",
             "selectAnOption": "Selecciona una opción",
-            "comingSoon": "Próximamente"
+            "comingSoon": "Próximamente",
+            "saved": ""
         }
     }
 }

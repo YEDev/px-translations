@@ -1,0 +1,358 @@
+{
+    "izPanel": {
+        "registration": {
+            "name": {
+                "title": "",
+                "field": {
+                    "firstName": "",
+                    "lastName": ""
+                },
+                "alreadyRegistered": ""
+            },
+            "country": {
+                "title": "",
+                "otherCountry": ""
+            },
+            "email": {
+                "title": "",
+                "description": ""
+            },
+            "password": {
+                "title": "",
+                "description": "",
+                "requirements": {
+                    "capitalLetter": "",
+                    "numberOrSymbol": "",
+                    "minChars": "",
+                    "lowercaseLetter": "",
+                    "passwordsShouldMatch": ""
+                },
+                "passwordConfirmation": ""
+            },
+            "terms": {
+                "title": "",
+                "description": "",
+                "checkbox": {
+                    "gdpr": "",
+                    "terms": "",
+                    "mkt": ""
+                }
+            },
+            "doubleOptIn": {
+                "title": "",
+                "description": "",
+                "resendSuccess": ""
+            }
+        },
+        "comingSoon": {
+            "title": "",
+            "description": "",
+            "success": {
+                "title": "",
+                "description": ""
+            },
+            "gdpr": ""
+        },
+        "error": {
+            "required": {
+                "field": "",
+                "gdpr": "",
+                "terms": ""
+            },
+            "format": {
+                "email": "",
+                "genericFormat": ""
+            },
+            "registration": {
+                "existingEmail": "",
+                "sendEmailFail": "",
+                "passwordRequirements": "",
+                "emailLength": ""
+            },
+            "minTwoChars": {
+                "firstName": "",
+                "lastName": ""
+            },
+            "generic": "",
+            "birthday": {
+                "future": "",
+                "past": ""
+            },
+            "login": {
+                "accountBlocked": "",
+                "accountInactive": "",
+                "expiredLink": "",
+                "invalidCredentials": "",
+                "userNotFound": "",
+                "wrongActivation": "",
+                "wrongActivationWithLink": ""
+            },
+            "forgotPassword": {
+                "sendEmailFail": ""
+            },
+            "resetPassword": {
+                "incorrectPassword": "",
+                "expiredLink": ""
+            },
+            "limitExceeded": ""
+        },
+        "footer": {
+            "item": {
+                "faqPayments": "",
+                "faqInvitations": "",
+                "faqChangeEmail": "",
+                "faqBrowseAll": "",
+                "sendEmail": "",
+                "whatIsIZP": ""
+            },
+            "title": {
+                "about": "",
+                "contact": "",
+                "faq": "",
+                "social": ""
+            }
+        },
+        "header": {
+            "email": "",
+            "logOut": "",
+            "mainDashboard": "",
+            "name": "",
+            "profile": "",
+            "settings": ""
+        },
+        "basicDemographics": {
+            "flowTitle": "",
+            "flowDescription": "",
+            "flowLastQuestion": "",
+            "progress": "",
+            "success": {
+                "title": "",
+                "description": "",
+                "cta": ""
+            },
+            "underage": {
+                "title": "",
+                "description": ""
+            }
+        },
+        "login": {
+            "title": "",
+            "forgotPassword": "",
+            "orSocialAccess": "",
+            "newHere": "",
+            "signUp": "",
+            "success": {
+                "accountActivated": "",
+                "emailResent": ""
+            }
+        },
+        "forgotPassword": {
+            "title": "",
+            "description": "",
+            "success": {
+                "title": "",
+                "description": ""
+            }
+        },
+        "resetPassword": {
+            "title": "",
+            "currentPassword": {
+                "description": "",
+                "field": ""
+            },
+            "success": {
+                "title": "",
+                "description": "",
+                "cta": "",
+                "backToSettings": ""
+            }
+        },
+        "landing": {
+            "heroSection": {
+                "title": "",
+                "description": "",
+                "cta": ""
+            },
+            "featureBoxes": {
+                "first": {
+                    "title": "",
+                    "description": ""
+                },
+                "second": {
+                    "title": "",
+                    "description": ""
+                },
+                "third": {
+                    "title": "",
+                    "description": ""
+                }
+            },
+            "reinforcingBanner": {
+                "phrase1": "",
+                "phrase2": ""
+            },
+            "faqs": {
+                "title": "",
+                "faq1": {
+                    "title": "",
+                    "description": ""
+                },
+                "faq2": {
+                    "title": "",
+                    "description": ""
+                },
+                "faq3": {
+                    "title": "",
+                    "description": ""
+                },
+                "faq4": {
+                    "title": "",
+                    "description": ""
+                },
+                "faq5": {
+                    "title": "",
+                    "description": ""
+                },
+                "faq6": {
+                    "title": "",
+                    "description": ""
+                },
+                "faq7": {
+                    "title": "",
+                    "description": ""
+                }
+            },
+            "uzBanner": {
+                "title": "",
+                "description": ""
+            }
+        },
+        "settings": {
+            "title": "",
+            "account": {
+                "title": "",
+                "credentials": {
+                    "title": "",
+                    "passwordLastUpdate": "",
+                    "changePassword": ""
+                },
+                "phone": {
+                    "title": "",
+                    "description": "",
+                    "addPhone": ""
+                },
+                "deactivateAccount": {
+                    "title": "",
+                    "description": "",
+                    "cta": "",
+                    "confirmationModal": {
+                        "title": "",
+                        "description": "",
+                        "cta": ""
+                    }
+                }
+            },
+            "successfulUpdate": ""
+        },
+        "studiesDashboard": {
+            "completed": {
+                "sectionTitle": "",
+                "completitionDate": "",
+                "paymentsDescription": ""
+            },
+            "incompleteProfile": {
+                "title": "",
+                "description": "",
+                "cta": ""
+            },
+            "intro": {
+                "title": "",
+                "descriptionFTU": "",
+                "oneStudyAvailable": "",
+                "severalStudiesAvailable": ""
+            },
+            "practiceStudy": {
+                "cta": ""
+            },
+            "reactiveMessage": {
+                "certification": {
+                    "underRevision": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "rejected": {
+                        "title": "",
+                        "description": ""
+                    },
+                    "accepted": {
+                        "title": "",
+                        "description": "",
+                        "cta": ""
+                    }
+                },
+                "unsubscribe": {
+                    "title": "",
+                    "description": "",
+                    "cta": ""
+                }
+            },
+            "tip": {
+                "phone": {
+                    "title": "",
+                    "description": "",
+                    "mainCTA": "",
+                    "secondaryCTA": ""
+                }
+            },
+            "availableStudiesTitle": "",
+            "availableStudyTitle": "",
+            "emptyDescription": "",
+            "noLongerAvailable": "",
+            "studyCTA": ""
+        },
+        "myProfile": {
+            "panelistName": "",
+            "profileCompletion": {
+                "tilte": "",
+                "description": ""
+            },
+            "availableStudyTypes": {
+                "title": "",
+                "description": ""
+            },
+            "categories": {
+                "title": "",
+                "description": "",
+                "complete": "",
+                "questionsPending": "",
+                "editCTA": "",
+                "answerCTA": ""
+            }
+        },
+        "demographics": {
+            "categories": {
+                "aboutMe": "",
+                "healthAndFitness": "",
+                "hobbiesAndInterests": "",
+                "household": "",
+                "financial": "",
+                "occupation": "",
+                "technology": "",
+                "travel": ""
+            },
+            "success": {
+                "title": "",
+                "description": "",
+                "backToMyProfile": "",
+                "moreCategories": {
+                    "title": "",
+                    "description": "",
+                    "letsDoThis": ""
+                },
+                "aboutMe": {
+                    "nonEditableFields": ""
+                }
+            }
+        }
+    }
+}

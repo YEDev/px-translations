@@ -1,0 +1,69 @@
+{
+    "izPanel": {
+        "emails": {
+            "footer": {
+                "support": "Hilfe!",
+                "copyright": "IntelliZoom Panel wird betrieben von UserZoom Technologies, Inc. © 2019\n10 Almaden Blvd. Ste. 250, San Jose, CA 95113 U.S.A.",
+                "unsubscribe": "Von unseren E-Mails abmelden"
+            },
+            "doubleOptIn": {
+                "subject": "Willkommen zu IntelliZoom Panel",
+                "title": "Hallo {{user.name}}, Willkommen zu IntelliZoom Panel!",
+                "bodyCopy": "Klicke hier um Dein Konto zu aktivieren.\n\nAus Sicherheitsgründen wird dieser Link nach 24 Stunden oder einmaliger Benützung ungültig.",
+                "cta": "Konto aktivieren",
+                "closing": "Tschüss!\n\nIntelliZoom Panel Team"
+            },
+            "reset": {
+                "subject": "Passwort zurücksetzen",
+                "title": "Hast Du Dein Passwort vergessen?",
+                "bodyCopy": "Das ist in Ordnung und passiert uns allen. Klicke einfach auf die Schaltfläche unten um Dein Passwort zurückzusetzen und fertig. Solltest Du diese Anfrage nicht getätigt haben, bitte ignoriere dieses E-Mail.\n\nAus Sicherheitsgründen wird dieser Link nach 24 Stunden oder einmaliger Benützung ungültig.",
+                "cta": "Passwort zurücksetzen"
+            },
+            "registeredTwice": {
+                "subject": "Jemand hat gerade versucht sich mit Deiner E-Mail bei IntelliZoom Panel zu registrieren",
+                "title": "Jemand hat gerade versucht sich mit Deiner E-Mail bei IntelliZoom Panel zu registrieren",
+                "bodyCopy": "Warst das Du? In diesem Fall $t(izpanel.emails.registeredtwice.logIn). Wenn Du Dein Passwort vergessen hast, kannst Du eine $t(izpanel.emails.registeredtwice.updatePassword).\n\nWenn Du es nicht warst, bitte ignoriere diese E-Mail, wir kümmern uns darum.",
+                "logIn": "melde Dich einfach an",
+                "updatePassword": "Änderung beantragen"
+            },
+            "studyInvitation": {
+                "subject": "Da ist eine neue Studie verfügbar für Dich",
+                "title": "Hallo {{user.name}}, da ist eine neue Studie verfügbar für Dich!",
+                "bodyCopy": "Bist Du bereit uns Dein Feedback zu geben?",
+                "cta": "Nimm teil!",
+                "studyID": "Studien ID zur Referenz: {{campaignID}}",
+                "closing": "Tschüss!\n\nIntelliZoom Panel Team"
+            },
+            "studyComplete": {
+                "subject": "",
+                "title": "",
+                "bodyCopy": ""
+            },
+            "paymentSent": {
+                "subject": "",
+                "title": "",
+                "bodyCopy": ""
+            },
+            "paymentConfirmation": {
+                "subject": "",
+                "title": "",
+                "bodyCopy": ""
+            },
+            "certificationApproved": {
+                "subject": "",
+                "title": "",
+                "bodyCopy": ""
+            },
+            "certificationRejected": {
+                "subject": "",
+                "title": "",
+                "bodyCopy": ""
+            },
+            "generic": {
+                "genericClosing": "Tschüss!\n\nIntelliZoom Panel Team",
+                "inlineContact": "",
+                "inlineHelp": ""
+            }
+        }
+    }
+}
