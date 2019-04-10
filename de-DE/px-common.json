@@ -51,7 +51,8 @@
                 "otherPlural": "",
                 "unknown": "",
                 "yes": "",
-                "nonBinary": ""
+                "nonBinary": "",
+                "noneMasculine": ""
             },
             "tip": {
                 "paypal": {
@@ -173,7 +174,8 @@
             "phone": "",
             "tablet": "",
             "selectAnOption": "",
-            "comingSoon": ""
+            "comingSoon": "",
+            "saved": ""
         }
     }
 }
