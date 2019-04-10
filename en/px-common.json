@@ -51,7 +51,8 @@
                 "otherPlural": "Other",
                 "unknown": "I don't know",
                 "yes": "Yes",
-                "nonBinary": "Non binary"
+                "nonBinary": "Non binary",
+                "noneMasculine": "None of the above"
             },
             "tip": {
                 "paypal": {
@@ -69,7 +70,7 @@
                 },
                 "studyInvites": {
                     "title": "Invitations to user experience studies",
-                    "description": "Receive invitations to user experience studies that:\n\n-  You can take remotely, from the confort of your home.\n-  Take an average of 10-20 min to answer.\n-  Pay {{tolIncentive}} on average for studies that record audio and video. For standard surveys, the payment is {{surveyIncentive}} on average.",
+                    "description": "Receive invitations to user experience studies that:\n\n-  You can take remotely, from the comfort of your home.\n-  Take an average of 10-20 min to answer.\n-  Pay {{tolIncentive}} on average for studies that record audio and video. For standard surveys, the payment is {{surveyIncentive}} on average.",
                     "confirmationModal": {
                         "title": "Are you sure?",
                         "description": "If you deactivate this option you will no longer receive invitations to paid studies.",
