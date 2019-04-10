@@ -52,12 +52,7 @@
                         "divorcedMale": "Geschieden",
                         "separatedMale": "Getrennt",
                         "cohabiting": "Verpartnert / Gemeinsam lebend",
-                        "widowedMale": "Verwittwet",
-                        "singleFemale": "Single, unverheiratet",
-                        "marriedFemale": "Verheiratet",
-                        "divorcedFemale": "Geschieden",
-                        "separatedFemale": "Getrennt",
-                        "widowedFemale": "Verwittwet"
+                        "widowedMale": "Verwittwet"
                     },
                     "question": "Was ist Dein Familienstand?",
                     "shortName": "undefined"
@@ -361,7 +356,7 @@
                         "insurance": "Versicherungen",
                         "internet": "Internet",
                         "legal_law": "Recht und Justiz",
-                        "management": "Management could be in all the other businesses as well",
+                        "management": "Indeed.",
                         "manufacturing": "Verarbeitende Industrie",
                         "market_research": "Marktforschung",
                         "marketing_sales": "Marketing und Verkauf",
@@ -381,8 +376,7 @@
                         "shipping_distribution": "Versand",
                         "telecommunications": "Telekommunikation",
                         "transportation": "Transport",
-                        "user_experience_research": "UX Research / Anwenderforschung",
-                        "otherFeminine": "Andere"
+                        "user_experience_research": "UX Research / Anwenderforschung"
                     },
                     "shortName": "undefined"
                 },
