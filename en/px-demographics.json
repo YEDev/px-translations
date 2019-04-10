@@ -25,7 +25,7 @@
                 "ethnicity_us": {
                     "list": {
                         "white": "White",
-                        "black": "Black, or African American",
+                        "black": "Black or African American",
                         "indian": "American Indian or Alaska Native",
                         "asian": "Asian",
                         "islander": "Pacific Islander or Native Hawaiian",
@@ -52,15 +52,10 @@
                         "divorcedMale": "Divorced",
                         "separatedMale": "Separated",
                         "cohabiting": "Domestic partnership / Living with someone",
-                        "widowedMale": "Widowed",
-                        "singleFemale": "Single, never married",
-                        "marriedFemale": "Married",
-                        "divorcedFemale": "Divorced",
-                        "separatedFemale": "Separated",
-                        "widowedFemale": "Widowed"
+                        "widowedMale": "Widowed"
                     },
-                    "question": "What is your marital status?",
-                    "shortName": "Marital status"
+                    "question": "What is your relationship status?",
+                    "shortName": "Relationship status"
                 },
                 "education_us": {
                     "list": {
@@ -74,7 +69,7 @@
                     }
                 },
                 "languages": {
-                    "question": "What languages are you most comfortable speaking / providing feedback?",
+                    "question": "What languages do you speak and feel comfortable providing feedback?",
                     "list": {
                         "arabic": "Arabic",
                         "basque": "Basque",
@@ -120,7 +115,7 @@
                         "urdu": "Urdu",
                         "welsh": "Welsh"
                     },
-                    "shortName": "Languages that you feel comfortable speaking / providing feedback"
+                    "shortName": "Languages you speak and feel comfortable providing feedback"
                 }
             },
             "education": {
@@ -142,7 +137,7 @@
                         "junior_infant": "Combined Junior and Infant School/Infant School Junior School",
                         "comprehensive": "Comprehensive School (GCSE)/Secondary modern (GCSE)/Grammar School (GCSE)/City Technology College (GCSE)/Sixth Form",
                         "college": "College/Institution of Higher Education",
-                        "open_college": "Open College - College of Technology - Institute / Teacher Training University/Open University",
+                        "open_college": "Open College - College of Technology - Institute / Teacher Training University",
                         "junior": "Junior School",
                         "university": "University / Open University",
                         "some_college": "Completed some University, but no degree"
@@ -381,8 +376,7 @@
                         "shipping_distribution": "Shipping / Distribution",
                         "telecommunications": "Telecommunications",
                         "transportation": "Transportation",
-                        "user_experience_research": "User Experience Research",
-                        "otherFeminine": "Other"
+                        "user_experience_research": "User Experience Research"
                     },
                     "shortName": "Work industry"
                 },
@@ -400,8 +394,8 @@
                         "procurement": "Procurement",
                         "product_management": "Product Management",
                         "sales": "Sales / Business Development",
-                        "technology_hardware": "Technology Development Hardware (not only IT)",
-                        "technology_software": "Technology Development Software (not only IT)",
+                        "technology_hardware": "Hardware Technology Development (not only IT)",
+                        "technology_software": "Software Technology Development (not only IT)",
                         "technology_implementation": "Technology Implementation",
                         "other": "Other"
                     },
