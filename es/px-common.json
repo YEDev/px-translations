@@ -51,7 +51,8 @@
                 "otherPlural": "Otros",
                 "unknown": "No lo sé",
                 "yes": "Sí",
-                "nonBinary": "No binario"
+                "nonBinary": "No binario",
+                "noneMasculine": "Ninguno de los anteriores"
             },
             "tip": {
                 "paypal": {
@@ -174,7 +175,7 @@
             "tablet": "Tablet",
             "selectAnOption": "Selecciona una opción",
             "comingSoon": "Próximamente",
-            "saved": ""
+            "saved": "Cambios guardados"
         }
     }
 }
