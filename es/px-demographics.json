@@ -47,12 +47,12 @@
                 },
                 "householdDescription": {
                     "list": {
-                        "singleMale": "Soltero/a, nunca casado/a",
-                        "marriedMale": "Casado/a",
-                        "divorcedMale": "Divorciado/a",
-                        "separatedMale": "Separado/a",
                         "cohabiting": "Unión libre / Viviendo con alguien",
-                        "widowedMale": "Viudo/a"
+                        "single": "Soltero/a, nunca casado/a",
+                        "married": "Casado/a",
+                        "divorced": "Divorciado/a",
+                        "separated": "Separado/a",
+                        "widowed": "Viudo/a"
                     },
                     "question": "¿Cuál es tu estado civil?",
                     "shortName": "Estado civil"
@@ -116,9 +116,7 @@
                         "welsh": "Galés"
                     },
                     "shortName": "Idiomas que hablas fluidamente y te sientes cómodo para dar tu opinión"
-                }
-            },
-            "education": {
+                },
                 "education_es": {
                     "list": {
                         "lessHighschool": "Algún tiempo en la E.S.O. o menos",
@@ -209,18 +207,6 @@
                         "clothing": "Ropa"
                     },
                     "shortName": "Cosas de las cuales eres responsable o parcialmente responsable de tomar desiciones en tu casa"
-                },
-                "investments_gb": {
-                    "list": {
-                        "none": "No tengo ahorros o inversiones",
-                        "personalPension": "Pensión personal",
-                        "workplacePension": "Pensión de trabajo",
-                        "unitTrusts": "Fondos de inversión",
-                        "oeic": "OEIC - Sociedades de Inversión de Capital Variable",
-                        "etf": "Valores de ETF (o fondos cotizados)",
-                        "investmentTrusts": "Fideicomisos de inversión",
-                        "fixedIncomeProducts": "Productos de renta fija"
-                    }
                 },
                 "firstChild_gender": {
                     "question": "Del primer menor de 18, ¿cuál es su sexo?",
@@ -525,6 +511,18 @@
                         "bonds": "Bonos",
                         "deposit": "Certificados de depósito",
                         "mutualFunds": "Fondos mutuos de inversión"
+                    }
+                },
+                "investments_gb": {
+                    "list": {
+                        "none": "No tengo ahorros o inversiones",
+                        "personalPension": "Pensión personal",
+                        "workplacePension": "Pensión de trabajo",
+                        "unitTrusts": "Fondos de inversión",
+                        "oeic": "OEIC - Sociedades de Inversión de Capital Variable",
+                        "etf": "Valores de ETF (o fondos cotizados)",
+                        "investmentTrusts": "Fideicomisos de inversión",
+                        "fixedIncomeProducts": "Productos de renta fija"
                     }
                 }
             },
