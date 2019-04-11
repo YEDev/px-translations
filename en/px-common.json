@@ -52,7 +52,8 @@
                 "unknown": "I don't know",
                 "yes": "Yes",
                 "nonBinary": "Non binary",
-                "noneMasculine": "None of the above"
+                "noneMasculine": "None of the above",
+                "no_answer": "I prefer not to answer"
             },
             "tip": {
                 "paypal": {
