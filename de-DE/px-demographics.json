@@ -47,12 +47,12 @@
                 },
                 "householdDescription": {
                     "list": {
-                        "singleMale": "Agreed. We'll try to include it in the next demographics iteration.",
-                        "marriedMale": "Verheiratet",
-                        "divorcedMale": "Geschieden",
-                        "separatedMale": "Getrennt",
                         "cohabiting": "Verpartnert / Gemeinsam lebend",
-                        "widowedMale": "Verwittwet"
+                        "single": "Agreed. We'll try to include it in the next demographics iteration.",
+                        "married": "Verheiratet",
+                        "divorced": "Geschieden",
+                        "separated": "Getrennt",
+                        "widowed": "Verwittwet"
                     },
                     "question": "Was ist Dein Familienstand?",
                     "shortName": "undefined"
@@ -116,9 +116,7 @@
                         "welsh": "Walisisch"
                     },
                     "shortName": "undefined"
-                }
-            },
-            "education": {
+                },
                 "education_es": {
                     "list": {
                         "lessHighschool": "undefined",
@@ -209,18 +207,6 @@
                         "clothing": "Kleidung"
                     },
                     "shortName": "undefined"
-                },
-                "investments_gb": {
-                    "list": {
-                        "none": "Ich habe keine Spar- und Investmentkonten",
-                        "personalPension": "Private Pensionsvorsorge",
-                        "workplacePension": "?",
-                        "unitTrusts": "Unit trusts",
-                        "oeic": "OEIC - Open Ended Investment Company",
-                        "etf": "ETF Securities (or Exchange Traded Funds)",
-                        "investmentTrusts": "Investment Trusts",
-                        "fixedIncomeProducts": "Fixed Income Products"
-                    }
                 },
                 "firstChild_gender": {
                     "question": "Bitte nenne uns das Geschlecht Deines ersten Kindes unter 18 Jahre:",
@@ -525,6 +511,18 @@
                         "bonds": "Bonds",
                         "deposit": "Zertifikate",
                         "mutualFunds": "Versicherungen"
+                    }
+                },
+                "investments_gb": {
+                    "list": {
+                        "none": "Ich habe keine Spar- und Investmentkonten",
+                        "personalPension": "Private Pensionsvorsorge",
+                        "workplacePension": "?",
+                        "unitTrusts": "Unit trusts",
+                        "oeic": "OEIC - Open Ended Investment Company",
+                        "etf": "ETF Securities (or Exchange Traded Funds)",
+                        "investmentTrusts": "Investment Trusts",
+                        "fixedIncomeProducts": "Fixed Income Products"
                     }
                 }
             },

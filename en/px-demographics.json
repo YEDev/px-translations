@@ -47,12 +47,12 @@
                 },
                 "householdDescription": {
                     "list": {
-                        "singleMale": "Single, never married",
-                        "marriedMale": "Married",
-                        "divorcedMale": "Divorced",
-                        "separatedMale": "Separated",
                         "cohabiting": "Domestic partnership / Living with someone",
-                        "widowedMale": "Widowed"
+                        "single": "Single, never married",
+                        "married": "Married",
+                        "divorced": "Divorced",
+                        "separated": "Separated",
+                        "widowed": "Widowed"
                     },
                     "question": "What is your relationship status?",
                     "shortName": "Relationship status"
@@ -116,9 +116,7 @@
                         "welsh": "Welsh"
                     },
                     "shortName": "Languages you speak and feel comfortable providing feedback"
-                }
-            },
-            "education": {
+                },
                 "education_es": {
                     "list": {
                         "lessHighschool": "Some compulsory secondary education or less",
@@ -209,18 +207,6 @@
                         "clothing": "Clothing"
                     },
                     "shortName": "Things you're responsible or partially responsible for making decisions about in your household"
-                },
-                "investments_gb": {
-                    "list": {
-                        "none": "I don't have any savings / investments",
-                        "personalPension": "Personal Pension",
-                        "workplacePension": "Workplace Pension",
-                        "unitTrusts": "Unit trusts",
-                        "oeic": "OEIC - Open Ended Investment Company",
-                        "etf": "ETF Securities (or Exchange Traded Funds)",
-                        "investmentTrusts": "Investment Trusts",
-                        "fixedIncomeProducts": "Fixed Income Products"
-                    }
                 },
                 "firstChild_gender": {
                     "question": "Please indicate the gender of the first child under 18:",
@@ -525,6 +511,18 @@
                         "bonds": "Bonds",
                         "deposit": "Certificate of Deposit",
                         "mutualFunds": "Mutual Funds"
+                    }
+                },
+                "investments_gb": {
+                    "list": {
+                        "none": "I don't have any savings / investments",
+                        "personalPension": "Personal Pension",
+                        "workplacePension": "Workplace Pension",
+                        "unitTrusts": "Unit trusts",
+                        "oeic": "OEIC - Open Ended Investment Company",
+                        "etf": "ETF Securities (or Exchange Traded Funds)",
+                        "investmentTrusts": "Investment Trusts",
+                        "fixedIncomeProducts": "Fixed Income Products"
                     }
                 }
             },
