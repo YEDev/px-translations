@@ -51,7 +51,9 @@
                 "otherPlural": "",
                 "unknown": "",
                 "yes": "",
-                "nonBinary": ""
+                "nonBinary": "",
+                "noneMasculine": "",
+                "no_answer": "Ich bevorzuge diese Frage nicht zu beantworten"
             },
             "tip": {
                 "paypal": {
@@ -173,7 +175,8 @@
             "phone": "",
             "tablet": "",
             "selectAnOption": "",
-            "comingSoon": ""
+            "comingSoon": "",
+            "saved": ""
         }
     }
 }

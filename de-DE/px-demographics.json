@@ -47,17 +47,12 @@
                 },
                 "householdDescription": {
                     "list": {
-                        "singleMale": "Agreed. We'll try to include it in the next demographics iteration.",
-                        "marriedMale": "Verheiratet",
-                        "divorcedMale": "Geschieden",
-                        "separatedMale": "Getrennt",
                         "cohabiting": "Verpartnert / Gemeinsam lebend",
-                        "widowedMale": "Verwittwet",
-                        "singleFemale": "Single, unverheiratet",
-                        "marriedFemale": "Verheiratet",
-                        "divorcedFemale": "Geschieden",
-                        "separatedFemale": "Getrennt",
-                        "widowedFemale": "Verwittwet"
+                        "single": "Agreed. We'll try to include it in the next demographics iteration.",
+                        "married": "Verheiratet",
+                        "divorced": "Geschieden",
+                        "separated": "Getrennt",
+                        "widowed": "Verwittwet"
                     },
                     "question": "Was ist Dein Familienstand?",
                     "shortName": "undefined"
@@ -121,9 +116,7 @@
                         "welsh": "Walisisch"
                     },
                     "shortName": "undefined"
-                }
-            },
-            "education": {
+                },
                 "education_es": {
                     "list": {
                         "lessHighschool": "undefined",
@@ -214,18 +207,6 @@
                         "clothing": "Kleidung"
                     },
                     "shortName": "undefined"
-                },
-                "investments_gb": {
-                    "list": {
-                        "none": "Ich habe keine Spar- und Investmentkonten",
-                        "personalPension": "Private Pensionsvorsorge",
-                        "workplacePension": "?",
-                        "unitTrusts": "Unit trusts",
-                        "oeic": "OEIC - Open Ended Investment Company",
-                        "etf": "ETF Securities (or Exchange Traded Funds)",
-                        "investmentTrusts": "Investment Trusts",
-                        "fixedIncomeProducts": "Fixed Income Products"
-                    }
                 },
                 "firstChild_gender": {
                     "question": "Bitte nenne uns das Geschlecht Deines ersten Kindes unter 18 Jahre:",
@@ -361,7 +342,7 @@
                         "insurance": "Versicherungen",
                         "internet": "Internet",
                         "legal_law": "Recht und Justiz",
-                        "management": "Management could be in all the other businesses as well",
+                        "management": "Indeed.",
                         "manufacturing": "Verarbeitende Industrie",
                         "market_research": "Marktforschung",
                         "marketing_sales": "Marketing und Verkauf",
@@ -381,8 +362,7 @@
                         "shipping_distribution": "Versand",
                         "telecommunications": "Telekommunikation",
                         "transportation": "Transport",
-                        "user_experience_research": "UX Research / Anwenderforschung",
-                        "otherFeminine": "Andere"
+                        "user_experience_research": "UX Research / Anwenderforschung"
                     },
                     "shortName": "undefined"
                 },
@@ -531,6 +511,18 @@
                         "bonds": "Bonds",
                         "deposit": "Zertifikate",
                         "mutualFunds": "Versicherungen"
+                    }
+                },
+                "investments_gb": {
+                    "list": {
+                        "none": "Ich habe keine Spar- und Investmentkonten",
+                        "personalPension": "Private Pensionsvorsorge",
+                        "workplacePension": "?",
+                        "unitTrusts": "Unit trusts",
+                        "oeic": "OEIC - Open Ended Investment Company",
+                        "etf": "ETF Securities (or Exchange Traded Funds)",
+                        "investmentTrusts": "Investment Trusts",
+                        "fixedIncomeProducts": "Fixed Income Products"
                     }
                 }
             },
