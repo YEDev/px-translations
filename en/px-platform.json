@@ -94,7 +94,10 @@
                 "incorrectPassword": "Incorrect password",
                 "expiredLink": "The activation link that you followed has expired. Please, request a new link from the [Forgot password](/forgot-password) page."
             },
-            "limitExceeded": "You have reached the maximum amount of attempts. Please, try again later."
+            "limitExceeded": "You have reached the maximum amount of attempts. Please, try again later.",
+            "demographics": {
+                "notUnderAge": "Your child cannot be more than 18 years old."
+            }
         },
         "footer": {
             "item": {

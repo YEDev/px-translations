@@ -94,7 +94,10 @@
                 "incorrectPassword": "Contraseña incorrecta",
                 "expiredLink": "El link de activación que has utilizado ya está expirado. Por favor, solicita uno nuevo desde la página [¿Has olvidado tu contraseña?](/forgot-password)"
             },
-            "limitExceeded": "Has alcanzado el máximo de intentos posible. Por favor, vuelve a intentarlo más tarde."
+            "limitExceeded": "Has alcanzado el máximo de intentos posible. Por favor, vuelve a intentarlo más tarde.",
+            "demographics": {
+                "notUnderAge": "Un menor de edad no puede tener más de 18 años."
+            }
         },
         "footer": {
             "item": {

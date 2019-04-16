@@ -2,81 +2,81 @@
     "izPanel": {
         "registration": {
             "name": {
-                "title": "",
+                "title": "Hallo!\n\nWie heißt Du?",
                 "field": {
-                    "firstName": "",
-                    "lastName": ""
+                    "firstName": "Name",
+                    "lastName": "Nachname"
                 },
-                "alreadyRegistered": ""
+                "alreadyRegistered": "Bereits registriert? <1>$t(px-common:izPanel.common.logInImperative)</1>"
             },
             "country": {
-                "title": "",
-                "otherCountry": ""
+                "title": "Willkommen {{firstName}}!",
+                "otherCountry": "Zeige mehr Länder"
             },
             "email": {
-                "title": "",
-                "description": ""
+                "title": "Was ist Deine E-Mail?",
+                "description": "Hierhin wirst Du Deine Studieneinladungen erhalten."
             },
             "password": {
-                "title": "",
-                "description": "",
+                "title": "Wähle ein Passwort",
+                "description": "Stelle sicher, dass es stark ist!\n\nBenutze: ",
                 "requirements": {
-                    "capitalLetter": "",
-                    "numberOrSymbol": "",
-                    "minChars": "",
-                    "lowercaseLetter": "",
-                    "passwordsShouldMatch": ""
+                    "capitalLetter": "einen Großbuchstaben",
+                    "numberOrSymbol": "eine Zahl",
+                    "minChars": "mindestens 8 Zeichen",
+                    "lowercaseLetter": "ein Kleinbuchstabe",
+                    "passwordsShouldMatch": "Deine Passworte sollten übereinstimmen"
                 },
-                "passwordConfirmation": ""
+                "passwordConfirmation": "Passwort bestätigen"
             },
             "terms": {
-                "title": "",
-                "description": "",
+                "title": "Bevor es weiter geht...",
+                "description": "Nimm Dir bitte einen Moment Zeit unsere <1>{{termsLink}}</1> und <3>{{privacyLink}}</3> zu lesen.\n\nSolltest Du unsicher über die Nutzung Deiner Daten sein, <5>{{contactUsLowercaseImperative}}</5> bitte.",
                 "checkbox": {
-                    "gdpr": "",
-                    "terms": "",
-                    "mkt": ""
+                    "gdpr": "Ich möchte Einladungen per E-Mail zu Forschungsstudien zur Benutzererfahrung die meinem Profil entsprechen erhalten. $t(px-common:izPanel.common.requiredField)",
+                    "terms": "Ich stimme den Nutzungsbedingungen und der Datenschutzerklärung zu. $t(px-common:izPanel.common.requiredField)",
+                    "mkt": "Ich möchte Benachrichtigungen und Newsletter von IntelliZoom Panel erhalten."
                 }
             },
             "doubleOptIn": {
-                "title": "",
-                "description": "",
-                "resendSuccess": ""
+                "title": "Wir haben Dir eine E-Mail-Bestätigung zur Aktivierung Deines Kontos geschickt.",
+                "description": "Bitte klicke den Link in der E-Mail, um Dein Konto zu aktivieren. \n\nAus Sicherheitsgründen ist dieser Link nur 24 Stunden gültig. \n\nWenn Du keine Nachricht siehst, überprüfe bitte den Spam-Ordner. Wir können Dir das E-Mail auch <1>nochmals senden</1>.",
+                "resendSuccess": "E-Mail gesendet!"
             }
         },
         "comingSoon": {
-            "title": "",
-            "description": "",
+            "title": "Bald Verfügbar!",
+            "description": "Wir haben derzeit kein Panel in {{selectedCountry}}, aber Du kannst uns Deine E-Mail hinterlassen und wir informieren Dich wenn wir eines öffnen. ",
             "success": {
-                "title": "",
-                "description": ""
+                "title": "Danke!",
+                "description": "Wir kontaktieren Dich, wenn wir unser Panel in {{selectedCountry}} öffnen. \n\nAuf ein baldiges Wiedersehen!"
             },
-            "gdpr": ""
+            "gdpr": "Ich möchte informiert werden, wenn Intellizoom Panel in meinem Land öffnet. $t(px-common:izPanel.common.requiredField)"
         },
         "error": {
             "required": {
-                "field": "",
+                "field": "Diese Eingabe ist erforderlich.",
                 "gdpr": "",
                 "terms": ""
             },
             "format": {
-                "email": "",
-                "genericFormat": ""
+                "email": "Bitte füge eine gültige E-Mail-Adresse ein. Bsp: name@email.com",
+                "genericFormat": "Dieses Format ist ungültig"
             },
             "registration": {
-                "existingEmail": "",
-                "sendEmailFail": "",
-                "passwordRequirements": "",
-                "emailLength": ""
+                "existingEmail": "Diese E-Mail-Adresse ist bereits registriert. Bitte\n<1>$t(px-common:izPanel.common.logInLowercase)</1>?",
+                "sendEmailFail": "Ojeh, irgendetwas ist schief gelaufen. Wir konnten Dir die Bestätigungs-E-Mail nicht senden. Bitte versuche es später erneut.",
+                "passwordRequirements": "Dieses Passwort erfüllt die Sicherheitsanforderungen nicht",
+                "emailLength": "Wow! Deine Email-Adresse kann nicht länger als 150 Zeichen sein..."
             },
             "minTwoChars": {
-                "firstName": "",
-                "lastName": ""
+                "firstName": "Dein Name muss mindestens 2 Buchstaben haben.",
+                "lastName": "Dein Nachname muss mindestens 2 Buchstaben haben."
             },
             "generic": "",
             "birthday": {
-                "future": "",
-                "past": ""
+                "future": "Zeitreisender, was? Dein Geburtsdatum kann nicht in der Zukunft liegen. ",
+                "past": "Keine Vampire erlaubt. Dein Geburtsdatum muss innhalb eines Jahrhunderts sein."
             },
             "login": {
                 "accountBlocked": "",
@@ -94,37 +94,40 @@
                 "incorrectPassword": "",
                 "expiredLink": ""
             },
-            "limitExceeded": ""
+            "limitExceeded": "",
+            "demographics": {
+                "notUnderAge": ""
+            }
         },
         "footer": {
             "item": {
-                "faqPayments": "",
-                "faqInvitations": "",
-                "faqChangeEmail": "",
-                "faqBrowseAll": "",
-                "sendEmail": "",
-                "whatIsIZP": ""
+                "faqPayments": "[Wie lange dauert es bis ich bezahlt werde?](https://help.intellizoom.com/hc/)",
+                "faqInvitations": "[Wie funktionieren Studieneinladungen?](https://help.intellizoom.com/hc/)",
+                "faqChangeEmail": "[Wie kann ich meine E-Mail-Adresse ändern?](https://help.intellizoom.com/hc/)",
+                "faqBrowseAll": "[Mehr anzeigen](https://help.intellizoom.com/hc/)",
+                "sendEmail": "[Sende uns ein E-Mail](https://help.intellizoom.com/hc/)",
+                "whatIsIZP": "Was ist IntelliZoom Panel"
             },
             "title": {
-                "about": "",
-                "contact": "",
-                "faq": "",
-                "social": ""
+                "about": "Über uns",
+                "contact": "Kontakt",
+                "faq": "Häufige Fragen",
+                "social": "Folge uns!"
             }
         },
         "header": {
-            "email": "",
-            "logOut": "",
-            "mainDashboard": "",
-            "name": "",
-            "profile": "",
-            "settings": ""
+            "email": "{{userEmail}}",
+            "logOut": "Abmelden",
+            "mainDashboard": "Studien",
+            "name": "{{userFullName}}",
+            "profile": "Mein Profil",
+            "settings": "Einstellungen"
         },
         "basicDemographics": {
-            "flowTitle": "",
-            "flowDescription": "",
+            "flowTitle": "Okay!\n\nLos geht's",
+            "flowDescription": "Um Dich zu Studien einladen zu können, beantworte bitte die folgenden **3 Fragen:**",
             "flowLastQuestion": "",
-            "progress": "",
+            "progress": "Frage {{currentQuestion}} von {{totalQuestions}}",
             "success": {
                 "title": "",
                 "description": "",
@@ -313,7 +316,7 @@
         "myProfile": {
             "panelistName": "",
             "profileCompletion": {
-                "tilte": "",
+                "title": "",
                 "description": ""
             },
             "availableStudyTypes": {
@@ -348,10 +351,10 @@
                     "title": "",
                     "description": "",
                     "letsDoThis": ""
-                },
-                "aboutMe": {
-                    "nonEditableFields": ""
                 }
+            },
+            "aboutMe": {
+                "nonEditableFields": ""
             }
         }
     }
