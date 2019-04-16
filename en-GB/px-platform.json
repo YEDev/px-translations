@@ -40,7 +40,7 @@
             },
             "doubleOptIn": {
                 "title": "We've sent you a confirmation email to activate your account",
-                "description": "Please click on the link in the email to activate your account.\n\nFor security purposes, the link will expire in 24 hours.\n\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email.",
+                "description": "Please click on the link in the email to activate your account.\n\nFor security purposes, the link will expire in 24 hours.\n\nIf you can’t see it, check your spam folder. We can also <1>resend</1> you the email.",
                 "resendSuccess": "Email sent!"
             }
         },
