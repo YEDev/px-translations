@@ -5,7 +5,7 @@
                 "title": "¡Hola!\n\n¿Cómo te llamas?",
                 "field": {
                     "firstName": "Nombre",
-                    "lastName": "Apellido"
+                    "lastName": "Apellidos"
                 },
                 "alreadyRegistered": "¿Ya tienes una cuenta? <1>$t(px-common:izPanel.common.logInImperative)</1>"
             },
@@ -75,8 +75,8 @@
             },
             "generic": "Oops, algo ha ido mal. Por favor, vuelve a intentarlo pasados unos minutos. ",
             "birthday": {
-                "future": "Viajando en el tiempo eh... Tu fecha de nacimiento no puede ser del futuro.",
-                "past": "¡No se admiten vampiros! Tu fecha de nacimiento no puede ser de hace más de 100 años."
+                "future": "Viajando en el tiempo eh... La fecha de nacimiento no puede ser del futuro.",
+                "past": "¡No se admiten vampiros! La fecha de nacimiento no puede ser de hace más de 100 años."
             },
             "login": {
                 "accountBlocked": "Has superado el número máximo de intentos de acceso y hemos bloqueado tu cuenta.",
@@ -91,16 +91,19 @@
                 "sendEmailFail": "Oops, algo ha salido mal y no hemos podido enviarte el email para actualizar tu contraseña. Por favor, vuelve a intentarlo pasados unos minutos."
             },
             "resetPassword": {
-                "incorrectPassword": "Contraseña incorrecta",
+                "incorrectPassword": "Contraseña actual incorrecta",
                 "expiredLink": "El link de activación que has utilizado ya está expirado. Por favor, solicita uno nuevo desde la página [¿Has olvidado tu contraseña?](/forgot-password)"
             },
-            "limitExceeded": "Has alcanzado el máximo de intentos posible. Por favor, vuelve a intentarlo más tarde."
+            "limitExceeded": "Has alcanzado el máximo de intentos posible. Por favor, vuelve a intentarlo más tarde.",
+            "demographics": {
+                "notUnderAge": "Un menor de edad no puede tener más de 18 años."
+            }
         },
         "footer": {
             "item": {
-                "faqPayments": "[¿Cuánto tardan normalmente los pagos?](https://help.intellizoom.com/hc/es/articles/360000650458--When-and-how-much-will-I-get-paid-)",
-                "faqInvitations": "[¿Cómo funcionan las invitaciones?](https://help.intellizoom.com/hc/es/articles/360000658537-How-will-I-be-notified-of-new-studies-)",
-                "faqChangeEmail": "[¿Cómo puedo cambiar mi email?](https://help.intellizoom.com/hc/es/articles/360001190318-How-can-I-change-my-email-)",
+                "faqPayments": "[¿Cuánto tardan normalmente los pagos?](https://help.intellizoom.com/hc/es/articles/360000650458)",
+                "faqInvitations": "[¿Cómo funcionan las invitaciones?](https://help.intellizoom.com/hc/es/articles/360000658537)",
+                "faqChangeEmail": "[¿Cómo puedo cambiar mi email?](https://help.intellizoom.com/hc/es/articles/360001190318)",
                 "faqBrowseAll": "[Ver más](https://help.intellizoom.com/hc/es)",
                 "sendEmail": "[Envíanos un email](https://help.intellizoom.com/hc/es/requests/new)",
                 "whatIsIZP": "Qué es IntelliZoom Panel"
@@ -127,7 +130,7 @@
             "progress": "Pregunta {{currentQuestion}} de {{totalQuestions}}",
             "success": {
                 "title": "¡Listo!",
-                "description": "Ya puedes empezar a participar en nuestros estudios.",
+                "description": "Ya puedes empezar a participar en nuestros estudios. \n\nSigue completando tu perfil para que podamos invitarte a estudios más específicos (y mejor pagados).",
                 "cta": "Ver estudios disponibles"
             },
             "underage": {
@@ -318,7 +321,7 @@
             },
             "availableStudyTypes": {
                 "title": "Tipos de estudios disponibles",
-                "description": "Completa el <1>estudio de práctica</1> para acceder a este tipo de estudios."
+                "description": "Completa el <1>estudio de práctica</1> para poder participar en estudios Think Out Loud y Card Sort."
             },
             "categories": {
                 "title": "Información personal",
@@ -351,7 +354,7 @@
                 }
             },
             "aboutMe": {
-                "nonEditableFields": "Si quieres cambiar tu fecha de nacimiento, país o sexo, por favor <1>ponte en contacto</1> con nuestro equipo de Atención al cliente."
+                "nonEditableFields": "Si quieres cambiar tu nombre, fecha de nacimiento, país o sexo, por favor [ponte en contacto](https://help.intellizoom.com/hc/es/requests/new) con nuestro equipo de Atención al cliente."
             }
         }
     }

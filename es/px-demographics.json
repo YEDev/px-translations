@@ -483,7 +483,7 @@
                         "offlineLottery": "Loteria / rasca y gana en tienda",
                         "bingo": "Bingo",
                         "casinoPoker": "Póker / BlackJack / Ruleta / etc en el casino",
-                        "casinoSlot": "Tragamonedas del casino",
+                        "casinoSlot": "Tragaperras del casino",
                         "horseTrack": "Carreras de caballos",
                         "carRace": "Carreras de coches",
                         "none": "No participo en apuestas"
@@ -532,7 +532,7 @@
                     "list": {
                         "acne": "Acne",
                         "add_adhd": "TDAH Trastorno por déficit de atención e hiperactividad",
-                        "allergies": "Alergias (no asociadas con la fiebre del heno)",
+                        "allergies": "Alergias (excepto al polén)",
                         "alzheimers": "Alzheimer",
                         "anemia": "Anemia",
                         "angina": "Anginas",
@@ -740,7 +740,8 @@
                 }
             },
             "ethnicity": {
-                "question": "¿De qué raza eres?"
+                "question": "¿De qué raza eres?",
+                "shortName": "Raza"
             }
         }
     }
