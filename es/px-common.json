@@ -53,7 +53,9 @@
                 "yes": "Sí",
                 "nonBinary": "No binario",
                 "noneMasculine": "Ninguno de los anteriores",
-                "no_answer": "Prefiero no contestar"
+                "no_answer": "Prefiero no contestar",
+                "million": "Millón",
+                "millions": "Millones"
             },
             "tip": {
                 "paypal": {
