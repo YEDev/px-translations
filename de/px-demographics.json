@@ -740,7 +740,8 @@
                 }
             },
             "ethnicity": {
-                "question": "Welcher Rasse gehört Du an?"
+                "question": "Welcher Rasse gehört Du an?",
+                "shortName": "undefined"
             }
         }
     }

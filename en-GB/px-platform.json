@@ -75,8 +75,8 @@
             },
             "generic": "Oops, something went wrong. Please, try again later.",
             "birthday": {
-                "future": "Time travelling ha? Your date of birth cannot be in the future.",
-                "past": "No vampires allowed! Your date of birth has to be of this century."
+                "future": "Time travelling ha? The date of birth cannot be in the future.",
+                "past": "No vampires allowed! The date of birth has to be of this century."
             },
             "login": {
                 "accountBlocked": "Your account has been blocked after multiple consecutive login attempts.",
@@ -91,7 +91,7 @@
                 "sendEmailFail": "Oops, something went wrong and we couldn't send you the reset password email. Please, try again later."
             },
             "resetPassword": {
-                "incorrectPassword": "Incorrect password",
+                "incorrectPassword": "Incorrect current password",
                 "expiredLink": "The activation link that you followed has expired. Please, request a new link from the [Forgot password](/forgot-password) page."
             },
             "limitExceeded": "You have reached the maximum amount of attempts. Please, try again later.",
@@ -321,7 +321,7 @@
             },
             "availableStudyTypes": {
                 "title": "Available study types",
-                "description": "Complete the <1>practice study</1> to take these types of studies."
+                "description": "Complete the <1>practice study</1> to take Think Out Loud and Card Sort studies."
             },
             "categories": {
                 "title": "Personal info",

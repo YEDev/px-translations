@@ -740,7 +740,8 @@
                 }
             },
             "ethnicity": {
-                "question": "¿De qué raza eres?"
+                "question": "¿De qué raza eres?",
+                "shortName": "Raza"
             }
         }
     }
