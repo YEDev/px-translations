@@ -717,10 +717,10 @@
                 "shortName": "Services you're subscribed to"
             },
             "investments": {
-                "question": "What kinds of savings and/or investment accounts do you have?",
+                "question": "What kinds of savings and / or investment accounts do you have?",
                 "realEstate": "Real Estate",
                 "savingsAccount": "Savings Account",
-                "shares": "Stocks/Shares",
+                "shares": "Stocks / Shares",
                 "shortName": "Savings or investment accounts you own"
             },
             "investableAssets": {
