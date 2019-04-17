@@ -91,7 +91,7 @@
                 "sendEmailFail": "Oops, something went wrong and we couldn't send you the reset password email. Please, try again later."
             },
             "resetPassword": {
-                "incorrectPassword": "Incorrect password",
+                "incorrectPassword": "Incorrect current password",
                 "expiredLink": "The activation link that you followed has expired. Please, request a new link from the [Forgot password](/forgot-password) page."
             },
             "limitExceeded": "You have reached the maximum amount of attempts. Please, try again later.",
