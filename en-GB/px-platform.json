@@ -130,7 +130,7 @@
             "progress": "Question {{currentQuestion}} of {{totalQuestions}}",
             "success": {
                 "title": "That's it!",
-                "description": "You're now ready to start participating in our studies.",
+                "description": "You're now ready to start participating in our studies. \n\nKeep on completing your profile so we can invite you to more specific (and better paid) studies.",
                 "cta": "Let's do this!"
             },
             "underage": {
@@ -154,7 +154,7 @@
             "description": "Please enter your email and we'll send you a link to reset your password.",
             "success": {
                 "title": "We've sent you an email to reset your password",
-                "description": "For security purposes, the link will expire in 24 hours.\n\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email."
+                "description": "For security purposes, the link will expire in 24 hours.\n\nIf you can’t see it, check your spam folder. We can also <1>resend</1> you the email."
             }
         },
         "resetPassword": {
@@ -354,7 +354,7 @@
                 }
             },
             "aboutMe": {
-                "nonEditableFields": "If you want to change your birthday, gender or country information, please <1>get in touch</1> with our Support team."
+                "nonEditableFields": "If you want to change your birthday, gender or country information, please [get in touch](https://help.intellizoom.com/hc/en-us/requests/new) with our Support team."
             }
         }
     }
