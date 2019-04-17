@@ -334,14 +334,14 @@
         },
         "demographics": {
             "categories": {
-                "aboutMe": "",
-                "healthAndFitness": "",
-                "hobbiesAndInterests": "",
-                "household": "",
-                "financial": "",
-                "occupation": "",
-                "technology": "",
-                "travel": ""
+                "aboutMe": "Über mich",
+                "healthAndFitness": "Gesundheit und Fitness",
+                "hobbiesAndInterests": "Hobbies und Interessen",
+                "household": "Haushalt",
+                "financial": "Finanzen",
+                "occupation": "Beruf",
+                "technology": "Technologie",
+                "travel": "Reisen"
             },
             "success": {
                 "title": "",
