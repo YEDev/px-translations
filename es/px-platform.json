@@ -5,7 +5,7 @@
                 "title": "¡Hola!\n\n¿Cómo te llamas?",
                 "field": {
                     "firstName": "Nombre",
-                    "lastName": "Apellido"
+                    "lastName": "Apellidos"
                 },
                 "alreadyRegistered": "¿Ya tienes una cuenta? <1>$t(px-common:izPanel.common.logInImperative)</1>"
             },
@@ -75,8 +75,8 @@
             },
             "generic": "Oops, algo ha ido mal. Por favor, vuelve a intentarlo pasados unos minutos. ",
             "birthday": {
-                "future": "Viajando en el tiempo eh... Tu fecha de nacimiento no puede ser del futuro.",
-                "past": "¡No se admiten vampiros! Tu fecha de nacimiento no puede ser de hace más de 100 años."
+                "future": "Viajando en el tiempo eh... La fecha de nacimiento no puede ser del futuro.",
+                "past": "¡No se admiten vampiros! La fecha de nacimiento no puede ser de hace más de 100 años."
             },
             "login": {
                 "accountBlocked": "Has superado el número máximo de intentos de acceso y hemos bloqueado tu cuenta.",
@@ -321,7 +321,7 @@
             },
             "availableStudyTypes": {
                 "title": "Tipos de estudios disponibles",
-                "description": "Completa el <1>estudio de práctica</1> para acceder a este tipo de estudios."
+                "description": "Completa el <1>estudio de práctica</1> para poder participar en estudios Think Out Loud y Card Sort."
             },
             "categories": {
                 "title": "Información personal",
