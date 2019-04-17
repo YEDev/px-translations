@@ -32,10 +32,10 @@
             "day": "TT",
             "month": "MM",
             "year": "JJJJ",
-            "facebook": "",
-            "google": "",
-            "save": "",
-            "send": "",
+            "facebook": "Facebook",
+            "google": "Google",
+            "save": "Speichern",
+            "send": "Senden",
             "demographics": {
                 "female": "Frau",
                 "lessThan": "",
@@ -51,9 +51,11 @@
                 "otherPlural": "",
                 "unknown": "",
                 "yes": "",
-                "nonBinary": "",
+                "nonBinary": "Nicht binär",
                 "noneMasculine": "",
-                "no_answer": "Ich bevorzuge diese Frage nicht zu beantworten"
+                "no_answer": "Ich bevorzuge diese Frage nicht zu beantworten",
+                "million": "Million",
+                "millions": "Millionen"
             },
             "tip": {
                 "paypal": {
@@ -61,7 +63,7 @@
                     "description": "Vergewissere Dich, dass Deine E-Mail-Adresse mit einem PayPal Konto verknüpft ist. Denke daran, dass Du jederzeit ein PayPal Konto gratis einrichten kannst."
                 }
             },
-            "finish": "",
+            "finish": "Fertig",
             "gotIt": "Okay",
             "emailNotifications": {
                 "title": "",
