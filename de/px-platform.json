@@ -73,25 +73,25 @@
                 "firstName": "Dein Name muss mindestens 2 Buchstaben haben.",
                 "lastName": "Dein Nachname muss mindestens 2 Buchstaben haben."
             },
-            "generic": "",
+            "generic": "Ojeh, da ist etwas schiefgelaufen. Bitte versuche es später erneut.",
             "birthday": {
                 "future": "Zeitreisender, was? Dein Geburtsdatum kann nicht in der Zukunft liegen. ",
                 "past": "Keine Vampire erlaubt. Dein Geburtsdatum muss innhalb eines Jahrhunderts sein."
             },
             "login": {
-                "accountBlocked": "",
-                "accountInactive": "",
-                "expiredLink": "",
-                "invalidCredentials": "",
-                "userNotFound": "",
-                "wrongActivation": "",
-                "wrongActivationWithLink": ""
+                "accountBlocked": "Dein Konto wurde nach mehreren aufeinanderfolgenden Anmeldungsversuchen blockiert.",
+                "accountInactive": "Dein Konto wurde noch nicht aktiviert. Sollen wir Dir die E-Mail-Bestätigung <1>nochmals zuschicken</1>?",
+                "expiredLink": "Der Aktivierungslink den Du geklickt hast is abgelaufen. Bitte <1>erneut senden</1> und wieder versuchen.",
+                "invalidCredentials": "Es tut uns leid. Wir konnten diese E-Mail/Passwort-Kombination nicht finden.",
+                "userNotFound": "Der Aktivierungslink den Du geklickt hast ist abgelaufen und Deine Daten wurden gelöscht. Bitte versuche erneut Dich zu registrieren.",
+                "wrongActivation": "Etwas ist schiefgelaufen während Deiner Kontoaktivierung. Bitte versuche es später erneut über die selbe Bestätigungs-E-Mail die wir Dir geschickt haben.",
+                "wrongActivationWithLink": "Etwas ist schiefgelaufen während Deiner Kontoaktivierung. Bitte <1>erneut senden</1> und wieder versuchen."
             },
             "forgotPassword": {
-                "sendEmailFail": ""
+                "sendEmailFail": "Ojeh, irgendetwas is schief gelaufen. Wir konnten Dir die Bestätigungs-E-Mail nicht senden. Bitte versuche es später erneut."
             },
             "resetPassword": {
-                "incorrectPassword": "",
+                "incorrectPassword": "Passwort ungültig",
                 "expiredLink": ""
             },
             "limitExceeded": "",
@@ -101,11 +101,11 @@
         },
         "footer": {
             "item": {
-                "faqPayments": "[Wie lange dauert es bis ich bezahlt werde?](https://help.intellizoom.com/hc/)",
-                "faqInvitations": "[Wie funktionieren Studieneinladungen?](https://help.intellizoom.com/hc/)",
-                "faqChangeEmail": "[Wie kann ich meine E-Mail-Adresse ändern?](https://help.intellizoom.com/hc/)",
-                "faqBrowseAll": "[Mehr anzeigen](https://help.intellizoom.com/hc/)",
-                "sendEmail": "[Sende uns ein E-Mail](https://help.intellizoom.com/hc/)",
+                "faqPayments": "[Wie lange dauert es bis ich bezahlt werde?](https://help.intellizoom.com/hc/de/articles/360000650458)",
+                "faqInvitations": "[Wie funktionieren Studieneinladungen?](https://help.intellizoom.com/hc/de/articles/360000658537)",
+                "faqChangeEmail": "[Wie kann ich meine E-Mail-Adresse ändern?](https://help.intellizoom.com/hc/de/articles/360001190318)",
+                "faqBrowseAll": "[Mehr anzeigen](https://help.intellizoom.com/hc/de)",
+                "sendEmail": "[Sende uns ein E-Mail](https://help.intellizoom.com/hc/de/requests/new)",
                 "whatIsIZP": "Was ist IntelliZoom Panel"
             },
             "title": {
@@ -126,48 +126,48 @@
         "basicDemographics": {
             "flowTitle": "Okay!\n\nLos geht's",
             "flowDescription": "Um Dich zu Studien einladen zu können, beantworte bitte die folgenden **3 Fragen:**",
-            "flowLastQuestion": "",
+            "flowLastQuestion": "Und zu guter letzt...",
             "progress": "Frage {{currentQuestion}} von {{totalQuestions}}",
             "success": {
-                "title": "",
-                "description": "",
-                "cta": ""
+                "title": "Fertig!",
+                "description": "Du bist nun bereit an unseren Studien teilzunehmen. \n\nVervollständige Dein Profil, sodass wir Dich zu spezifischeren (und besser bezahlten) Studien einladen können. ",
+                "cta": "Packen wir's an!"
             },
             "underage": {
-                "title": "",
-                "description": ""
+                "title": "Du musst zumindest {{minimumLegalAge}} Jahre alt sein, um an unseren Studien teilzunehmen",
+                "description": "Es tut uns leid, aber wir können Dich nicht zu Studien einladen oder Dir erlauben fortzufahren. Wir werden Dein IntelliZoom Panel Konto und alle Deine persönlichen Daten nun löschen. \n\nDanke für Dein Interesse."
             }
         },
         "login": {
-            "title": "",
-            "forgotPassword": "",
-            "orSocialAccess": "",
-            "newHere": "",
-            "signUp": "",
+            "title": "Anmelden",
+            "forgotPassword": "Passwort vergessen?",
+            "orSocialAccess": "oder weiter mit",
+            "newHere": "Noch kein Konto?",
+            "signUp": "Registriere Dich!",
             "success": {
-                "accountActivated": "",
-                "emailResent": ""
+                "accountActivated": "Dein Konto wurde erfolgreich aktiviert!",
+                "emailResent": "Wir haben Dir den Aktivierungslink erneut zugeschickt."
             }
         },
         "forgotPassword": {
-            "title": "",
-            "description": "",
+            "title": "Hast Du Dein Passwort vergessen?",
+            "description": "Bitte trage Deine E-Mail ein und wir senden Dir einen Link, um Dein Passwort zurückzusetzen.",
             "success": {
-                "title": "",
-                "description": ""
+                "title": "Wir haben Dir ein E-Mail geschickt, um Dein Passwort zurückzusetzen",
+                "description": "Aus Sicherheitsgründen ist dieser Link nur 24 Stunden gültig. \n\nWenn Du keine Nachricht siehst, überprüfe bitte den Spam-Ordner. Wir können Dir das E-Mail auch <1>nochmals senden</1>."
             }
         },
         "resetPassword": {
-            "title": "",
+            "title": "Neues Passwort setzen",
             "currentPassword": {
-                "description": "",
-                "field": ""
+                "description": "Und schreibe Dein aktuelles Passwort bitte:",
+                "field": "Aktuelles Passwort"
             },
             "success": {
-                "title": "",
-                "description": "",
-                "cta": "",
-                "backToSettings": ""
+                "title": "Passwort aktualisiert!",
+                "description": "Dein neues Passwort wurde erfolgreich gespeichert.",
+                "cta": "Zur Anmeldung",
+                "backToSettings": "Zurück zu Einstellungen"
             }
         },
         "landing": {
@@ -314,7 +314,7 @@
             "studyCTA": ""
         },
         "myProfile": {
-            "panelistName": "",
+            "panelistName": "{{user.firstName}} {{user.lastName}}",
             "profileCompletion": {
                 "title": "",
                 "description": ""
@@ -324,7 +324,7 @@
                 "description": ""
             },
             "categories": {
-                "title": "",
+                "title": "Persönliche Daten",
                 "description": "",
                 "complete": "",
                 "questionsPending": "",
