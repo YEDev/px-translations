@@ -688,10 +688,6 @@
                 }
             }
         },
-        "generic.\"ethnicity": {
-            "question": "¿De qué raza eres?",
-            "shortName": "Raza"
-        },
         "generic": {
             "education": {
                 "question": "¿Cuál es el nivel de educación más alto que has completado?",
