@@ -9,7 +9,7 @@
             "doubleOptIn": {
                 "subject": "Willkommen zu IntelliZoom Panel",
                 "title": "Hallo {{user.name}}, Willkommen zu IntelliZoom Panel!",
-                "bodyCopy": "Klicke hier um Dein Konto zu aktivieren.\n\nAus Sicherheitsgründen wird dieser Link nach 24 Stunden oder einmaliger Benützung ungültig.",
+                "bodyCopy": "<strong>Klicke hier um Dein Konto zu aktivieren.</strong>\n\nAus Sicherheitsgründen wird dieser Link nach 24 Stunden oder einmaliger Benützung ungültig.",
                 "cta": "Konto aktivieren",
                 "closing": "Tschüss!\n\nIntelliZoom Panel Team"
             },
@@ -35,34 +35,34 @@
                 "closing": "Tschüss!\n\nIntelliZoom Panel Team"
             },
             "studyComplete": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": ""
+                "subject": "Wir haben Deine Teilnahme an der Studie erhalten",
+                "title": "Danke, dass Du uns Deine Meinung mitteilst",
+                "bodyCopy": "Wir werden Deine Teilnahme an der Studie baldmöglichst überprüfen und senden Deine Prämie innerhalb von 21 Werktagen.\n\nFalls Du weitere Fragen hast, $t(izpanel.emails.common.contact) oder besuche unser $t(izpanel.emails.common.help)."
             },
             "paymentSent": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": ""
+                "subject": "Deine Prämie wurde ausbezahlt",
+                "title": "Hallo {{user.name}}, Deine Prämie wurde ausbezahlt!",
+                "bodyCopy": "Wir haben {{studyFee}} via PayPal zur folgenden E-Mail gesendet:\n\n{{user.email}}\n\n\n\nDiese Prämie erhältst Du für Deine Teilnahme an folgender Studie:\n\n{campaignID}}\n\nFalls Du weitere Fragen hast, $t(izpanel.emails.common.contact) oder besuche unser $t(izpanel.emails.common.help)."
             },
             "paymentConfirmation": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": ""
+                "subject": "Deine Prämie ist angekommen!",
+                "title": "Hallo {{user.name}}, PayPal hat soeben bestätigt, dass Du Deine Prämie erhalten hast",
+                "bodyCopy": "Du solltest jetzt {{studyFee}} mehr in folgendem PayPal Konto haben:\n\n{{user.email}}\n\n\n\nDiese Auszahlung erhältst Du für Deine Teilnahme an folgender Studie:\n\n{{campaignID}}\n\nFalls Du weitere Fragen hast, $t(izpanel.emails.common.contact) oder besuche unser $t(izpanel.emails.common.help)."
             },
             "certificationApproved": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": ""
+                "subject": "Gute Arbeit in Deiner Übungsstudie!",
+                "title": "Hallo {{user.name}}, gute Arbeit in Deiner Übungsstudie!",
+                "bodyCopy": "Wir sehen, dass Du Deine Gedanken und Eindrücke klar ausdrücken kannst. Du bist genau was wir suchen!\n\nDu wirst von nun an Einladungen zu Think-Out-Loud-Studien und Card-Sort-Studien erhalten. Diese Studienarten sind üblicherweise besser bezahlt ;)\n\n\n\nFalls Du weitere Fragen hast, $t(izpanel.emails.common.contact) oder besuche unser $t(izpanel.emails.common.help)."
             },
             "certificationRejected": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": ""
+                "subject": "Deine Übungsstudie wurde nicht bestätigt",
+                "title": "Hallo {{user.name}}, die Übungsstudie die Du gesendet hast wurde nicht bestätigt",
+                "bodyCopy": "Es tut uns leid, Dir mitteilen zu müssen, dass die Übungsstudie die Du gesendet hast unseren Qualitätsanforderungen für Think-Out-Loud-Studien oder Card-Sort-Studien nicht entspricht.\n\nWenn Du meinst, dass hier ein Fehler vorliegt und Du es ein weiteres mal versuchen möchtest, $t(izpanel.emails.common.contact) und es wird uns freuen die Übungsstudie für Dich zu reaktivieren.\n\nFalls Du weitere Fragen hast, $t(izpanel.emails.common.contact) oder besuche unser $t(izpanel.emails.common.help)."
             },
             "generic": {
-                "genericClosing": "Tschüss!\n\nIntelliZoom Panel Team",
-                "inlineContact": "",
-                "inlineHelp": ""
+                "genericClosing": "Schöne Grüße, \n\nIntelliZoom Panel Team",
+                "inlineContact": "kontaktiere uns",
+                "inlineHelp": "Help Center"
             }
         }
     }
