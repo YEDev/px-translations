@@ -354,7 +354,7 @@
                 }
             },
             "aboutMe": {
-                "nonEditableFields": "If you want to change your name, birthday, gender or country information, please [get in touch](https://help.intellizoom.com/hc/en-us/requests/new) with our Support team."
+                "nonEditableFields": "If you want to change your birthday, gender or country information, please [get in touch](https://help.intellizoom.com/hc/en-us/requests/new) with our Support team."
             }
         }
     }

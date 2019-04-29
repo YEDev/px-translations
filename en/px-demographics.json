@@ -688,10 +688,6 @@
                 }
             }
         },
-        "generic.\"ethnicity": {
-            "question": "What is your race?",
-            "shortName": "Race"
-        },
         "generic": {
             "education": {
                 "question": "What is the highest level of education you have completed?",
@@ -730,7 +726,7 @@
             "airlineLoyalty": {
                 "question": "Do you belong to any of the following airline loyalty programs?",
                 "list": {
-                    "none": "I don't belong to any airline loyalty program"
+                    "none": "I don't belong to an airline loyalty program"
                 },
                 "shortName": "Airline loyalty programs you belong to"
             },
