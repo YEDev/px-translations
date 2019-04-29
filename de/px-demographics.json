@@ -4,23 +4,23 @@
             "aboutMe": {
                 "birthday": {
                     "question": "Was ist Dein Gegurtsdatum?",
-                    "shortName": "undefined"
+                    "shortName": "Geburtsdatum"
                 },
                 "country": {
                     "question": "In welchem Land lebst Du?",
-                    "shortName": "undefined"
+                    "shortName": "Land"
                 },
                 "gender": {
                     "question": "Bist Du...",
-                    "shortName": "undefined"
+                    "shortName": "Geschlecht"
                 },
                 "postalCode": {
                     "question": "Was ist Deine Postleitzahl",
-                    "shortName": "undefined"
+                    "shortName": "Postleitzahl"
                 },
                 "hispanic": {
-                    "question": "This translation will also be available for US citizens viewing the platform in German.",
-                    "shortName": "undefined"
+                    "question": "Bist Du lateinamerikianischer, hispanischer oder spanischer Herkunft?",
+                    "shortName": "Lateinamerikanische, hispanische oder spanische Herkunft"
                 },
                 "ethnicity_us": {
                     "list": {
@@ -35,41 +35,41 @@
                 "ethnicity_gb": {
                     "list": {
                         "white": "Weiss",
-                        "traveller": "Schwarz oder Afroamerikanisch",
-                        "asian_indian": "Indianer oder nativer Amerikaner",
-                        "asian_pakistani": "Asiatisch",
-                        "asian_bangladeshi": "Pazifik oder nativer Hawaiianer",
-                        "asian_chinese": "Andere",
-                        "asian_other": "Ich bevorzuge es diese Frage nicht zu beantworten",
-                        "black": "undefined",
-                        "mixed": "undefined"
+                        "traveller": "Nomadisch / Irish Traveller",
+                        "asian_indian": "Asiatisch oder Britisch-Asiatisch: Indisch",
+                        "asian_pakistani": "Asiatisch oder Britisch-Asiatisch: Pakistanisch",
+                        "asian_bangladeshi": "Asiatisch oder Britisch-Asiatisch: Bangladesch",
+                        "asian_chinese": "Asiatisch oder Britisch-Asiatisch: Chinesisch",
+                        "asian_other": "Asiatisch oder Britisch-Asiatisch: Andere",
+                        "black": "Schwarz oder schwarzer Brite",
+                        "mixed": "Gemischt oder mehrere"
                     }
                 },
                 "householdDescription": {
                     "list": {
                         "cohabiting": "Verpartnert / Gemeinsam lebend",
-                        "single": "Agreed. We'll try to include it in the next demographics iteration.",
+                        "single": "Single, unverheiratet",
                         "married": "Verheiratet",
                         "divorced": "Geschieden",
                         "separated": "Getrennt",
                         "widowed": "Verwittwet"
                     },
                     "question": "Was ist Dein Familienstand?",
-                    "shortName": "undefined"
+                    "shortName": "Familienstand"
                 },
                 "education_us": {
                     "list": {
-                        "no_hs_diploma": "undefined",
-                        "hs_or_ged": "undefined",
-                        "some_college": "undefined",
-                        "two_year_degree": "undefined",
-                        "four_year_degree": "undefined",
-                        "post_grad_degree": "undefined",
-                        "professional_degree": "undefined"
+                        "no_hs_diploma": "Einige Zeit in der Sekundärschule oder weniger",
+                        "hs_or_ged": "Sekundärschule oder gleichwertige Ausbildung",
+                        "some_college": "Einige Zeit an der Universität aber ohne Titel",
+                        "two_year_degree": "Universitätstitel - Accociate (2 Jahre)",
+                        "four_year_degree": "Universitätstitel - Bachelor (4 Jahre)",
+                        "post_grad_degree": "Post Graduate - MS, MA, MBA, PhD, etc.",
+                        "professional_degree": "Professional degree - MD, DVM, DDS, etc."
                     }
                 },
                 "languages": {
-                    "question": "undefined",
+                    "question": "Welche Sprachen sprichst Du, sodass Du Dich behaglich fühlst, Feedback zu geben?",
                     "list": {
                         "arabic": "Arabisch",
                         "basque": "Baskisch",
@@ -91,7 +91,7 @@
                         "hindi": "Hindi",
                         "hungarian": "Ungarisch",
                         "italian": "Italienisch",
-                        "irish": "I'm not sure if it's the same thing. It might. But \"Irish language\" as a concept exists.",
+                        "irish": "Irisch",
                         "latvian": "Lettisch",
                         "lithuanian": "Litauisch",
                         "japanese": "Japanisch",
@@ -115,42 +115,42 @@
                         "urdu": "Urdu",
                         "welsh": "Walisisch"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Sprachen in denen ich mich behaglich fühle Feedback zu geben"
                 },
                 "education_es": {
                     "list": {
-                        "lessHighschool": "undefined",
-                        "highschool": "undefined",
-                        "technical": "undefined",
-                        "someBaccalaureate": "undefined",
-                        "baccalaureate": "undefined",
-                        "someCollege": "undefined",
-                        "college": "undefined",
-                        "masters": "undefined",
-                        "phd": "undefined"
+                        "lessHighschool": "Einige Zeit an der Obligatorischen Sekundärschule",
+                        "highschool": "Obligatorische Sekundärschule",
+                        "technical": "Diplomingenieur",
+                        "someBaccalaureate": "Einige Zeit höhere Sekundärbildung (Spanisches Bakkalaureat)",
+                        "baccalaureate": "Bakkalaureat",
+                        "someCollege": "Einige Zeit an der Universität (ohne Titel)",
+                        "college": "Universitätsabschluss (3 Jahre)",
+                        "masters": "Master",
+                        "phd": "Doktorat"
                     }
                 },
                 "education_gb": {
                     "list": {
-                        "junior_infant": "undefined",
-                        "comprehensive": "undefined",
-                        "college": "undefined",
-                        "open_college": "undefined",
-                        "junior": "undefined",
-                        "university": "undefined",
-                        "some_college": "undefined"
+                        "junior_infant": "This education levels are not for EU citizens but for UK.\nIf the levels are very specific I would leave them in English and only translate the parts like \"but no degree\".",
+                        "comprehensive": "Comprehensive School (GCSE)/Secondary modern (GCSE)/Grammar School (GCSE)/City Technology College (GCSE)/Sixth Form",
+                        "college": "College/Institution of Higher Education",
+                        "open_college": "Open College - College of Technology - Institute / Teacher Training University",
+                        "junior": "Junior School",
+                        "university": "University / Open University",
+                        "some_college": "Completed some University, but no degree"
                     }
                 },
                 "education_de": {
                     "list": {
-                        "primary": "Primärschule",
+                        "primary": "Primärschule / Volksschule",
                         "medium": "Sekundärschulabschluß",
-                        "university": "Abitur = the last examen of the secondary school that gives the right to start at University. not sure if this should be togehter with having a University absolved",
-                        "associate": "undefined",
+                        "university": "Abitur / Universität",
+                        "associate": "Associate degree",
                         "secondaryOther": "Weiterfürhrende abgeshlossene sekundäre Ausbildung",
                         "diploma": "Diplom (FH / DH)",
                         "bachelor": "Bachelor",
-                        "magister": "Magister = basically kind of bachelor. before the current, unified system one had to first achieve the Magister before proceeding to the Doktor (Master) level.",
+                        "magister": "Magister",
                         "master": "Master",
                         "phd": "Doktorat",
                         "universityOther": "Anderer Universitätstitel"
@@ -168,11 +168,11 @@
                         "5": "5 Personen",
                         "more_5": "Mehr als 5 Personen"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Anzahl der Personen in Deinem Haushalt (Dich miteingerechnet)"
                 },
                 "householdChildren": {
                     "question": "Wieviele Personen unter 18 Jahren leben in Deinem Haushalt?",
-                    "shortName": "undefined"
+                    "shortName": "Anzahl der Minderjährigen in Deinem Haushalt"
                 },
                 "pets": {
                     "question": "Welche Haustiere leben in Deinem Haushalt?",
@@ -183,7 +183,7 @@
                         "fish": "Fische",
                         "noPets": "Keine"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Haustiere in Deinem Haushalt"
                 },
                 "ownRent": {
                     "question": "Welche Beschreibung passt am besten zu Deinem derzeitigen Haushalt?",
@@ -192,7 +192,7 @@
                         "owned": "Eigentumshaus / Eigentumswohnung",
                         "parents": "Bei den Eltern lebend"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Beschreibung Deines Haushalts"
                 },
                 "purchaseDecisionMaker": {
                     "question": "Für welche der folgenden Dinge bist Du zuständig oder teilweise zuständig in Deinem Haushalt?",
@@ -206,47 +206,47 @@
                         "finance": "Finanzen",
                         "clothing": "Kleidung"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Deine Zuständigkeiten oder teilweise Zuständigkeiten in Deinem Haushalt"
                 },
                 "firstChild_gender": {
                     "question": "Bitte nenne uns das Geschlecht Deines ersten Kindes unter 18 Jahre:",
-                    "shortName": "undefined"
+                    "shortName": "Geschlecht Deines ersten Kindes unter 18"
                 },
                 "firstChild_birthday": {
                     "question": "Bitte wähle das Geburtsdatum Deines ersten Kindes unter 18 Jahre:",
-                    "shortName": "undefined"
+                    "shortName": "Geburtsdatum Deines ersten Kindes unter 18"
                 },
                 "secondChild_gender": {
                     "question": "Bitte nenne uns das Geschlecht Deines zweiten Kindes unter 18 Jahre:",
-                    "shortName": "undefined"
+                    "shortName": "Geschlecht Deines zweiten Kindes unter 18"
                 },
                 "secondChild_birthday": {
                     "question": "Bitte wähle das Geburtsdatum Deines zweiten Kindes unter 18 Jahre:",
-                    "shortName": "undefined"
+                    "shortName": "Geburtsdatum Deines zweiten Kindes unter 18"
                 },
                 "thirdChild_gender": {
                     "question": "Bitte nenne uns das Geschlecht Deines dritten Kindes unter 18 Jahre:",
-                    "shortName": "undefined"
+                    "shortName": "Geschlecht Deines dritten Kindes unter 18"
                 },
                 "thirdChild_birthday": {
                     "question": "Bitte wähle das Geburtsdatum Deines dritten Kindes unter 18 Jahre:",
-                    "shortName": "undefined"
+                    "shortName": "Geburtsdatum Deines dritten Kindes unter 18"
                 },
                 "fourthChild_gender": {
                     "question": "Bitte nenne uns das Geschlecht Deines vierten Kindes unter 18 Jahre:",
-                    "shortName": "undefined"
+                    "shortName": "Geschlecht Deines vierten Kindes unter 18"
                 },
                 "fourthChild_birthday": {
                     "question": "Bitte wähle das Geburtsdatum Deines vierten Kindes unter 18 Jahre:",
-                    "shortName": "undefined"
+                    "shortName": "Geburtsdatum Deines vierten Kindes unter 18"
                 },
                 "fifthChild_gender": {
                     "question": "Bitte nenne uns das Geschlecht Deines fünften Kindes unter 18 Jahre:",
-                    "shortName": "undefined"
+                    "shortName": "Geschlecht Deines fünten Kindes unter 18"
                 },
                 "fifthChild_birthday": {
                     "question": "Bitte wähle das Geburtsdatum Deines fünften Kindes unter 18 Jahre:",
-                    "shortName": "undefined"
+                    "shortName": "Geburtsdatum Deines fünften Kindes unter 18"
                 }
             },
             "technology": {
@@ -257,7 +257,7 @@
                         "contract": "Vertrag",
                         "noPhone": "Ich habe kein Mobiltelefon"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Art des Mobilfunkvertrages"
                 },
                 "electronicDevices": {
                     "question": "Welche der folgenden Elektrogeräte besitzt Du?",
@@ -283,27 +283,27 @@
                         "tablet": "Tablet",
                         "ebook": "E-book reader (Bsp.: Kindle)"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Elektrogeräte in Deinem Haushalt"
                 }
             },
             "occupation": {
                 "employment": {
                     "question": "Wie ist Dein aktuelles Dienstverhältnis?",
                     "list": {
-                        "employed_full_time": "That's a good point to take into account if we prepare a set of answers for the German market. Merci!",
+                        "employed_full_time": "Mitarbeiter vollzeit",
                         "employed_part_time": "Mitarbeiter teilzeit",
-                        "self_employed": "This would basically be an \"autónomo\".",
+                        "self_employed": "Selbstständig",
                         "small_business_owner": "Selbsständig",
-                        "contractor_or_consultant": "Indeed, I guess this would also be sort of an autónomo. We actually want to remove this option in the next iteration, but for the time being...",
+                        "contractor_or_consultant": "Unternehmensberatung",
                         "full_time_military": "Aktiver Soldat",
                         "inactive_military": "Soldat in Ruhestand",
-                        "homemaker": "This would basically be a person that doesn't work per se as it doesn't earn money, but does a lot of household chores.",
+                        "homemaker": "Vollzeit Haushaltsbetreuung (unbezahlt)",
                         "retired": "In Ruhestand",
                         "student": "Student",
                         "unable_or_disabled": "Mit speziellen Bedürfnissen oder arbeitsunfähig",
                         "looking_for_work": "Derzeit ohne Beschäftigung"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Aktuelles Dienstverhältnis"
                 },
                 "industry": {
                     "question": "In welcher der folgenden Branchen arbeitest Du?",
@@ -333,7 +333,7 @@
                         "engineering": "Ingenieur",
                         "environmental_services": "Umweltschutz",
                         "fashion_apparel": "Bekleidungsindustrie",
-                        "food_beverage": "???",
+                        "food_beverage": "Gastronomie",
                         "government_public_sector": "Öffentlicher Dienst",
                         "healthcare": "Gesundheitswesen",
                         "hospitality_tourism": "Tourismus",
@@ -342,7 +342,7 @@
                         "insurance": "Versicherungen",
                         "internet": "Internet",
                         "legal_law": "Recht und Justiz",
-                        "management": "Indeed.",
+                        "management": "Management",
                         "manufacturing": "Verarbeitende Industrie",
                         "market_research": "Marktforschung",
                         "marketing_sales": "Marketing und Verkauf",
@@ -364,7 +364,7 @@
                         "transportation": "Transport",
                         "user_experience_research": "UX Research / Anwenderforschung"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Branche"
                 },
                 "jobDepartment": {
                     "question": "In welcher Abteilung arbeitest Du hauptsächlich in Deinem Unternehmen?",
@@ -385,7 +385,7 @@
                         "technology_implementation": "Technologieeinführung",
                         "other": "Andere"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Abteilung"
                 },
                 "jobTitle": {
                     "question": "Was ist Dein Berufstitel, Dienstgrad oder Verantwortungsbereich?",
@@ -395,19 +395,19 @@
                         "director_tier": "AbteilungsleitungIn (AbetilungsleiterIn, GruppenleiterIn, Senior)",
                         "management_tier": "ManagerIn (GruppenmanagerIn, Senior ManagerIn, Programm-ManagerIn)",
                         "analyst": "Analyst",
-                        "associate": "Assistant",
+                        "associate": "AssistentIn",
                         "administrative": "Administration (Büro und Verwaltung)",
-                        "individual_contributor": "Basically everyone that is not in management.",
-                        "contractor": "It's very similar to consultant: comes in for a defined period of time, does the job and it's gone. They go from contract to contract. Very common in the construction industry for example.",
+                        "individual_contributor": "Mitarbeiter/In",
+                        "contractor": "AuftragnehmerIn",
                         "consultant": "BeraterIn",
                         "intern": "PraktikantIn",
                         "volunteer": "FreiwilligeR",
                         "other": "Andere"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Berufstitel"
                 },
                 "decisionMaker": {
-                    "question": "Bitte wähle auf welche Abteilungen / Produkte Du Einfluss hast oder über Eintscheindungsauthorität verfügst",
+                    "question": "Bitte wähle auf welche Abteilungen / Produkte Du Einfluss hast oder über Eintscheindungsauthorität verfügst in Bezug auf Einkauf und Ausgaben",
                     "list": {
                         "itHardware": "IT Hardware",
                         "itSoftware": "IT Software",
@@ -419,18 +419,18 @@
                         "telecommunications": "Telekommunikation",
                         "sales": "Verkauf",
                         "shipping": "Versand",
-                        "operations": "That works",
+                        "operations": "Einkauf",
                         "legalServices": "Rechtsabteilung",
                         "marketing": "Marketing und Werbung",
-                        "security": "General",
-                        "foodServices": "Could be yeah, or if the company has a catering service.",
+                        "security": "Sicherheit",
+                        "foodServices": "Mitarbeiterverpflegung",
                         "autoleasing": "Fuhrpark"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Abteilungen / Produkte für die Du über Eintscheindungsauthorität verfügst in Bezug auf Einkauf und Ausgaben"
                 },
                 "companySize": {
                     "question": "Wie viele Mitarbeiter schätzt Du arbeiten in Deinem Unternehmen (alle Standorte)?",
-                    "shortName": "undefined"
+                    "shortName": "Anzahl der Mitarbeiter in Deinem Unternehmen"
                 }
             },
             "hobbiesAndInterests": {
@@ -454,11 +454,11 @@
                         "travel": "Reisen",
                         "tvSports": "Sportveranstaltungen im Fernsehen"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Hobbies und Interessen"
                 },
                 "socialMedia": {
                     "question": "Bei welchen der folgenden Social Media Plattformen bist Du aktiv oder beteiligst Dich innhaltlich?",
-                    "shortName": "undefined"
+                    "shortName": "Social Media Plattformen die Du aktiv nützt"
                 },
                 "streamingMovies": {
                     "question": "Wie oft im Durchschnitt lädst oder streamst Du einen Film um ihn zu Hause anzusehen?",
@@ -471,7 +471,7 @@
                         "5": "Fünfmal oder öfter im Monat",
                         "none": "Ich streame oder lade keine Filme herunter"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Häufigkeit mit der Du Filme zu Hause streamst oder herunterlädst"
                 },
                 "gambling": {
                     "question": "An welcher Art Glücksspiel nimmst Du teil?",
@@ -488,7 +488,7 @@
                         "carRace": "Wetten auf Autorennen",
                         "none": "Ich spiele keine Glücksspiele"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Glücksspiele and denen Du teil nimmst"
                 }
             },
             "financial": {
@@ -498,10 +498,10 @@
                         "creditCard": "Kreditkarte",
                         "checkingAccount": "Girokonto",
                         "savingsAccount": "Sparkonto",
-                        "personalLoan": "With a bank",
+                        "personalLoan": "Kredit",
                         "mortgage": "Hypothek"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Deine Finanzprodukte"
                 },
                 "investments_us": {
                     "list": {
@@ -517,7 +517,7 @@
                     "list": {
                         "none": "Ich habe keine Spar- und Investmentkonten",
                         "personalPension": "Private Pensionsvorsorge",
-                        "workplacePension": "?",
+                        "workplacePension": "Betriebliche Pensionsvorsorge",
                         "unitTrusts": "Unit trusts",
                         "oeic": "OEIC - Open Ended Investment Company",
                         "etf": "ETF Securities (or Exchange Traded Funds)",
@@ -620,7 +620,7 @@
                         "ulcers": "Geschwüre",
                         "urinaryIncontinence": "Inkontinenz"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Diagnostizierte Krankheiten oder Beschwerden"
                 }
             },
             "travel": {
@@ -632,7 +632,7 @@
                         "twiceYear": "Zweimal im Jahr",
                         "onceYear": "Einmal im Jahr"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Häufigkeit von Flugreisen"
                 },
                 "flightPurpose": {
                     "question": "Aus welchen Gründen reist Du mit dem Flugzeug?",
@@ -642,36 +642,36 @@
                         "both": "Beide, geschäftlich und Freizeit",
                         "neither": "Keine, ich reise nicht mit dem Flugzeug"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Gründe für Flugreisen"
                 },
                 "flightDestination": {
                     "question": "Wenn Du fliegst, welche Art von Flug buchst Du?",
                     "list": {
-                        "domestic": "Inlandsflug",
+                        "domestic": "Gebuchte Flugreisetypen",
                         "international": "Internationaler Flug",
                         "both": "Beide, inland und international",
                         "neither": "Ich bevorzuge es, diese Frage nicht zu beantworten"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Gebuchte Flugreisetypen"
                 },
                 "domesticAirlines_us": {
                     "question": "Mit welchen Inlandsfluglinien bist Du in den letzten 12 Monaten geflogen?",
                     "list": {
                         "none": "Ich hatte keinen Inlandsflug in den letzten 12 Monaten"
                     },
-                    "shortName": "undefined"
+                    "shortName": "In den letzten 12 Monaten genützte Inlandsfluglinien"
                 },
                 "internationalAirlines": {
                     "question": "Mit welchen internationalen Fluglinien bist Du in den letzten 12 Monaten geflogen?",
                     "list": {
                         "none": "Ich hatte keinen internationalen Flug in den letzten 12 Monaten"
                     },
-                    "shortName": "undefined"
+                    "shortName": "In den letzten 12 Monaten genützte Inlandsfluglinien"
                 },
                 "accomodationType": {
                     "question": "Welche Art von Unterkunft hattest Du im letzten Jahr auf Reisen?",
                     "list": {
-                        "houseRental": "private rooms, apartments and houses",
+                        "houseRental": "Privatzimmer, -wohnungen und -häuser (AirBnB & VRBO)",
                         "bedBreakfast": "Bed & Breakfast",
                         "campground": "Campingplatz",
                         "hostel": "Hostel",
@@ -680,59 +680,55 @@
                         "personalVacationHome": "Eigenes Urlaubsdomizil",
                         "timeshare": "Timeshare / Teilzeitnutzung"
                     },
-                    "shortName": "undefined"
+                    "shortName": "Art der im Verlauf eines Jahres genützten Unterkünfte"
                 },
                 "hotelLoyalty": {
                     "question": "Nimmst Du an einem der folgenden Kundenbindungsprogramme von Hotels teil?",
-                    "shortName": "undefined"
+                    "shortName": "Genützte Kundenbindungsprogramme von Hotels"
                 }
             }
-        },
-        "generic.\"ethnicity": {
-            "question": "Welcher Rasse gehört Du an?",
-            "shortName": "undefined"
         },
         "generic": {
             "education": {
                 "question": "Was ist die höchste Ausbildung die Du abgeschlossen hast?",
-                "shortName": "undefined"
+                "shortName": "Höchstes abgeschlossene Ausbildungs"
             },
             "householdIncome": {
                 "question": "Wie hoch ist das Jahreseinkommen aller Mitglieder Deines Haushalts zusammengerechnet bevor Steuern (Brutto)?",
-                "shortName": "undefined"
+                "shortName": "Jahresbruttoeinkommen (vor Steuern) aller Mitglieder Deines Haushalts zusammengerechnet"
             },
             "mobileCarrier": {
                 "question": "Welcher der folgenden Anbieter ist jener für das Mobiltelefon das Du am häufigsten benützt?",
-                "shortName": "undefined"
+                "shortName": "Mobilfunkanbieter für Dein meistgenütztes Mobiltelefon"
             },
             "noPhone": {
                 "noPhone": "Ich habe kein Mobiltelefon"
             },
             "companyRevenue": {
                 "question": "Was ist der geschätzte Jahresumsatz Deines Unternehmens?",
-                "shortName": "undefined"
+                "shortName": "Geschätzer Jahresumsatz Deines Unternehmens"
             },
             "subscriptions": {
                 "question": "Bei welchen der folgenden Anbieter hast Du ein Abonnement?",
-                "shortName": "undefined"
+                "shortName": "Abonnierte Angebote"
             },
             "investments": {
                 "question": "Welche Art von Spar- und Investementkonten besitzt Du?",
                 "realEstate": "Immobilien",
                 "savingsAccount": "Sparkonto",
                 "shares": "Aktien",
-                "shortName": "undefined"
+                "shortName": "Abonnierte Angebote"
             },
             "investableAssets": {
                 "question": "Welche Zahl komm dem nvestierbaren Vermögen Deines Haushalts am nächsten (Haus- oder Wohnungseigentum ausgenommen)?",
-                "shortName": "undefined"
+                "shortName": "Geschätztes investierbares Vermögen Deines Haushalts (Haus- oder Wohnungseigentum ausgenommen)"
             },
             "airlineLoyalty": {
-                "question": "Bist Du für eines der folgenden Kundenbindungsprogramme registriert?",
+                "question": "Bist Du für eines der folgenden Kundenbindungsprogramme von Fluglinien registriert?",
                 "list": {
                     "none": "Ich bin für kein Kundenbindungsprogramm einer Fluglinie registert"
                 },
-                "shortName": "undefined"
+                "shortName": "Genützte Kundenbindungsprogramme von Fluglinien"
             },
             "hotelLoyalty": {
                 "list": {
@@ -741,7 +737,7 @@
             },
             "ethnicity": {
                 "question": "Welcher Rasse gehört Du an?",
-                "shortName": "undefined"
+                "shortName": "Rasse"
             }
         }
     }
