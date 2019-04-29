@@ -56,8 +56,8 @@
         "error": {
             "required": {
                 "field": "Diese Eingabe ist erforderlich.",
-                "gdpr": "Diese Zustimmung ist erforderlich.",
-                "terms": "Sie müssen die Nutzungsbedingungen und Datenschutzerklärung akzeptieren."
+                "gdpr": "Deine Zustimmung ist erforderlich.",
+                "terms": "Bitte akzeptiere die Allgemeinen Geschäftsbedigungen und die Datenschutzbestimmungen."
             },
             "format": {
                 "email": "Bitte füge eine gültige E-Mail-Adresse ein. Bsp: name@email.com",
@@ -94,7 +94,7 @@
                 "incorrectPassword": "Aktuelles Passwort ungültig",
                 "expiredLink": "Der Aktivierungslink den Du benützt hast ist abgelaufen. Bitte fordere einen neuen Link auf der [Passwort vergessen](/forgot-password) Seite an."
             },
-            "limitExceeded": "Sie haben die maximale Anzahl an Versuchen erreicht. Bitte versuchen Sie es später erneut.",
+            "limitExceeded": "Du hast die maximale Anzahl an Versuchen erreicht. Bitte versuche es später erneut.",
             "demographics": {
                 "notUnderAge": "Ein Minderjähriger kann nicht älter als 18 Jahre sein."
             }
@@ -255,7 +255,7 @@
                     }
                 }
             },
-            "successfulUpdate": "Ihre Einstellungen wurden erfolgreich aktualisiert!"
+            "successfulUpdate": "Deine Einstellungen wurden erfolgreich aktualisiert!"
         },
         "studiesDashboard": {
             "completed": {

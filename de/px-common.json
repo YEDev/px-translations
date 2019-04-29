@@ -115,16 +115,16 @@
                 "requirements": {
                     "anyBrowser": "Ein aktueller Browser",
                     "aWorking": "Eine Arbeit",
-                    "goodLightning": "Ein gut beleuchteter Ort",
+                    "goodLightning": "Einen gut beleuchteten Platz",
                     "headphones": "Kopfhörer",
                     "maybeRecorded": "Du benötigst kein Mikrofon oder Webcam, aber Dein Bildschirm wird aufgezeichnet. Vergewissere Dich jede Aufgabe zu lesen und bestmöglich zu lösen.",
                     "microphone": "Mikrofon",
                     "quietEnvironment": "Eine ruhige Umgebung",
                     "screener": "Beantworte ein paar Fragen um zu sehen ob Du in das Suchprofil passt. Viel Glück! :)",
-                    "strongConnection": "Guter Internetverbindung",
-                    "updatedBrowser": "Neueste Version von",
+                    "strongConnection": "Starke Internetverbindung",
+                    "updatedBrowser": "Die letzte Version von",
                     "webcam": "Videokamera",
-                    "title": "Für diese Studie benötigen Sie:"
+                    "title": "Für diese Studie benötigst Du:"
                 },
                 "participate": "Nimm teil!",
                 "devices": "Endgeräte",
@@ -135,11 +135,11 @@
                 },
                 "treeTest": {
                     "title": "Tree-Test",
-                    "description": "In diesen Studien versuchen wir, die bestmögliche Organisation und Benennung von Navigationsmenüs zu finden.\n\nDas heißt, wenn die Kategorien für Sie sinnvoll sind und wenn die Elemente dort sind, wo Sie sie erwarten.\n\nErinnere Dich, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner aufrichtigen Meinung interessiert."
+                    "description": "In dieser Art von Studie möchten wir den bestmöglichen Weg ein Navigationsmenü zu organisieren und die Elemente zu benennen.\n\nDas bedeutet, ob die Kategorien für Dich Sinn ergeben und ob die Elemente dort sind wo Du es erwartest. \n\nBehalte in Erinnerung, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner ehrlichen Meinung interessiert."
                 },
                 "clickTest": {
                     "title": "Click-Test",
-                    "description": "Mit einem Click-Test möchten wir wissen, wo Sie klicken würden, wenn Sie eine bestimmte Aktion ausführen sollen.\n\nErinnere Dich, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner aufrichtigen Meinung interessiert."
+                    "description": "Mit einem Click Test möchten wir verstehen wo Du zum durchführen einer bestimmten Aktion klicken würdest.\n\nBehalte in Erinnerung, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner ehrlichen Meinung interessiert."
                 }
             },
             "studyRequirementsEmail": {
