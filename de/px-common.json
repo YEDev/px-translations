@@ -1,31 +1,31 @@
 {
     "izPanel": {
         "common": {
-            "androidPhone": "",
-            "androidTablet": "",
-            "chrome": "",
+            "androidPhone": "Android Smartphone",
+            "androidTablet": "Android Tablet",
+            "chrome": "Chrome",
             "claim": "Deine Meinung zählt. Teile Deine Meinung zu Deinen Lieblings-Produkten mit uns und lasse Dich dafür bezahlen.",
-            "comma": "",
+            "comma": ",",
             "contactUsLowercaseImperative": "kontaktiere uns",
             "copyright": "IntelliZoom Panel © 2019. Alle Rechte vorbehalten.",
-            "edge": "",
+            "edge": "Edge",
             "email": "E-Mail",
-            "firefox": "",
-            "ie": "",
-            "iPad": "",
-            "iPhone": "",
+            "firefox": "Firefox",
+            "ie": "Internet Explorer {{version}}",
+            "iPad": "iPad",
+            "iPhone": "iPhone",
             "logIn": "Anmelden",
             "logInImperative": "Anmelden",
             "logInLowercase": "anmelden",
             "next": "Weiter",
             "noRobot": "Ich bin kein Roboter",
-            "or": "",
+            "or": "oder",
             "orPressEnter": "oder Enter drücken",
             "password": "Passwort",
-            "period": "",
+            "period": ".",
             "privacyLink": "Datenschutzerklärung",
             "requiredField": "(Erforderlich)",
-            "safari": "",
+            "safari": "Safari",
             "signUp": "Registrieren",
             "submit": "Senden",
             "termsLink": "Nutzungsbedingungen",
@@ -38,21 +38,21 @@
             "send": "Senden",
             "demographics": {
                 "female": "Frau",
-                "lessThan": "",
+                "lessThan": "Weniger als",
                 "male": "Mann",
-                "na": "",
-                "no": "",
-                "none": "",
-                "noneOrNoTell": "",
-                "orMore": "",
-                "other": "",
-                "otherFeminine": "",
-                "otherFemininePlural": "",
-                "otherPlural": "",
-                "unknown": "",
-                "yes": "",
+                "na": "Ich bevorzuge diese Frage nicht zu beantworten",
+                "no": "Nein",
+                "none": "Keines der genannten",
+                "noneOrNoTell": "Keine der obigen / Ich bevorzuge es, diese Frage nicht zu beantworten",
+                "orMore": "mehr als",
+                "other": "Andere",
+                "otherFeminine": "Andere",
+                "otherFemininePlural": "Andere",
+                "otherPlural": "Andere",
+                "unknown": "Ich weiss es nicht",
+                "yes": "Ja",
                 "nonBinary": "Nicht binär",
-                "noneMasculine": "",
+                "noneMasculine": "Keines der genannten",
                 "no_answer": "Ich bevorzuge diese Frage nicht zu beantworten",
                 "million": "Million",
                 "millions": "Millionen"
@@ -66,72 +66,72 @@
             "finish": "Fertig",
             "gotIt": "Okay",
             "emailNotifications": {
-                "title": "",
+                "title": "E-Mail Benachrichtigungen",
                 "mkt": {
-                    "title": "",
-                    "description": ""
+                    "title": "Newsletter und Marketing-Mitteilungen",
+                    "description": "Wir senden Dir gelegentlich:\n\n-  Neuigkeiten wie Deine Meinung Produkte die Du magst beinflusst.\n-  Ein paar Tipps wie Du ein Meister darin wirst, Feedback zu geben.  "
                 },
                 "studyInvites": {
-                    "title": "",
-                    "description": "",
+                    "title": "Einladungen zu Usability Forschungs-Studien",
+                    "description": "Erhalte Einladungen zu Usability Forschungs-Studien die:\n\n-  Du von zu Hause aus machen kannst.\n-  Im Schnitt 10-20 Minuten Zeit benötigen.\n-  Dir im Durchschnitt {{tolIncentive}} für Studien die eine Audio- oder Videoaufnahme beinhalten. Für Standard-Umfragen beträgt die Bezahlung durchschnittlich {{surveyIncentive}}.",
                     "confirmationModal": {
-                        "title": "",
-                        "description": "",
-                        "cta": ""
+                        "title": "Bist Du sicher?",
+                        "description": "Wenn Du diese Option deaktivierst, erhältst Du keine weiteren Einladungen zu bezahlten Studien.",
+                        "cta": "Ja, deaktivieren"
                     }
                 },
-                "description": ""
+                "description": "###Hallo, \n\nDas sind die Benachrichtigungen die Du abonniert hast:"
             },
             "language": {
-                "title": "",
-                "englishUS": "",
-                "englishUK": "",
-                "spanish": "",
-                "german": ""
+                "title": "Sprache",
+                "englishUS": "English US",
+                "englishUK": "English UK",
+                "spanish": "Español",
+                "german": "Deutsch"
             },
-            "cancel": "",
-            "edit": "",
+            "cancel": "Abbrechen",
+            "edit": "Bearbeiten",
             "studies": {
                 "cardSort": {
-                    "title": "",
-                    "description": ""
+                    "title": "Card Sort",
+                    "description": "In dieser Art von Studie sind wir hauptsächlich daran interessiert wie Du bestimmte Elemente gruppierst. Das hilft dem Ersteller der Studie die Gedankenzüge bei der Kategorisierung zu verstehen. \n\nErinnere Dich, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner aufrichtigen Meinung interessiert."
                 },
                 "practice": {
-                    "title": "",
-                    "description": ""
+                    "title": "Übungsstudien",
+                    "description": "Nimm teil an dieser Übungsstudie und meistere die Kunst Feedback zu geben. \n\nWenn Du teilnimmst und unsere Bewertung bestehst, können wir Dich zu besser bezahlten Studien einladen."
                 },
                 "survey": {
                     "description": "",
-                    "title": ""
+                    "title": "Umfrage"
                 },
                 "taskBased": {
-                    "title": "",
-                    "description": ""
+                    "title": "Aufgabenbasiert",
+                    "description": "In einer Task-Based Studie wirst Du durch eine Reihe von Aufgaben geführt um diese zu lösen.\n\nManche Aufgaben sind einfach, andere sind etwas komplexer. Wir möchten wissen, wie einfach oder schwer Du diese Aufgaben empfindest.\n\nErinnere Dich, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner aufrichtigen Meinung interessiert."
                 },
                 "tol": {
-                    "title": "",
-                    "description": ""
+                    "title": "Think-Out-Loud",
+                    "description": "Diese Art von Studie erfordert die Aussprache Deiner Gedanken während Du an der Aufgabe teil nimmst.\n\nBehalte in Erinnerung, dass es keine falschen Antworten gibt. Wenn wir Dir eine Idee, ein Design oder ein Konzept zeigen - wenn Du es nicht magst, magst Du es nicht, wenn Du es liebst, liebst Du es, wenn es in keiner Weise irgendeine Emotion auslöst und es für Dich eine Zeitverschwendung ist ... sag es uns einfach!\n\nWir sind ausschließlich an Deiner aufrichtigen Meinungen interessiert."
                 },
                 "requirements": {
-                    "anyBrowser": "",
+                    "anyBrowser": "Ein aktueller Browser",
                     "aWorking": "",
                     "goodLightning": "",
                     "headphones": "",
-                    "maybeRecorded": "",
-                    "microphone": "",
+                    "maybeRecorded": "Du benötigst kein Mikrofon oder Webcam, aber Dein Bildschirm wird aufgezeichnet. Vergewissere Dich jede Aufgabe zu lesen und bestmöglich zu lösen.",
+                    "microphone": "Mikrofon",
                     "quietEnvironment": "",
-                    "screener": "",
+                    "screener": "Beantworte ein paar Fragen um zu sehen ob Du in das Suchprofil passt. Viel Glück! :)",
                     "strongConnection": "",
                     "updatedBrowser": "",
-                    "webcam": "",
+                    "webcam": "Videokamera",
                     "title": ""
                 },
-                "participate": "",
-                "devices": "",
-                "youWillNeed": "",
+                "participate": "Nimm teil!",
+                "devices": "Endgeräte",
+                "youWillNeed": "Du benötigst",
                 "manualSourcing": {
-                    "title": "",
-                    "description": ""
+                    "title": "Bleib am Ball mit Deinen E-mails!",
+                    "description": "Für Studien in {{country} nützen wir E-Mails zum senden von Einladungen.\n\nUm sicherzustellen, dass Du so oft wie möglich eingeladen wirst, vervollständige Dein Profil und halte es aktuell."
                 },
                 "treeTest": {
                     "title": "",
@@ -158,27 +158,27 @@
                 },
                 "recording": {
                     "audioVideo": "Du benötigst eine Webcam und ein Mikrofon: Begebe Dich an einen ruhigen, gut beleuchteten Ort und stelle sicher Deine Gedanken laut auszusprechen während Du die Aufgaben löst. \n\nBenutze Kopfhörer um eine gute Aufnahmequalität zu gewährleisten.",
-                    "audio": "",
-                    "video": "",
-                    "noneTaskBased": "",
-                    "noneQuestionnaire": ""
+                    "audio": "Du benötigst ein Mikrofon:\nBegebe Dich an einen ruhigen Ort und stelle sicher Deine Gedanken laut auszusprechen während Du die Aufgaben löst. Benutze Kopfhörer um eine gute Aufnahmequalität zu gewährleisten.",
+                    "video": "Du benötigst eine Webcam: Begebe Dich an einen ruhigen, gut beleuchteten Ort während Du die Aufgaben löst.",
+                    "noneTaskBased": "Du benötigst kein Mikrofon oder Webcam, aber Dein Bildschirm wird aufgezeichnet. Vergewissere Dich jede Aufgabe zu lesen und bestmöglich zu lösen.",
+                    "noneQuestionnaire": "Du benötigst kein Mikrofon oder Webcam. Vergewissere Dich jede Aufgabe zu lesen und bestmöglich zu lösen."
                 },
-                "screener": "",
+                "screener": "Beantworte ein paar Fragen um zu sehen ob Du in das Suchprofil passt. Viel Glück! :)",
                 "tabletOS": {
-                    "intro": "",
-                    "ending": "",
-                    "any": ""
+                    "intro": "Ein",
+                    "ending": "mit guter Internetverbindung und genügend Batterie.",
+                    "any": "Ein Tablet mit guter Internetverbindung und genügend Batterie."
                 },
-                "title": ""
+                "title": "Anforderungen:"
             },
-            "and": "",
+            "and": "und",
             "aUppercase": "",
-            "desktop": "",
-            "phone": "",
-            "tablet": "",
-            "selectAnOption": "",
+            "desktop": "Computer",
+            "phone": "Mobiltelefon",
+            "tablet": "Tablet",
+            "selectAnOption": "Treffe eine Auswahl",
             "comingSoon": "",
-            "saved": ""
+            "saved": "Gespeichert"
         }
     }
 }
