@@ -25,7 +25,7 @@
                     "numberOrSymbol": "eine Zahl",
                     "minChars": "mindestens 8 Zeichen",
                     "lowercaseLetter": "ein Kleinbuchstabe",
-                    "passwordsShouldMatch": "Deine Passworte sollten übereinstimmen"
+                    "passwordsShouldMatch": "Selbstverständlich sollten, deine Passworte übereinstimmen"
                 },
                 "passwordConfirmation": "Passwort bestätigen"
             },
@@ -91,12 +91,12 @@
                 "sendEmailFail": "Ojeh, irgendetwas is schief gelaufen. Wir konnten Dir die Bestätigungs-E-Mail nicht senden. Bitte versuche es später erneut."
             },
             "resetPassword": {
-                "incorrectPassword": "Passwort ungültig",
-                "expiredLink": ""
+                "incorrectPassword": "Aktuelles Passwort ungültig",
+                "expiredLink": "Der Aktivierungslink den Du benützt hast ist abgelaufen. Bitte fordere einen neuen Link auf der [Passwort vergessen](/forgot-password) Seite an."
             },
             "limitExceeded": "",
             "demographics": {
-                "notUnderAge": ""
+                "notUnderAge": "Ein Minderjähriger kann nicht älter als 18 Jahre sein."
             }
         },
         "footer": {
@@ -172,86 +172,86 @@
         },
         "landing": {
             "heroSection": {
-                "title": "",
-                "description": "",
-                "cta": ""
+                "title": "Deine Meinung zählt.",
+                "description": "Lass Dich bezahlen für das Teilen Deiner Erfahrungen mit Deinen Lieblingsprodukten.",
+                "cta": "Los geht's!"
             },
             "featureBoxes": {
                 "first": {
-                    "title": "",
-                    "description": ""
+                    "title": "Werde schnell und einfach bezahlt",
+                    "description": "Sparst Du auf etwas oder suchst Du nach extra Taschengeld? Mache es wie andere auf der ganzen Welt und hole Dir einen Zusatzverdienst indem Du Deine Erfahrungen mit uns teilst."
                 },
                 "second": {
-                    "title": "",
-                    "description": ""
+                    "title": "Beeinflusse das Produkterlebnis",
+                    "description": "Beeinflusse Deine Lieblingsprodukte indem Du Deine Meinung mit den Produktentwicklern teilst."
                 },
                 "third": {
-                    "title": "",
-                    "description": ""
+                    "title": "Mache es in Deiner Freizeit",
+                    "description": "Du hast 15-20 Minuten Zeit? Feedback geben ist einfach. Nimm an Studien aus der Ferne teil, wann Du Zeit hast, von zu Hause aus oder unterwegs, mit Deinem eigenen Gerät."
                 }
             },
             "reinforcingBanner": {
-                "phrase1": "",
-                "phrase2": ""
+                "phrase1": "Gebe Feedback",
+                "phrase2": "Werde bezahlt"
             },
             "faqs": {
-                "title": "",
+                "title": "Fragen? Wir haben die Antworten",
                 "faq1": {
-                    "title": "",
-                    "description": ""
+                    "title": "Wie schnell kann ich mit dem Testen loslegen?",
+                    "description": "Alsbald Du die Registrierung abgeschlossen hast und die 3 elementaren Profilierungs-Fragen beantwortet hast."
                 },
                 "faq2": {
-                    "title": "",
-                    "description": ""
+                    "title": "Wieviel Zeit wird die Teilnahme an einer Studie beanspruchen?",
+                    "description": "Die meisten Studien beanspruchen 10-20 Minuten im Schnitt."
                 },
                 "faq3": {
-                    "title": "",
-                    "description": ""
+                    "title": "Wie alt muss ich sein?",
+                    "description": "Alle Studienteilnehmer müssen 18 Jahre oder älter sein."
                 },
                 "faq4": {
-                    "title": "",
-                    "description": ""
+                    "title": "Wie viele Studieneinladungen werde ich erhalten?",
+                    "description": "Die Anzahl an Gelegenheiten die Du erhältst hängt von einigen Faktoren ab, wie etwa Deine demografischen Daten und Qualitätsbewertung ab."
                 },
                 "faq5": {
-                    "title": "",
-                    "description": ""
+                    "title": "Wie viel Geld werde ich verdienen?",
+                    "description": "Die Bezahlung hängt von der Komplexität der Studie ab. Für Studien die Deine Stimme oder ein Video aufnehmen, erhältst Du durchschnittlich $10. Für Standard-Umfragen beträgt die Bezahlung $2 im Schnitt."
                 },
                 "faq6": {
-                    "title": "",
-                    "description": ""
+                    "title": "Was benötige ich um an Studien teilnehmen zu können?",
+                    "description": "Alles was Du brauchst ist ein Computer, Tablet oder Smartphone, eine zuverlässige Internetverbindung, ein rugher Ort und die Möglichkeit, die zertifizierte (eCertified) Software von UserZoom herunterzuladen."
                 },
                 "faq7": {
-                    "title": "",
-                    "description": ""
+                    "title": "Wann werde ich bezahlt?",
+                    "description": "Die Prämie wird via PayPal innerhalb 21 Werktagen nach Abschluss der Studie ausbezahlt, wenn Dein Ergebnis gesichtet und bestätigt wurde. Die meisten Ergebnisse werden innerhalb von 3-5 Tagen bestätigt. \n\nDie Auszahlung wird an die selbe E-Mail-Adresse getätigt mit der Du Dich zu IntelliZoom Panel registriert hast."
                 }
             },
             "uzBanner": {
-                "title": "",
-                "description": ""
+                "title": "Ist das die Eule die Du suchst?",
+                "description": "Wenn Du mehr über IntelliZoom, den Motor für Sourcing im Einsatz für UserZoom, wissen möchtest, klicke hier. Wir finden die besten Teilnehmer für Deine UX Research Studien."
             }
         },
         "settings": {
-            "title": "",
+            "title": "Einstellungen",
             "account": {
-                "title": "",
+                "title": "Konto",
                 "credentials": {
-                    "title": "",
-                    "passwordLastUpdate": "",
-                    "changePassword": ""
+                    "title": "E-Mail-Zugang",
+                    "passwordLastUpdate": "Aktualisiert am",
+                    "changePassword": "Passwort ändern"
                 },
                 "phone": {
-                    "title": "",
-                    "description": "",
-                    "addPhone": ""
+                    "title": "Telefonnummer",
+                    "description": "Wenn du Deine Telefonnummer zu Deinem Konto hinzufügst, können wir Dich zu Moderierten Studien einladen. Eine moderierte Studie bedeutet, dass Dich ein Usability Forscher durch die Studie begleitet, um Dein Feedback einzuholen.",
+                    "addPhone": "Telefonnummer hinzufügen"
                 },
                 "deactivateAccount": {
-                    "title": "",
-                    "description": "",
-                    "cta": "",
+                    "title": "Konto deaktivieren",
+                    "description": "Wenn Du Dein Konto deaktivierst, verlierst Du Deinen Profilfortschritt und Du kannst nicht mehr an bezahlten Studien teilnehmen.",
+                    "cta": "Konto deaktivieren",
                     "confirmationModal": {
-                        "title": "",
-                        "description": "",
-                        "cta": ""
+                        "title": "Bist Du sicher?",
+                        "description": "Du verlierst Deinen Profilfortschritt und Du kannst nicht mehr an bezahlten Studien teilnehmen.",
+                        "cta": "Ja, deaktivieren"
                     }
                 }
             },
@@ -259,77 +259,77 @@
         },
         "studiesDashboard": {
             "completed": {
-                "sectionTitle": "",
-                "completitionDate": "",
-                "paymentsDescription": ""
+                "sectionTitle": "Absolvierte Studien",
+                "completitionDate": "Absolviert am {{date}}.",
+                "paymentsDescription": "Erinnere Dich, dass bei Annahme Deiner Teilnahme die Bezahlung bis zu 21 Werktage beanspruchen kann, um in Deinem PayPal Konto aufzuscheinen."
             },
             "incompleteProfile": {
-                "title": "",
-                "description": "",
-                "cta": ""
+                "title": "Werde zu mehr Studien eingeladen!",
+                "description": "Vervollständige Deine persönliche Information in Mein Profil, sodass wir Dich zu Studien mit spezifischeren Teilnahmekriterien einladen können.",
+                "cta": "Profil vervollständigen"
             },
             "intro": {
-                "title": "",
-                "descriptionFTU": "",
-                "oneStudyAvailable": "",
-                "severalStudiesAvailable": ""
+                "title": "Willkommen {{userName}}!",
+                "descriptionFTU": "Das ist Deine Studien-Übersicht. Hier kannst Du die Studien die Dir zur Verfügung stehen sowie praktische Tipps einsehen. \n\nNimm Dir nicht zu viel Zeit um daran teilzunehmen. Üblicherweise sind sie nur für kurze Zeit verfügbar.",
+                "oneStudyAvailable": "Du hast eine Verfügbare Studie",
+                "severalStudiesAvailable": "Du hast {{studiesAvailable}} verfügbare Studien"
             },
             "practiceStudy": {
-                "cta": ""
+                "cta": "An Übungsstudie teilnehmen"
             },
             "reactiveMessage": {
                 "certification": {
                     "underRevision": {
-                        "title": "",
-                        "description": ""
+                        "title": "Übungsstudie",
+                        "description": "User Team überprüft Deine Teilnahme und wird Dich bald mit seinem Feedback anschreiben."
                     },
                     "rejected": {
-                        "title": "",
-                        "description": ""
+                        "title": "Übungsstudie",
+                        "description": "Die Übungsstudie die Du uns gesendet hast , hat unseren Qualitätsansprüchen zur Teilnahme an dieser Art von Studien nicht entsprochen. \n\nWenn Du denkst, dass hier ein Fehler vorliegt oder Du einen zweiten Versuch möchtest, <1>{{contactUsLowercaseImperative}}</1>."
                     },
                     "accepted": {
-                        "title": "",
-                        "description": "",
-                        "cta": ""
+                        "title": "Glückwunsch!",
+                        "description": "Deine Teilnahme an unserer Übungsstudie wurde überprüft und bestätigt. \n\nJetzt können wir Dich zu Think-Out-Loud-Studien und Card-Sort-Studien einladen.",
+                        "cta": "Super!"
                     }
                 },
                 "unsubscribe": {
-                    "title": "",
-                    "description": "",
-                    "cta": ""
+                    "title": "Versäume keine Einladung!",
+                    "description": "Aktiviere E-Mail-Benachrichtigungen für Usability-Forschungs-Studien und versäume keine unserer Einladungen mehr.",
+                    "cta": "E-Mail-Benachrichtigungen aktivieren"
                 }
             },
             "tip": {
                 "phone": {
-                    "title": "",
-                    "description": "",
-                    "mainCTA": "",
-                    "secondaryCTA": ""
+                    "title": "Hallo {{username}},",
+                    "description": "Bist Du daran interessiert an moderierten Studien teilzunehmen? Das bedeutet, dass Dich ein Usability-Forscher durch eine Studie begleitet, um Dein Feedback einzuholen.",
+                    "mainCTA": "Spannend",
+                    "secondaryCTA": "Nein danke"
                 }
             },
-            "availableStudiesTitle": "",
-            "availableStudyTitle": "",
-            "emptyDescription": "",
-            "noLongerAvailable": "",
-            "studyCTA": ""
+            "availableStudiesTitle": "{{availableStudies}} Verfügbare Studien",
+            "availableStudyTitle": "1 verfügbare Studie",
+            "emptyDescription": "Derzeit gibt es keine verfügbaren Studien. Bleib dran!",
+            "noLongerAvailable": "Diese Studie ist nicht mehr verfügbar",
+            "studyCTA": "Teilnehmen"
         },
         "myProfile": {
             "panelistName": "{{user.firstName}} {{user.lastName}}",
             "profileCompletion": {
-                "title": "",
-                "description": ""
+                "title": "Dein Profil ist zu {{completionPercentage}} vollständig.",
+                "description": "Beantworte die Fragen in den folgenden Kategorien, sodass wir Dich zu mehr Studien einladen können."
             },
             "availableStudyTypes": {
-                "title": "",
-                "description": ""
+                "title": "Verfügbare Studientypen",
+                "description": "Komplettiere die <1>Übungsstudie</1> um an Think-Out-Loud- und Card Sort-Studien teilnehmen zu können."
             },
             "categories": {
                 "title": "Persönliche Daten",
-                "description": "",
-                "complete": "",
-                "questionsPending": "",
-                "editCTA": "",
-                "answerCTA": ""
+                "description": "Beantworte alle Fragen und komplettiere Dein Profil. Manche Studien erfordern sehr spezifische Kriterien zur Teilnahme. Je vollständiger und aktueller Dein Profil ist, desto mehr Studien stehen zu Deiner Teilnahme zur Verfügung.",
+                "complete": "Vollständig",
+                "questionsPending": "{{numberQuestionsPending}} Unbeantwortete Fragen",
+                "editCTA": "Prüfen / Bearbeiten",
+                "answerCTA": "Details hinzufügen"
             }
         },
         "demographics": {
@@ -344,17 +344,17 @@
                 "travel": "Reisen"
             },
             "success": {
-                "title": "",
-                "description": "",
-                "backToMyProfile": "",
+                "title": "Spitze!",
+                "description": "Du kannst jetzt zu Studien die Deinem {{categoryFilled}} Profil entsprechen eingeladen werden. \n\nDenke daran, dass Du Dein {{categoryFilled}} jederzeit  in Deinem Profil <0>einsehen oder bearbeiten</0> kannst.",
+                "backToMyProfile": "Zurück zu meinem Profil",
                 "moreCategories": {
-                    "title": "",
-                    "description": "",
-                    "letsDoThis": ""
+                    "title": "Weiter mit Schwung!",
+                    "description": "Beantworte **nun {{numberQuestionsMissing}} Fragen** über {{categoryMissing}} um zu mehr Studien eingeladen zu werden.",
+                    "letsDoThis": "Packen wir's an!"
                 }
             },
             "aboutMe": {
-                "nonEditableFields": ""
+                "nonEditableFields": "Wenn Du Dein Geburtsdatum, Dein Geschlecht oder das Land in dem Du wohnst ändern möchtest, [kontaktiere](https://help.intellizoom.com/hc/de/requests/new) unser Service Team."
             }
         }
     }
