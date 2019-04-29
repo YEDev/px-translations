@@ -101,7 +101,7 @@
                     "description": "Nimm teil an dieser Übungsstudie und meistere die Kunst Feedback zu geben. \n\nWenn Du teilnimmst und unsere Bewertung bestehst, können wir Dich zu besser bezahlten Studien einladen."
                 },
                 "survey": {
-                    "description": "",
+                    "description": "Eine klassische Frage-Antwort Umfrage.\n\nErinnere Dich, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner aufrichtigen Meinung interessiert.",
                     "title": "Umfrage"
                 },
                 "taskBased": {
@@ -114,17 +114,17 @@
                 },
                 "requirements": {
                     "anyBrowser": "Ein aktueller Browser",
-                    "aWorking": "",
-                    "goodLightning": "",
-                    "headphones": "",
+                    "aWorking": "Eine Arbeit",
+                    "goodLightning": "Ein gut beleuchteter Ort",
+                    "headphones": "Kopfhörer",
                     "maybeRecorded": "Du benötigst kein Mikrofon oder Webcam, aber Dein Bildschirm wird aufgezeichnet. Vergewissere Dich jede Aufgabe zu lesen und bestmöglich zu lösen.",
                     "microphone": "Mikrofon",
-                    "quietEnvironment": "",
+                    "quietEnvironment": "Eine ruhige Umgebung",
                     "screener": "Beantworte ein paar Fragen um zu sehen ob Du in das Suchprofil passt. Viel Glück! :)",
-                    "strongConnection": "",
-                    "updatedBrowser": "",
+                    "strongConnection": "Guter Internetverbindung",
+                    "updatedBrowser": "Neueste Version von",
                     "webcam": "Videokamera",
-                    "title": ""
+                    "title": "Für diese Studie benötigen Sie:"
                 },
                 "participate": "Nimm teil!",
                 "devices": "Endgeräte",
@@ -134,12 +134,12 @@
                     "description": "Für Studien in {{country} nützen wir E-Mails zum senden von Einladungen.\n\nUm sicherzustellen, dass Du so oft wie möglich eingeladen wirst, vervollständige Dein Profil und halte es aktuell."
                 },
                 "treeTest": {
-                    "title": "",
-                    "description": ""
+                    "title": "Tree-Test",
+                    "description": "In diesen Studien versuchen wir, die bestmögliche Organisation und Benennung von Navigationsmenüs zu finden.\n\nDas heißt, wenn die Kategorien für Sie sinnvoll sind und wenn die Elemente dort sind, wo Sie sie erwarten.\n\nErinnere Dich, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner aufrichtigen Meinung interessiert."
                 },
                 "clickTest": {
-                    "title": "",
-                    "description": ""
+                    "title": "Click-Test",
+                    "description": "Mit einem Click-Test möchten wir wissen, wo Sie klicken würden, wenn Sie eine bestimmte Aktion ausführen sollen.\n\nErinnere Dich, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner aufrichtigen Meinung interessiert."
                 }
             },
             "studyRequirementsEmail": {
@@ -172,12 +172,12 @@
                 "title": "Anforderungen:"
             },
             "and": "und",
-            "aUppercase": "",
+            "aUppercase": "Ein",
             "desktop": "Computer",
             "phone": "Mobiltelefon",
             "tablet": "Tablet",
             "selectAnOption": "Treffe eine Auswahl",
-            "comingSoon": "",
+            "comingSoon": "Demnächst",
             "saved": "Gespeichert"
         }
     }
