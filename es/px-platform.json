@@ -354,7 +354,7 @@
                 }
             },
             "aboutMe": {
-                "nonEditableFields": "Si quieres cambiar tu nombre, fecha de nacimiento, país o sexo, por favor [ponte en contacto](https://help.intellizoom.com/hc/es/requests/new) con nuestro equipo de Atención al cliente."
+                "nonEditableFields": "Si quieres cambiar tu fecha de nacimiento, país o sexo, por favor [ponte en contacto](https://help.intellizoom.com/hc/es/requests/new) con nuestro equipo de Atención al cliente."
             }
         }
     }
