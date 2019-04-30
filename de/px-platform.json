@@ -19,13 +19,13 @@
             },
             "password": {
                 "title": "Wähle ein Passwort",
-                "description": "Stelle sicher, dass es stark ist!\n\nBenutze: ",
+                "description": "Stelle sicher, dass es stark ist!\n\nVerwende: ",
                 "requirements": {
                     "capitalLetter": "einen Großbuchstaben",
                     "numberOrSymbol": "eine Zahl",
                     "minChars": "mindestens 8 Zeichen",
-                    "lowercaseLetter": "ein Kleinbuchstabe",
-                    "passwordsShouldMatch": "Selbstverständlich sollten, deine Passworte übereinstimmen"
+                    "lowercaseLetter": "einen Kleinbuchstaben",
+                    "passwordsShouldMatch": "selbstverständlich sollten Deine Passworte übereinstimmen"
                 },
                 "passwordConfirmation": "Passwort bestätigen"
             },
@@ -60,7 +60,7 @@
                 "terms": "Bitte akzeptiere die Allgemeinen Geschäftsbedigungen und die Datenschutzbestimmungen."
             },
             "format": {
-                "email": "Bitte füge eine gültige E-Mail-Adresse ein. Bsp: name@email.com",
+                "email": "Bitte trage eine gültige E-Mail-Adresse ein. Bsp: name@email.com",
                 "genericFormat": "Dieses Format ist ungültig"
             },
             "registration": {
