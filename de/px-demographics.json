@@ -147,7 +147,7 @@
                         "medium": "Sekundärschulabschluß",
                         "university": "Abitur / Universität",
                         "associate": "Associate degree",
-                        "secondaryOther": "Weiterfürhrende abgeshlossene sekundäre Ausbildung",
+                        "secondaryOther": "Weiterführende abgeschlossene sekundäre Ausbildung",
                         "diploma": "Diplom (FH / DH)",
                         "bachelor": "Bachelor",
                         "magister": "Magister",
@@ -532,7 +532,7 @@
                     "list": {
                         "acne": "Akne",
                         "add_adhd": "ADD / ADHD",
-                        "allergies": "Allergien (nicht mit Heuschnupfen in Verbindung9",
+                        "allergies": "Allergien (nicht mit Heuschnupfen in Verbindung)",
                         "alzheimers": "Alzheimer",
                         "anemia": "Blutarmut",
                         "angina": "Angina",
