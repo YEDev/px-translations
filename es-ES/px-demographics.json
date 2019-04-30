@@ -1,0 +1,744 @@
+{
+    "demographics": {
+        "category": {
+            "aboutMe": {
+                "birthday": {
+                    "question": "¿Cuál es tu fecha de nacimiento?",
+                    "shortName": "Fecha de nacimiento"
+                },
+                "country": {
+                    "question": "¿En qué país vives?",
+                    "shortName": "País"
+                },
+                "gender": {
+                    "question": "Eres...",
+                    "shortName": "Sexo"
+                },
+                "postalCode": {
+                    "question": "¿Cuál es tu código postal?",
+                    "shortName": "Código postal"
+                },
+                "hispanic": {
+                    "question": "¿Eres de origen hispánico, latino o español?",
+                    "shortName": "Origen hispánico, latino o español"
+                },
+                "ethnicity_us": {
+                    "list": {
+                        "white": "Blanca",
+                        "black": "Negra o Afroamericana",
+                        "indian": "Indio americano o nativo de Alaska",
+                        "asian": "Asiática",
+                        "islander": "De las islas del Pacífico o Nativo Hawaiano",
+                        "other": "Otra raza"
+                    }
+                },
+                "ethnicity_gb": {
+                    "list": {
+                        "white": "Blanca",
+                        "traveller": "Nómada Irlandesa",
+                        "asian_indian": "Asiática o Asiática Británica: India",
+                        "asian_pakistani": "Asiática o Asiática Británica: Pakistaní",
+                        "asian_bangladeshi": "Asiática o Asiática Británica: Bangladeshí",
+                        "asian_chinese": "Asiática o Asiática Británica: China",
+                        "asian_other": "Asiática o Asiática Británica: Otra raza asiática",
+                        "black": "Negra o Negra Británica",
+                        "mixed": "Mixta o Múltiple"
+                    }
+                },
+                "householdDescription": {
+                    "list": {
+                        "cohabiting": "Unión libre / Viviendo con alguien",
+                        "single": "Soltero/a, nunca casado/a",
+                        "married": "Casado/a",
+                        "divorced": "Divorciado/a",
+                        "separated": "Separado/a",
+                        "widowed": "Viudo/a"
+                    },
+                    "question": "¿Cuál es tu estado civil?",
+                    "shortName": "Estado civil"
+                },
+                "education_us": {
+                    "list": {
+                        "no_hs_diploma": "Algún tiempo en la secundaria o menos",
+                        "hs_or_ged": "Secundaria o equivalente",
+                        "some_college": "Algún tiempo en la universidad pero sin título",
+                        "two_year_degree": "Título universitario (\"Associate's Degree\" de dos años)",
+                        "four_year_degree": "Título universitario (\"Bachelor's Degree\" de cuatro años)",
+                        "post_grad_degree": "Título de post grado - MS, MA, MBA, PhD, etc.",
+                        "professional_degree": "Título profesional - MD, DVM, DDS, etc."
+                    }
+                },
+                "languages": {
+                    "question": "¿Qué idiomas hablas fluidamente y te sientes cómodo para dar tu opinión?",
+                    "list": {
+                        "arabic": "Árabe",
+                        "basque": "Vasco (Euskera)",
+                        "berber": "Bereber",
+                        "bulgarian": "Búlgaro",
+                        "catalan": "Catalán",
+                        "chinese": "Chino",
+                        "croatian": "Croata",
+                        "czech": "Checo",
+                        "danish": "Danés",
+                        "dutch": "Holandés",
+                        "english": "Inglés",
+                        "estonian": "Estonio",
+                        "finnish": "Finlandés",
+                        "french": "Francés",
+                        "galician": "Gallego",
+                        "german": "Alemán",
+                        "greek": "Griego",
+                        "hindi": "Hindi",
+                        "hungarian": "Húngaro",
+                        "italian": "Italiano",
+                        "irish": "Irlandés",
+                        "latvian": "Letón",
+                        "lithuanian": "Lituano",
+                        "japanese": "Japonés",
+                        "kurdish": "Kurdo",
+                        "korean": "Coreano",
+                        "maltese": "Maltés",
+                        "norwegian": "Noruego",
+                        "polish": "Polaco",
+                        "portuguese": "Portugués",
+                        "romanian": "Rumano",
+                        "punjabi": "Punjabi",
+                        "russian": "Ruso",
+                        "scottish": "Escocés",
+                        "slovak": "Eslovaco",
+                        "slovenian": "Esloveno",
+                        "spanish": "Español",
+                        "swedish": "Sueco",
+                        "tagalog": "Tagalo",
+                        "tamil": "Tamil",
+                        "turkish": "Turco",
+                        "urdu": "Urdu",
+                        "welsh": "Galés"
+                    },
+                    "shortName": "Idiomas que hablas fluidamente y te sientes cómodo para dar tu opinión"
+                },
+                "education_es": {
+                    "list": {
+                        "lessHighschool": "Algún tiempo en la E.S.O. o menos",
+                        "highschool": "Educación Secundaria Obligatoria (E.S.O.)",
+                        "technical": "Grado técnico o vocacional",
+                        "someBaccalaureate": "Algún tiempo en el bachillerato",
+                        "baccalaureate": "Título de Bachillerato",
+                        "someCollege": "Algún tiempo en la universidad pero sin título",
+                        "college": "Grado universitario (diploma de 3 años)",
+                        "masters": "Master titulado",
+                        "phd": "Doctorado titulado"
+                    }
+                },
+                "education_gb": {
+                    "list": {
+                        "junior_infant": "Escuela secundaria e infantil combinada / Escuela infantil de secundaria",
+                        "comprehensive": "Escuela Integral (GCSE) / Secundaria moderna (GCSE) / Escuela secundaria (GCSE) / City Technology College (GCSE) / Sixth Form",
+                        "college": "Instituto de Educación Superior",
+                        "open_college": "Universidad Abierta - Universidad de Tecnología - Instituto / Universidad de Formación de Profesores",
+                        "junior": "Escuela secundaria",
+                        "university": "Universidad / Universidad Abierta",
+                        "some_college": "Algún tiempo en la universidad, pero sin título"
+                    }
+                },
+                "education_de": {
+                    "list": {
+                        "primary": "Escuela primaria",
+                        "medium": "Educación media (Secundaria / MSA, etc.)",
+                        "university": "Abitur / Universidad",
+                        "associate": "Título asociado",
+                        "secondaryOther": "Alguna otra educación secundaria completada",
+                        "diploma": "Diploma (FH / DH)",
+                        "bachelor": "Bachillerato",
+                        "magister": "Magisterio",
+                        "master": "Master",
+                        "phd": "Doctorado",
+                        "universityOther": "Otro título universitario"
+                    }
+                }
+            },
+            "household": {
+                "householdSize": {
+                    "question": "¿Cuántas personas viven en tu casa, incluyéndote?",
+                    "list": {
+                        "1": "1 persona",
+                        "2": "2 personas",
+                        "3": "3 personas",
+                        "4": "4 personas",
+                        "5": "5 personas",
+                        "more_5": "Más de 5 personas"
+                    },
+                    "shortName": "Número de personas que viven en tu casa (incluyéndote)"
+                },
+                "householdChildren": {
+                    "question": "¿Cuántos menores de 18 años viven en tu casa?",
+                    "shortName": "Número de menores de 18 años que viven en tu casa"
+                },
+                "pets": {
+                    "question": "¿Qué tipo de mascotas viven en tu casa?",
+                    "list": {
+                        "cat": "Gato(s)",
+                        "dog": "Perro(s)",
+                        "bird": "Pájaro(s)",
+                        "fish": "Peces",
+                        "noPets": "No tengo mascotas"
+                    },
+                    "shortName": "Mascotas que viven en tu casa"
+                },
+                "ownRent": {
+                    "question": "¿Cuál sería la mejor descripción de tu casa actual?",
+                    "list": {
+                        "rented": "Apartamento o casa alquilada",
+                        "owned": "Apartamento o casa en propiedad",
+                        "parents": "Vivo con mi padres"
+                    },
+                    "shortName": "Descripción de tu casa actual"
+                },
+                "purchaseDecisionMaker": {
+                    "question": "De la siguiente lista de opciones, ¿de cuáles eres responsable o parcialmente responsable de tomar desiciones en tu casa?",
+                    "list": {
+                        "internet": "Internet",
+                        "tv": "Televisión",
+                        "banking": "Temas bancarios",
+                        "groceries": "Compras de comestibles y hogar",
+                        "automobile": "Automóvil",
+                        "mortgage": "Hipoteca",
+                        "finance": "Finanzas",
+                        "clothing": "Ropa"
+                    },
+                    "shortName": "Cosas de las cuales eres responsable o parcialmente responsable de tomar desiciones en tu casa"
+                },
+                "firstChild_gender": {
+                    "question": "Del primer menor de 18, ¿cuál es su sexo?",
+                    "shortName": "Sexo del primer menor de 18"
+                },
+                "firstChild_birthday": {
+                    "question": "Del primer menor de 18, ¿cuál es su fecha de nacimiento?",
+                    "shortName": "Fecha de nacimiento del primer menor de 18"
+                },
+                "secondChild_gender": {
+                    "question": "Del segundo menor de 18, ¿cuál es su sexo?",
+                    "shortName": "Sexo del segundo menor de 18"
+                },
+                "secondChild_birthday": {
+                    "question": "Del segundo menor de 18, ¿cuál es su fecha de nacimiento?",
+                    "shortName": "Fecha de nacimiento del segundo menor de 18"
+                },
+                "thirdChild_gender": {
+                    "question": "Del tercer menor de 18, ¿cuál es su sexo?",
+                    "shortName": "Sexo del tercer menor de 18"
+                },
+                "thirdChild_birthday": {
+                    "question": "Del tercer menor de 18, ¿cuál es su fecha de nacimiento?",
+                    "shortName": "Fecha de nacimiento del tercer menor de 18"
+                },
+                "fourthChild_gender": {
+                    "question": "Del cuarto menor de 18, ¿cuál es su sexo?",
+                    "shortName": "Sexo del cuarto menor de 18"
+                },
+                "fourthChild_birthday": {
+                    "question": "Del cuarto menor de 18, ¿cuál es su fecha de nacimiento?",
+                    "shortName": "Fecha de nacimiento del cuarto menor de 18"
+                },
+                "fifthChild_gender": {
+                    "question": "Del quinto menor de 18, ¿cuál es su sexo?",
+                    "shortName": "Sexo del quinto menor de 18"
+                },
+                "fifthChild_birthday": {
+                    "question": "Del quinto menor de 18, ¿cuál es su fecha de nacimiento?",
+                    "shortName": "Fecha de nacimiento del quinto menor de 18"
+                }
+            },
+            "technology": {
+                "mobilePlan": {
+                    "question": "¿Qué tipo de plan tienes en tu móvil?",
+                    "list": {
+                        "prepaid": "Prepago",
+                        "contract": "Contrato",
+                        "noPhone": "No tengo teléfono móvil"
+                    },
+                    "shortName": "Tipo de plan para móvil"
+                },
+                "electronicDevices": {
+                    "question": "¿Cuáles de los siguientes dispositivos electrónicos tienes?",
+                    "list": {
+                        "flatTv": "Televisión de pantalla plana",
+                        "handheldConsole": "Consola de videojuegos portatil (Nintendo 2DS, Nintendo Switch)",
+                        "stationaryConsole": "Consola de videojuegos estática (PlayStation, Xbox)",
+                        "videoCamera": "Video Cámara",
+                        "digitalCamera": "Cámara digital",
+                        "desktopPc": "Ordenador de escritorio PC/Mac",
+                        "laptopPc": "Ordenador Portatil PC/Mac",
+                        "cellPhone": "Teléfono móvil",
+                        "cordlessPhone": "Teléfono inalámbrico",
+                        "projector": "Proyector",
+                        "documentScanner": "Scanner",
+                        "cableTv": "Televisión por cable o satélite",
+                        "digitalTv": "Receptor de televisión digital",
+                        "printer": "Impresora",
+                        "multipurposePrinter": "Impresora Multiuso (fax, impresora, teléfono, etc)",
+                        "homeNetwork": "Red doméstica / Internet inalámbrico",
+                        "surroundSystem": "Sistema de sonido envolvente / Cine en casa",
+                        "digitalMediaReceiver": "Receptor de medios digitales (eg. Apple TV, Roku)",
+                        "tablet": "Tableta (eg. iPad)",
+                        "ebook": "Lector de libros electrónicos (eg. Kindle)"
+                    },
+                    "shortName": "Dispositivos electrónicos en tu casa"
+                }
+            },
+            "occupation": {
+                "employment": {
+                    "question": "¿Cuál es tu estado laboral actual?",
+                    "list": {
+                        "employed_full_time": "Empleado a tiempo completo",
+                        "employed_part_time": "Empleado a tiempo parcial",
+                        "self_employed": "Trabajador por cuenta propia",
+                        "small_business_owner": "Propietario de un pequeño negocio",
+                        "contractor_or_consultant": "Consultor",
+                        "full_time_military": "Militar en activo",
+                        "inactive_military": "Militar inactivo / Veterano",
+                        "homemaker": "Trabajo en casa a tiempo completo",
+                        "retired": "Retirado",
+                        "student": "Estudiante",
+                        "unable_or_disabled": "Discapacitado o incapaz de trabajar",
+                        "looking_for_work": "Temporalmente desempleado"
+                    },
+                    "shortName": "Estado laboral actual"
+                },
+                "industry": {
+                    "question": "¿En cuál de las siguientes industrias trabajas?",
+                    "list": {
+                        "accounting": "Contabilidad",
+                        "administrative": "Administrativo",
+                        "advertising": "Publicidad",
+                        "agriculture": "Agricultura / Pesca",
+                        "architecture": "Arquitectura",
+                        "arts_recreation": "Artes y recreación",
+                        "automotive": "Automotriz",
+                        "aviation": "Aviación",
+                        "banking_finance": "Banca / Financiera",
+                        "biotech": "Bio-Tecnología",
+                        "brokerage": "Corretaje",
+                        "chemicals_plastics_rubber": "Productos químicos / Plásticos / Caucho",
+                        "communications_information": "Comunicaciones",
+                        "computer_hardware": "Equipos informáticos (hardware)",
+                        "computer_software": "Programas informáticos (software)",
+                        "computer_reseller": "Distribuidor de ordenadores (software / hardware)",
+                        "construction": "Construcción",
+                        "consulting": "Consultoría",
+                        "consumer_electronics": "Electrodomésticos",
+                        "consumer_goods": "Bienes de consumo envasados / empaquetados",
+                        "education": "Educación",
+                        "energy_utilities": "Energía / Servicios / Petróleo y Gas",
+                        "engineering": "Ingeniería",
+                        "environmental_services": "Servicios medioambientales",
+                        "fashion_apparel": "Moda / Ropa",
+                        "food_beverage": "Comida / Bebidas",
+                        "government_public_sector": "Gubernamental / Sector Público",
+                        "healthcare": "Salud / Salud mental",
+                        "hospitality_tourism": "Hostelería y Turismo",
+                        "human_resources": "Recursos Humanos",
+                        "information_technology": "Tecnología de la información (IT)",
+                        "insurance": "Seguros",
+                        "internet": "Internet",
+                        "legal_law": "Legal / Leyes",
+                        "management": "Gerencia y administración",
+                        "manufacturing": "Fabricación",
+                        "market_research": "Investigación de mercado",
+                        "marketing_sales": "Marketing / Ventas",
+                        "media_entertainment": "Medios / Entretenimiento",
+                        "military": "Militar",
+                        "non_profit_social_services": "Sin ánimo de lucro / Servicios sociales",
+                        "personal_services": "Servicios personales",
+                        "pharmaceuticals": "Farmacéutico",
+                        "printing_publishing": "Publicación e imprenta",
+                        "professional_services": "Servicios profesionales",
+                        "public_administration": "Administración pública",
+                        "public_relations": "Relaciones públicas",
+                        "real_estate_property": "Inmobiliaria / Bienes raíces",
+                        "retail_wholesale_trade": "Comercio minorista / mayorista",
+                        "scientific_technical_services": "Servicios científicos o técnicos",
+                        "security": "Seguridad",
+                        "shipping_distribution": "Envíos / Distribución",
+                        "telecommunications": "Telecomunicaciones",
+                        "transportation": "Transporte",
+                        "user_experience_research": "Investigación de la experiencia del usuario"
+                    },
+                    "shortName": "Industria laboral"
+                },
+                "jobDepartment": {
+                    "question": "¿En qué departamento trabajas principalmente en tu empresa / organización?",
+                    "list": {
+                        "admin": "Administración / Personal de planta",
+                        "customer_service": "Servicio al cliente",
+                        "executive": "Liderazgo Ejecutivo / C-Level",
+                        "finance_accounting": "Finanzas / Contabilidad",
+                        "human_resources": "Recursos Humanos",
+                        "legal": "Legal",
+                        "marketing": "Marketing",
+                        "operations": "Operaciones",
+                        "procurement": "Compras",
+                        "product_management": "Gestión del Producto",
+                        "sales": "Ventas / Desarrollo de negocio",
+                        "technology_hardware": "Desarrollo tecnológico de Hardware (no solo el departamento informático)",
+                        "technology_software": "Desarrollo tecnológico de Software (no solo el departamento informático)",
+                        "technology_implementation": "Implementación de tecnología",
+                        "other": "Otro"
+                    },
+                    "shortName": "Departamento en el trabajo"
+                },
+                "jobTitle": {
+                    "question": "¿Cuál es tu título de trabajo, nivel o grado de responsabilidad?",
+                    "list": {
+                        "top_tier": "C-Level (eg. CEO, CFO), Propietario, Socio o Presidente",
+                        "vp_tier": "Vicepresidente (EVP, SVP, AVP, VP)",
+                        "director_tier": "Director (Director de grupo, Sr. Director, Director)",
+                        "management_tier": "Gerenter (Gerente de grupo, Gerente Sr., Gerente, Gerente de programa)",
+                        "analyst": "Analista",
+                        "associate": "Asistente o asociado",
+                        "administrative": "Administrativo (de personal o de apoyo)",
+                        "individual_contributor": "Contribuidor individual",
+                        "contractor": "Contratista",
+                        "consultant": "Consultor",
+                        "intern": "Interno o practicante",
+                        "volunteer": "Voluntario",
+                        "other": "Otro"
+                    },
+                    "shortName": "Título laboral"
+                },
+                "decisionMaker": {
+                    "question": "Por favor selecciona los departamentos o productos sobre los cuales tienes influencia o poder de desición para hacer gastos o compras.",
+                    "list": {
+                        "itHardware": "Equipos informáticos (IT Hardware)",
+                        "itSoftware": "Programas informáticos (IT Software)",
+                        "printers": "Impresoras y fotocopiadoras",
+                        "financial": "Departamento de Finanzas",
+                        "humanResources": "Recursos Humanos",
+                        "officeSupplies": "Material de oficina",
+                        "corporateTravel": "Viajes corporativos",
+                        "telecommunications": "Telecomunicaciones",
+                        "sales": "Ventas",
+                        "shipping": "Envíos",
+                        "operations": "Operaciones",
+                        "legalServices": "Servicios legales",
+                        "marketing": "Marketing / Publicidad",
+                        "security": "Seguridad",
+                        "foodServices": "Servicios de comida",
+                        "autoleasing": "Alquiler o compra de automóviles"
+                    },
+                    "shortName": "Departamentos o productos sobre los cuales tienes influencia o poder de desición para hacer gastos o compras."
+                },
+                "companySize": {
+                    "question": "Aproximadamente ¿cuántos empleados tiene tu compañía / organización en todas sus sedes?",
+                    "shortName": "Empleados en tu compañía"
+                }
+            },
+            "hobbiesAndInterests": {
+                "hobbies": {
+                    "question": "¿Cuáles son tus pasatiempos o intereses?",
+                    "list": {
+                        "artsCrafts": "Artes y manualidades",
+                        "boating": "Paseos en barco",
+                        "camping": "Acampar",
+                        "cooking": "Cocinar",
+                        "golf": "Golf",
+                        "healthFitness": "Salud y bienestar",
+                        "huntingFishing": "Caza / Pesca",
+                        "interiorDecorating": "Decoración de interiores / Reformas",
+                        "teamSports": "Deportes de equipo",
+                        "playingMusic": "Tocar música",
+                        "videogames": "Videojuegos",
+                        "reading": "Leer",
+                        "skiing": "Esquiar",
+                        "technology": "Tecnología / Ordenadores",
+                        "travel": "Viajar",
+                        "tvSports": "Ver deportes en la televisión"
+                    },
+                    "shortName": "Pasatiempos o intereses"
+                },
+                "socialMedia": {
+                    "question": "¿En cuáles de las siguientes redes sociales participas o usas activamente?",
+                    "shortName": "Redes sociales que usas activamente"
+                },
+                "streamingMovies": {
+                    "question": "En general, ¿con qué frecuencia descargas o miras películas online?",
+                    "list": {
+                        "less1": "Menos de una vez al mes",
+                        "1": "Una vez al mes",
+                        "2": "Dos veces al mes",
+                        "3": "Tres veces al mes",
+                        "4": "Cuatro veces al mes",
+                        "5": "Cinco o más veces al mes",
+                        "none": "No descargo o miro películas online"
+                    },
+                    "shortName": "Frecuencia con la que descargas o miras películas online"
+                },
+                "gambling": {
+                    "question": "¿En qué tipo de apuestas participas?",
+                    "list": {
+                        "onlineSports": "Apuestas deportivas online",
+                        "onlineLottery": "Loteria / rasca y gana online",
+                        "onlinePoker": "Póker o casino online",
+                        "offlineSports": "Apuestas deportivas",
+                        "offlineLottery": "Loteria / rasca y gana en tienda",
+                        "bingo": "Bingo",
+                        "casinoPoker": "Póker / BlackJack / Ruleta / etc en el casino",
+                        "casinoSlot": "Tragaperras del casino",
+                        "horseTrack": "Carreras de caballos",
+                        "carRace": "Carreras de coches",
+                        "none": "No participo en apuestas"
+                    },
+                    "shortName": "Tipo de apuestas en las que participas"
+                }
+            },
+            "financial": {
+                "financialProduct": {
+                    "question": "De los siguientes productos financieros, ¿cuáles tienes contratados?",
+                    "list": {
+                        "creditCard": "Tarjeta de crédito",
+                        "checkingAccount": "Cuenta de cheques",
+                        "savingsAccount": "Cuenta de ahorros",
+                        "personalLoan": "Préstamo personal",
+                        "mortgage": "Hipoteca"
+                    },
+                    "shortName": "Productos financieros contratados"
+                },
+                "investments_us": {
+                    "list": {
+                        "none": "No tengo ahorros o inversiones",
+                        "401k": "Employer Matching 401k",
+                        "ira": "IRA / Roth",
+                        "bonds": "Bonos",
+                        "deposit": "Certificados de depósito",
+                        "mutualFunds": "Fondos mutuos de inversión"
+                    }
+                },
+                "investments_gb": {
+                    "list": {
+                        "none": "No tengo ahorros o inversiones",
+                        "personalPension": "Pensión personal",
+                        "workplacePension": "Pensión de trabajo",
+                        "unitTrusts": "Fondos de inversión",
+                        "oeic": "OEIC - Sociedades de Inversión de Capital Variable",
+                        "etf": "Valores de ETF (o fondos cotizados)",
+                        "investmentTrusts": "Fideicomisos de inversión",
+                        "fixedIncomeProducts": "Productos de renta fija"
+                    }
+                }
+            },
+            "healthAndFitness": {
+                "diagnosed_ailments": {
+                    "question": "¿Has sido diagnosticado con alguna de las siguientes enfermedades / afecciones?",
+                    "list": {
+                        "acne": "Acne",
+                        "add_adhd": "TDAH Trastorno por déficit de atención e hiperactividad",
+                        "allergies": "Alergias (excepto al polén)",
+                        "alzheimers": "Alzheimer",
+                        "anemia": "Anemia",
+                        "angina": "Anginas",
+                        "anxiety": "Ansiedad",
+                        "arrhythmia": "Arritmia / Fibrilación Auricular",
+                        "arthritis": "Artritis",
+                        "asthma": "Asma",
+                        "backPain": "Dolor de espalda",
+                        "bipolar": "Desorden bipolar",
+                        "bloodDisorders": "Trastornos sanguíneos (no cancerosos)",
+                        "bronchitits": "Bronquitis",
+                        "cancer": "Cáncer",
+                        "cardiovascular": "Enfermedad cardiovascular",
+                        "carpalTunnel": "Síndrome del túnel carpiano",
+                        "chronicFatigue": "Síndrome de fatiga crónica",
+                        "chronicKidney": "Enfermedad Renal Crónica",
+                        "chronicLymphocytic": "Leucemia linfocítica crónica",
+                        "copd": "EPOC",
+                        "cirrhosis": "Cirrosis",
+                        "colitis": "Colitis",
+                        "constipation": "Estreñimiento",
+                        "crohns": "Enfermedad de Crohn",
+                        "cystic": "Fibrosis quística",
+                        "dementia": "Demencia",
+                        "dental": "Problemas dentales",
+                        "depresssion": "Depresión",
+                        "diabetes1": "Diabetes tipo 1",
+                        "diabetes2": "Diabetes tipo 2",
+                        "diarrhea": "Diarrea",
+                        "eczema": "Eccema",
+                        "emphysema": "Enfisema",
+                        "endometriosis": "Endometriosis",
+                        "epilepsy": "Epilepsia",
+                        "erectileDysfunction": "Disfunción eréctil (DE)",
+                        "fibromyalgia": "Fibromialgia",
+                        "foodIntolerances": "Intolerancias alimentarias",
+                        "gerd": "Reflujo gastroesofágico (ERGE)",
+                        "gastroenteritis": "Gastroenteritis",
+                        "gout": "Gota",
+                        "hemophilia": "Hemofilia",
+                        "hemorrhoids": "Hemorroides",
+                        "hayFever": "Fiebre del heno / Alergia al polen",
+                        "heartConditions": "Afecciones cardiacas (no insuficiencia cardíaca)",
+                        "heartFailure": "Insuficiencia cardiaca",
+                        "hepatitis": "Hepatitis",
+                        "cholesterol": "Colesterol alto",
+                        "aids": "VIH - SIDA",
+                        "hypertension": "Hipertensión",
+                        "hypothyroidism": "Hipotiroidismo",
+                        "impotence": "Impotencia",
+                        "infertility": "Esterilidad",
+                        "irritableBowelSyndrome": "Síndrome del intestino irritable / Síndrome del colon irritable",
+                        "jointReplacement": "Reemplazo de la articulación",
+                        "kidneyFailure": "Insuficiencia renal",
+                        "liverCirrhosis": "Cirrosis hepática",
+                        "liverDisorders": "Trastornos hepáticos (que no sean cáncer o cirrosis)",
+                        "lupus": "Lupus",
+                        "luymeDisease": "Enfermedad de Lyme",
+                        "menopause": "Menopausia",
+                        "migraine": "Migraña",
+                        "motorNeuronDisease": "Enfermedad de la motoneurona",
+                        "multipleSclerosis": "Esclerosis múltiple",
+                        "obesity": "Obesidad",
+                        "osteoarthritis": "Osteoartritis",
+                        "osteoporosis": "Osteoporosis",
+                        "overactiveBladder": "Síndrome de la vejiga hiperactiva",
+                        "parkinons": "Enfermedad de Parkinson",
+                        "pneumonia": "Neumonía",
+                        "prematureEjaculation": "Eyaculación precoz",
+                        "psoriasis": "Psoriasis",
+                        "reflux": "Reflujo",
+                        "restlessLegSyndrome": "Síndrome de las piernas inquietas",
+                        "rheumatoidArthritis": "Artritis Reumatoide",
+                        "schizophrenia ": "Esquizofrenia",
+                        "shingles ": "Herpes",
+                        "sinusitis": "Sinusitis",
+                        "sleepingDisorder": "Trastorno del sueño",
+                        "smoking": "Adicción al tabaco",
+                        "stroke": "Derrame cerebral",
+                        "substanceAbuse": "Abuso de sustancias (drogas / alcohol)",
+                        "syphilis": "Sífilis",
+                        "thyroidProblems": "Problemas tiroideos",
+                        "tuberculosis ": "Tuberculosis",
+                        "ulcerativeColitis": "Colitis ulcerosa",
+                        "ulcers": "Úlceras",
+                        "urinaryIncontinence": "Incontinencia urinaria"
+                    },
+                    "shortName": "Enfermedades / afecciones con las que hayas sido diagnosticado"
+                }
+            },
+            "travel": {
+                "travelFlights": {
+                    "question": "¿Con qué frecuencia viajas en avión?",
+                    "list": {
+                        "everyMonth": "Una o dos veces al mes",
+                        "every2-4Months": "Una vez cada 2-4 meses",
+                        "twiceYear": "Dos veces al año",
+                        "onceYear": "Una vez al año"
+                    },
+                    "shortName": "Frecuencia con la que viajas en avión"
+                },
+                "flightPurpose": {
+                    "question": "¿Cuál es el propósito de tus viajes en avión?",
+                    "list": {
+                        "business": "Negocios",
+                        "leisure": "Placer",
+                        "both": "Ambos, negocios y placer",
+                        "neither": "Ninguno, no viajo en avión"
+                    },
+                    "shortName": "Propósito de tus viajes en avión"
+                },
+                "flightDestination": {
+                    "question": "Cuando vuelas, ¿qué tipos de vuelos son?",
+                    "list": {
+                        "domestic": "Nacionales",
+                        "international": "Internacionales",
+                        "both": "Ambos, nacionales e internacionales",
+                        "neither": "Ninguno, no viajo en avión"
+                    },
+                    "shortName": "Tipo de vuelos que haces"
+                },
+                "domesticAirlines_us": {
+                    "question": "¿Con qué aerolíneas nacionales has viajado en los últimos 12 meses?",
+                    "list": {
+                        "none": "No he volado con ninguna aerolínea nacional en los últimos 12 meses"
+                    },
+                    "shortName": "Aerolíneas nacionales con las que has viajado en los últimos 12 meses"
+                },
+                "internationalAirlines": {
+                    "question": "¿Con qué aerolíneas internacionales has viajado en los últimos 12 meses?",
+                    "list": {
+                        "none": "No he volado con ninguna aerolínea internacional en los últimos 12 meses"
+                    },
+                    "shortName": "Aerolíneas internacionales con las que has viajado en los últimos 12 meses"
+                },
+                "accomodationType": {
+                    "question": "¿En qué tipo de alojamientos te has hospedado en el último año?",
+                    "list": {
+                        "houseRental": "Alquiler de casas (AirBnB & VRBO)",
+                        "bedBreakfast": "Bed & Breakfast",
+                        "campground": "Campamento / RV Parking",
+                        "hostel": "Hostal",
+                        "hotel": "Hotel",
+                        "motel": "Motel",
+                        "personalVacationHome": "Casa vacacional personal",
+                        "timeshare": "Casa vacacional compartida"
+                    },
+                    "shortName": "Tipo de alojamientos en los que te has hospedado en el último año"
+                },
+                "hotelLoyalty": {
+                    "question": "¿Eres parte de alguno de los siguientes programas de fidelización de hoteles?",
+                    "shortName": "Programas de fidelización de hoteles a los que perteneces"
+                }
+            }
+        },
+        "generic": {
+            "education": {
+                "question": "¿Cuál es el nivel de educación más alto que has completado?",
+                "shortName": "Nivel de educación más alto"
+            },
+            "householdIncome": {
+                "question": "¿Cuáles son los ingresos anuales brutos de todos los miembros de tu casa combinados?",
+                "shortName": "Ingresos anuales brutos de todos los miembros de tu casa combinados"
+            },
+            "mobileCarrier": {
+                "question": "De las siguientes operadoras de telefonía móvil, ¿cuál es la que más utilizas?",
+                "shortName": "Operadora móvil del teléfono que más utilizas"
+            },
+            "noPhone": {
+                "noPhone": "No tengo teléfono móvil"
+            },
+            "companyRevenue": {
+                "question": "Aproximadamente, ¿cuáles son los ingresos anuales de tu compañía / organización?",
+                "shortName": "Ingresos anuales aproximados de tu compañía / organización"
+            },
+            "subscriptions": {
+                "question": "¿A cuáles de los siguientes servicios estas subscrito?",
+                "shortName": "Servicios a los que estas suscrito"
+            },
+            "investments": {
+                "question": "¿Qué tipo de ahorros o inversiones tienes?",
+                "realEstate": "Bienes inmuebles",
+                "savingsAccount": "Cuenta de ahorros",
+                "shares": "Acciones",
+                "shortName": "Tipo de ahorros o inversiones que posees"
+            },
+            "investableAssets": {
+                "question": "De los siguientes valores, ¿cuál representa mejor los bienes de tu casa que pueden ser invertidos? (sin incluir la propiedad de la casa)",
+                "shortName": "Valor aproximado de los bienes invertibles de tu casa (sin incluir la propiedad de la casa)"
+            },
+            "airlineLoyalty": {
+                "question": "¿Eres parte de alguno de los siguientes programas de fidelización de aerolíneas?",
+                "list": {
+                    "none": "No formo parte de ningún programa de fidelización de aerolíneas"
+                },
+                "shortName": "Programas de fidelización de aerolíneas a los que perteneces"
+            },
+            "hotelLoyalty": {
+                "list": {
+                    "none": "No formo parte de ningún programa de fidelización de hoteles"
+                }
+            },
+            "ethnicity": {
+                "question": "¿De qué raza eres?",
+                "shortName": "Raza"
+            }
+        }
+    }
+}
