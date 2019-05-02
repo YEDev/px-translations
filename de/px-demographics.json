@@ -720,7 +720,7 @@
                 "shortName": "Abonnierte Angebote"
             },
             "investableAssets": {
-                "question": "Welche Zahl komm dem nvestierbaren Vermögen Deines Haushalts am nächsten (Haus- oder Wohnungseigentum ausgenommen)?",
+                "question": "Welche Zahl kommt dem investierbaren Vermögen Deines Haushalts am nächsten (Haus- oder Wohnungseigentum ausgenommen)?",
                 "shortName": "Geschätztes investierbares Vermögen Deines Haushalts (Haus- oder Wohnungseigentum ausgenommen)"
             },
             "airlineLoyalty": {
