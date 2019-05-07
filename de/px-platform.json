@@ -356,6 +356,20 @@
             "aboutMe": {
                 "nonEditableFields": "Wenn Du Dein Geburtsdatum, Dein Geschlecht oder das Land in dem Du wohnst ändern möchtest, [kontaktiere](https://help.intellizoom.com/hc/de/requests/new) unser Service Team."
             }
+        },
+        "reEngagement": {
+            "title": "Hallo {{userName}}!",
+            "description": "",
+            "cta": "",
+            "success": {
+                "title": "",
+                "description": "Aus Sicherheitsgründen ist dieser Link nur 24 Stunden gültig. \n\nWenn Du keine Nachricht siehst, überprüfe bitte den Spam-Ordner. Wir können Dir das E-Mail auch <1>nochmals senden</1>."
+            }
+        },
+        "success": {
+            "resend": {
+                "email": "E-Mail gesendet!"
+            }
         }
     }
 }
