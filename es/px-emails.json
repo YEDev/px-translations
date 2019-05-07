@@ -63,6 +63,12 @@
                 "genericClosing": "¡Saludos!<br>El equipo de IntelliZoom Panel",
                 "inlineContact": "contáctanos",
                 "inlineHelp": "Ayuda"
+            },
+            "reEngagement": {
+                "subject": "Actualizar contraseña",
+                "title": "Actualizar contraseña",
+                "bodyCopy": "Hola {{user.name}},<br><br>Por favor actualiza tu contraseña. Solo tienes que hacer click en el botón de abajo.<br><br>Por razones de seguridad, este link expirará en 24 horas o en cuanto sea utilizado.",
+                "cta": "Actualizar contraseña"
             }
         }
     }
