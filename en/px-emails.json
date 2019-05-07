@@ -63,6 +63,12 @@
                 "genericClosing": "Kind regards,<br>IntelliZoom Panel Team",
                 "inlineContact": "contact us",
                 "inlineHelp": "Help Center"
+            },
+            "reEngagement": {
+                "subject": "New password request",
+                "title": "New password request",
+                "bodyCopy": "Hey {{user.name}}!<br><br>Please click on the button below to set a new password for your account.<br><br>For security reasons this link will expire in 24 hours or once it's used.",
+                "cta": "Set new password"
             }
         }
     }

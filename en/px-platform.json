@@ -356,6 +356,20 @@
             "aboutMe": {
                 "nonEditableFields": "If you want to change your birthday, gender or country information, please [get in touch](https://help.intellizoom.com/hc/en-us/requests/new) with our Support team."
             }
+        },
+        "reEngagement": {
+            "title": "Welcome {{userName}}!",
+            "description": "As this is a brand new platform, let's start by setting a brand new password for your account.\n\nClick on Request New Password and we'll send you an email with a link to reset it.",
+            "cta": "Request New Password",
+            "success": {
+                "title": "We've sent you an email to request a new password",
+                "description": "For security purposes, the link will expire in 24 hours.\n\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email."
+            }
+        },
+        "success": {
+            "resend": {
+                "email": "Email sent!"
+            }
         }
     }
 }

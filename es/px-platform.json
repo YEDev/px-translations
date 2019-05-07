@@ -153,7 +153,7 @@
             "title": "¿Has olvidado tu contraseña?",
             "description": "Introduce tu email y te enviaremos un link para que puedas actualizarla.",
             "success": {
-                "title": "Te hemos enviado un email de confirmación para activar tu cuenta",
+                "title": "Te hemos enviado un email con un link para actualizar tu contraseña",
                 "description": "Por motivos de seguridad, el link expirará en 24h.\n\nEn caso de que no veas el email, revisa tu carpeta de spam. Si crees que no lo has recibido, te lo <1>reenviamos</1>."
             }
         },
@@ -355,6 +355,20 @@
             },
             "aboutMe": {
                 "nonEditableFields": "Si quieres cambiar tu fecha de nacimiento, país o sexo, por favor [ponte en contacto](https://help.intellizoom.com/hc/es/requests/new) con nuestro equipo de Atención al cliente."
+            }
+        },
+        "reEngagement": {
+            "title": "¡Hola {{userName}}!",
+            "description": "Con una plataforma nueva, qué mejor manera de comenzar que con una contraseña nueva.\n\nHaz click en Actualizar contraseña y te enviaremos un email con un link para actualizarla.",
+            "cta": "Actualizar contraseña",
+            "success": {
+                "title": "Te hemos enviado un email con un link para actualizar tu contraseña",
+                "description": "Por motivos de seguridad, el link expirará en 24h.\n\nEn caso de que no veas el email, revisa tu carpeta de spam. Si crees que no lo has recibido, te lo <1>reenviamos</1>."
+            }
+        },
+        "success": {
+            "resend": {
+                "email": "¡Email enviado!"
             }
         }
     }
