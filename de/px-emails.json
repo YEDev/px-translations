@@ -63,6 +63,12 @@
                 "genericClosing": "Schöne Grüße, \n\nIntelliZoom Panel Team",
                 "inlineContact": "kontaktiere uns",
                 "inlineHelp": "Help Center"
+            },
+            "reEngagement": {
+                "subject": "",
+                "title": "",
+                "bodyCopy": "",
+                "cta": ""
             }
         }
     }
