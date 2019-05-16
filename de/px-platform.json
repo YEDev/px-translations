@@ -359,16 +359,75 @@
         },
         "reEngagement": {
             "title": "Hallo {{userName}}!",
-            "description": "",
-            "cta": "",
+            "description": "Da das eine brandneue Plattform ist, lass uns mit einem brandneuen Passwort starten.\n\nKlicke Neues Passwort beantragen und wir senden Dir eine E-Mail mit einem Link zum zurücksetzen.",
+            "cta": "Neues Passwort beantragen",
             "success": {
-                "title": "",
+                "title": "Wir haben Dir ein E-Mail geschickt, um Dein Passwort zurückzusetzen",
                 "description": "Aus Sicherheitsgründen ist dieser Link nur 24 Stunden gültig. \n\nWenn Du keine Nachricht siehst, überprüfe bitte den Spam-Ordner. Wir können Dir das E-Mail auch <1>nochmals senden</1>."
             }
         },
         "success": {
             "resend": {
                 "email": "E-Mail gesendet!"
+            }
+        },
+        "finalPages": {
+            "complete": {
+                "title": "Du hast die Studie abgeschlossen. Danke für’s teilen Deiner Eindrücke!",
+                "description": "Sobald Deine Ergebnisse von uns gesichtet und bestätigt wurden, beauftragen wir die Zahlung mittels PayPal an die selbe E-Mail-Adresse die Du zur Registrierung bei IntelliZoom Panel benützt hast.\n\nDieser Prozess kann bis zu 21 Werktage benötigen. In der Zwischenzeit kannst Du an weiteren Studien teilnehmen.",
+                "cta": "Verfügbare Studien ansehen"
+            },
+            "alreadyTaken": {
+                "title": "Du hast diese Studie bereits abgeschlossen. Danke für Deine Teilnahme!",
+                "description": "Sobald Deine Ergebnisse von uns gesichtet und bestätigt wurden, beauftragen wir die Zahlung mittels PayPal an die selbe E-Mail-Adresse die Du zur Registrierung bei IntelliZoom Panel benützt hast.\n\nDieser Prozess kann bis zu 21 Werktage benötigen. In der Zwischenzeit kannst Du an weiteren Studien teilnehmen.",
+                "cta": "Verfügbare Studien ansehen"
+            },
+            "screenout": {
+                "title": "Verdammt! Du bist nicht qualifiziert um an dieser Studie teilzunehmen. aber vielleicht bist Du der perfekte Kandidat für die nächste!",
+                "description": "Danke für Deine Zeit, {{user.name}}.\n\nStelle sicher, dass [Dein Profil](https://www.intellizoom.com/profile) vollständig und aktuell ist um so viele passende Einladungen wie möglich zu erhalten.",
+                "cta": "Verfügbare Studien ansehen"
+            },
+            "cheater": {
+                "title": "Es tut uns leid, aber Dein Ergebnis entspricht unseren Qualitätskriterien nicht.",
+                "description": "Wir nehmen es sehr ernst mit der Beantwortung unserer Studien.\n\nDeshalb setzen wir voraus dass:\n\n-  Die Studie komplett abgeschlossen wurde.\n\n-  Die Kommentare des Teilnehmers in Qualität und Quantität stimmen.\n\n-  Der / Die Teilnehmer/In eine angemessene Zeitspanne mit Betrachtung und Interaktion mit der zu beurteilenden Seite verbringt.\n\nLeider entsprechen Deine Ergebnisse nicht diesen Standards, weshalb wir Dir diesmal keine Prämie anbieten können. Wir tun das nicht gerne, aber diese Gründe sind uns wichtig und wir empfehlen Dir, mehr Zeit und Einsatz in zukünftige Studien zu investieren.",
+                "cta": "Zurück zu den verfügbaren Studien"
+            },
+            "speeder": {
+                "title": "Du hast diese Studie viel zu schnell abgeschlossen",
+                "description": "Du warst schneller als erwartet für jemanden der die Studie in bestem Wissen beantwortet. Wir verstehen zwar die Eile und den Wunsch mehr Studien abschließen zu können, nehmen es aber mit der Qualität der Antworten sehr genau.\n\nLeider müssen wir daher Deine Ergebnisse ausschließen und können Dir diesmal keine Prämie anbieten. Wir tun das nicht gerne, aber die Gründe sind uns sehr wichtig, weshalb wir Dir empfehlen in zukünftigen Studien mehr Zeit zu verbringen.",
+                "cta": "Zurück zu den verfügbaren Studien"
+            },
+            "closed": {
+                "title": "Die Studie an der Du teilnehmen möchtest wurde geschlossen",
+                "description": "Schnell! Schau' ob es noch eine weitere Studie für Dich gibt.",
+                "cta": "Verfügbare Studien ansehen"
+            },
+            "quotafull": {
+                "title": "Die Studie an der Du teilnehmen möchtest hat bereits die notwendige Zahl an Antworten erreicht",
+                "description": "Schnell! Schau' ob es noch eine weitere Studie für Dich gibt.",
+                "cta": "Verfügbare Studien ansehen"
+            },
+            "uz": {
+                "closed": {
+                    "title": "Die Studie an der Du teilnehmen möchtest wurde geschlossen",
+                    "description": "Entschuldige bitte die Unannehmlichkeit."
+                },
+                "quotafull": {
+                    "title": "Die Studie an der Du teilnehmen möchtest hat bereits die notwendige Zahl an Antworten erreicht",
+                    "description": "Entschuldige bitte die Unannehmlichkeit."
+                }
+            }
+        },
+        "errorPages": {
+            "generic": {
+                "title": "Ohjeh! Diese Seite funktioniert nicht.",
+                "description": "Wir behalten das im Auge.\n\nMöchtest Du Dir in der Zwischenzeit ansehen welche [Studien](https://www.intellizoom.com/studies) verfügbar sind?"
+            },
+            "uz": {
+                "generic": {
+                    "title": "Oops, etwas ist schiefgelaufen",
+                    "description": "Wir konnten die Seite nicht laden. Bitte versuche es in einigen Minuten nochmal."
+                }
             }
         }
     }
