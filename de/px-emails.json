@@ -65,10 +65,10 @@
                 "inlineHelp": "Help Center"
             },
             "reEngagement": {
-                "subject": "",
-                "title": "",
-                "bodyCopy": "",
-                "cta": ""
+                "subject": "Passwort zurücksetzen",
+                "title": "Passwort zurücksetzen",
+                "bodyCopy": "Hallo {{user.name}}!<br><br>Klicke auf den Link unten um das Passwort für Dein Konto zurückzusetzen.<br><br>Aus Sicherheitsgründen wird dieser Link nach 24 Stunden oder einmaliger Benützung ungültig.",
+                "cta": "Passwort zurücksetzen"
             }
         }
     }
