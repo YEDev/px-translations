@@ -384,7 +384,7 @@
             },
             "screenout": {
                 "title": "Darn! You didn't qualify for this study, but you may be perfect for the next one!",
-                "description": "Thank you {{user.name}} for taking the time to respond anyway.\n\nMake sure [your profile is complete](https://www.intellizoom.com/profile) and up to date to get as many accurate invitations as possible.",
+                "description": "Thank you {{user.name}} for taking the time to respond anyway.\n\nMake sure [your profile is complete](/profile) and up to date to get as many accurate invitations as possible.",
                 "cta": "Check available studies"
             },
             "cheater": {
@@ -441,7 +441,7 @@
         "errorPages": {
             "generic": {
                 "title": "Oh dear, this page isn’t working.",
-                "description": "We’ll take note of this.\n\nMeanwhile, would like to check what [studies](https://www.intellizoom.com/studies) are available?"
+                "description": "We’ll take note of this.\n\nMeanwhile, would like to check what [studies](/studies) are available?"
             },
             "uz": {
                 "generic": {
