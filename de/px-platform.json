@@ -384,7 +384,7 @@
             },
             "screenout": {
                 "title": "Verdammt! Du bist nicht qualifiziert um an dieser Studie teilzunehmen. Aber vielleicht bist Du der perfekte Kandidat für die nächste!",
-                "description": "Danke für Deine Zeit, {{user.name}}.\n\nStelle sicher, dass [Dein Profil](https://www.intellizoom.com/profile) vollständig und aktuell ist um so viele passende Einladungen wie möglich zu erhalten.",
+                "description": "Danke für Deine Zeit, {{user.name}}.\n\nStelle sicher, dass [Dein Profil](/profile) vollständig und aktuell ist um so viele passende Einladungen wie möglich zu erhalten.",
                 "cta": "Verfügbare Studien ansehen"
             },
             "cheater": {
@@ -441,7 +441,7 @@
         "errorPages": {
             "generic": {
                 "title": "Ohjeh! Diese Seite funktioniert nicht.",
-                "description": "Wir behalten das im Auge.\n\nMöchtest Du Dir in der Zwischenzeit ansehen welche [Studien](https://www.intellizoom.com/studies) verfügbar sind?"
+                "description": "Wir behalten das im Auge.\n\nMöchtest Du Dir in der Zwischenzeit ansehen welche [Studien](/studies) verfügbar sind?"
             },
             "uz": {
                 "generic": {
