@@ -384,7 +384,7 @@
             },
             "screenout": {
                 "title": "¡Rayos! Parece que no cumples con los requisitos necesarios para este estudio, ¡pero puede que seas perfecto para el siguiente!",
-                "description": "Gracias por tu tiempo {{user.name}}.\n\nAsegúrate de que tu perfil [está completo](https://www.intellizoom.com/profile) y al día para que recibas el mayor número de invitaciones posible.",
+                "description": "Gracias por tu tiempo {{user.name}}.\n\nAsegúrate de que tu perfil [está completo](/profile) y al día para que recibas el mayor número de invitaciones posible.",
                 "cta": "Ver estudios disponibles"
             },
             "cheater": {
@@ -441,7 +441,7 @@
         "errorPages": {
             "generic": {
                 "title": "¡Oh no! Esta página no funciona.",
-                "description": "Tomaremos nota.\n\nMientras tanto, ¿quieres ver qué [estudios](https://www.intellizoom.com/studies) están disponibles?"
+                "description": "Tomaremos nota.\n\nMientras tanto, ¿quieres ver qué [estudios](/studies) están disponibles?"
             },
             "uz": {
                 "generic": {
