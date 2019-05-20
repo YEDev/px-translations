@@ -393,49 +393,19 @@
                 "cta": "Volver a Estudios"
             },
             "speeder": {
-                "title": "Has completado el estudio demasiado rápido",
+                "title": "Has completado el estudio demasiado rápido.",
                 "description": "Más rápido de lo que se podría esperar que cualquier participante tardaría en completarlo de buena fé. Entendemos que en estos días el tiempo es oro y que quisieras hacer tantos estudios como puedas, pero la calidad de las respuestas en nuestros estudios es de extrema importancia para nosotros.\n\nLamentablemente, tendremos que rechazar tus resultados y no podremos ofrecerte una recompensa esta vez. Nos sabe mal hacerlo, pero las razones son importantes para nosotros. Te recomendamos que inviertas más tiempo y esfuerzo en próximos estudios.",
                 "cta": "Volver a Estudios"
             },
             "closed": {
-                "title": "El estudio al que has intentado entrar está cerrado",
+                "title": "El estudio al que has intentado entrar está cerrado.",
                 "description": "¡Rápido! Miremos si hay otro estudio disponible en el que puedas participar.",
                 "cta": "Ver estudios disponibles"
             },
             "quotafull": {
-                "title": "El estudio al que has intentado entrar acaba de alcanzar la cantidad de participantes necesarios",
+                "title": "El estudio al que has intentado entrar acaba de alcanzar la cantidad de participantes necesarios.",
                 "description": "¡Rápido! Miremos si hay otro estudio disponible en el que puedas participar.",
                 "cta": "Ver estudios disponibles"
-            },
-            "uz": {
-                "closed": {
-                    "title": "El estudio al que has intentado entrar está cerrado",
-                    "description": "Sentimos las molestias que te hayamos podido ocasionar."
-                },
-                "quotafull": {
-                    "title": "El estudio al que has intentado entrar acaba de alcanzar la cantidad de participantes necesarios",
-                    "description": "Sentimos las molestias que te hayamos podido ocasionar."
-                },
-                "complete": {
-                    "title": "¡Gracias por compartir tu opinión!",
-                    "description": "Has completado el estudio."
-                },
-                "alreadyTaken": {
-                    "title": "¡Gracias por compartir tu opinión!",
-                    "description": "Ya has completado este estudio."
-                },
-                "screenout": {
-                    "title": "Gracias por tus respuestas",
-                    "description": "Lamentablemente, no cumples con los requisitos necesarios para este estudio."
-                },
-                "cheater": {
-                    "title": "Lo sentimos, pero los resultados que has enviado no cumplen con nuestros estándares de calidad.",
-                    "description": "La calidad de las respuestas en nuestros estudios es de extrema importancia para nosotros.\n\nEs por eso que requerimos:\n\n-  Que el estudio se complete en su totalidad.\n\n-  Que los comentarios de los participantes sean de calidad y en cantidad.\n\n-  Que los participantes pasen un tiempo razonable analizando e interactuando con los sitios evaluados.\n\nLamentablemente, tus resultados no cumplen con estos requisitos.\n\nTe recomendamos que inviertas más tiempo y esfuerzo en próximos estudios."
-                },
-                "speeder": {
-                    "title": "Has completado el estudio demasiado rápido",
-                    "description": "Más rápido de lo que se podría esperar que cualquier participante tardaría en completarlo de buena fé. Entendemos que en estos días el tiempo es oro y que quisieras hacer tantos estudios como puedas, pero la calidad de las respuestas en nuestros estudios es de extrema importancia para nosotros. \n\nLamentablemente, tendremos que rechazar tus resultados.\n\nTe recomendamos que inviertas más tiempo y esfuerzo en próximos estudios."
-                }
             }
         },
         "errorPages": {
