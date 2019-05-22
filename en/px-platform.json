@@ -206,7 +206,7 @@
                 },
                 "faq3": {
                     "title": "How old do I have to be?",
-                    "description": "All participants must be 18 years or older."
+                    "description": "All participants must be 18 years or older. US citizens must be 21 years or older."
                 },
                 "faq4": {
                     "title": "How many study invitations will I receive?",
@@ -393,20 +393,21 @@
                 "cta": "Back to available studies"
             },
             "speeder": {
-                "title": "You finished this study way too fast.",
+                "title": "You finished this study way too fast",
                 "description": "As in, faster than can be reasonably expected it would take someone to complete it in good faith. While we understand the need for speed and wanting to complete more studies, we take the quality of responses extremely seriously.\n\nUnfortunately, we are going to have to reject your results and won't be able to offer you a reward this time. We hate doing it but the reasons are important to us, which is why we would highly recommend you take your time in future studies.",
                 "cta": "Back to available studies"
             },
             "closed": {
-                "title": "The study you tried to enter has been closed.",
+                "title": "The study you tried to enter has been closed",
                 "description": "Quick! Let’s see if there’s another one that you could take.",
                 "cta": "Check available studies"
             },
             "quotafull": {
-                "title": "The study you tried to enter has just reached the needed amount of responses.",
+                "title": "The study you tried to enter has just reached the needed amount of responses",
                 "description": "Quick! Let’s see if there’s another one that you could take.",
                 "cta": "Check available studies"
-            }
+            },
+            "practiceStudy": "If the study you’ve taken is a Practice Study, we’ll get in touch with you as soon as we review your results. Please remember that practice studies are not eligible for pay."
         },
         "errorPages": {
             "generic": {
