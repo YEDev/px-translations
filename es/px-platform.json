@@ -206,7 +206,7 @@
                 },
                 "faq3": {
                     "title": "¿Cuál es la edad mínima para participar?",
-                    "description": "Todos los participantes deben tener al menos 18 años de edad."
+                    "description": "Todos los participantes deben tener al menos 18 años de edad, a excepción de los ciudadanos de EEUU que deberán tener al menos 21 años."
                 },
                 "faq4": {
                     "title": "¿Cuántas invitaciones a estudios recibiré?",
@@ -406,7 +406,8 @@
                 "title": "El estudio al que has intentado entrar acaba de alcanzar la cantidad de participantes necesarios.",
                 "description": "¡Rápido! Miremos si hay otro estudio disponible en el que puedas participar.",
                 "cta": "Ver estudios disponibles"
-            }
+            },
+            "practiceStudy": "Si el estudio que has completado era un Estudio de práctica, nos pondremos en contacto contigo en cuanto revisemos tus resultados. Recuerda que los estudios de práctica no son pagados."
         },
         "errorPages": {
             "generic": {
