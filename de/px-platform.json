@@ -206,7 +206,7 @@
                 },
                 "faq3": {
                     "title": "Wie alt muss ich sein?",
-                    "description": "Alle Studienteilnehmer müssen 18 Jahre oder älter sein."
+                    "description": "Alle Studienteilnehmer müssen 18 Jahre oder älter sein, mit Ausnahme der Vereinigten Staaten, wo die Studienteilnehmer 21 Jahre oder älter sein müssen."
                 },
                 "faq4": {
                     "title": "Wie viele Studieneinladungen werde ich erhalten?",
@@ -406,7 +406,8 @@
                 "title": "Die Studie an der Du teilnehmen möchtest hat bereits die notwendige Zahl an Antworten erreicht.",
                 "description": "Schnell! Schau' ob es noch eine weitere Studie für Dich gibt.",
                 "cta": "Verfügbare Studien ansehen"
-            }
+            },
+            "practiceStudy": "Wenn Du an einer unserer Übungsstudien teilnimmst, kontaktieren wir Dich, sobald wir Dein Ergebnis bewertet haben. Bitte behalte in Erinnerung, dass für Übungsstudien keine Prämien ausgezahlt werden."
         },
         "errorPages": {
             "generic": {
