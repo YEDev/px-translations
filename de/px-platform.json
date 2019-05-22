@@ -206,7 +206,7 @@
                 },
                 "faq3": {
                     "title": "Wie alt muss ich sein?",
-                    "description": "Alle Studienteilnehmer müssen 18 Jahre oder älter sein."
+                    "description": "Alle Studienteilnehmer müssen 18 Jahre oder älter sein, mit Ausnahme der Vereinigten Staaten, wo die Studienteilnehmer 21 Jahre oder älter sein müssen."
                 },
                 "faq4": {
                     "title": "Wie viele Studieneinladungen werde ich erhalten?",
@@ -384,7 +384,7 @@
             },
             "screenout": {
                 "title": "Verdammt! Du bist nicht qualifiziert um an dieser Studie teilzunehmen. Aber vielleicht bist Du der perfekte Kandidat für die nächste!",
-                "description": "Danke für Deine Zeit, {{user.name}}.\n\nStelle sicher, dass [Dein Profil](https://www.intellizoom.com/profile) vollständig und aktuell ist um so viele passende Einladungen wie möglich zu erhalten.",
+                "description": "Danke für Deine Zeit, {{user.name}}.\n\nStelle sicher, dass [Dein Profil](/profile) vollständig und aktuell ist um so viele passende Einladungen wie möglich zu erhalten.",
                 "cta": "Verfügbare Studien ansehen"
             },
             "cheater": {
@@ -393,55 +393,26 @@
                 "cta": "Zurück zu den verfügbaren Studien"
             },
             "speeder": {
-                "title": "Du hast diese Studie viel zu schnell abgeschlossen",
+                "title": "Du hast diese Studie viel zu schnell abgeschlossen.",
                 "description": "Du warst schneller als erwartet für jemanden der die Studie in bestem Wissen beantwortet. Wir verstehen zwar die Eile und den Wunsch mehr Studien abschließen zu können, nehmen es aber mit der Qualität der Antworten sehr genau.\n\nLeider müssen wir daher Deine Ergebnisse ausschließen und können Dir diesmal keine Prämie anbieten. Wir tun das nicht gerne, aber die Gründe sind uns sehr wichtig, weshalb wir Dir empfehlen in zukünftigen Studien mehr Zeit zu verbringen.",
                 "cta": "Zurück zu den verfügbaren Studien"
             },
             "closed": {
-                "title": "Die Studie an der Du teilnehmen möchtest wurde geschlossen",
+                "title": "Die Studie an der Du teilnehmen möchtest wurde geschlossen.",
                 "description": "Schnell! Schau' ob es noch eine weitere Studie für Dich gibt.",
                 "cta": "Verfügbare Studien ansehen"
             },
             "quotafull": {
-                "title": "Die Studie an der Du teilnehmen möchtest hat bereits die notwendige Zahl an Antworten erreicht",
+                "title": "Die Studie an der Du teilnehmen möchtest hat bereits die notwendige Zahl an Antworten erreicht.",
                 "description": "Schnell! Schau' ob es noch eine weitere Studie für Dich gibt.",
                 "cta": "Verfügbare Studien ansehen"
             },
-            "uz": {
-                "closed": {
-                    "title": "Die Studie an der Du teilnehmen möchtest wurde geschlossen",
-                    "description": "Entschuldige bitte die Unannehmlichkeit."
-                },
-                "quotafull": {
-                    "title": "Die Studie an der Du teilnehmen möchtest hat bereits die notwendige Zahl an Antworten erreicht",
-                    "description": "Entschuldige bitte die Unannehmlichkeit."
-                },
-                "complete": {
-                    "title": "Danke für Deine Teilnahme!",
-                    "description": "Du hast die Studie abgeschlossen."
-                },
-                "alreadyTaken": {
-                    "title": "Danke für Deine Teilnahme!",
-                    "description": "Du hast diese Studie bereits abgeschlossen."
-                },
-                "screenout": {
-                    "title": "Vielen Dank für Ihre Antwort",
-                    "description": "Leider können du bist nicht qualifiziert um an dieser Studie teilzunehmen."
-                },
-                "cheater": {
-                    "title": "Es tut uns leid, aber Dein Ergebnis entspricht unseren Qualitätskriterien nicht.",
-                    "description": "Wir nehmen es sehr ernst mit der Beantwortung unserer Studien.\n\nDeshalb setzen wir voraus dass:\n\n-  Die Studie komplett abgeschlossen wurde.\n\n-  Die Kommentare des Teilnehmers    in Qualität und Quantität stimmen.\n\n-  Der / Die Teilnehmer/In eine angemessene Zeitspanne mit Betrachtung und Interaktion mit der zu beurteilenden Seite verbringt.\n\nLeider entsprechen Deine Ergebnisse nicht diesen Standards.\n\nWir empfehlen Dir, mehr Zeit und Einsatz in zukünftige Studien zu investieren."
-                },
-                "speeder": {
-                    "title": "Du hast diese Studie viel zu schnell abgeschlossen",
-                    "description": "Du warst schneller als erwartet für jemanden der die Studie in bestem Wissen beantwortet. Wir verstehen zwar die Eile und den Wunsch mehr Studien abschließen zu können, nehmen es aber mit der Qualität der Antworten sehr genau. \n\nLeider müssen wir daher Deine Ergebnisse ausschließen. \n\nWir Dir empfehlen in zukünftigen Studien mehr Zeit zu verbringen."
-                }
-            }
+            "practiceStudy": "Wenn Du an einer unserer Übungsstudien teilnimmst, kontaktieren wir Dich, sobald wir Dein Ergebnis bewertet haben. Bitte behalte in Erinnerung, dass für Übungsstudien keine Prämien ausgezahlt werden."
         },
         "errorPages": {
             "generic": {
                 "title": "Ohjeh! Diese Seite funktioniert nicht.",
-                "description": "Wir behalten das im Auge.\n\nMöchtest Du Dir in der Zwischenzeit ansehen welche [Studien](https://www.intellizoom.com/studies) verfügbar sind?"
+                "description": "Wir behalten das im Auge.\n\nMöchtest Du Dir in der Zwischenzeit ansehen welche [Studien](/studies) verfügbar sind?"
             },
             "uz": {
                 "generic": {
