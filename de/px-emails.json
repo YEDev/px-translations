@@ -19,56 +19,57 @@
                 "bodyCopy": "Das ist in Ordnung und passiert uns allen. Klicke einfach auf die Schaltfläche unten um Dein Passwort zurückzusetzen und fertig. Solltest Du diese Anfrage nicht getätigt haben, bitte ignoriere dieses E-Mail.\n\nAus Sicherheitsgründen wird dieser Link nach 24 Stunden oder einmaliger Benützung ungültig.",
                 "cta": "Passwort zurücksetzen"
             },
-            "registeredTwice": {
-                "subject": "Jemand hat gerade versucht sich mit Deiner E-Mail bei IntelliZoom Panel zu registrieren",
-                "title": "Jemand hat gerade versucht sich mit Deiner E-Mail bei IntelliZoom Panel zu registrieren",
-                "bodyCopy": "Warst das Du? In diesem Fall $t(izpanel.emails.registeredtwice.logIn). Wenn Du Dein Passwort vergessen hast, kannst Du eine $t(izpanel.emails.registeredtwice.updatePassword).\n\nWenn Du es nicht warst, bitte ignoriere diese E-Mail, wir kümmern uns darum.",
-                "logIn": "melde Dich einfach an",
-                "updatePassword": "Änderung beantragen"
-            },
             "studyInvitation": {
                 "subject": "Da ist eine neue Studie verfügbar für Dich",
                 "title": "Hallo {{user.name}}, da ist eine neue Studie verfügbar für Dich!",
-                "bodyCopy": "Bist Du bereit uns Dein Feedback zu geben?",
+                "bodyCopy": "Bist Du bereit uns Dein Feedback zu geben und {{studyFee}} zu verdienen?",
                 "cta": "Nimm teil!",
-                "studyID": "Studien ID zur Referenz: {{campaignID}}",
+                "studyID": "Studien ID zur Referenz: {{projectId}}",
                 "closing": "Tschüss!\n\nIntelliZoom Panel Team"
             },
             "studyComplete": {
                 "subject": "Wir haben Deine Teilnahme an der Studie erhalten",
                 "title": "Danke, dass Du uns Deine Meinung mitteilst",
-                "bodyCopy": "Wir werden Deine Teilnahme an der Studie baldmöglichst überprüfen und senden Deine Prämie innerhalb von 21 Werktagen.\n\nFalls Du weitere Fragen hast, $t(izpanel.emails.common.contact) oder besuche unser $t(izpanel.emails.common.help)."
+                "bodyCopy": "Wir werden Deine Teilnahme an der Studie {{projectId}} baldmöglichst überprüfen und senden Deine Prämie innerhalb von 21 Werktagen.<br>Die Prämie für diese Studie beträgt {{studyFee}} wenn Deine Teilnahme bestätigt ist."
             },
             "paymentSent": {
                 "subject": "Deine Prämie wurde ausbezahlt",
-                "title": "Hallo {{user.name}}, Deine Prämie wurde ausbezahlt!",
-                "bodyCopy": "Wir haben {{studyFee}} via PayPal zur folgenden E-Mail gesendet:\n\n{{user.email}}\n\n\n\nDiese Prämie erhältst Du für Deine Teilnahme an folgender Studie:\n\n{campaignID}}\n\nFalls Du weitere Fragen hast, $t(izpanel.emails.common.contact) oder besuche unser $t(izpanel.emails.common.help)."
+                "title": "Hallo {{user.name}},<br>Deine Prämie wurde ausbezahlt!",
+                "bodyCopy": "Wir haben {{studyFee}} via PayPal zur folgenden E-Mail gesendet:<br>{{user.email}}<br><br>Diese Prämie erhältst Du für Deine Teilnahme an folgender Studie: {{projectId}}"
             },
             "paymentConfirmation": {
                 "subject": "Deine Prämie ist angekommen!",
                 "title": "Hallo {{user.name}}, PayPal hat soeben bestätigt, dass Du Deine Prämie erhalten hast",
-                "bodyCopy": "Du solltest jetzt {{studyFee}} mehr in folgendem PayPal Konto haben:\n\n{{user.email}}\n\n\n\nDiese Auszahlung erhältst Du für Deine Teilnahme an folgender Studie:\n\n{{campaignID}}\n\nFalls Du weitere Fragen hast, $t(izpanel.emails.common.contact) oder besuche unser $t(izpanel.emails.common.help)."
+                "bodyCopy": "Du solltest jetzt {{studyFee}} mehr in folgendem PayPal Konto haben:<br>{{user.email}}<br><br>Diese Auszahlung erhältst Du für Deine Teilnahme an folgender Studie: {{projectId}}"
             },
             "certificationApproved": {
                 "subject": "Gute Arbeit in Deiner Übungsstudie!",
                 "title": "Hallo {{user.name}}, gute Arbeit in Deiner Übungsstudie!",
-                "bodyCopy": "Wir sehen, dass Du Deine Gedanken und Eindrücke klar ausdrücken kannst. Du bist genau was wir suchen!\n\nDu wirst von nun an Einladungen zu Think-Out-Loud-Studien und Card-Sort-Studien erhalten. Diese Studienarten sind üblicherweise besser bezahlt ;)\n\n\n\nFalls Du weitere Fragen hast, $t(izpanel.emails.common.contact) oder besuche unser $t(izpanel.emails.common.help)."
+                "bodyCopyOne": "Wir sehen, dass Du Deine Gedanken und Eindrücke klar ausdrücken kannst. Du bist genau was wir suchen!",
+                "bodyCopyTwo": "Du wirst von nun an Einladungen zu Think-Out-Loud-Studien und Card-Sort-Studien erhalten. Diese Studienarten sind üblicherweise besser bezahlt ;)"
             },
             "certificationRejected": {
                 "subject": "Deine Übungsstudie wurde nicht bestätigt",
                 "title": "Hallo {{user.name}}, die Übungsstudie die Du gesendet hast wurde nicht bestätigt",
-                "bodyCopy": "Es tut uns leid, Dir mitteilen zu müssen, dass die Übungsstudie die Du gesendet hast unseren Qualitätsanforderungen für Think-Out-Loud-Studien oder Card-Sort-Studien nicht entspricht.\n\nWenn Du meinst, dass hier ein Fehler vorliegt und Du es ein weiteres mal versuchen möchtest, $t(izpanel.emails.common.contact) und es wird uns freuen die Übungsstudie für Dich zu reaktivieren.\n\nFalls Du weitere Fragen hast, $t(izpanel.emails.common.contact) oder besuche unser $t(izpanel.emails.common.help)."
+                "bodyCopyOne": "Es tut uns leid, Dir mitteilen zu müssen, dass die Übungsstudie die Du gesendet hast unseren Qualitätsanforderungen für Think-Out-Loud-Studien oder Card-Sort-Studien nicht entspricht.",
+                "bodyCopyTwo": "Wenn Du meinst, dass hier ein Fehler vorliegt und Du es ein weiteres mal versuchen möchtest, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> und es wird uns freuen die Übungsstudie für Dich zu reaktivieren."
             },
             "generic": {
                 "genericClosing": "Schöne Grüße, \n\nIntelliZoom Panel Team",
                 "inlineContact": "kontaktiere uns",
-                "inlineHelp": "Help Center"
+                "inlineHelp": "Help Center",
+                "gotQuestions": "Falls Du weitere Fragen hast, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> oder besuche unser <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
             },
             "reEngagement": {
                 "subject": "Passwort zurücksetzen",
                 "title": "Passwort zurücksetzen",
                 "bodyCopy": "Hallo {{user.name}}!<br><br>Klicke auf den Link unten um das Passwort für Dein Konto zurückzusetzen.<br><br>Aus Sicherheitsgründen wird dieser Link nach 24 Stunden oder einmaliger Benützung ungültig.",
                 "cta": "Passwort zurücksetzen"
+            },
+            "termination": {
+                "subject": "Dein Konto wurde gelöscht",
+                "title": "Dein IntelliZoom Panel Konto wurde gelöscht",
+                "bodyCopy": "Hallo {user.name}},<br>Wir haben Dein Konto und all Deine Information von unserem System gelöscht. (Das ist die letzte Nachricht, die Du von uns erhalten wirst).<br>Solltest Du das nicht gewünscht haben, kann es sein, dass dies entweder durch längere Inaktivität oder aber durch einen Verstoß gegen unsere <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-common:izPanel.common.termsLink)</a> ausgelöst wurde.<br>Sollte hier ein Fehler vorliegen oder möchtest Du mehr Information, bitte <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> oder werfe einen Blick in unser <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
             }
         }
     }
