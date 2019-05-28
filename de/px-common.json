@@ -142,35 +142,6 @@
                     "description": "Mit einem Click Test möchten wir verstehen wo Du zum durchführen einer bestimmten Aktion klicken würdest.\n\nBehalte in Erinnerung, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner ehrlichen Meinung interessiert."
                 }
             },
-            "studyRequirementsEmail": {
-                "desktopBrowser": {
-                    "intro": "Computer mit einer aktuellen Version von",
-                    "ending": " ",
-                    "any": "Computer mit aktualisiertem Browser."
-                },
-                "deviceBrowserAny": "Ein aktueller Browser. Du kannst mit Deinem Computer, Tablet oder Handy an dieser Studie teilnehmen.",
-                "deviceMoreThanOne": "Du kannst an dieser Studie mit den folgenden Endgeräten teilnehmen:",
-                "incentiveExplanation": "Die Prämie für diese Studie beträgt {{studyFee}} wenn Deine Teilnahme bestätigt ist.",
-                "phoneOS": {
-                    "intro": "Ein",
-                    "ending": "mit guter Internetverbindung und genügend Batterie.",
-                    "any": "Ein Smartphone mit guter Internetverbindung und genügend Batterie."
-                },
-                "recording": {
-                    "audioVideo": "Du benötigst eine Webcam und ein Mikrofon: Begebe Dich an einen ruhigen, gut beleuchteten Ort und stelle sicher Deine Gedanken laut auszusprechen während Du die Aufgaben löst. \n\nBenutze Kopfhörer um eine gute Aufnahmequalität zu gewährleisten.",
-                    "audio": "Du benötigst ein Mikrofon:\nBegebe Dich an einen ruhigen Ort und stelle sicher Deine Gedanken laut auszusprechen während Du die Aufgaben löst. Benutze Kopfhörer um eine gute Aufnahmequalität zu gewährleisten.",
-                    "video": "Du benötigst eine Webcam: Begebe Dich an einen ruhigen, gut beleuchteten Ort während Du die Aufgaben löst.",
-                    "noneTaskBased": "Du benötigst kein Mikrofon oder Webcam, aber Dein Bildschirm wird aufgezeichnet. Vergewissere Dich jede Aufgabe zu lesen und bestmöglich zu lösen.",
-                    "noneQuestionnaire": "Du benötigst kein Mikrofon oder Webcam. Vergewissere Dich jede Aufgabe zu lesen und bestmöglich zu lösen."
-                },
-                "screener": "Beantworte ein paar Fragen um zu sehen ob Du in das Suchprofil passt. Viel Glück! :)",
-                "tabletOS": {
-                    "intro": "Ein",
-                    "ending": "mit guter Internetverbindung und genügend Batterie.",
-                    "any": "Ein Tablet mit guter Internetverbindung und genügend Batterie."
-                },
-                "title": "Anforderungen:"
-            },
             "and": "und",
             "aUppercase": "Ein",
             "desktop": "Computer",
