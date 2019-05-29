@@ -85,7 +85,8 @@
                 "invalidCredentials": "We're sorry, this email/password combination could not be found.",
                 "userNotFound": "The activation link that you followed has expired and your data was deleted. Please, try signing up again.",
                 "wrongActivation": "Something went wrong during your account activation. Please, try again later via the same confirmation email we've sent you before.",
-                "wrongActivationWithLink": "Something went wrong during your account activation. Please, <1>resend</1> the confirmation email and try again."
+                "wrongActivationWithLink": "Something went wrong during your account activation. Please, <1>resend</1> the confirmation email and try again.",
+                "accountDeactivated": "Your account was deactivated. If you would like to reactivate it, please [contact us](https://help.intellizoom.com/hc/en-us/requests/new)."
             },
             "forgotPassword": {
                 "sendEmailFail": "Oops, something went wrong and we couldn't send you the reset password email. Please, try again later."
