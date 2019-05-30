@@ -30,7 +30,8 @@
             "studyComplete": {
                 "subject": "Wir haben Deine Teilnahme an der Studie erhalten",
                 "title": "Danke, dass Du uns Deine Meinung mitteilst",
-                "bodyCopy": "Wir werden Deine Teilnahme an der Studie {{projectId}} baldmöglichst überprüfen und senden Deine Prämie innerhalb von 21 Werktagen.<br>Die Prämie für diese Studie beträgt {{studyFee}} wenn Deine Teilnahme bestätigt ist."
+                "bodyCopy": "Wir werden Deine Teilnahme an der Studie {{projectId}} baldmöglichst überprüfen und senden Deine Prämie innerhalb von 21 Werktagen.<br>Die Prämie für diese Studie beträgt {{studyFee}} wenn Deine Teilnahme bestätigt ist. *",
+                "practiceStudy": "* Wenn Du an einer unserer Übungsstudien teilnimmst, kontaktieren wir Dich, sobald wir Dein Ergebnis bewertet haben. Bitte behalte in Erinnerung, dass für Übungsstudien keine Prämien ausgezahlt werden."
             },
             "paymentSent": {
                 "subject": "Deine Prämie wurde ausbezahlt",
