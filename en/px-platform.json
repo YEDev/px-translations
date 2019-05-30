@@ -404,7 +404,7 @@
                 "cta": "Check available studies"
             },
             "quotafull": {
-                "title": "The study you tried to enter has just reached the needed amount of responses",
+                "title": "The study you tried to enter has just reached the needed amount of responses.",
                 "description": "Quick! Let’s see if there’s another one that you could take.",
                 "cta": "Check available studies"
             },
