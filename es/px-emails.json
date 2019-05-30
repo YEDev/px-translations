@@ -30,7 +30,8 @@
             "studyComplete": {
                 "subject": "Hemos recibido tu participación",
                 "title": "¡Gracias por darnos tu opinión!",
-                "bodyCopy": "Revisaremos tu participación en el estudio {{projectId}} a la brevedad y procederemos a enviarte el pago dentro de los próximos 21 días hábiles.<br>La remuneración por este estudio es de {{studyFee}} si tu participación es aprobada."
+                "bodyCopy": "Revisaremos tu participación en el estudio {{projectId}} a la brevedad y procederemos a enviarte el pago dentro de los próximos 21 días hábiles.<br>La remuneración por este estudio es de {{studyFee}} si tu participación es aprobada. *",
+                "practiceStudy": "* Si el estudio que has completado era un Estudio de práctica, nos pondremos en contacto contigo en cuanto revisemos tus resultados. Recuerda que los estudios de práctica no son pagados."
             },
             "paymentSent": {
                 "subject": "Tu pago ha sido enviado",
