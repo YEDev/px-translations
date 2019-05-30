@@ -30,7 +30,8 @@
             "studyComplete": {
                 "subject": "We have received your study participation",
                 "title": "Thanks for sharing your thoughts!",
-                "bodyCopy": "We will review your participation in the study {{projectId}} asap and proceed to send you the payment within 21 business days.<br>The incentive for this study is {{studyFee}} if your participation is approved."
+                "bodyCopy": "We will review your participation in the study {{projectId}} asap and proceed to send you the payment within 21 business days.<br>The incentive for this study is {{studyFee}} if your participation is approved. *",
+                "practiceStudy": "* If the study you’ve taken is a Practice Study, we’ll get in touch with you as soon as we review your results. Please remember that practice studies are not eligible for pay."
             },
             "paymentSent": {
                 "subject": "Your payment has been sent",
@@ -69,7 +70,7 @@
             "termination": {
                 "subject": "Your account has been deleted",
                 "title": "Your IntelliZoom Panel account has been deleted",
-                "bodyCopy": "Hello {{user.name}},<br>We have deleted your account and information from within our system. (This mail being the last communication you'll receive from us.)<br>If you did not request this, it may be due to a long period of inactivity or due to a misusage of our platform resulting in a violation of our <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a>.<br>If you think this is a mistake or would like further information, please <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> or visit our <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
+                "bodyCopy": "Hello {{user.name}},<br><br>We have deleted your account and information from within our system. (This mail being the last communication you'll receive from us.)<br><br>If you did not request this, it may be due to a long period of inactivity or due to a misusage of our platform resulting in a violation of our <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a>.<br><br>If you think this is a mistake or would like further information, please <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> or visit our <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
             }
         }
     }
