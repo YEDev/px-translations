@@ -80,7 +80,10 @@
                         "cta": "Ja, deaktivieren"
                     }
                 },
-                "description": "###Hallo, \n\nDas sind die Benachrichtigungen die Du abonniert hast:"
+                "description": "###Hallo, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "descriptionMorning": "###Guten Morgen {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "descriptionAfternoon": "###Hallo {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "descriptionEvening": "###Guten Abend {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:"
             },
             "language": {
                 "title": "Sprache",
@@ -140,7 +143,8 @@
                 "clickTest": {
                     "title": "Click-Test",
                     "description": "Mit einem Click Test möchten wir verstehen wo Du zum durchführen einer bestimmten Aktion klicken würdest.\n\nBehalte in Erinnerung, dass es keine falschen Antworten gibt. Wir sind ausschließlich an Deiner ehrlichen Meinung interessiert."
-                }
+                },
+                "projectId": "Studien ID zur Referenz: {{projectId}}"
             },
             "and": "und",
             "aUppercase": "Ein",
@@ -149,7 +153,15 @@
             "tablet": "Tablet",
             "selectAnOption": "Treffe eine Auswahl",
             "comingSoon": "Demnächst",
-            "saved": "Gespeichert"
+            "saved": "Gespeichert",
+            "greeting": {
+                "morning": "Guten Morgen!",
+                "morningName": "Guten Morgen {{userName}}!",
+                "afternoon": "Hallo!",
+                "afternoonName": "Hallo {{userName}}!",
+                "evening": "Guten Abend!",
+                "eveningName": "Guten Abend {{userName}}!"
+            }
         }
     }
 }
