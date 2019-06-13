@@ -80,7 +80,10 @@
                         "cta": "Sí, desactivar"
                     }
                 },
-                "description": "###Hola,\n\nEstas son las comunicaciones a las que estás suscrito:"
+                "description": "###Hola,\n\nEstas son las comunicaciones a las que estás suscrito:",
+                "descriptionMorning": "###Buenos días {{userName}},\n\nEstas son las comunicaciones a las que estás suscrito:",
+                "descriptionAfternoon": "###Buenas tardes {{userName}},\n\nEstas son las comunicaciones a las que estás suscrito:",
+                "descriptionEvening": "###Buenas noches {{userName}},\n\nEstas son las comunicaciones a las que estás suscrito:"
             },
             "language": {
                 "title": "Idioma",
@@ -140,7 +143,8 @@
                 "clickTest": {
                     "title": "Click Test",
                     "description": "En un estudio Click Test esperamos entender mejor dónde harías click cuando te pedimos realizar alguna acción. \n\nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
-                }
+                },
+                "projectId": "ID del estudio para referencia: {{projectId}}"
             },
             "and": "y",
             "aUppercase": "Un",
@@ -149,7 +153,15 @@
             "tablet": "Tablet",
             "selectAnOption": "Selecciona una opción",
             "comingSoon": "Próximamente",
-            "saved": "Cambios guardados"
+            "saved": "Cambios guardados",
+            "greeting": {
+                "morning": "¡Buenos días!",
+                "morningName": "¡Buenos días {{userName}}!",
+                "afternoon": "¡Buenas tardes!",
+                "afternoonName": "¡Buenas tardes {{userName}}!",
+                "evening": "¡Buenas noches!",
+                "eveningName": "¡Buenas noches {{userName}}!"
+            }
         }
     }
 }
