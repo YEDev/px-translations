@@ -80,7 +80,10 @@
                         "cta": "Yes, deactivate"
                     }
                 },
-                "description": "###Hello\n\nThese are the communications you’re subscribed to:"
+                "description": "###Hello\n\nThese are the communications you’re subscribed to:",
+                "descriptionMorning": "###Good morning {{userName}},\n\nThese are the communications you’re subscribed to:",
+                "descriptionAfternoon": "###Good afternoon {{userName}},\n\nThese are the communications you’re subscribed to:",
+                "descriptionEvening": "###Good evening {{userName}},\n\nThese are the communications you’re subscribed to:"
             },
             "language": {
                 "title": "Language",
@@ -140,7 +143,8 @@
                 "clickTest": {
                     "title": "Click Test",
                     "description": "With a Click Test we want to understand where would you click when we ask you to do a certain action.\n\nRemember, there are no wrong answers. We're only interested in your honest opinion."
-                }
+                },
+                "projectId": "Study ID for your reference: {{projectId}}"
             },
             "and": "and",
             "aUppercase": "A",
@@ -149,7 +153,15 @@
             "tablet": "Tablet",
             "selectAnOption": "Select an option",
             "comingSoon": "Coming soon",
-            "saved": "Saved"
+            "saved": "Saved",
+            "greeting": {
+                "morning": "Good morning!",
+                "morningName": "Good morning {{userName}}!",
+                "afternoon": "Good afternoon!",
+                "afternoonName": "Good afternoon {{userName}}!",
+                "evening": "Good evening!",
+                "eveningName": "Good evening {{userName}}!"
+            }
         }
     }
 }
