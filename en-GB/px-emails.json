@@ -21,16 +21,16 @@
             },
             "studyInvitation": {
                 "subject": "There's a new study available for you!",
-                "title": "Hey {{user.name}}, there's a new study available for you!",
+                "title": "Hey {{user.name}},<br>there's a new study available for you!",
                 "bodyCopy": "Are you ready to give your feedback and earn {{studyFee}}?",
                 "cta": "Participate!",
                 "studyID": "Study ID for your reference: {{projectId}}",
                 "closing": "Enjoy!<br>IntelliZoom Panel Team"
             },
             "studyComplete": {
-                "subject": "We have received your study participation",
+                "subject": "Thanks for sharing your thoughts!",
                 "title": "Thanks for sharing your thoughts!",
-                "bodyCopy": "We will review your participation in the study {{projectId}} asap and proceed to send you the payment within 21 business days.<br>The incentive for this study is {{studyFee}} if your participation is approved. *",
+                "bodyCopy": "We will review your participation in the study {{projectId}} asap and proceed to send you the payment within 21 business days.<br>The incentive for this study is {{studyFee}} if your participation is approved.*",
                 "practiceStudy": "* If the study you’ve taken is a Practice Study, we’ll get in touch with you as soon as we review your results. Please remember that practice studies are not eligible for pay."
             },
             "paymentSent": {
