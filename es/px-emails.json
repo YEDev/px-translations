@@ -21,16 +21,16 @@
             },
             "studyInvitation": {
                 "subject": "¡Nuevo estudio disponible!",
-                "title": "Hola {{user.name}}, ¡tienes un nuevo estudio disponible!",
+                "title": "Hola {{user.name}},<br>¡tienes un nuevo estudio disponible!",
                 "bodyCopy": "¿Estás listo para dar tu opinión y ganarte {{studyFee}}?",
                 "cta": "¡Participa!",
                 "studyID": "ID del estudio para referencia: {{projectId}}",
                 "closing": "¡Saludos!<br>El equipo de IntelliZoom Panel"
             },
             "studyComplete": {
-                "subject": "Hemos recibido tu participación",
+                "subject": "¡Gracias por darnos tu opinión!",
                 "title": "¡Gracias por darnos tu opinión!",
-                "bodyCopy": "Revisaremos tu participación en el estudio {{projectId}} a la brevedad y procederemos a enviarte el pago dentro de los próximos 21 días hábiles.<br>La remuneración por este estudio es de {{studyFee}} si tu participación es aprobada. *",
+                "bodyCopy": "Revisaremos tu participación en el estudio {{projectId}} a la brevedad y procederemos a enviarte el pago dentro de los próximos 21 días hábiles.<br>La remuneración por este estudio es de {{studyFee}} si tu participación es aprobada.*",
                 "practiceStudy": "* Si el estudio que has completado era un Estudio de práctica, nos pondremos en contacto contigo en cuanto revisemos tus resultados. Recuerda que los estudios de práctica no son pagados."
             },
             "paymentSent": {
@@ -57,7 +57,7 @@
             },
             "generic": {
                 "genericClosing": "¡Saludos!<br>El equipo de IntelliZoom Panel",
-                "inlineContact": "contáctanos",
+                "inlineContact": "contacta",
                 "inlineHelp": "Ayuda",
                 "gotQuestions": "Si tienes cualquier duda, consulta nuestra sección de <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a> o <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> directamente con nosotros."
             },
