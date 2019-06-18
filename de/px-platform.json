@@ -93,7 +93,7 @@
             },
             "resetPassword": {
                 "incorrectPassword": "Aktuelles Passwort ungültig",
-                "expiredLink": "Der Aktivierungslink den Du benützt hast ist abgelaufen. Bitte fordere einen neuen Link auf der [Passwort vergessen](/forgot-password) Seite an."
+                "expiredLink": "Der link den Du benützt hast ist abgelaufen. Bitte fordere einen neuen Link auf der [Passwort vergessen](/forgot-password) Seite an."
             },
             "limitExceeded": "Du hast die maximale Anzahl an Versuchen erreicht. Bitte versuche es später erneut.",
             "demographics": {
