@@ -21,16 +21,16 @@
             },
             "studyInvitation": {
                 "subject": "Da ist eine neue Studie verfügbar für Dich",
-                "title": "Hallo {{user.name}}, da ist eine neue Studie verfügbar für Dich!",
+                "title": "Hallo {{user.name}},<br>da ist eine neue Studie verfügbar für Dich!",
                 "bodyCopy": "Bist Du bereit uns Dein Feedback zu geben und {{studyFee}} zu verdienen?",
                 "cta": "Nimm teil!",
                 "studyID": "Studien ID zur Referenz: {{projectId}}",
                 "closing": "Tschüss!\n\nIntelliZoom Panel Team"
             },
             "studyComplete": {
-                "subject": "Wir haben Deine Teilnahme an der Studie erhalten",
+                "subject": "Danke, dass Du uns Deine Meinung mitteilst",
                 "title": "Danke, dass Du uns Deine Meinung mitteilst",
-                "bodyCopy": "Wir werden Deine Teilnahme an der Studie {{projectId}} baldmöglichst überprüfen und senden Deine Prämie innerhalb von 21 Werktagen.<br>Die Prämie für diese Studie beträgt {{studyFee}} wenn Deine Teilnahme bestätigt ist. *",
+                "bodyCopy": "Wir werden Deine Teilnahme an der Studie {{projectId}} baldmöglichst überprüfen und senden Deine Prämie innerhalb von 21 Werktagen.<br>Die Prämie für diese Studie beträgt {{studyFee}} wenn Deine Teilnahme bestätigt ist.*",
                 "practiceStudy": "* Wenn Du an einer unserer Übungsstudien teilnimmst, kontaktieren wir Dich, sobald wir Dein Ergebnis bewertet haben. Bitte behalte in Erinnerung, dass für Übungsstudien keine Prämien ausgezahlt werden."
             },
             "paymentSent": {
@@ -56,7 +56,7 @@
                 "bodyCopyTwo": "Wenn Du meinst, dass hier ein Fehler vorliegt und Du es ein weiteres mal versuchen möchtest, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> und es wird uns freuen die Übungsstudie für Dich zu reaktivieren."
             },
             "generic": {
-                "genericClosing": "Schöne Grüße, \n\nIntelliZoom Panel Team",
+                "genericClosing": "Tschüss!<br>IntelliZoom Panel Team",
                 "inlineContact": "kontaktiere uns",
                 "inlineHelp": "Help Center",
                 "gotQuestions": "Falls Du weitere Fragen hast, <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> oder besuche unser <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
