@@ -68,7 +68,7 @@
                 "sendEmailFail": "Oops, algo ha salido mal y no hemos podido enviarte el email de confirmación. Por favor, vuelve a intentarlo pasados unos minutos.",
                 "passwordRequirements": "La contraseña no cumple con los requisitos",
                 "emailLength": "¡Wow! Tu email no puede tener más de 150 caracteres...",
-                "passwordWithoutSpace": "La contraseña no puede empezar o acabar con un espacio."
+                "passwordIncludesSpaces": "La contraseña no puede empezar o acabar con un espacio."
             },
             "minTwoChars": {
                 "firstName": "Tu nombre debe contener al menos dos caracteres.",
