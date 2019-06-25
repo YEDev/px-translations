@@ -68,7 +68,7 @@
                 "sendEmailFail": "Oops, something went wrong and we couldn't send you the confirmation email. Please, try again later.",
                 "passwordRequirements": "The password does not meet the requirements",
                 "emailLength": "Wow! Your email cannot be 150 characters long...",
-                "passwordWithoutSpace": "The password cannot start or end with a space."
+                "passwordIncludesSpaces": "The password cannot start or end with a space."
             },
             "minTwoChars": {
                 "firstName": "Your name must contain at least two characters.",
