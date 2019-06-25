@@ -68,7 +68,7 @@
                 "sendEmailFail": "Ojeh, irgendetwas ist schief gelaufen. Wir konnten Dir die Bestätigungs-E-Mail nicht senden. Bitte versuche es später erneut.",
                 "passwordRequirements": "Dieses Passwort erfüllt die Sicherheitsanforderungen nicht",
                 "emailLength": "Wow! Deine Email-Adresse kann nicht länger als 150 Zeichen sein...",
-                "passwordWithoutSpace": "Das Passwort kann nicht mit einem Leerschritt beginnen oder enden."
+                "passwordIncludesSpaces": "Das Passwort kann nicht mit einem Leerschritt beginnen oder enden."
             },
             "minTwoChars": {
                 "firstName": "Dein Name muss mindestens 2 Buchstaben haben.",
