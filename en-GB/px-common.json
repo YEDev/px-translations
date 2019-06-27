@@ -81,9 +81,12 @@
                     }
                 },
                 "description": "###Hello\n\nThese are the communications you’re subscribed to:",
-                "descriptionMorning": "###Good morning {{userName}},\n\nThese are the communications you’re subscribed to:",
-                "descriptionAfternoon": "###Good afternoon {{userName}},\n\nThese are the communications you’re subscribed to:",
-                "descriptionEvening": "###Good evening {{userName}},\n\nThese are the communications you’re subscribed to:"
+                "descriptionMorning": "###Good morning,\n\nThese are the communications you’re subscribed to:",
+                "descriptionAfternoon": "###Good afternoon,\n\nThese are the communications you’re subscribed to:",
+                "descriptionEvening": "###Good evening,\n\nThese are the communications you’re subscribed to:",
+                "descriptionMorningName": "###Good morning {{userName}},\n\nThese are the communications you’re subscribed to:",
+                "descriptionAfternoonName": "###Good afternoon {{userName}},\n\nThese are the communications you’re subscribed to:",
+                "descriptionEveningName": "###Good evening {{userName}},\n\nThese are the communications you’re subscribed to:"
             },
             "language": {
                 "title": "Language",
