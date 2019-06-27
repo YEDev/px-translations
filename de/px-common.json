@@ -81,9 +81,12 @@
                     }
                 },
                 "description": "###Hallo, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "descriptionMorning": "###Guten Morgen {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "descriptionAfternoon": "###Hallo {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "descriptionEvening": "###Guten Abend {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:"
+                "descriptionMorning": "###Guten Morgen, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "descriptionAfternoon": "###Hallo, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "descriptionEvening": "###Guten Abend, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "descriptionMorningName": "###Guten Morgen {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "descriptionAfternoonName": "###Hallo {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "descriptionEveningName": "###Guten Abend {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:"
             },
             "language": {
                 "title": "Sprache",
