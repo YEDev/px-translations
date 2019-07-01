@@ -157,13 +157,13 @@
             "selectAnOption": "Select an option",
             "comingSoon": "Coming soon",
             "saved": "Saved",
-            "greeting": {
-                "morning": "Good morning!",
-                "morningName": "Good morning {{userName}}!",
-                "afternoon": "Good afternoon!",
-                "afternoonName": "Good afternoon {{userName}}!",
-                "evening": "Good evening!",
-                "eveningName": "Good evening {{userName}}!"
+            "greetings": {
+                "greeting_morning": "Good morning!",
+                "greetingName_morning": "Good morning {{userName}}!",
+                "greeting_afternoon": "Good afternoon!",
+                "greetingName_afternoon": "Good afternoon {{userName}}!",
+                "greeting_evening": "Good evening!",
+                "greetingName_evening": "Good evening {{userName}}!"
             }
         }
     }
