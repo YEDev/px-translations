@@ -81,12 +81,12 @@
                     }
                 },
                 "description": "###Hallo, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "descriptionMorning": "###Guten Morgen, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "descriptionAfternoon": "###Hallo, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "descriptionEvening": "###Guten Abend, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "descriptionMorningName": "###Guten Morgen {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "descriptionAfternoonName": "###Hallo {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
-                "descriptionEveningName": "###Guten Abend {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:"
+                "description_morning": "###Guten Morgen, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "descriptionName_morning": "###Guten Morgen {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "description_afternoon": "###Hallo, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "descriptionName_afternoon": "###Hallo {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "description_evening": "###Guten Abend, \n\nDas sind die Benachrichtigungen die Du abonniert hast:",
+                "descriptionName_evening": "###Guten Abend {{userName}}, \n\nDas sind die Benachrichtigungen die Du abonniert hast:"
             },
             "language": {
                 "title": "Sprache",
@@ -157,13 +157,13 @@
             "selectAnOption": "Treffe eine Auswahl",
             "comingSoon": "Demnächst",
             "saved": "Gespeichert",
-            "greeting": {
-                "morning": "Guten Morgen!",
-                "morningName": "Guten Morgen {{userName}}!",
-                "afternoon": "Hallo!",
-                "afternoonName": "Hallo {{userName}}!",
-                "evening": "Guten Abend!",
-                "eveningName": "Guten Abend {{userName}}!"
+            "greetings": {
+                "greeting_morning": "Guten Morgen!",
+                "greetingName_morning": "Guten Morgen {{userName}}!",
+                "greeting_afternoon": "Hallo!",
+                "greetingName_afternoon": "Hallo {{userName}}!",
+                "greeting_evening": "Guten Abend!",
+                "greetingName_evening": "Guten Abend {{userName}}!"
             }
         }
     }
