@@ -29,7 +29,7 @@
                         "indian": "Indio americano o nativo de Alaska",
                         "asian": "Asiática",
                         "islander": "De las islas del Pacífico o Nativo Hawaiano",
-                        "other": "Otra raza"
+                        "other": "Otra etnia"
                     }
                 },
                 "ethnicity_gb": {
@@ -40,7 +40,7 @@
                         "asian_pakistani": "Asiática o Asiática Británica: Pakistaní",
                         "asian_bangladeshi": "Asiática o Asiática Británica: Bangladeshí",
                         "asian_chinese": "Asiática o Asiática Británica: China",
-                        "asian_other": "Asiática o Asiática Británica: Otra raza asiática",
+                        "asian_other": "Asiática o Asiática Británica: Otra etnia asiática",
                         "black": "Negra o Negra Británica",
                         "mixed": "Mixta o Múltiple"
                     }
@@ -736,8 +736,8 @@
                 }
             },
             "ethnicity": {
-                "question": "¿De qué raza eres?",
-                "shortName": "Raza"
+                "question": "¿A qué etnia perteneces?",
+                "shortName": "Etnia"
             }
         }
     }
