@@ -24,25 +24,25 @@
                 },
                 "ethnicity_us": {
                     "list": {
-                        "white": "Blanca",
-                        "black": "Negra o Afroamericana",
+                        "white": "Blanco",
+                        "black": "Negro o Afroamericano",
                         "indian": "Indio americano o nativo de Alaska",
-                        "asian": "Asiática",
+                        "asian": "Asiático",
                         "islander": "De las islas del Pacífico o Nativo Hawaiano",
                         "other": "Otra etnia"
                     }
                 },
                 "ethnicity_gb": {
                     "list": {
-                        "white": "Blanca",
-                        "traveller": "Nómada Irlandesa",
-                        "asian_indian": "Asiática o Asiática Británica: India",
-                        "asian_pakistani": "Asiática o Asiática Británica: Pakistaní",
-                        "asian_bangladeshi": "Asiática o Asiática Británica: Bangladeshí",
-                        "asian_chinese": "Asiática o Asiática Británica: China",
-                        "asian_other": "Asiática o Asiática Británica: Otra etnia asiática",
-                        "black": "Negra o Negra Británica",
-                        "mixed": "Mixta o Múltiple"
+                        "white": "Blanco",
+                        "traveller": "Nómada Irlandés",
+                        "asian_indian": "Asiático o Asiático Británico: Indio",
+                        "asian_pakistani": "Asiático o Asiático Británico: Pakistaní",
+                        "asian_bangladeshi": "Asiático o Asiático Británico: Bangladeshí",
+                        "asian_chinese": "Asiático o Asiático Británico: Chino",
+                        "asian_other": "Asiático o Asiático Británico: Otra etnia asiática",
+                        "black": "Negro o Negro Británico",
+                        "mixed": "Mixto o Múltiple"
                     }
                 },
                 "householdDescription": {
@@ -736,8 +736,8 @@
                 }
             },
             "ethnicity": {
-                "question": "¿A qué etnia perteneces?",
-                "shortName": "Etnia"
+                "question": "De las siguientes opciones, ¿cuál representa mejor tu origen étnico?",
+                "shortName": "Origen étnico"
             }
         }
     }
