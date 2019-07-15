@@ -297,8 +297,8 @@
                 },
                 "unsubscribe": {
                     "title": "¡No te pierdas ningún estudio!",
-                    "description": "Activa las notificaciones vía email para los estudios de investigación de experiencias de usuario y no te vuelvas a perder ninguna invitación.",
-                    "cta": "Activar notificaciones vía email"
+                    "description": "Activa las invitaciones a los estudios de investigación de experiencias de usuario y no te vuelvas a perder ningún estudio.",
+                    "cta": "Activar invitaciones a estudios"
                 }
             },
             "tip": {
@@ -366,6 +366,17 @@
             "success": {
                 "title": "Te hemos enviado un email con un link para actualizar tu contraseña",
                 "description": "Por motivos de seguridad, el link expirará en 24h.\n\nEn caso de que no veas el email, revisa tu carpeta de spam. Si crees que no lo has recibido, te lo <1>reenviamos</1>."
+            },
+            "wud": {
+                "titleName": "¡Bienvenid@ a IntelliZoom Panel {{userName}}!",
+                "title": "¡Bienvenid@ a IntelliZoom Panel!",
+                "description": "Hemos transferido toda la información de tu perfil de WhatUserDo a nuestra plataforma, pero ya que se trata de un sitio web nuevo, qué mejor manera de comenzar que con una contraseña nueva.\n\nHaz click en Actualizar contraseña y te enviaremos un email con un link para crearla.",
+                "cta": "Actualizar contraseña",
+                "modal": {
+                    "title": "Activa las invitaciones a estudios para poder participar",
+                    "bodycopy": "Si no las activas, no verás ningún estudio disponible en la web y tampoco recibirás ninguna invitación vía email.",
+                    "cta": "Activar invitaciones a estudios"
+                }
             }
         },
         "success": {
