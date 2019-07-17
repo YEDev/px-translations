@@ -297,8 +297,8 @@
                 },
                 "unsubscribe": {
                     "title": "FOMO? Don't miss any invitation!",
-                    "description": "Activate the email notifications for UX Research studies and never miss again any of our invitations.",
-                    "cta": "Activate email notifications"
+                    "description": "Activate the UX Research study invitations and never miss again any of our studies.",
+                    "cta": "Activate study invitations"
                 }
             },
             "tip": {
@@ -366,6 +366,17 @@
             "success": {
                 "title": "We've sent you an email to request a new password",
                 "description": "For security purposes, the link will expire in 24 hours.\n\nIf you can’t see it, check your spam folder. We could also <1>resend</1> you the email."
+            },
+            "wud": {
+                "titleName": "Welcome to IntelliZoom Panel {{userName}}!",
+                "title": "Welcome to IntelliZoom Panel!",
+                "description": "We are going to move all your profile information from WhatUsersDo to our platform, but as this is a brand new website, let's start by requesting a brand new password for your account.\n\nClick on Request New Password and we'll send you an email with a link to do so.",
+                "cta": "Request New Password",
+                "modal": {
+                    "title": "Activate the study invitations to be able to participate",
+                    "bodycopy": "If you don’t activate them you won’t see any studies on your Studies dashboard or receive any invitations via email.",
+                    "cta": "Activate study invitations"
+                }
             }
         },
         "success": {

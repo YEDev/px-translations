@@ -736,8 +736,8 @@
                 }
             },
             "ethnicity": {
-                "question": "What is your race?",
-                "shortName": "Race"
+                "question": "Which of the following best represents your racial or ethnic heritage?",
+                "shortName": "Racial or ethnic heritage"
             }
         }
     }

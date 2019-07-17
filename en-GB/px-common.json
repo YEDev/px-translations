@@ -66,7 +66,7 @@
             "finish": "Finish",
             "gotIt": "Got it",
             "emailNotifications": {
-                "title": "Email notifications",
+                "title": "Study invitations and newsletter",
                 "mkt": {
                     "title": "Newsletter and marketing communications",
                     "description": "We may occasionally send you:\n\n-  Updates on how your opinion is impacting the products you love.\n-  A few tips on how to become a master of giving feedback."
@@ -81,9 +81,12 @@
                     }
                 },
                 "description": "###Hello\n\nThese are the communications you’re subscribed to:",
-                "descriptionMorning": "###Good morning {{userName}},\n\nThese are the communications you’re subscribed to:",
-                "descriptionAfternoon": "###Good afternoon {{userName}},\n\nThese are the communications you’re subscribed to:",
-                "descriptionEvening": "###Good evening {{userName}},\n\nThese are the communications you’re subscribed to:"
+                "description_morning": "###Good morning,\n\nThese are the communications you’re subscribed to:",
+                "descriptionName_morning": "###Good morning {{userName}},\n\nThese are the communications you’re subscribed to:",
+                "description_afternoon": "###Good afternoon,\n\nThese are the communications you’re subscribed to:",
+                "descriptionName_afternoon": "###Good afternoon {{userName}},\n\nThese are the communications you’re subscribed to:",
+                "description_evening": "###Good evening,\n\nThese are the communications you’re subscribed to:",
+                "descriptionName_evening": "###Good evening {{userName}},\n\nThese are the communications you’re subscribed to:"
             },
             "language": {
                 "title": "Language",
@@ -154,14 +157,15 @@
             "selectAnOption": "Select an option",
             "comingSoon": "Coming soon",
             "saved": "Saved",
-            "greeting": {
-                "morning": "Good morning!",
-                "morningName": "Good morning {{userName}}!",
-                "afternoon": "Good afternoon!",
-                "afternoonName": "Good afternoon {{userName}}!",
-                "evening": "Good evening!",
-                "eveningName": "Good evening {{userName}}!"
-            }
+            "greetings": {
+                "greeting_morning": "Good morning!",
+                "greetingName_morning": "Good morning {{userName}}!",
+                "greeting_afternoon": "Good afternoon!",
+                "greetingName_afternoon": "Good afternoon {{userName}}!",
+                "greeting_evening": "Good evening!",
+                "greetingName_evening": "Good evening {{userName}}!"
+            },
+            "noThanks": "No, thanks"
         }
     }
 }
