@@ -2,7 +2,7 @@
     "izPanel": {
         "registration": {
             "name": {
-                "title": "Hallo!\n\nWie heißt Du?",
+                "title": "Wie heißt Du?",
                 "field": {
                     "firstName": "Name",
                     "lastName": "Nachname"
@@ -366,6 +366,17 @@
             "success": {
                 "title": "Wir haben Dir ein E-Mail geschickt, um Dein Passwort zurückzusetzen",
                 "description": "Aus Sicherheitsgründen ist dieser Link nur 24 Stunden gültig. \n\nWenn Du keine Nachricht siehst, überprüfe bitte den Spam-Ordner. Wir können Dir das E-Mail auch <1>nochmals senden</1>."
+            },
+            "wud": {
+                "titleName": "",
+                "title": "",
+                "description": "",
+                "cta": "",
+                "modal": {
+                    "title": "",
+                    "bodycopy": "",
+                    "cta": ""
+                }
             }
         },
         "success": {
