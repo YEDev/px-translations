@@ -2,7 +2,7 @@
     "izPanel": {
         "registration": {
             "name": {
-                "title": "¡Hola!\n\n¿Cómo te llamas?",
+                "title": "¿Cómo te llamas?",
                 "field": {
                     "firstName": "Nombre",
                     "lastName": "Apellidos"
