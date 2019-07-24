@@ -66,7 +66,7 @@
             "finish": "Fertig",
             "gotIt": "Okay",
             "emailNotifications": {
-                "title": "E-Mail Benachrichtigungen",
+                "title": "Studieneinladungen und Newsletter",
                 "mkt": {
                     "title": "Newsletter und Marketing-Mitteilungen",
                     "description": "Wir senden Dir gelegentlich:\n\n-  Neuigkeiten wie Deine Meinung Produkte die Du magst beinflusst.\n-  Ein paar Tipps wie Du ein Meister darin wirst, Feedback zu geben.  "
@@ -164,7 +164,8 @@
                 "greetingName_afternoon": "Hallo {{userName}}!",
                 "greeting_evening": "Guten Abend!",
                 "greetingName_evening": "Guten Abend {{userName}}!"
-            }
+            },
+            "noThanks": "Nein, danke"
         }
     }
 }
