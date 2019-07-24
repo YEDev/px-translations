@@ -20,8 +20,8 @@
                 "cta": "Passwort zurücksetzen"
             },
             "studyInvitation": {
-                "subject": "Da ist eine neue Studie verfügbar für Dich",
-                "title": "Hallo {{user.name}},<br>da ist eine neue Studie verfügbar für Dich!",
+                "subject": "Eine neue Studie ist für dich verfügbar",
+                "title": "Hallo {{user.name}},<br> eine neue Studie ist für dich verfügbar!",
                 "bodyCopy": "Bist Du bereit uns Dein Feedback zu geben und {{studyFee}} zu verdienen?",
                 "cta": "Nimm teil!",
                 "studyID": "Studien ID zur Referenz: {{projectId}}",

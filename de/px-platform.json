@@ -297,8 +297,8 @@
                 },
                 "unsubscribe": {
                     "title": "Versäume keine Einladung!",
-                    "description": "Aktiviere E-Mail-Benachrichtigungen für Usability-Forschungs-Studien und versäume keine unserer Einladungen mehr.",
-                    "cta": "E-Mail-Benachrichtigungen aktivieren"
+                    "description": "Aktiviere die UX Research Studien-Einladungen und versäume nie wieder eine unserer Studien.",
+                    "cta": "Studieneinladungen aktiviere"
                 }
             },
             "tip": {
@@ -368,14 +368,14 @@
                 "description": "Aus Sicherheitsgründen ist dieser Link nur 24 Stunden gültig. \n\nWenn Du keine Nachricht siehst, überprüfe bitte den Spam-Ordner. Wir können Dir das E-Mail auch <1>nochmals senden</1>."
             },
             "wud": {
-                "titleName": "",
-                "title": "",
-                "description": "",
-                "cta": "",
+                "titleName": "Willkommen bei IntelliZoom Panel {{userName}}!",
+                "title": "Willkommen bei IntelliZoom Panel!",
+                "description": "Wir werden alle Ihre Profilinformationen von WhatUsersDo auf unsere Plattform verschieben. Da es sich jedoch um eine brandneue Website handelt, lass' uns mit einem brandneuen Passwort starten.\n\nKlicke ’Neues Passwort beantragen' und wir senden Dir eine E-Mail mit einem Link zur Bestätigung.",
+                "cta": "Neues Passwort beantragen",
                 "modal": {
-                    "title": "",
-                    "bodycopy": "",
-                    "cta": ""
+                    "title": "Jetzt Einladungsstatus aktivieren, damit Du gleich an neuen Studien teilnehmen kannst:",
+                    "bodycopy": "Erst, wenn Du den Einladungsstatus aktivierst, kannst Du Deine neuen Studien auf Deinem Dashboard sehen bzw. E-Mail-Einladungen zu neuen Studien erhalten.",
+                    "cta": "Studieneinladungen aktivieren"
                 }
             }
         },
