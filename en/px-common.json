@@ -147,7 +147,10 @@
                     "title": "Click Test",
                     "description": "With a Click Test we want to understand where would you click when we ask you to do a certain action.\n\nRemember, there are no wrong answers. We're only interested in your honest opinion."
                 },
-                "projectId": "Study ID for your reference: {{projectId}}"
+                "projectId": "Study ID for your reference: {{projectId}}",
+                "loadingScreen": {
+                    "title": "Entering the study..."
+                }
             },
             "and": "and",
             "aUppercase": "A",
