@@ -147,7 +147,10 @@
                     "title": "Click Test",
                     "description": "En un estudio Click Test esperamos entender mejor dónde harías click cuando te pedimos realizar alguna acción. \n\nRecuerda, ninguna respuesta es incorrecta. Solo nos interesa tu opinión más honesta."
                 },
-                "projectId": "ID del estudio para referencia: {{projectId}}"
+                "projectId": "ID del estudio para referencia: {{projectId}}",
+                "loadingScreen": {
+                    "title": "Accediendo al estudio..."
+                }
             },
             "and": "y",
             "aUppercase": "Un",
