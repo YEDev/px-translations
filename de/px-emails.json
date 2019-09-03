@@ -70,6 +70,11 @@
                 "subject": "Dein Konto wurde gelöscht",
                 "title": "Dein IntelliZoom Panel Konto wurde gelöscht",
                 "bodyCopy": "Hallo {user.name}},<br><br>Wir haben Dein Konto und all Deine Information von unserem System gelöscht. (Das ist die letzte Nachricht, die Du von uns erhalten wirst).<br><br>Solltest Du das nicht gewünscht haben, kann es sein, dass dies entweder durch längere Inaktivität oder aber durch einen Verstoß gegen unsere <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a> ausgelöst wurde.<br><br>Sollte hier ein Fehler vorliegen oder möchtest Du mehr Information, bitte <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> oder werfe einen Blick in unser <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a>."
+            },
+            "practiceStudyComplete": {
+                "subject": "Danke für die Teilnahme an der Übungsstudie!",
+                "title": "Danke für die Teilnahme an der Übungsstudie!",
+                "bodyCopy": "Wir werden Deine Teilnahme alsbald möglich überprüfen und Dir eine E-Mail mit dem Ergebnis senden.<br>Sobald Deine Teilnahme akzeptiert ist, erhältst Du Einladungen zu Think-Out-Loud und Card Sort Studien.<br>Diese Studientypen sind üblicherweise besser bezahlt ;)"
             }
         }
     }

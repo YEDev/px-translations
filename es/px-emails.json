@@ -70,6 +70,11 @@
                 "subject": "Tu cuenta ha sido eliminada",
                 "title": "Tu cuenta de IntelliZoom Panel ha sido eliminada",
                 "bodyCopy": "Hola {{user.name}},<br><br>Hemos eliminado tu cuenta y toda tu información personal de nuestra base de datos. (Este email es la última comunicación que recibirás de nosotros.)<br><br>Si no has solicitado la eliminación de tu cuenta, puede que su eliminación sea resultado de un largo periodo de inactividad o debido a un mal uso de nuestra plataforma, incumpliendo las <a href='{{panelPortalBaseUrl}}/terms-of-service' class='text-link'>$t(px-common:izPanel.common.termsLink)</a>.<br><br>Si crees que se trata de un error o quieres más información, consulta nuestra sección de <a href='https://help.intellizoom.com/hc/{{user.locale}}' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineHelp)</a> o <a href='https://help.intellizoom.com/hc/{{user.locale}}/requests/new' class='text-link'>$t(px-emails:izPanel.emails.generic.inlineContact)</a> directamente con nosotros."
+            },
+            "practiceStudyComplete": {
+                "subject": "¡Gracias por realizar el estudio de práctica!",
+                "title": "¡Gracias por realizar el estudio de práctica!",
+                "bodyCopy": "Revisaremos tu participación en  breve y te enviaremos un email con los resultados.<br>Si tu participación es aprobada, comenzarás a recibir invitaciones a estudios Think Out Loud y Card Sort.<br>Este tipo de estudios normalmente son mejor pagados ;)"
             }
         }
     }
