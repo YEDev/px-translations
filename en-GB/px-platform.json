@@ -11,7 +11,10 @@
             },
             "country": {
                 "title": "Welcome {{firstName}}!",
-                "otherCountry": "Show more countries"
+                "otherCountry": "Show more countries",
+                "description": "**You’re entering our panel in {{country}}.**\n\nIf you’re travelling and this is not the country where you live in, we recommend you to register in IntelliZoom Panel once you’re back home. If you’re home and this is not where you live, please [contact us](https://help.intellizoom.com/hc/en-us/requests/new).",
+                "inSpanish": "¿Prefieres ver esta página en Español?",
+                "inGerman": "Möchtest Du diese Seite in Deutsch ansehen?"
             },
             "email": {
                 "title": "What's your email?",
@@ -432,6 +435,10 @@
                     "title": "Oops, something went wrong",
                     "description": "We’re unable to load this page. Please, try again in a few minutes."
                 }
+            },
+            "500": {
+                "title": "And... nope. The server does not respond.",
+                "description": "Sorry for the trouble. Please <1>try again</1> in a few minutes."
             }
         }
     }
