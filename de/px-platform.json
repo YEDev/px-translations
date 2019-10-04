@@ -54,7 +54,8 @@
                 "title": "Danke!",
                 "description": "Wir kontaktieren Dich, wenn wir unser Panel in {{selectedCountry}} öffnen. \n\nAuf ein baldiges Wiedersehen!"
             },
-            "gdpr": "Ich möchte informiert werden, wenn Intellizoom Panel in meinem Land öffnet. $t(px-common:izPanel.common.requiredField)"
+            "gdpr": "Ich möchte informiert werden, wenn Intellizoom Panel in meinem Land öffnet. $t(px-common:izPanel.common.requiredField)",
+            "yourLocation": "Ihr Standort"
         },
         "error": {
             "required": {
