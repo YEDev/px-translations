@@ -54,7 +54,8 @@
                 "title": "¡Gracias!",
                 "description": "Nos pondremos en contacto contigo en cuanto abramos nuestro panel para {{selectedCountry}}.\n\n¡Nos vemos pronto!"
             },
-            "gdpr": "Quiero ser avisado en cuanto IntelliZoom Panel abra en mi país. $t(px-common:izPanel.common.requiredField)"
+            "gdpr": "Quiero ser avisado en cuanto IntelliZoom Panel abra en mi país. $t(px-common:izPanel.common.requiredField)",
+            "yourLocation": "tu ubicación"
         },
         "error": {
             "required": {
