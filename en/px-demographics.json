@@ -155,6 +155,18 @@
                         "phd": "Doctorate",
                         "universityOther": "Other university degree"
                     }
+                },
+                "education_au": {
+                    "list": {
+                        "belowGCSE": "Below GCSE",
+                        "GCSE": "GCSEs or equivalent",
+                        "ALevel": "A-levels or equivalent",
+                        "furtherqualification": "Further qualification (between high school and university)",
+                        "universityNoDegree": "Completed some university, but no degree",
+                        "universityDegree": "University degree",
+                        "master": "Master's or professional degree",
+                        "doctorate": "Doctorate degree"
+                    }
                 }
             },
             "household": {
