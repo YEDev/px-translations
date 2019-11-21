@@ -158,14 +158,14 @@
                 },
                 "education_au": {
                     "list": {
-                        "belowGCSE": "Inferior que GCSE",
-                        "GCSE": "GCSE o equivalente",
-                        "ALevel": "A-level o equivalente",
                         "furtherqualification": "Título extra (entre GCSE y universidad)",
                         "universityNoDegree": "Algo de universidad, pero sin título",
                         "universityDegree": "Universidad con título",
                         "master": "Máster o título profesional",
-                        "doctorate": "Doctorado"
+                        "doctorate": "Doctorado",
+                        "belowGcse": "Inferior que GCSE",
+                        "gcse": "GCSE o equivalente",
+                        "alevel": "A-level o equivalente"
                     }
                 }
             },
