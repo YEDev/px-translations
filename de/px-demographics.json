@@ -158,14 +158,14 @@
                 },
                 "education_au": {
                     "list": {
-                        "belowGCSE": "Einige Zeit in der GCSE oder weniger",
-                        "GCSE": "GCSE oder gleichwertige Ausbildung",
-                        "ALevel": "A-levels oder gleichwertige Ausbildung",
                         "furtherqualification": "Weiterführende abgeschlossene sekundäre Ausbildung",
                         "universityNoDegree": "Einige Zeit an der Universität (ohne Titel)",
                         "universityDegree": "Universitätsabschluss",
                         "master": "Master",
-                        "doctorate": "Doktorat"
+                        "doctorate": "Doktorat",
+                        "belowGcse": "Einige Zeit in der GCSE oder weniger",
+                        "gcse": "GCSE oder gleichwertige Ausbildung",
+                        "alevel": "A-levels oder gleichwertige Ausbildung"
                     }
                 }
             },
