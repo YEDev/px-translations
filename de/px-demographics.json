@@ -155,6 +155,18 @@
                         "phd": "Doktorat",
                         "universityOther": "Anderer Universitätstitel"
                     }
+                },
+                "education_au": {
+                    "list": {
+                        "furtherqualification": "Weiterführende abgeschlossene sekundäre Ausbildung",
+                        "universityNoDegree": "Einige Zeit an der Universität (ohne Titel)",
+                        "universityDegree": "Universitätsabschluss",
+                        "master": "Master",
+                        "doctorate": "Doktorat",
+                        "belowGcse": "Einige Zeit in der GCSE oder weniger",
+                        "gcse": "GCSE oder gleichwertige Ausbildung",
+                        "alevel": "A-levels oder gleichwertige Ausbildung"
+                    }
                 }
             },
             "household": {

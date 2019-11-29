@@ -155,6 +155,18 @@
                         "phd": "Doctorado",
                         "universityOther": "Otro título universitario"
                     }
+                },
+                "education_au": {
+                    "list": {
+                        "furtherqualification": "Título extra (entre GCSE y universidad)",
+                        "universityNoDegree": "Algo de universidad, pero sin título",
+                        "universityDegree": "Universidad con título",
+                        "master": "Máster o título profesional",
+                        "doctorate": "Doctorado",
+                        "belowGcse": "Inferior que GCSE",
+                        "gcse": "GCSE o equivalente",
+                        "alevel": "A-level o equivalente"
+                    }
                 }
             },
             "household": {
