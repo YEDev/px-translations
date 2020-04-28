@@ -30,7 +30,7 @@
             "studyComplete": {
                 "subject": "Thanks for sharing your thoughts!",
                 "title": "Thanks for sharing your thoughts!",
-                "bodyCopy": "We will review your participation in the study {{projectId}} asap.<br>If your participation is approved we will proceed to send you the payment within 21 business days. The incentive for this study is {{studyFee}} and the payment tracking code will be {{campaignId}}."
+                "bodyCopy": "We will review your participation in the study {{projectId}} asap.<br>If your participation is approved we will proceed to send you the payment within 21 business days. The incentive for this study is {{studyFee}}."
             },
             "paymentSent": {
                 "subject": "Your payment has been sent",
@@ -75,6 +75,11 @@
                 "subject": "Thanks for taking the practice study!",
                 "title": "Thanks for taking the practice study!",
                 "bodyCopy": "We will review your participation asap and send you an email with the results.<br>If your participation is approved you will start receiving invitations to Think Out Loud and Card Sort studies.<br>This type of studies are usually better paid ;)"
+            },
+            "PayPal": {
+                "paymentSent": {
+                    "note": "Thank you for participating in the study {{projectId}}. Hope to see you again soon!"
+                }
             }
         }
     }

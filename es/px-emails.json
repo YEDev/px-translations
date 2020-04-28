@@ -30,7 +30,7 @@
             "studyComplete": {
                 "subject": "¡Gracias por darnos tu opinión!",
                 "title": "¡Gracias por darnos tu opinión!",
-                "bodyCopy": "Revisaremos tu participación en el estudio {{projectId}} en breve. <br>Si tu participación es aprobada procederemos a enviarte el pago dentro de los próximos 21 días hábiles. La remuneración por este estudio es de {{studyFee}} y el código de seguimiento de tu pago será {{campaignId}}."
+                "bodyCopy": "Revisaremos tu participación en el estudio {{projectId}} en breve. <br>Si tu participación es aprobada procederemos a enviarte el pago dentro de los próximos 21 días hábiles. La remuneración por este estudio es de {{studyFee}}."
             },
             "paymentSent": {
                 "subject": "Tu pago ha sido enviado",
@@ -75,6 +75,11 @@
                 "subject": "¡Gracias por realizar el estudio de práctica!",
                 "title": "¡Gracias por realizar el estudio de práctica!",
                 "bodyCopy": "Revisaremos tu participación en  breve y te enviaremos un email con los resultados.<br>Si tu participación es aprobada, comenzarás a recibir invitaciones a estudios Think Out Loud y Card Sort.<br>Este tipo de estudios normalmente son mejor pagados ;)"
+            },
+            "PayPal": {
+                "paymentSent": {
+                    "note": "Gracias por participar en el estudio {{projectId}}. ¡Esperamos verte de nuevo pronto!"
+                }
             }
         }
     }
