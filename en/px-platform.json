@@ -441,6 +441,80 @@
                 "title": "And... nope. The server does not respond.",
                 "description": "Sorry for the trouble. Please <1>try again</1> in a few minutes."
             }
+        },
+        "paypalToken": {
+            "dashboard": {
+                "status": {
+                    "noIntegration": {
+                        "title": "Connect your PayPal account with IntelliZoom!",
+                        "description": "With our new PayPal integration, you will get paid securely and on time after every completed paid research session.",
+                        "cta": "Connect with PayPal"
+                    },
+                    "noTolUnverified": {
+                        "title": "Congrats! your PayPal was connected successfully",
+                        "description": "To start participating in paid research studies you can either take the practice study or [verify your PayPal account.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                    },
+                    "connectionLost": {
+                        "title": "Sorry, we can’t pay you…",
+                        "description": "Your PayPal account has been disconnected from IntelliZoom. To be paid and to participate in future studies, your PayPal account must be connected.",
+                        "cta": "Connect with PayPal"
+                    }
+                },
+                "outcome": {
+                    "success": {
+                        "verified": {
+                            "title": "Congrats! Your PayPal account was successfully connected",
+                            "description": "Let’s take some paid research studies to celebrate."
+                        },
+                        "notVerifiedTol": {
+                            "title": "Congrats! Your PayPal account was successfully connected",
+                            "description": "If you want to be eligible to participate in more paid research studies [verify your PayPal account.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                        }
+                    },
+                    "error": {
+                        "location": {
+                            "title": "Sorry, we can’t pay you…",
+                            "description": "Both your PayPal and IntelliZoom accounts must have the same location information. Refresh the page if you want to try again."
+                        },
+                        "severalAccounts": {
+                            "title": "Sorry, we can’t pay you…",
+                            "description": "Your PayPal account is already being used for another IntelliZoom account. Refresh the page if you want to try again."
+                        },
+                        "accessDenied": {
+                            "title": "Your PayPal was not connected because you did not grant access to IntelliZoom",
+                            "cta": "Try again"
+                        },
+                        "noLongerVerified": {
+                            "title": "Your PayPal is no longer verified",
+                            "description": "Please follow this [instructions](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) to verify your PayPal account and try again."
+                        }
+                    }
+                }
+            },
+            "studyEntrance": {
+                "notVerified": {
+                    "title": "To participate, you must connect your verified PayPal account to IntelliZoom",
+                    "description": "If you have already connected your accounts, remember that in order to participate in studies you need to either take the practice study or [verify your account](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) in PayPal.",
+                    "cta": "Go to dashboard"
+                }
+            },
+            "settings": {
+                "connect": {
+                    "title": "Connect your PayPal",
+                    "description": "Make sure you receive your payments on time by syncing your account with PayPal.",
+                    "cta": "Connect my PayPal"
+                },
+                "disconnect": {
+                    "title": "PayPal - Connected",
+                    "description": "Your account is successfully connected to PayPal.",
+                    "cta": "Disconnect from PayPal",
+                    "doubleConfirmation": {
+                        "title": "Are you sure you want to disconnect your PayPal?",
+                        "description": "If you do this, you will no longer receive invites to paid studies. You will also forfeit any pending payments for studies you may have completed recently.",
+                        "cta": "Disconnect my PayPal"
+                    }
+                }
+            }
         }
     }
 }
