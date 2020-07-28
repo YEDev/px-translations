@@ -469,6 +469,10 @@
                         "notVerifiedTol": {
                             "title": "Congrats! Your PayPal account was successfully connected",
                             "description": "If you want to be eligible to participate in more paid research studies [verify your PayPal account.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                        },
+                        "notVerifiedNoTol": {
+                            "title": "Congrats! your PayPal was connected successfully",
+                            "description": "To start participating in paid research studies you can either take the practice study or [verify your PayPal account.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
                         }
                     },
                     "error": {
@@ -488,10 +492,6 @@
                             "title": "Your PayPal is no longer verified",
                             "description": "Please follow this [instructions](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) to verify your PayPal account and try again."
                         }
-                    },
-                    "notVerifiedNoTol": {
-                        "title": "Congrats! your PayPal was connected successfully",
-                        "description": "To start participating in paid research studies you can either take the practice study or [verify your PayPal account.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
                     }
                 }
             },
