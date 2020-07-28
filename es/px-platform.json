@@ -441,6 +441,84 @@
                 "title": "Y… nop. El servidor no responde.",
                 "description": "Sentimos las molestias. Por favor, <1>inténtalo de nuevo</1> en unos minutos."
             }
+        },
+        "paypalToken": {
+            "dashboard": {
+                "status": {
+                    "noIntegration": {
+                        "title": "¡Conecta PayPal a tu cuenta de IntelliZoom!",
+                        "description": "Con nuestra nueva integración de PayPal, recibirás el pago de cada estudio que completes de manera segura y a tiempo.",
+                        "cta": "Conectar con PayPal"
+                    },
+                    "noTolUnverified": {
+                        "title": "¡Solo te falta un paso!",
+                        "description": "Para participar en nuestros estudios pagados, debes primero completar nuestro estudio de práctica o [verificar tu cuenta en PayPal.](https://www.paypal.com/ar/smarthelp/article/faq444)"
+                    },
+                    "connectionLost": {
+                        "title": "Lo sentimos, pero no podremos pagarte…",
+                        "description": "Tu cuenta de PayPal ha sido desconectada de IntelliZoom. Para poder recibir tus pagos y seguir participando en nuestros estudios, debes tener tu cuenta de PayPal conectada.",
+                        "cta": "Conectar con PayPal"
+                    }
+                },
+                "outcome": {
+                    "success": {
+                        "verified": {
+                            "title": "¡Genial! Tu cuenta de PayPal ha sido conectada exitosamente",
+                            "description": "Y para celebrarlo, nada mejor que participar en un par de estudios."
+                        },
+                        "notVerifiedTol": {
+                            "title": "¡Genial! Tu cuenta de PayPal ha sido conectada exitosamente",
+                            "description": "Si te gustaría poder participar en más tipos de estudios pagados, [verifica tu cuenta en PayPal.](https://www.paypal.com/ar/smarthelp/article/faq444)"
+                        }
+                    },
+                    "error": {
+                        "location": {
+                            "title": "Lo sentimos, pero no podremos pagarte…",
+                            "description": "Tus cuentas de PayPal e IntelliZoom deben contener la misma información de ubicación. Refresca la página si quieres volver a intentarlo."
+                        },
+                        "severalAccounts": {
+                            "title": "Lo sentimos, pero no podremos pagarte…",
+                            "description": "Tu cuenta de PayPal ya está siendo utilizada por otra cuenta de IntelliZoom. Refresca la página si quieres volver a intentarlo."
+                        },
+                        "accessDenied": {
+                            "title": "Tu cuenta de PayPal no se ha conectado porque no le has permitido acceso a IntelliZoom",
+                            "cta": "Volver a intentarlo"
+                        },
+                        "noLongerVerified": {
+                            "title": "Tu cuenta de PayPal ya no está verificada",
+                            "description": "Por favor, sigue estas [instrucciones](https://www.paypal.com/ar/smarthelp/article/faq444) para verificar tu cuenta en PayPal y vuelve a intentarlo."
+                        }
+                    },
+                    "notVerifiedNoTol": {
+                        "title": "¡Genial! Tu cuenta de PayPal ha sido conectada exitosamente",
+                        "description": "Para participar en nuestros estudios pagados, debes primero completar nuestro estudio de práctica o [verificar tu cuenta en PayPal.](https://www.paypal.com/ar/smarthelp/article/faq444)"
+                    }
+                }
+            },
+            "studyEntrance": {
+                "notVerified": {
+                    "title": "Para participar en este estudio, debes tener tu cuenta de PayPal verificada y conectada a IntelliZoom",
+                    "description": "Si tu cuenta de PayPal ya está conectada a IntelliZoom, recuerda que para poder participar en nuestros estudios debes haber completado exitosamente el estudio de práctica o haber [verificado tu cuenta en PayPal.](https://www.paypal.com/ar/smarthelp/article/faq444)",
+                    "cta": "Ir a Estudios"
+                }
+            },
+            "settings": {
+                "connect": {
+                    "title": "Conecta tu cuenta PayPal",
+                    "description": "Asegúrate de recibir tus pagos a tiempo conectando tu cuenta con PayPal.",
+                    "cta": "Conectar mi cuenta PayPal"
+                },
+                "disconnect": {
+                    "title": "PayPal - Conectado",
+                    "description": "Tu cuenta de IntelliZoom está conectada a PayPal.",
+                    "cta": "Desconectar",
+                    "doubleConfirmation": {
+                        "title": "¿De verdad quieres desconectar tu cuenta de PayPal?",
+                        "description": "Si lo haces, ya no podrás participar en nuestros estudios y tampoco recibirás ningún pago pendiente por estudios completados recientemente.",
+                        "cta": "Desconectar mi cuenta PayPal"
+                    }
+                }
+            }
         }
     }
 }
