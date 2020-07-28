@@ -469,6 +469,10 @@
                         "notVerifiedTol": {
                             "title": "¡Genial! Tu cuenta de PayPal ha sido conectada exitosamente",
                             "description": "Si te gustaría poder participar en más tipos de estudios pagados, [verifica tu cuenta en PayPal.](https://www.paypal.com/ar/smarthelp/article/faq444)"
+                        },
+                        "notVerifiedNoTol": {
+                            "title": "¡Genial! Tu cuenta de PayPal ha sido conectada exitosamente",
+                            "description": "Para participar en nuestros estudios pagados, debes primero completar nuestro estudio de práctica o [verificar tu cuenta en PayPal.](https://www.paypal.com/ar/smarthelp/article/faq444)"
                         }
                     },
                     "error": {
@@ -488,10 +492,6 @@
                             "title": "Tu cuenta de PayPal ya no está verificada",
                             "description": "Por favor, sigue estas [instrucciones](https://www.paypal.com/ar/smarthelp/article/faq444) para verificar tu cuenta en PayPal y vuelve a intentarlo."
                         }
-                    },
-                    "notVerifiedNoTol": {
-                        "title": "¡Genial! Tu cuenta de PayPal ha sido conectada exitosamente",
-                        "description": "Para participar en nuestros estudios pagados, debes primero completar nuestro estudio de práctica o [verificar tu cuenta en PayPal.](https://www.paypal.com/ar/smarthelp/article/faq444)"
                     }
                 }
             },
