@@ -80,6 +80,11 @@
                 "paymentSent": {
                     "note": "Vielen Dank für deine Teilnahme an der Studie {{projectId}}. Wir hoffen dich bald wiederzusehen!"
                 }
+            },
+            "paypalToken": {
+                "title": "Ihr PayPal-Account wurde von IntelliZoom abgeschaltet.",
+                "description": "Leider bringen wir schlechte Nachrichten, denn Ihr PayPal-Konto wurde von IntelliZoom abgeschaltet.\n\nDas bedeutet, dass Sie keine weiteren Einladungen zu bezahlten Untersuchungen erhalten und auch, dass Sie keine ausstehenden Zahlungen für Untersuchungen erhalten, die Sie kürzlich beendet haben.\n\nUm weiterhin an unseren bezahlten Forschungsstudien teilzunehmen oder ausstehende Zahlungen zu erhalten, besuchen Sie bitte unsere Übersichtsseite und verbinden Ihre Konten erneut.",
+                "cta": "Zur Übersichtsseite gehen"
             }
         }
     }
