@@ -80,6 +80,11 @@
                 "paymentSent": {
                     "note": "Thank you for participating in the study {{projectId}}. Hope to see you again soon!"
                 }
+            },
+            "paypalToken": {
+                "title": "",
+                "description": "",
+                "cta": ""
             }
         }
     }
