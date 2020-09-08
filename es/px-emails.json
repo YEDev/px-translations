@@ -83,7 +83,7 @@
             },
             "paypalToken": {
                 "title": "Tu cuenta de PayPal ha sido desconectada de IntelliZoom",
-                "description": "Sentimos traer malas noticias, pero tu cuenta de PayPal ha sido desconectada de IntelliZoom. \n\nEsto quiere decir que ya no podrás participar en nuestros estudios y también que no recibirás ningún pago pendiente por estudios completados recientemente.\n\nPara poder recibir tus pagos y seguir participando en nuestros estudios, visita nuestra sección Estudios y conecta tus cuentas de PayPal e IntelliZoom de nuevo.",
+                "description": "Sentimos traer malas noticias, pero tu cuenta de PayPal ha sido desconectada de IntelliZoom.<br /><br />Esto quiere decir que ya no podrás participar en nuestros estudios y también que no recibirás ningún pago pendiente por estudios completados recientemente.<br /><br />Para poder recibir tus pagos y seguir participando en nuestros estudios, visita nuestra sección Estudios y conecta tus cuentas de PayPal e IntelliZoom de nuevo.",
                 "cta": "Ir a Estudios"
             }
         }
