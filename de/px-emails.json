@@ -83,7 +83,7 @@
             },
             "paypalToken": {
                 "title": "Ihr PayPal-Account wurde von IntelliZoom abgeschaltet.",
-                "description": "Leider bringen wir schlechte Nachrichten, denn Ihr PayPal-Konto wurde von IntelliZoom abgeschaltet.\n\nDas bedeutet, dass Sie keine weiteren Einladungen zu bezahlten Untersuchungen erhalten und auch, dass Sie keine ausstehenden Zahlungen für Untersuchungen erhalten, die Sie kürzlich beendet haben.\n\nUm weiterhin an unseren bezahlten Forschungsstudien teilzunehmen oder ausstehende Zahlungen zu erhalten, besuchen Sie bitte unsere Übersichtsseite und verbinden Ihre Konten erneut.",
+                "description": "Leider bringen wir schlechte Nachrichten, denn Ihr PayPal-Konto wurde von IntelliZoom abgeschaltet.<br /><br />Das bedeutet, dass Sie keine weiteren Einladungen zu bezahlten Untersuchungen erhalten und auch, dass Sie keine ausstehenden Zahlungen für Untersuchungen erhalten, die Sie kürzlich beendet haben.<br /><br />Um weiterhin an unseren bezahlten Forschungsstudien teilzunehmen oder ausstehende Zahlungen zu erhalten, besuchen Sie bitte unsere Übersichtsseite und verbinden Ihre Konten erneut.",
                 "cta": "Zur Übersichtsseite gehen"
             }
         }
