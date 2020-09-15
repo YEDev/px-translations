@@ -441,6 +441,84 @@
                 "title": "Und, nein… der Server antwortet nicht.",
                 "description": "Bitte entschuldige die Umstände. Bitte versuche es <1>in einigen Minuten</1> erneut."
             }
+        },
+        "paypalToken": {
+            "dashboard": {
+                "status": {
+                    "noIntegration": {
+                        "title": "Verknüpfe Dein PayPal-Konto mit IntelliZoom!",
+                        "description": "Mit unserer neuen PayPal-Integration wirst Du nach jeder absolvierten Forschungsstudie sicher und pünktlich bezahlt.",
+                        "cta": "Mit PayPal verknüpfen"
+                    },
+                    "noTolUnverified": {
+                        "title": "Nur noch ein Schritt!",
+                        "description": "Um mit der Teilnahme an bezahlten Forschungsstudien zu beginnen, kannst Du entweder die Übungsstudie durchführen oder [Dein PayPal-Konto verifizieren.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                    },
+                    "connectionLost": {
+                        "title": "Leider könnn wir Dich nicht bezahlen …",
+                        "description": "Dein PayPal-Konto wurde von IntelliZoom getrennt. Um bezahlt zu werden und an zukünftigen Studien teilnehmen zu können, muss Dein PayPal-Konto verknüpft sein.",
+                        "cta": "Mit PayPal verknüpfen"
+                    }
+                },
+                "outcome": {
+                    "success": {
+                        "verified": {
+                            "title": "Herzlichen Glückwunsch! Dein PayPal-Konto wurde erfolgreich verknüpft.",
+                            "description": "Nehme zur Feier an einigen bezahlten Forschungsstudien teil."
+                        },
+                        "notVerifiedTol": {
+                            "title": "Herzlichen Glückwunsch! Dein PayPal-Konto wurde erfolgreich verknüpft.",
+                            "description": "Wenn Du an weiteren bezahlten Forschungsstudien teilnehmen möchtest, [verifiziere Dein PayPal-Konto.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                        },
+                        "notVerifiedNoTol": {
+                            "title": "Herzlichen Glückwunsch! Dein PayPal-Konto wurde erfolgreich verknüpft.",
+                            "description": "Um mit der Teilnahme an bezahlten Forschungsstudien zu beginnen, kannst Du entweder die Übungsstudie durchführen oder [Dein PayPal-Konto verifizieren.](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444)"
+                        }
+                    },
+                    "error": {
+                        "location": {
+                            "title": "Leider könnn wir Dich nicht bezahlen …",
+                            "description": "Dein PayPal- und Dein IntelliZoom-Konto müssen die gleichen Standortinformationen haben. Aktualisiere bitte die Seite, falls Du es erneut versuchen möchtest."
+                        },
+                        "severalAccounts": {
+                            "title": "Leider könnn wir Dich nicht bezahlen …",
+                            "description": "Dein PayPal-Konto wird bereits für ein anderes IntelliZoom-Konto verwendet. Aktualisiere bitte die Seite, falls Du es erneut versuchen möchtest."
+                        },
+                        "accessDenied": {
+                            "title": "Dein PayPal-Konto wurde nicht verknüpft, da Du IntelliZoom keinen Zugriff gewährt hast.",
+                            "cta": "Erneut versuchen"
+                        },
+                        "noLongerVerified": {
+                            "title": "Dein PayPal ist nicht mehr verifiziert",
+                            "description": "Bitte folge diesen [Anweisungen](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444), um Dein PayPal-Konto zu verifizieren, und versuche es erneut."
+                        }
+                    }
+                }
+            },
+            "studyEntrance": {
+                "notVerified": {
+                    "title": "Um teilzunehmen, musst Du Dein verifiziertes PayPal-Konto mit IntelliZoom verknüpfen.",
+                    "description": "Wenn Du Dein Konto bereits verknüpft hast, denke daran, dass Du zur Teilnahme an Studien entweder die Übungsstudie durchführen oder bei PayPal [Dein Konto verifizieren](https://www.paypal.com/uk/smarthelp/article/how-do-i-verify-my-paypal-account-faq444) musst.",
+                    "cta": "Zur Übersichtsseite"
+                }
+            },
+            "settings": {
+                "connect": {
+                    "title": "Mit Deinem PayPal verknüpfen",
+                    "description": "Stelle sicher, dass Du Deine Zahlungen pünktlich erhaltest, indem Du Dein Konto mit PayPal synchronisierst.",
+                    "cta": "Mein PayPal verknüpfen"
+                },
+                "disconnect": {
+                    "title": "PayPal – verknüpft",
+                    "description": "Dein Konto ist erfolgreich mit PayPal verknüpft.",
+                    "cta": "Von PayPal trennen",
+                    "doubleConfirmation": {
+                        "title": "Bist Du sicher, dass Du Dein PayPal trennen möchtest?",
+                        "description": "Wenn Du mit dieser Option fortfährst, erhaltest Du keine Einladungen zu bezahlten Studien mehr. Außerdem verlierst Du alle ausstehenden Zahlungen für Studien, die Du kürzlich abgeschlossen hast.",
+                        "cta": "Mein PayPal trennen"
+                    }
+                }
+            }
         }
     }
 }
