@@ -150,6 +150,9 @@
                 "projectId": "ID del estudio para referencia: {{projectId}}",
                 "loadingScreen": {
                     "title": "Accediendo al estudio..."
+                },
+                "recaptchaCheck": {
+                    "title": "Un momento... solo se aceptan humanos."
                 }
             },
             "and": "y",
