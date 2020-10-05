@@ -150,6 +150,9 @@
                 "projectId": "Study ID for your reference: {{projectId}}",
                 "loadingScreen": {
                     "title": "Entering the study..."
+                },
+                "recaptchaCheck": {
+                    "title": "One sec! Only humans allowed."
                 }
             },
             "and": "and",
