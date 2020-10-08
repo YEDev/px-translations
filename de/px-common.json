@@ -150,6 +150,9 @@
                 "projectId": "Studien ID zur Referenz: {{projectId}}",
                 "loadingScreen": {
                     "title": "Öffne Studie…"
+                },
+                "recaptchaCheck": {
+                    "title": "Eine Sekunde! Nur Menschen erlaubt!"
                 }
             },
             "and": "und",
