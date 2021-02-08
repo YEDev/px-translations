@@ -85,6 +85,11 @@
                 "title": "Your PayPal account has been disconnected from IntelliZoom",
                 "description": "We’re sorry to bring the bad news, but your PayPal account has been disconnected from IntelliZoom.<br /><br />This means that you will no longer receive invites to paid studies and also that you will not receive any pending payments for studies you may have completed recently.<br /><br />Please, to keep on participating in our paid research studies, or to receive pending payments, visit our dashboard and connect your accounts again.",
                 "cta": "Go to dashboard"
+            },
+            "excludedParticipation": {
+                "subject": "Your participation hasn’t been approved",
+                "title": "Hi {{user.name}}, one of your participations hasn’t been approved",
+                "bodyCopy": "We’re sorry to inform you that your participation in the study {{projectId}} hasn’t been approved and you won’t receive the study’s incentive.\n\nThis may be a result of one or more of the following scenarios:\n\n* You may have not been thinking out loud as required.\n* You may have not spent enough time performing the required tasks or questionnaires.\n* The technical quality of your participation may have been poor or incomplete due to one or more of these reasons: \n  * Poor internet connection.\n  * Poor microphone or camera quality.\n  * Poor overall quality as a result of too many windows, tabs or apps running at the same time on your device. \n\nTo avoid this from happening again in the future, please review these [best practice recommendations](https://help.intellizoom.com/hc/en-us/categories/360000100658) in our Help Center.\n\nDon’t get discouraged! Next time, make sure your device is ready for the study and do your best to provide top-quality feedback."
             }
         }
     }
