@@ -13,6 +13,11 @@
                 "cta": "Konto aktivieren",
                 "closing": "Tschüss!\n\nIntelliZoom Panel Team"
             },
+            "excludedParticipation":{
+                "subject":"Deine Teilnahme wurde nicht genehmigt",
+                "title": "Hallo {{user.name}}, einer Deiner Einträge wurde nicht genehmigt.",
+                "bodyCopy": "Es tut uns leid, dir mitzuteilen, dass deine Teilnahme an der Studie {{projectId}} nicht genehmigt wurde und du den Anreiz der Studie nicht erhalten wirst. <br /><br /> Dies kann ein Ergebnis eines oder mehrerer der folgenden Szenarien sein: <ul> <li>Du hast vielleicht nicht laut gedacht wie gefordert.</li> <li>Du hast vielleicht nicht genug Zeit für die Durchführung der geforderten Aufgaben oder Fragebögen verwendet.</li> <li> Die technische Qualität deiner Teilnahme kann aus einem oder mehreren der folgenden Gründe schlecht oder unvollständig gewesen sein: <ul> <li>Schlechte Internetverbindung.</li> <li>Schlechte Mikrofon- oder Kameraqualität.</li> <li>Schlechte Gesamtqualität als Folge von zu vielen Fenstern, Tabs oder Apps, die gleichzeitig auf deinem Gerät laufen.</li> </ul> </li> </ul> Um zu vermeiden, dass dies in Zukunft noch einmal passiert, schau dir bitte diese <a class='text-link' href='https://help.intellizoom.com/hc/{{user.locale}}/categories/360000100658'>Best-Practice-Empfehlungen</a> in unserem Hilfe-Center an. <br /><br /> Lass dich nicht entmutigen! Beim nächsten Mal stelle sicher, dass dein Gerät für die Studie bereit ist und du ein qualitativ hochwertiges Feedback gibst."
+            },
             "reset": {
                 "subject": "Passwort zurücksetzen",
                 "title": "Hast Du Dein Passwort vergessen?",
