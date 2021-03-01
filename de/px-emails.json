@@ -85,6 +85,11 @@
                 "title": "Ihr PayPal-Account wurde von IntelliZoom abgeschaltet.",
                 "description": "Leider bringen wir schlechte Nachrichten, denn Ihr PayPal-Konto wurde von IntelliZoom abgeschaltet.<br /><br />Das bedeutet, dass Sie keine weiteren Einladungen zu bezahlten Untersuchungen erhalten und auch, dass Sie keine ausstehenden Zahlungen für Untersuchungen erhalten, die Sie kürzlich beendet haben.<br /><br />Um weiterhin an unseren bezahlten Forschungsstudien teilzunehmen oder ausstehende Zahlungen zu erhalten, besuchen Sie bitte unsere Übersichtsseite und verbinden Ihre Konten erneut.",
                 "cta": "Zur Übersichtsseite gehen"
+            },
+            "excludedParticipation": {
+                "subject": "Deine Teilnahme wurde nicht genehmigt",
+                "title": "Hallo {{user.name}}, einer Deiner Einträge wurde nicht genehmigt.",
+                "bodyCopy": "Es tut uns leid, dir mitzuteilen, dass deine Teilnahme an der Studie {{projectId}} nicht genehmigt wurde und du den Anreiz der Studie nicht erhalten wirst.\n\nDies kann ein Ergebnis eines oder mehrerer der folgenden Szenarien sein:\n\n* Du hast vielleicht nicht laut gedacht wie gefordert.\n* Du hast vielleicht nicht genug Zeit für die Durchführung der geforderten Aufgaben oder Fragebögen verwendet.\n* Die technische Qualität deiner Teilnahme kann aus einem oder mehreren der folgenden Gründe schlecht oder unvollständig gewesen sein:\n  * Schlechte Internetverbindung.\n  * Schlechte Mikrofon- oder Kameraqualität.\n  * Schlechte Gesamtqualität als Folge von zu vielen Fenstern, Tabs oder Apps, die gleichzeitig auf deinem Gerät laufen.\n\nUm zu vermeiden, dass dies in Zukunft noch einmal passiert, schau dir bitte diese [Best-Practice-Empfehlungen](https://help.intellizoom.com/hc/de/categories/360000100658) in unserem Hilfe-Center an.\n\nLass dich nicht entmutigen! Beim nächsten Mal stelle sicher, dass dein Gerät für die Studie bereit ist und du ein qualitativ hochwertiges Feedback gibst."
             }
         }
     }
