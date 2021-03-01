@@ -85,6 +85,11 @@
                 "title": "",
                 "description": "",
                 "cta": ""
+            },
+            "excludedParticipation": {
+                "subject": "",
+                "title": "",
+                "bodyCopy": ""
             }
         }
     }

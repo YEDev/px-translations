@@ -85,6 +85,11 @@
                 "title": "Tu cuenta de PayPal ha sido desconectada de IntelliZoom",
                 "description": "Sentimos traer malas noticias, pero tu cuenta de PayPal ha sido desconectada de IntelliZoom.<br /><br />Esto quiere decir que ya no podrás participar en nuestros estudios y también que no recibirás ningún pago pendiente por estudios completados recientemente.<br /><br />Para poder recibir tus pagos y seguir participando en nuestros estudios, visita nuestra sección Estudios y conecta tus cuentas de PayPal e IntelliZoom de nuevo.",
                 "cta": "Ir a Estudios"
+            },
+            "excludedParticipation": {
+                "subject": "Tu participación no ha sido aprobada",
+                "title": "Hola {{user.name}}, una de tus participaciones no ha sido aprobada",
+                "bodyCopy": "Sentimos informarte que tu participación en el estudio {{projectId}} no ha sido aprobada y por lo tanto no recibirás el incentivo del estudio.\n\nEsto puede ser debido a una o más de las siguientes razones:\n\n* Puede que no hayas pensado en voz alta como requiere un estudio TOL.\n* Puede que no hayas invertido el tiempo suficiente en las tareas y cuestionarios del estudio.\n* Puede que la calidad técnica de tu participación haya sido pobre o incompleta debido a uno o más de estos casos:\n  * Mala conexión a internet.\n  * Mala calidad de micrófono o cámara.\n  * Mala calidad en general de la participación debido a demasiadas ventanas, pestañas o aplicaciones abiertas al mismo tiempo en tu dispositivo.\n\nPara evitar que esto vuelva a pasar en el futuro, te recomendamos que eches un vistazo a estos consejos de [buenas prácticas](https://help.intellizoom.com/hc/es/categories/360000100658) en nuestra página de Ayuda.\n\n¡No te desanimes! La próxima vez asegúrate de que tu dispositivo está listo para realizar el estudio y de dar tu opinión de la manera más clara posible."
             }
         }
     }
